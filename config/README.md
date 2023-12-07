@@ -15,7 +15,7 @@
 
 ## Collection categories
 
-Anime:
+**Anime:**
 
 1. Charts
 2. Specials
@@ -32,11 +32,11 @@ Anime:
 13. Separators
 14. Ratings
 
-Audiobooks:
+**Audiobooks:**
 
 1. Genres
 
-Movies:
+**Movies:**
 
 1. Charts
 2. Specials
@@ -55,21 +55,21 @@ Movies:
 15. Authors
 16. Separators
 
-Music:
+**Music:**
 
 1. Popular Music
 
-Remux:
+**Remux:**
 
 1. Unwatched
 
-Soundtracks:
+**Soundtracks:**
 
 1. Charts
 2. Genres
 3. Separators
 
-TV Shows:
+**TV Shows:**
 
 1. Charts
 2. Specials
@@ -86,7 +86,7 @@ TV Shows:
 13. Separators
 14. Ratings
 
-Videos:
+**Videos:**
 
 1. TV Intro
 2. Anime Opening
@@ -97,28 +97,28 @@ Videos:
 
 ## Overlay categories
 
-Anime:
+**Anime:**
 
 1. MyAnimeList Ratings
 2. Resolutions
 3. MyAnimeList & AniDB Top Rated Stars
 4. Explicit Content
 
-Movies:
+**Movies:**
 
 1. IMDb Ratings
 2. IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
 3. Resolutions
 4. No Swedish Subtitles
 
-Remux:
+**Remux:**
 
 1. IMDb Ratings
 2. IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
 3. Resolutions
 4. Audio Codecs
 
-TV:
+**TV:**
 
 1. IMDb Ratings
 2. IMDb, Trakt, TMDb Top Rated Stars
@@ -127,19 +127,19 @@ TV:
 
 ## Operations categories
 
-Anime:
+**Anime:**
 
 1. Mass MyAnimeList ratings update
 
-Movies:
+**Movies:**
 
 1. Mass IMDb ratings update
 
-Remux:
+**Remux:**
 
 1. Mass IMDb ratings update
 
-TV:
+**TV:**
 
 1. Mass IMDb ratings update
 

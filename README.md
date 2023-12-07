@@ -44,9 +44,15 @@ docker pull meisnate12/plex-meta-manager
 
 ### Collections example
 
+**Movies**
+
 ![image search api](https://i.imgur.com/3JmoCNL.png)
 
+**Anime**
+
 ![image search api](https://i.imgur.com/6gWXGXW.png)
+
+**Music**
 
 ![image search api](https://i.imgur.com/siGUK9Y.png)
 

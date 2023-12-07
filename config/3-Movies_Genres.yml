@@ -1,0 +1,1217 @@
+######################################################
+#                  GENRES 15.0                       #
+######################################################
+
+templates:
+  Genre:
+    visible_library: true
+    sort_title: ++_<<collection_name>>
+    sync_mode: sync
+
+  Genre Other:
+    visible_library: true
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+    smart_label: random
+
+  Genre Smart:
+    visible_library: true
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+
+collections:
+  Action:
+    template: { name: Genre }
+    visible_shared: weekly(monday)
+    file_poster: config/posters/action.png
+    summary: Action film is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: action
+
+  Adventure:
+    template: { name: Genre }
+    visible_shared: weekly(tuesday)
+    file_poster: config/posters/adventure.png
+    summary: Adventure film is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: adventure
+
+  Anime:
+    template: { name: Genre }
+    visible_shared: monthly(3)
+    summary: All japanese animation movies.
+    file_poster: config/posters/Anime.png
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        genre: animation
+        country: japan
+
+  Biopic:
+    template: { name: Genre }
+    visible_shared: weekly(sunday)
+    file_poster: config/posters/Biopic.png
+    summary: A biographical film or biopic is a film that dramatizes the life of a non-fictional or historically-based person or people. Such films show the life of a historical person and the central character's real name is used.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: biography
+
+  Cartoon:
+    template: { name: Genre }
+    visible_shared: monthly(2)
+    summary: All animated cartoon movies.
+    file_poster: config/posters/Cartoon Movies.png
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        genre: animation
+        country.not: japan
+        audio_language.not: ja
+
+  Comedy:
+    template: { name: Genre }
+    visible_shared: weekly(monday)
+    file_poster: config/posters/comedy.png
+    summary: Comedy is a genre of film that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many Genre Others. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: comedy
+
+  Crime:
+    template: { name: Genre }
+    visible_shared: weekly(sunday)
+    file_poster: config/posters/crime.png
+    summary: Crime film is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: crime
+
+  Documentary:
+    template: { name: Genre }
+    summary: Some of the most impactful and critically acclaimed documentaries ever filmed.
+    file_poster: config/posters/documentary.png
+    visible_shared: monthly(1)
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: documentary
+
+  Drama:
+    template: { name: Genre }
+    visible_shared: weekly(monday)
+    file_poster: config/posters/drama.png
+    summary: Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: drama
+
+  Family:
+    template: { name: Genre }
+    visible_shared: weekly(tuesday)
+    file_poster: config/posters/family.png
+    summary: Family film is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. While the storyline may appeal to a younger audience, there are components of the film that are geared towards adults- such as witty jokes and humor. This genre may fall into many Genre Others, including comedy, adventure, fantasy, and animated film.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: family
+
+  Fantasy:
+    template: { name: Genre }
+    visible_shared: weekly(saturday)
+    file_poster: config/posters/fantasy.png
+    summary: Fantasy film is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: fantasy
+
+  History:
+    template: { name: Genre }
+    visible_shared: weekly(thursday)
+    file_poster: config/posters/history.png
+    summary: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: history
+
+  Horror:
+    template: { name: Genre }
+    visible_shared: weekly(wednesday)
+    file_poster: config/posters/horror.png
+    summary: Horror film is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: horror
+
+  Martial Art:
+    template: { name: Genre }
+    visible_shared: monthly(20)
+    file_poster: config/posters/Martial Art.png
+    summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: martial arts
+
+  Musical:
+    template: { name: Genre }
+    visible_shared: monthly(26)
+    file_poster: config/posters/musical.png
+    summary: A Musical interweaves vocal and dance performances into the narrative of the film. The songs of a film can either be used to further the story or simply enhance the experience of the audience. These films are often done on a grand scale and incorporate lavish costumes and sets. Traditional musicals center on a well-known star, famous for their dancing or singing skills (i.e. Fred Astaire, Gene Kelly, Judy Garland). These films explore concepts such are love and success, allowing the audience to escape from reality.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: musical
+
+  Mystery:
+    template: { name: Genre }
+    visible_shared: weekly(monday)
+    file_poster: config/posters/mystery.png
+    summary: A Mystery film centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: mystery
+
+  Romance:
+    template: { name: Genre }
+    visible_shared: monthly(29)
+    file_poster: config/posters/romance.png
+    summary: Romance film can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: romance
+
+  Sci-Fi:
+    template: { name: Genre }
+    visible_shared: weekly(tuesday)
+    file_poster: config/posters/sci-fi.png
+    summary: Science Fiction (Sci-Fi) film is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: science fiction
+
+  Sport:
+    template: { name: Genre }
+    visible_shared: weekly(thursday)
+    file_poster: config/posters/Sport.png
+    summary: A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than Genre Others to be based true-life events.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: sport
+
+  Thriller:
+    template: { name: Genre }
+    visible_shared: weekly(friday)
+    file_poster: config/posters/thriller.png
+    summary: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: thriller
+
+  TV Movie:
+    template: { name: Genre }
+    file_poster: config/posters/TV MOVIE.png
+    summary: TV movies are a unique genre of televised films designed for broadcast on television networks. These films typically have a shorter duration compared to feature films, often ranging from one to two hours.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: TV Movie
+
+  War:
+    template: { name: Genre }
+    visible_shared: weekly(wednesday)
+    file_poster: config/posters/war.png
+    summary: War Film is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: war
+
+  Western:
+    template: { name: Genre }
+    visible_shared: weekly(monday)
+    file_poster: config/posters/western.png
+    summary: Westerns often stress the harshness and isolation of the wilderness, and frequently set the action in an arid, desolate landscape. Western films generally have specific settings, such as isolated ranches, Native American villages, or small frontier towns with a saloon.
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: western
+
+  ######################################################
+  #                  SUBGENRES 13.0                    #
+  ######################################################
+
+  Assassin:
+    template: { name: Genre Other }
+    summary: An assassin is a person who is hired to kill someone, usually for political, religious, or monetary reasons. The term "assassin" is derived from the word "hashshashin," which was used to describe a secretive and deadly group of Islamic militants who operated in the Middle East during the 11th century.
+    file_poster: config/posters/Assassin.png
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/pprojecttv/lists/assassin?sort=my_rating,asc
+      - https://trakt.tv/users/markelston/lists/female-assassins?sort=popularity,asc
+      - https://trakt.tv/users/29zombies/lists/assassin-hitman-spy?sort=title,asc
+
+  Alien:
+    template: { name: Genre Other }
+    summary: Movies containing aliens in them in some form.
+    file_poster: config/posters/Alien.png
+    visible_shared: monthly(22)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/kayaaron13/lists/ranker-top-alien-movies?sort=rank,asc
+      - https://trakt.tv/users/ireallylovevids/lists/alien-movies?sort=released,asc
+      - https://trakt.tv/users/42069bbq/lists/ultimate-aliens-movie-list?sort=rank,asc
+
+  Artificial Intelligence:
+    template: { name: Genre Other }
+    summary: Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that would typically require human intelligence, such as understanding natural language, recognizing images and speech, making decisions, and solving complex problems. AI systems are designed to simulate cognitive abilities, such as reasoning, learning, perception, and self-correction.
+    file_poster: config/posters/Artificial Intelligence.png
+    visible_shared: monthly(2)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/thoughton/lists/cogito-artificialis-ergo-sum?sort=rank,asc
+      - https://trakt.tv/users/y0dase/lists/artificial-intelligence?sort=rank,asc
+      - https://trakt.tv/users/urban-legend/lists/artificial-intelligence?sort=rank,asc
+
+  Anti-Hero:
+    template: { name: Genre Other }
+    summary: An anti-hero is a fictional character who lacks the traditional heroic qualities, such as idealism, courage, and morality, and may possess traits that are typically associated with villains, such as selfishness, cynicism, and moral ambiguity.
+    file_poster: config/posters/Anti-Hero.png
+    visible_shared: monthly(4)
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-anti-hero/
+
+  Alternate History:
+    template: { name: Genre Other }
+    summary: Alternate history, also known as alternative history or AH, is a genre of fiction that explores the consequences of historical events if they had happened differently.
+    file_poster: config/posters/Alternate History.png
+    letterboxd_list:
+      - https://letterboxd.com/ediblehedgehog/list/theme-alternate-history/
+      - https://letterboxd.com/natmavila/list/alternate-history/
+
+  Bad Sequel:
+    template: { name: Genre Other }
+    summary: A number of poorly made, bad follow up movies to a movie franchise.
+    file_poster: config/posters/Bad Sequel.png
+    trakt_list: https://trakt.tv/users/maskedrider29/lists/bad-sequels?sort=rank,asc
+
+  Based on a True Story:
+    template: { name: Genre Other }
+    summary: Movies based on true events.
+    file_poster: config/posters/based on a true story.png
+    visible_shared: weekly(saturday)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/plexmetamanager/lists/movies-based-on-true-stories?sort=rank,asc
+      - https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+
+  Bollywood:
+    template: { name: Genre Other }
+    summary: Hindi cinema, popularly known as Bollywood and formerly as Bombay cinema, refers to the film industry based in Mumbai, engaged in production of motion pictures in Hindi language.
+    file_poster: config/posters/Bollywood.png
+    visible_shared: monthly(18)
+    trakt_list: https://trakt.tv/users/darkave/lists/bollywood?sort=added,asc
+
+  Book Adaption:
+    template: { name: Genre Other }
+    summary: Movies based on book novels.
+    file_poster: config/posters/Book Adaption.png
+    visible_shared: monthly(23)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/plexmetamanager/lists/movies-based-on-books?sort=rank,asc
+      - https://trakt.tv/users/trilled-meow/lists/book-adaptations?sort=popularity,asc
+      - https://trakt.tv/users/me-l/lists/book-adaptations?sort=released,asc
+      - https://trakt.tv/users/lilybeexo/lists/book-adaptions?sort=rank,asc
+
+  Bug:
+    template: { name: Genre Other }
+    summary: In entomology, the term "bug" is often used to refer to a specific order of insects known as Hemiptera, which are characterized by having piercing and sucking mouthparts, a triangular-shaped thorax, and a distinctive set of front wings that are thickened at the base and membranous at the tip.
+    file_poster: config/posters/BUG.png
+    imdb_list:
+      - https://www.imdb.com/list/ls000042333/
+      - https://www.imdb.com/list/ls059403838/
+
+  Chick Flick:
+    template: { name: Genre Other }
+    summary: Get in touch with your feminine side.
+    file_poster: config/posters/CHICK FLICK.png
+    visible_shared: monthly(15)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/29zombies/lists/romantic-comedies
+      - https://trakt.tv/users/yirmaster/lists/chick-flicks
+
+  Cyberpunk:
+    template: { name: Genre Other }
+    summary: Cyberpunk is a subgenre of science fiction that emerged in the 1980s. It typically features a dystopian future society that is heavily influenced by advanced technology, particularly in the areas of cybernetics, virtual reality, and artificial intelligence. The stories often explore themes such as corporate greed, government corruption, social decay, and the blurring of lines between humans and machines.
+    file_poster: config/posters/Cyberpunk.png
+    visible_shared: monthly(5)
+    trakt_list:
+      - https://trakt.tv/users/chatterer/lists/cyberpunk?sort=released,asc
+      - https://trakt.tv/users/oya-kesh/lists/cyberpunk?sort=rank,asc
+
+  Con-Artist:
+    template: { name: Genre Other }
+    summary: A con artist is someone who uses deception and manipulation to gain the trust of others and then exploit them for personal gain. Con artists often have a charming and charismatic personality, which allows them to convince their victims to trust them.
+    file_poster: config/posters/CON-ARTIST.png
+    visible_shared: monthly(7)
+    limit: 300
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-con-artists/
+
+  Classic:
+    template: { name: Genre Other }
+    summary: Movies made back in the good old days.
+    file_poster: config/posters/classic.png
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/movie-maestro/lists/classics?sort=popularity,asc
+      - https://trakt.tv/users/jtucci/lists/classics?sort=title,asc
+
+  Comedy Horror:
+    template: { name: Genre Other }
+    summary: Comedy horror is a genre of fiction that combines elements of comedy and horror. It typically features humorous situations and characters, often in a dark or macabre setting. The humor may be derived from parodying horror tropes, poking fun at genre conventions, or making light of scary situations.
+    file_poster: config/posters/COMEDY HORROR.png
+    visible_shared: monthly(12)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/aidansmyth/lists/comedy-horror?sort=rank,asc
+      - https://trakt.tv/users/rizreflects/lists/comedy-horrors?sort=rank,asc
+      - https://trakt.tv/users/ravynloony/lists/comedy-horror?sort=votes,asc
+
+  Coming of Age:
+    template: { name: Genre Other }
+    summary: Coming-of-age films focus on the psychological and moral growth or transition of a protagonist from youth to adulthood.
+    file_poster: config/posters/coming of age.png
+    visible_shared: monthly(24)
+    trakt_list: https://trakt.tv/users/canadutchy/lists/coming-of-age-movies?sort=rank,asc
+
+  Comic Book:
+    template: { name: Genre Other }
+    summary: Movies based on comic books.
+    file_poster: config/posters/Comic Book.png
+    visible_shared: monthly(9)
+    limit: 300
+    trakt_list: https://trakt.tv/users/b15hb05h/lists/comics?sort=rank,asc
+
+  Conspiracy:
+    template: { name: Genre Other }
+    summary: The protagonists of conspiracy movies are often journalists or amateur investigators who find themselves (often inadvertently) pulling on a small thread which unravels a vast conspiracy that ultimately goes "all the way to the top".
+    file_poster: config/posters/conspiracy.png
+    visible_shared: weekly(wednesday)
+    trakt_list: https://trakt.tv/users/kayaaron13/lists/conspiracy-movies?sort=rank,asc
+
+  Courtroom:
+    template: { name: Genre Other }
+    summary: Showcasing brainy lawyers, gripping cases, and complex plotlines, these are the best legal dramas to watch
+    file_poster: config/posters/courtroom.png
+    visible_shared: weekly(wednesday)
+    trakt_list:
+      - https://trakt.tv/users/lollipopp/lists/lawyer-court
+      - https://trakt.tv/users/kayaaron13/lists/top-courtroom-dramas
+      - https://trakt.tv/users/additup/lists/legal-drama_judiciaire
+
+  Cult Classic:
+    template: { name: Genre Other }
+    summary: Some of the most influential movies that shaped cinema to what it is today.
+    file_poster: config/posters/cult classic.png
+    visible_shared: monthly(6)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/kayaaron13/lists/cult-classics?sort=rank,asc
+      - https://trakt.tv/users/mr-mc86/lists/cult-classics?sort=rank,asc
+
+  Dark Comedy:
+    template: { name: Genre Other }
+    summary: Dark comedy is a style of comedy that makes light of subject matter that is generally considered taboo, particularly subjects that are normally considered serious or painful to discuss.
+    file_poster: config/posters/dark comedy.png
+    visible_shared: weekly(tuesday)
+    limit: 300
+    trakt_list: https://trakt.tv/users/ld667/lists/dark-comedies?sort=rank,asc
+
+  Dark Fantasy:
+    template: { name: Genre Other }
+    summary: The genre of dark fantasy is a type of speculative fiction that combines elements of horror and fantasy. Dark fantasy stories typically feature a dark or ominous tone and explore themes of death, evil, and the supernatural.
+    file_poster: config/posters/DARK FANTASY.png
+    visible_shared: monthly(8)
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-dark-fantasy/
+
+  Deep Sea:
+    template: { name: Genre Other }
+    summary: Deep out at sea or below sea.
+    file_poster: config/posters/deep sea.png
+    visible_shared: monthly(25)
+    trakt_list:
+      - https://trakt.tv/users/g3orgios/lists/sea-sail?sort=rank,asc
+      - https://trakt.tv/users/y0dase/lists/at-sea?sort=collected,asc
+      - https://trakt.tv/users/beernbugs/lists/under-the-sea?sort=rank,asc
+
+  Disaster:
+    template: { name: Genre Other }
+    summary: A disaster film or disaster movie is a film genre that has an impending or ongoing disaster as its subject and primary plot device. Such disasters may include natural disasters, accidents, military/terrorist attacks or global catastrophes.
+    file_poster: config/posters/DISASTER.png
+    visible_shared: weekly(thursday)
+    trakt_list:
+      - https://trakt.tv/users/29zombies/lists/disaster?sort=title,asc
+      - https://trakt.tv/users/urban-legend/lists/disaster
+
+  Donghua:
+    template: { name: Genre Smart }
+    file_poster: config/posters/Donghua Anime.png
+    summary: Animated movies from China.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        country: china
+        genre: animation
+        title.not:
+          - extinct
+          - abominable
+          - kung fu
+          - paws of
+
+  Drug:
+    template: { name: Genre Other }
+    summary: Movies involving drugs in any capacity.
+    file_poster: config/posters/drug.png
+    visible_shared: weekly(sunday)
+    trakt_list:
+      - https://trakt.tv/users/ld667/lists/the-30-best-drug-movies?sort=rank,asc
+      - https://trakt.tv/users/ximphrambugle/lists/drug-movies?sort=rank,asc
+      - https://trakt.tv/users/ld667/lists/drug-related-movies?sort=rank,asc
+      - https://trakt.tv/users/r_u-d_i/lists/r_u-d_i-s-drug-movies?sort=rank,asc
+
+  Dystopian:
+    template: { name: Genre Other }
+    summary: A dystopia, or cacotopia, is a speculated ideal society with minimal crime, violence and poverty that is undesirable or frightening.
+    file_poster: config/posters/dystopian.png
+    visible_shared: weekly(friday)
+    trakt_list:
+      - https://trakt.tv/users/mezuror/lists/dystopian
+      - https://trakt.tv/users/remontant/lists/dystopian-movies
+
+  Fairytale:
+    template: { name: Genre Other }
+    summary: The genre of fairytales is a type of story that typically involves magical elements, mythical creatures, and fantastical settings. Fairytales often follow a simple structure, with a hero or heroine facing a challenge or obstacle and overcoming it with the help of a magical object, a wise mentor, or their own bravery and resourcefulness.
+    file_poster: config/posters/FAIRYTALE.png
+    visible_shared: monthly(11)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/raluca-303/lists/fairytale?sort=released,asc
+      - https://trakt.tv/users/mrfinesse/lists/fairytale?sort=title,asc
+      - https://trakt.tv/users/pterisaur/lists/fairytales?sort=random,asc
+
+  Film Noir:
+    template: { name: Genre Smart }
+    summary: Film noir is a genre of films that emerged in the United States during the 1940s and 1950s. The term "film noir" was coined by French critics to describe a style of filmmaking that was characterized by its dark, moody atmosphere and cynical view of the world.
+    file_poster: config/posters/FILM NOIR.png
+    visible_shared: monthly(31)
+    smart_filter:
+      sort_by: random
+      limit: 400
+      validate: false
+      all:
+        genre: film-noir
+
+  Gangster:
+    template: { name: Genre Other }
+    summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
+    file_poster: config/posters/gangster.png
+    visible_shared: weekly(sunday)
+    trakt_list:
+      - https://trakt.tv/users/urban-legend/lists/gangster?sort=rank,asc
+      - https://trakt.tv/users/ondrisel/lists/gangster?sort=rank,asc
+      - https://trakt.tv/users/urban-legend/lists/gangster
+
+  Goth:
+    template: { name: Genre Other }
+    summary: The goth genre is a cultural movement that emerged in the late 1970s and early 1980s in the United Kingdom. It is characterized by its dark and melancholic aesthetic, which includes black clothing, heavy makeup, and an interest in themes related to death, decay, and the macabre.
+    file_poster: config/posters/GOTH.png
+    visible_shared: monthly(13)
+    trakt_list:
+      - https://trakt.tv/users/josieuna/lists/goth-to-watch?sort=rank,asc
+      - https://trakt.tv/users/ld667/lists/goth-style-cartoons-tv-series-and-movies?sort=rank,asc
+
+  Gore:
+    template: { name: Genre Other }
+    summary: The gore genre is a type of horror entertainment that focuses on graphic and explicit depictions of violence, bloodshed, and bodily mutilation. It often features extreme and disturbing imagery, such as dismemberment, torture, and mutilation, with the intent of shocking and repulsing the audience.
+    file_poster: config/posters/Gore.png
+    visible_shared: monthly(14)
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-splatter/
+
+  Ghost:
+    template: { name: Genre Other }
+    summary: A ghost is a supernatural entity that is believed to be the spirit or soul of a deceased person. Ghosts are often depicted as apparitions or images of the deceased, and they are said to haunt specific locations or objects.
+    file_poster: config/posters/GHOST.png
+    visible_shared: monthly(16)
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-ghosts/
+
+  Hacking:
+    template: { name: Genre Other }
+    summary: Hacker, a computer expert with advanced technical knowledge. Hacker culture, activity within the computer programmer subculture.
+    file_poster: config/posters/Hacking.png
+    visible_shared: monthly(3)
+    trakt_list:
+      - https://trakt.tv/users/vagnerr/lists/hacking-computing?sort=rank,asc
+      - https://trakt.tv/users/rendom/lists/hack-the-planet-compilation?sort=released,asc
+      - https://trakt.tv/users/sanojjonas/lists/hacking-corruption-technology-enviroment?sort=added,asc
+
+  Heist:
+    template: { name: Genre Other }
+    summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
+    file_poster: config/posters/heist.png
+    visible_shared: weekly(friday)
+    trakt_list:
+      - https://trakt.tv/users/flekz22/lists/heists?sort=rank,asc
+      - https://trakt.tv/users/urban-legend/lists/heist?sort=rank,asc
+
+  Indie:
+    template: { name: Genre Other }
+    summary: An independent film or indie movie is a feature film or short film that is produced outside the major film studio system, in addition to being produced and distributed by independent entertainment companies.
+    file_poster: config/posters/indie.png
+    visible_shared: monthly(21)
+    trakt_list:
+      - https://trakt.tv/users/enragedbeauty/lists/indie-movies-i-loved?sort=percentage,asc
+      - https://trakt.tv/users/prrrolina/lists/indie-movies?sort=released,asc
+      - https://trakt.tv/users/jdublife/lists/indie-movies?sort=title,asc
+
+  LGBTQ+:
+    template: { name: Genre Other }
+    summary: LGBTQ+ film is a genre of films where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
+    file_poster: config/posters/lgbtq+.png
+    visible_shared: monthly(30)
+    imdb_list: https://www.imdb.com/list/ls062688328/
+
+  Member Berries:
+    template: { name: Genre Other }
+    summary: Member Berry movies are movies that contain a lot of call backs or easter eggs to previous movies in the franchise or related franchises. Often franchise reboots.
+    file_poster: config/posters/MEMBER BERRIES.png
+    trakt_list: https://trakt.tv/users/netplexflix/lists/member-berries
+
+  Mindfuck:
+    template: { name: Genre Other }
+    summary: A mindfuck movie plays with your mind, confuses you, and leads you on. It’s not just a movie with a twist ending. Mindfucks are borderline-incoherent, dreamlike, and surreal.
+    file_poster: config/posters/mindfuck.png
+    visible_shared: weekly(thursday)
+    limit: 300
+    trakt_list: https://trakt.tv/users/lish408/lists/mindfuck?sort=popularity,asc
+
+  Medieval:
+    template: { name: Genre Other }
+    summary: Middle Ages, Period in European history traditionally dated from the fall of the Roman Empire to the dawn of the Renaissance.
+    file_poster: config/posters/MEDIEVAL.png
+    visible_shared: monthly(17)
+    trakt_list:
+      - https://trakt.tv/users/ld667/lists/medieval-fantasy?sort=rank,asc
+      - https://trakt.tv/users/n4m3n07f0und/lists/medieval-movies?sort=rank,asc
+      - https://trakt.tv/users/destyl01/lists/medieval?sort=added,desc
+      - https://trakt.tv/users/kayaaron13/lists/medieval-movies?sort=rank,asc
+
+  Monster:
+    template: { name: Genre Other }
+    summary: Movies where the main protagonist is a monster of some form.
+    file_poster: config/posters/monster.png
+    visible_shared: monthly(19)
+    trakt_list: https://trakt.tv/users/hammers-lists/lists/creature-feature-monster-movies?sort=rank,asc
+
+  Music:
+    template: { name: Genre Smart }
+    visible_shared: monthly(18)
+    file_poster: config/posters/MUSIC.png
+    summary: Music film is genre that revolves around music being an integral part of the characters lives.
+    smart_filter:
+      sort_by: random
+      limit: 300
+      validate: false
+      all:
+        genre: music
+
+  Mythology:
+    template: { name: Genre Other }
+    summary: Myths are fiction stories based on historical beliefs of ancient people. Webster's Dictionary defines myths as “an idea or story that is believed by many people but that is not true; a story that was told in an ancient culture to explain a practice, belief, or natural occurrence.
+    file_poster: config/posters/mythology.png
+    visible_shared: monthly(17)
+    trakt_list:
+      - https://trakt.tv/users/johnnysp4rkles/lists/greek-roman-mythology?sort=title,asc
+      - https://trakt.tv/users/jagster101/lists/mythological?sort=rank,asc
+      - https://trakt.tv/users/187rocky/lists/greek-mythology?sort=rank,asc
+
+  Naval:
+    template: { name: Genre Other }
+    summary: Naval refers to anything related to or associated with the navy, which is the branch of a country's armed forces that is responsible for conducting military operations at sea.
+    file_poster: config/posters/NAVAL.png
+    visible_shared: monthly(26)
+    limit: 300
+    imdb_list:
+      - https://www.imdb.com/list/ls026529469/
+      - https://www.imdb.com/list/ls003065981/
+      - https://www.imdb.com/list/ls052696439/
+      - https://www.imdb.com/list/ls002784827/
+      - https://www.imdb.com/list/ls021449523/
+
+  Nostalgia:
+    template: { name: Genre Other }
+    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection
+    file_poster: config/posters/nostalgia.png
+    visible_shared: monthly(27)
+    limit: 300
+    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
+
+  One Location:
+    template: { name: Genre Other }
+    summary: Movies set generally in one location, for example a house.
+    file_poster: config/posters/One location.png
+    visible_shared: monthly(16)
+    trakt_list:
+      - https://trakt.tv/users/limbend/lists/tense-movies-in-one-location?sort=my_rating,asc
+      - https://trakt.tv/users/luisholy1/lists/one-location-movies-with-a-mystery-going-on?sort=percentage,asc
+
+  Outer Space:
+    template: { name: Genre Other }
+    summary: Movies That Take Place in Outer Space
+    file_poster: config/posters/OUTER SPACE.png
+    visible_shared: monthly(15)
+    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
+
+  Paranormal:
+    template: { name: Genre Other }
+    summary: Movies containing something supernatural like ghosts or spirits.
+    file_poster: config/posters/Paranormal.png
+    visible_shared: monthly(14)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/dough13/lists/paranormal-ghost-spirits?sort=added,asc
+      - https://trakt.tv/users/ireallylovevids/lists/ghost-movies?sort=title,asc
+      - https://trakt.tv/users/philrivers/lists/the-50-best-ghost-movies-of-all-time-paste-magazine?sort=rank,asc
+
+  Pandemic:
+    template: { name: Genre Other }
+    summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
+    file_poster: config/posters/pandemic.png
+    visible_shared: weekly(tuesday)
+    trakt_list:
+      - https://trakt.tv/users/scotttrakt/lists/outbreak-epidemic?sort=rank,asc
+      - https://trakt.tv/users/scotttrakt/lists/outbreak-epidemic?sort=rank,asc
+      - https://trakt.tv/users/caspian024/lists/virus-epidemic?sort=popularity,asc
+      - https://trakt.tv/users/maxtrontv/lists/virus-epidemics-movies?sort=released,asc
+
+  Psychological:
+    template: { name: Genre Other }
+    summary: The psychological genre is a category of literature, film, and other media that focuses on the inner workings of the human mind, exploring mental and emotional states, motivations, and behaviors. Psychological works often delve into the depths of the human psyche, examining issues such as identity, consciousness, memory, and perception.
+    file_poster: config/posters/Psychological.png
+    visible_shared: monthly(19)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/mccaffe/lists/psychological?sort=rank,asc
+      - https://trakt.tv/users/littlehorrorgirl/lists/psychological?sort=rank,asc
+      - https://trakt.tv/users/sirheo/lists/psychology?sort=rank,asc
+
+  Psychedelic:
+    template: { name: Genre Other }
+    summary: Psychedelic refers to a style of art, music, and culture that emerged in the 1960s, characterized by vivid colors, surreal imagery, and a sense of exploration and experimentation. Psychedelic art often incorporates distorted shapes and patterns, optical illusions, and imagery inspired by hallucinations or altered states of consciousness.
+    file_poster: config/posters/PSYCHEDELIC.png
+    visible_shared: monthly(21)
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-psychedelic/
+
+  Prehistoric:
+    template: { name: Genre Other }
+    summary: Prehistoric refers to the period of time before written history, when human beings lived without written records or recorded history. This period is generally divided into the Stone Age, the Bronze Age, and the Iron Age, and it is characterized by the development of tools and technology, the emergence of agriculture and animal domestication, and the evolution of human societies.
+    file_poster: config/posters/PREHISTORIC.png
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/300-historical-movies-in-chronological-order?sort=rank,asc
+      - https://trakt.tv/users/televisionmouth/lists/prehistory-early-history?sort=title,asc
+      - https://trakt.tv/users/cptarius/lists/films-set-in-the-prehistoric-era?sort=rank,asc
+
+  Philosophical:
+    template: { name: Genre Other }
+    summary: Philosophical refers to a genre of literature, art, and other forms of media that explore fundamental questions about existence, knowledge, values, ethics, and the nature of reality. Philosophical works often challenge conventional wisdom and encourage readers to think deeply about complex ideas.
+    file_poster: config/posters/PHILOSOPHICAL.png
+    visible_shared: monthly(22)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/rizreflects/lists/philosophical?sort=rank,asc
+      - https://trakt.tv/users/naziman/lists/best-philosophical-films?sort=released,asc
+      - https://trakt.tv/users/steveach/lists/philosophical?sort=votes,asc
+      - https://trakt.tv/users/majeed_pk/lists/best-philosophical-films
+
+  Parody:
+    template: { name: Genre Other }
+    summary: Top 50 Parody Movies of All Time
+    visible_shared: monthly(28)
+    file_poster: config/posters/parody.png
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
+
+  Period Piece:
+    template: { name: Genre Other }
+    summary: Movies in the period piece fiction genre are made up of stories that feature historical places, people, or events that are crucial to the story.
+    file_poster: config/posters/period piece.png
+    visible_shared: weekly(friday)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/mattgriff/lists/period-pieces?sort=popularity,asc
+      - https://trakt.tv/users/kingkearney/lists/period-pieces?sort=rank,asc
+      - https://trakt.tv/users/kingkearney/lists/20th-century-period-pieces?sort=random,asc
+      - https://trakt.tv/users/majeed_pk/lists/the-best-costume-dramas?sort=rank,asc
+
+  Plot Twist:
+    template: { name: Genre Other }
+    summary: A plot twist is a story development that readers do not expect in which either something shocking happens or something shocking is revealed. Generally, the storyteller will set up expectations and then "twist" those expectations by revealing new information through subsequent plot points.
+    file_poster: config/posters/plot twist.png
+    visible_shared: weekly(wednesday)
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/crazy-plot-twists?sort=released,asc
+      - https://trakt.tv/users/d-sync/lists/best-plot-twist?sort=rank,asc
+
+  Police:
+    template: { name: Genre Other }
+    summary: Movies in the perspective of a policeman or a policeman being present in any capacity.
+    file_poster: config/posters/police.png
+    visible_shared: weekly(saturday)
+    trakt_list: https://trakt.tv/users/hammers-lists/lists/cop-movies?sort=rank,asc
+
+  Political:
+    template: { name: Genre Other }
+    summary: Political cinema refers to films that do not hide their political stance. In this sense, they differ from other films not because they are political, but because of the way in which their politics is presented.
+    file_poster: config/posters/political.png
+    visible_shared: weekly(friday)
+    trakt_list:
+      - https://trakt.tv/users/acrylamid/lists/political?sort=popularity,asc
+      - https://trakt.tv/users/kayaaron13/lists/political-movies?sort=rank,asc
+
+  Post Apocalyptic:
+    template: { name: Genre Other }
+    summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
+    file_poster: config/posters/post apocalyptic.png
+    visible_shared: monthly(13)
+    trakt_list:
+      - https://trakt.tv/users/maxtrontv/lists/apocalyptic-post-apocalyptic-movies
+      - https://trakt.tv/users/rooktherhymer/lists/post-apocalyptic-hellscapes
+      - https://trakt.tv/users/ryanlouisk/lists/post-apocalyptic-movies?sort=released,asc
+
+  Prison:
+    template: { name: Genre Other }
+    summary: Movies taking place inside a prison.
+    file_poster: config/posters/prison.png
+    visible_shared: monthly(12)
+    trakt_list:
+      - https://trakt.tv/users/rwn_98/lists/prison-movies?sort=rank,asc
+      - https://trakt.tv/users/rizreflects/lists/prison-movies?sort=random,asc
+
+  Revenge:
+    template: { name: Genre Other }
+    summary: Revenge is a theoretical genre in which the principal theme is retribution and its often-fatal consequences.
+    file_poster: config/posters/revenge.png
+    visible_shared: monthly(11)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/jtucci/lists/revenge?sort=rank,asc
+      - https://trakt.tv/users/kayaaron13/lists/revenge-movies?sort=rank,asc
+      - https://trakt.tv/users/niklcc/lists/revenge?sort=rank,asc
+
+  Remake:
+    template: { name: Genre Other }
+    summary: A remake is a film, or occasionally a television series, video game, or similar form of entertainment, that is based upon and retells the story of an earlier production in the same medium—e.g., a "new version of an existing film".
+    file_poster: config/posters/remake.png
+    visible_shared: monthly(25)
+    trakt_list:
+      - https://trakt.tv/users/chatterer/lists/remake?sort=released,asc
+      - https://trakt.tv/users/bob-frapples/lists/remakes?sort=rank,asc
+
+  Robot:
+    template: { name: Genre Other }
+    summary: Movies containing robots in many forms, often set in the future.
+    file_poster: config/posters/robot.png
+    visible_shared: monthly(10)
+    trakt_list:
+      - https://trakt.tv/users/ireallylovevids/lists/robot-movies?sort=title,asc
+      - https://trakt.tv/users/cinematicthrowbacks/lists/sci-fi-hi-tech-robotics-cyborgs-bionics?sort=rank,asc
+      - https://trakt.tv/users/kodiscrobble666/lists/killer-robot-movies?sort=rank,asc
+
+  Romantic Comedy:
+    template: { name: Genre Smart }
+    visible_shared: weekly(thursday)
+    file_poster: config/posters/romantic comedy.png
+    summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy series revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
+    smart_filter:
+      sort_by: random
+      limit: 300
+      validate: false
+      all:
+        genre:
+          - romance
+          - comedy
+
+  Romantic Drama:
+    template: { name: Genre Smart }
+    visible_shared: weekly(saturday)
+    file_poster: config/posters/romantic drama.png
+    summary: Romantic Drama film is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama film can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
+    smart_filter:
+      sort_by: random
+      limit: 300
+      validate: false
+      all:
+        genre:
+          - romance
+          - drama
+
+  Samurai:
+    template: { name: Genre Other }
+    summary: A samurai was a member of the military nobility in feudal Japan, typically serving a lord or daimyo. The samurai were known for their martial skills, discipline, and honor, and they played an important role in Japanese society for centuries.
+    file_poster: config/posters/SAMURAI.png
+    visible_shared: monthly(30)
+    letterboxd_list:
+      - https://letterboxd.com/ediblehedgehog/list/theme-samurai/
+      - https://letterboxd.com/jhcrotinger/list/samurai/
+
+  Silent Era:
+    template: { name: Genre Other }
+    summary: A silent film is a film with no synchronized recorded sound (or more generally, no audible dialogue). Though silent films convey narrative and emotion visually, various plot elements (such as a setting or era) or key lines of dialogue may, when necessary, be conveyed by the use of title cards.
+    file_poster: config/posters/silent era.png
+    trakt_list:
+      - https://trakt.tv/users/maxwelldeux/lists/silent-era-s-the-top-300-silent-era-films?sort=rank,asc
+      - https://trakt.tv/users/kingkearney/lists/silent-films-22573340?sort=random,asc
+
+  Survival:
+    template: { name: Genre Other }
+    summary: Survival genre is a popular genre of fiction that depicts the struggle of characters to survive in a hostile environment or after a catastrophic event. The stories usually revolve around individuals or groups who find themselves in extreme circumstances where basic necessities such as food, water, and shelter are scarce.
+    file_poster: config/posters/Survival.png
+    visible_shared: monthly(23)
+    limit: 300
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-survival/
+
+  Surrealism:
+    template: { name: Genre Other }
+    summary: Surrealism is an artistic and literary movement that emerged in the early 20th century, characterized by a focus on the subconscious mind and the exploration of the imagination. Surrealism sought to break free from traditional art and literary forms, emphasizing the irrational, the dreamlike, and the bizarre.
+    file_poster: config/posters/SURREALISM.png
+    visible_shared: monthly(31)
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-surrealism/
+
+  Supernatural:
+    template: { name: Genre Other }
+    summary: Supernatural refers to phenomena that are beyond the laws of nature or that cannot be explained by science or reason. In popular culture, supernatural often refers to paranormal or mystical events, creatures, or powers, such as ghosts, vampires, werewolves, magic, and psychic abilities.
+    file_poster: config/posters/Supernatural.png
+    visible_shared: monthly(29)
+    limit: 300
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-supernatural/
+
+  Serial Killer:
+    template: { name: Genre Other }
+    summary: A serial killer is a person who murders three or more people, typically with a cooling-off period between each murder. Serial killers are often motivated by psychological or sexual gratification, and may have a distorted view of reality that justifies their violent acts.
+    file_poster: config/posters/SERIAL KILLER.png
+    visible_shared: monthly(27)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/kingkearney/lists/serial-killers?sort=random,asc
+      - https://trakt.tv/users/rizreflects/lists/serial-killers?sort=rank,asc
+      - https://trakt.tv/users/slark1984/lists/serial-killers?sort=rank,asc
+      - https://trakt.tv/users/gojirasaurr/lists/serial-killers?sort=watched,asc
+
+  Satire:
+    template: { name: Genre Other }
+    summary: Satire is a genre of literature or media that uses humor, irony, exaggeration, or ridicule to expose and criticize human vices or shortcomings, often with the goal of bringing about social or political change. Satire can take many forms, including written works, cartoons, films, and television shows.
+    file_poster: config/posters/SATIRE.png
+    visible_shared: monthly(28)
+    limit: 300
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-satire/
+
+  Slasher:
+    template: { name: Genre Other }
+    summary: The slasher film is a sub-genre of horror film typically involving a psychopathic killer (sometimes wearing a mask) who stalks and graphically murders a series of adolescent victims in a typically random, unprovoked fashion, killing many within a single day.
+    file_poster: config/posters/slasher.png
+    visible_shared: monthly(9)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/80s-slasher-movies
+      - https://trakt.tv/users/dough13/lists/slashers?sort=rank,asc
+
+  Spy:
+    template: { name: Genre Other }
+    summary: The spy film genre, also known sometimes as an espionage film, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.
+    file_poster: config/posters/spy.png
+    visible_shared: monthly(8)
+    trakt_list: https://trakt.tv/users/ld667/lists/the-best-spy-movies-list?sort=rank,asc
+
+  Stop Motion:
+    template: { name: Genre Other }
+    summary: Stop motion is a filmmaking technique that involves animating physical objects by moving them incrementally and taking individual photographs of each movement. This technique has been used in many different genres of film, from animation to horror to comedy.
+    file_poster: config/posters/STOP MOTION.png
+    trakt_list:
+      - https://trakt.tv/users/kimhern/lists/stop-motion?sort=rank,asc
+      - https://trakt.tv/users/d-sync/lists/stop-motion?sort=rank,asc
+
+  Summer:
+    template: { name: Genre Other }
+    summary: Movies set in the summer season.
+    file_poster: config/posters/summer.png
+    visible_shared: monthly(20)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/crims7392/lists/road-trips-vacations-flix?sort=rank,asc
+      - https://trakt.tv/users/lyssierose/lists/summer-movies?sort=rank,asc
+      - https://trakt.tv/users/momogl/lists/summer?sort=rank,asc
+      - https://trakt.tv/users/urban-legend/lists/summer?sort=rank,asc
+
+  Sword & Sorcery:
+    template: { name: Genre Other }
+    summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
+    file_poster: config/posters/SWORD & SORCERY.png
+    visible_shared: weekly(sunday)
+    imdb_list: https://www.imdb.com/list/ls022909805
+
+  Time Travel:
+    template: { name: Genre Other }
+    summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
+    file_poster: config/posters/time travel.png
+    visible_shared: monthly(4)
+    trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
+
+  Trapped Inside:
+    template: { name: Genre Other }
+    summary: The main characther(s) are trapped in some sort of place and has to get out to survive.
+    file_poster: config/posters/trapped inside.png
+    visible_shared: monthly(7)
+    trakt_list:
+      - https://trakt.tv/users/nyrodo/lists/trapped-escape-horror-movies?sort=rank,asc
+      - https://trakt.tv/users/noahbolanowski/lists/trapped-environment-thrillers?sort=rank,asc
+
+  Underrated:
+    template: { name: Genre Other }
+    summary: Movies that are better than what it is given credit for.
+    file_poster: config/posters/underrated.png
+    visible_shared: monthly(6)
+    trakt_list:
+      - https://trakt.tv/users/hulkhorgen/lists/most-underrated-movies-of-the-last-20-years?sort=rank,asc
+      - https://trakt.tv/users/blazer380/lists/underrated-movies?sort=rank,asc
+      - https://trakt.tv/users/ryanlouisk/lists/underrated-movies?sort=rank,asc
+
+  Vacation & Road Trip:
+    template: { name: Genre Other }
+    summary: Vacations and road trips both gone horribly wrong or heavenly right.
+    file_poster: config/posters/VACATION & ROAD TRIP.png
+    visible_shared: weekly(saturday)
+    limit: 300
+    trakt_list:
+      - https://trakt.tv/users/istoit/lists/movies-to-make-you-cancel-that-vacation?sort=rank,asc
+      - https://trakt.tv/users/crims7392/lists/road-trips-vacations-flix?sort=rank,asc
+      - https://trakt.tv/users/kayaaron13/lists/vacations-gone-wrong?sort=rank,asc
+      - https://trakt.tv/users/ld667/lists/25-best-travel-movies-of-all-time-films-that-will?sort=rank,asc
+      - https://trakt.tv/users/mrtheta/lists/travel?sort=rank,asc
+
+  Vampire:
+    template: { name: Genre Other }
+    summary: A vampire is a creature from folklore that subsists by feeding on the vital essence (generally in the form of blood) of the living.
+    file_poster: config/posters/vampire.png
+    visible_shared: monthly(15)
+    trakt_list:
+      - https://trakt.tv/users/amarantha/lists/vampires?sort=rank,asc
+      - https://trakt.tv/users/kingkearney/lists/vampires?sort=rank,asc
+      - https://trakt.tv/users/scubapilot/lists/vampire?sort=released,desc
+
+  Video Game:
+    template: { name: Genre Other }
+    summary: Movies lightly or stritcly based of different types of video games.
+    file_poster: config/posters/video game.png
+    visible_shared: monthly(10)
+    trakt_list:
+      - https://trakt.tv/users/ireallylovevids/lists/videos-game-movies
+      - https://trakt.tv/users/idelo/lists/video-game-movies
+
+  Villain:
+    template: { name: Genre Other }
+    summary: Movies where the bad guy is more likely to come out on top.
+    file_poster: config/posters/villain.png
+    visible_shared: monthly(5)
+    trakt_list:
+      - https://trakt.tv/users/29zombies/lists/bad-guy-wins?sort=title,asc
+      - https://trakt.tv/users/ld667/lists/bad-guy-wins?sort=rank,asc
+
+  Werewolf:
+    template: { name: Genre Other }
+    summary: Werewolf films is a sub-genre of horror film typically involving a shapeshifting human at full moon.
+    file_poster: config/posters/WEREWOLF.png
+    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-werewolves/
+
+  Wizardry & Witchcraft:
+    template: { name: Genre Other }
+    summary: Wizardry and witchcraft are terms used to describe the practice of magic and the supernatural. While the terms are often used interchangeably, there are some differences between the two.
+    file_poster: config/posters/WIZARDY & WITCHCRAFT.png
+    visible_shared: monthly(24)
+    trakt_list:
+      - https://trakt.tv/users/bubbles-prior/lists/wizarding-world?sort=rank,asc
+      - https://trakt.tv/users/pterisaur/lists/witchcraft?sort=random,asc
+      - https://trakt.tv/users/ravynloony/lists/witchcraft?sort=votes,asc
+
+  Winter:
+    template: { name: Genre Other }
+    summary: Movies set in the winter season.
+    file_poster: config/posters/winter.png
+    visible_shared: monthly(6)
+    trakt_list:
+      - https://trakt.tv/users/urban-legend/lists/winter?sort=rank,asc
+      - https://trakt.tv/users/acoucalancha/lists/winter?sort=rank,asc
+
+  Zombie:
+    template: { name: Genre Other }
+    summary: A zombie is a mythological undead corporeal revenant created through the reanimation of a corpse.
+    file_poster: config/posters/zombie.png
+    visible_shared: monthly(1)
+    trakt_list:
+      - https://trakt.tv/users/ld667/lists/the-most-epic-zombie-films-since-2000
+      - https://trakt.tv/users/mraniki/lists/zombie
+
+  ######################################################
+  #                  COUNTRIES 6.0                     #
+  ######################################################
+
+  China:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in China.
+    file_poster: config/posters/china.png
+    visible_shared: range(09/04-09/12)
+    trakt_list:
+      - https://trakt.tv/users/c858/lists/chinese-movies?sort=rank,asc
+      - https://trakt.tv/users/hmaurin/lists/chinese-movies?sort=released,asc
+      - https://trakt.tv/users/darkman1498/lists/chinese-movies?sort=rank,asc
+    plex_search:
+      any:
+        audio_language: zh
+
+  France:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in France.
+    file_poster: config/posters/France.png
+    visible_shared: range(04/14-04/22)
+    trakt_list: https://trakt.tv/users/elementmedia/lists/french-movies
+    plex_search:
+      any:
+        audio_language: fr
+
+  Germany:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in Germany.
+    file_poster: config/posters/germany.png
+    visible_shared: range(10/14-10/22)
+    trakt_list: https://trakt.tv/users/jason-postrel/lists/top-rated-german-movies?sort=rank,asc
+    plex_search:
+      any:
+        audio_language: de
+
+  India:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in India.
+    file_poster: config/posters/india.png
+    visible_shared: range(06/14-06/22)
+    trakt_list: https://trakt.tv/users/satzisa/lists/indian-movies
+    plex_search:
+      any:
+        audio_language: hi
+
+  Italy:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in Italy.
+    file_poster: config/posters/italy.png
+    visible_shared: range(11/14-11/22)
+    trakt_list: https://trakt.tv/users/fulvio91/lists/italian-movies
+    plex_search:
+      any:
+        audio_language: it
+
+  Japan:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in Japan.
+    visible_shared: range(09/14-09/22)
+    file_poster: config/posters/japan.png
+    trakt_list: https://trakt.tv/users/respectme/lists/japanese-movies?sort=rank,asc
+    plex_search:
+      any:
+        audio_language: ja
+
+  South Korea:
+    template: { name: Genre Other }
+    file_poster: config/posters/South korea.png
+    visible_shared: range(07/14-07/22)
+    summary: Some of the best movies made in South Korea.
+    trakt_list: https://trakt.tv/users/bwf2/lists/south-korean-movies-2018-2022?sort=rank,asc
+    plex_search:
+      any:
+        audio_language: ko
+
+  Sweden:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in Sweden.
+    visible_shared: range(03/14-03/22)
+    file_poster: config/posters/sweden.png
+    trakt_list: https://trakt.tv/users/a925sw/lists/swedish-movies?sort=rank,asc
+    plex_search:
+      any:
+        audio_language: sv
+
+  Spain:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in Spain.
+    file_poster: config/posters/spain.png
+    visible_shared: range(05/14-05/22)
+    trakt_list: https://trakt.tv/users/ocr893sa/lists/spanish-movies
+    plex_search:
+      any:
+        audio_language: es

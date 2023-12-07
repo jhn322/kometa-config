@@ -1,0 +1,203 @@
+# Change the library names below to your exact(!) plex library names. 
+libraries:                       # This is called out once within the config.yml file
+  Anime:
+    metadata_path:
+      - file: config/1-Anime.yml
+      - file: config/1-Anime_Genres.yml
+      - file: config/1-Anime_Franchises.yml
+      - file: config/1-Anime_Networks.yml
+      - file: config/1-Anime_Separators.yml
+      - file: config/1-Anime_Specials.yml
+      - file: config/1-Anime_Years.yml
+    operations:
+      mass_audience_rating_update: mdb_myanimelist
+    overlay_path:
+      - remove_overlays: false
+      - file: config/1.1-Anime_Overlays_ContentRating.yml
+      - file: config/1.1-Anime_Overlays_Rating.yml
+      - file: config/1.1-Anime_Overlays_Resolution.yml
+      - file: config/1.1-Anime_Overlays_Top.yml
+  Audiobooks:
+    metadata_path:
+      - file: config/2-Audiobooks_Genres.yml
+  Movies:
+    metadata_path:
+      - file: config/3-Movies.yml
+      - file: config/3-Movies_Actors.yml
+      - file: config/3-Movies_Awards.yml
+      - file: config/3-Movies_Franchises.yml
+      - file: config/3-Movies_Genres.yml
+      - file: config/3-Movies_Holidays
+      - file: config/3-Movies_Separators.yml
+      - file: config/3-Movies_Specials.yml
+      - file: config/3-Movies_Studios.yml
+      - file: config/3-Movies_Years.yml
+    operations:
+      mass_audience_rating_update: imdb
+    overlay_path:
+      - remove_overlays: false
+      - file: config/3.1-Movies_Overlays_4K.yml
+      - file: config/3.1-Movies_Overlays_Rating.yml
+      - file: config/3.1-Movies_Overlays_Subtitle.yml
+      - file: config/3.1-Movies_Overlays_Top.yml
+  Music:
+    metadata_path:
+      - file: config/4-Music.yml
+      - file: config/4-Music_Genres.yml
+      - file: config/4-Music_Separators.yml
+  Remux:
+    metadata_path:
+      - file: config/5-Remux.yml
+    overlay_path:
+      - remove_overlays: false
+      - file: config/5.1-Remux_Overlays.yml
+      - file: config/5.1-Remux_Overlays_Audio.yml
+      - file: config/5.1-Remux_Overlays_Rating.yml
+      - file: config/5.1-Remux_Overlays_Top.yml
+  Soundtracks:
+    metadata_path:
+      - file: config/6-Soundtracks.yml
+      - file: config/6-Soundtracks_Genres.yml
+      - file: config/6-Soundtracks_Separators.yml
+  TV:
+    metadata_path:
+      - file: config/7-TV.yml
+      - file: config/7-TV_Awards.yml
+      - file: config/7-TV_Franchises.yml
+      - file: config/7-TV_Genres.yml
+      - file: config/7-TV_Networks.yml
+      - file: config/7-TV_Separators.yml
+      - file: config/7-TV_Specials.yml
+      - file: config/7-TV_Years.yml
+    operations:
+      mass_audience_rating_update: imdb
+    overlay_path:
+      - remove_overlays: false
+      - file: config/7.1-TV_Overlays_4K.yml
+      - file: config/7.1-TV_Overlays_Canceled.yml
+      - file: config/7.1-TV_Overlays_Rating.yml
+      - file: config/7.1-TV_Overlays_Top.yml
+  Videos:
+    metadata_path:
+      - file: config/8-Videos.yml
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_unconfigured: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_user: all
+  playlist_exclude_users:
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  check_nightly: false
+webhooks:                        # Can be individually specified per library as well
+  error:
+  version:
+  run_start:
+  run_end:
+  changes:
+plex:                            # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://192.168.1.12:32400
+  token: ####################
+  timeout: 60
+  db_cache:
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:                            # REQUIRED for the script to run
+  apikey: ################################
+  language: en
+tautulli:                        # Can be individually specified per library as well
+  url: http://192.168.1.12:8181
+  apikey: ################################
+github:
+  token: ################################
+omdb:
+  apikey: ########
+  cache_expiration: 60
+mdblist:
+  apikey: #########################
+  cache_expiration: 60
+notifiarr:
+  apikey: ####################################
+anidb:                           # Not required for AniDB builders unless you want mature content
+  username: ######
+  password: ######
+radarr:                          # Can be individually specified per library as well
+  url: http://192.168.1.12:7878
+  token: ################################
+  add_missing: false
+  add_existing: false
+  root_folder_path: S:/Movies
+  monitor: true
+  availability: announced
+  quality_profile: HD-1080p
+  tag:
+  search: false
+  radarr_path:
+  plex_path:
+sonarr:                          # Can be individually specified per library as well
+  url: http://192.168.1.12:8989
+  token: ################################
+  add_missing: false
+  add_existing: false
+  root_folder_path: "S:/TV Shows"
+  monitor: all
+  quality_profile: HD-1080p
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  sonarr_path:
+  plex_path:
+trakt:
+  client_id: ####################
+  client_secret: ####################
+  pin:
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:
+    scope: public
+    created_at:
+mal:
+  client_id: ####################
+  client_secret: ####################
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:

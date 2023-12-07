@@ -1,0 +1,18 @@
+######################################################
+#                SEPARATORS 3.0                      #
+######################################################
+
+templates:
+  Separator:
+    smart_label: random
+    sync_mode: sync
+    plex_search:
+      all:
+        artist_title: ConcernedApe
+
+collections:
+  Genre Collections:
+    template: { name: Separator }
+    sort_title: ++_AAA
+    summary: Genre collections up next.
+    file_poster: config/posters/Genre Music Collections.png

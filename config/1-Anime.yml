@@ -1,0 +1,110 @@
+######################################################
+#                   ANIME 13.0                       #
+######################################################
+
+templates:
+  Anime:
+    smart_label: random
+    sync_mode: sync
+    sort_title: ++++++_<<collection_name>>
+    visible_library: true
+
+  Anime Other:
+    smart_label: random
+    sync_mode: sync
+    sort_title: +++_<<collection_name>>
+    visible_library: true
+
+  Anime Top:
+    smart_label: random
+    sync_mode: sync
+    visible_library: true
+
+collections:
+  AL - Popular:
+    template: { name: Anime Top }
+    anilist_popular: 50
+    summary: Popular animes this week according to Anilist.
+    sort_title: +++++++_XAnilist Popular
+    file_poster: config/posters/Anilist Popular Silver.png
+
+  AL - Top Rated:
+    template: { name: Anime Top }
+    anilist_top_rated: 300
+    summary: The highest rated animes ever on Anilist.
+    sort_title: +++++++_Anilist Top Rated
+    file_poster: config/posters/Anilist Top Rated Gold.png
+
+  AL - Trending:
+    template: { name: Anime Top }
+    anilist_trending: 30
+    summary: Trending animes this week according to Anilist.
+    sort_title: +++++++_ZAnilist Trending
+    file_poster: config/posters/Anilist Trending Bronze.png
+
+  AniDB - Popular:
+    template: { name: Anime }
+    anidb_popular: 30
+    summary: Popular animes this week according to aniDB.
+    file_poster: config/posters/aniDB Popular.png
+
+  Award Winning:
+    template: { name: Anime Other }
+    mal_search:
+      genre: 46
+      limit: 500
+    summary: Titles which have won prestigious or professional awards in Japan. Examples include the Tokyo Anime Award or Japan Media Arts Festival awards.
+    file_poster: config/posters/Award Winning.png
+
+  MAL - Most Favorited:
+    template: { name: Anime Top }
+    mal_favorite: 30
+    summary: Most favorited animes on MyAnimeList.
+    sort_title: ++++++++_ZMyAnimeList Most Favorited
+    smart_label: random
+    file_poster: config/posters/MAL Most Favorited Bronze.png
+
+  MAL - Top Upcoming:
+    template: { name: Anime }
+    mal_upcoming: 50
+    summary: The most anticipated new anime series according to MyAnimeList.
+    file_poster: config/posters/MAL Top Upcoming.png
+
+  MAL - Popular:
+    template: { name: Anime Top }
+    mal_popular: 50
+    summary: Popular animes this season according to MyAnimeList.
+    sort_title: ++++++++_XMyAnimeList Popular
+    file_poster: config/posters/MAL Popular Silver.png
+
+  MAL - Suggested:
+    template: { name: Anime }
+    mal_suggested: 30
+    summary: Animes suggested by MyAnimeList API.
+    file_poster: config/posters/MAL Suggested.png
+
+  MAL - Top Airing:
+    template: { name: Anime }
+    mal_airing: 150
+    summary: The highest rated animes airing right now according to MyAnimeList.
+    file_poster: config/posters/MAL Top Airing.png
+
+  MAL - Top OVA:
+    template: { name: Anime }
+    mal_ova: 30
+    summary: The highest rated OVAs of anime series according to MyAnimeList. OVA (Original Video Animation) are considered filler episodes of a certain anime. But also, OVA can be a major episode breakthrough as it contains scenes that might be very useful in the story building and could further be taken as a flashback episode for making scenes dramatic.
+    file_poster: config/posters/MAL Top OVA.png
+
+  MAL - Top Rated:
+    template: { name: Anime Top }
+    mal_tv: 350
+    summary: The highest rated animes ever on MyAnimeList.
+    sort_title: ++++++++_MyAnimeList Top Rated
+    smart_label: audience_rating.desc
+    file_poster: config/posters/MAL Top Rated Gold.png
+
+  MAL - Top Specials:
+    template: { name: Anime }
+    mal_special: 100
+    summary: The highest rated specials of anime series according to MyAnimeList.
+    file_poster: config/posters/MAL Top Specials.png

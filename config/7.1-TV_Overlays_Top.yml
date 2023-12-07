@@ -1,0 +1,48 @@
+templates:
+  IMDB Top:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    imdb_chart: top_shows
+    overlay:
+      name: <<overlay_name>>
+
+  Trakt Top:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    trakt_list: https://trakt.tv/users/jason316/lists/trakt-yearly-top-tv?sort=released,asc
+    overlay:
+      name: <<overlay_name>>
+
+  TMDB Top:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    tmdb_top_rated: 300
+    overlay:
+      name: <<overlay_name>>
+
+overlays:
+  IMDB-Top:
+    template:
+      - name: IMDB Top
+    suppress_overlays:
+      - Trakt-Top
+      - TMDB-Top
+
+  Trakt-Top:
+    template:
+      - name: Trakt Top
+    suppress_overlays:
+      - TMDB-Top
+
+  TMDB-Top:
+    template:
+      - name: TMDB Top

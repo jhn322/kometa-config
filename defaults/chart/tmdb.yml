@@ -1,0 +1,77 @@
+##############################################################################
+#                          TMDb Charts Collections                           #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#        https://metamanager.wiki/en/latest/defaults/chart/tmdb.html         #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: "020"
+    image: chart/<<mapping_name_encoded>>
+
+templates:
+  tmdb:
+    default:
+      limit: 100
+      limit_<<key>>: <<limit>>
+      chart: <<key>>
+    tmdb_<<chart>>: <<limit_<<key>>>>
+
+collections:
+  TMDb Popular:
+    variables:
+      key: popular
+    template:
+      - name: tmdb
+      - name: shared
+        translation_key: tmdb_popular
+      - name: arr
+      - name: custom
+
+  TMDb Top Rated:
+    variables:
+      key: top
+    template:
+      - name: tmdb
+        chart: top_rated
+      - name: shared
+        translation_key: tmdb_top
+      - name: arr
+      - name: custom
+
+  TMDb Trending:
+    variables:
+      key: trending
+    template:
+      - name: tmdb
+        chart: trending_weekly
+      - name: shared
+        translation_key: tmdb_trending
+      - name: arr
+      - name: custom
+
+  TMDb Airing Today:
+    variables:
+      key: airing
+    template:
+      - name: tmdb
+        chart: airing_today
+      - name: shared
+        allowed_libraries: show
+        translation_key: tmdb_airing
+      - name: arr
+      - name: custom
+
+  TMDb On The Air:
+    variables:
+      key: air
+    template:
+      - name: tmdb
+        chart: on_the_air
+      - name: shared
+        allowed_libraries: show
+        translation_key: tmdb_air
+      - name: arr
+      - name: custom

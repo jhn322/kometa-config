@@ -1,0 +1,320 @@
+######################################################
+#                  GENRES 2.0                       #
+######################################################
+
+templates:
+  Genre:
+    visible_library: true
+    sort_title: +++_<<collection_name>>
+    sync_mode: sync
+
+collections:
+  Action:
+    template: { name: Genre }
+    file_poster: config/posters/Action Audiobooks.png
+    summary: Audiobooks with Action influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: action & adventure
+
+  Adventure:
+    template: { name: Genre }
+    file_poster: config/posters/Adventure Audiobooks.png
+    summary: Audiobooks with Adventure influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: adventure
+
+  Alternate History:
+    template: { name: Genre }
+    file_poster: config/posters/Alternate History Audiobooks.png
+    summary: Audiobooks with Alternate History influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: alternate history
+
+  Biography & Memoir:
+    template: { name: Genre }
+    file_poster: config/posters/Biography and Memoir Audiobooks.png
+    summary: Audiobooks with Biography influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: biographies & memoirs
+
+  Business:
+    template: { name: Genre }
+    file_poster: config/posters/Business Audiobooks.png
+    summary: Audiobooks with Business influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: business & careers
+
+  Classic:
+    template: { name: Genre }
+    file_poster: config/posters/Classic Audiobooks.png
+    summary: Audiobooks with Classic influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: classics
+
+  Coming of Age:
+    template: { name: Genre }
+    file_poster: config/posters/Coming of Age Audiobooks.png
+    summary: Audiobooks with Coming of Age influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: coming of age
+
+  Crime Fiction:
+    template: { name: Genre }
+    file_poster: config/posters/Crime Fiction Audiobooks.png
+    summary: Audiobooks with Crime Fiction influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: crime fiction
+
+  Drama:
+    template: { name: Genre }
+    file_poster: config/posters/Drama Audiobooks.png
+    summary: Audiobooks with Drama influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: drama & plays
+
+  Dystopian:
+    template: { name: Genre }
+    file_poster: config/posters/Dystopian Audiobooks.png
+    summary: Audiobooks with Dystopian influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: dystopian
+
+  Epic:
+    template: { name: Genre }
+    file_poster: config/posters/Epic Audiobooks.png
+    summary: Audiobooks with Epic influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: epic
+
+  Fantasy:
+    template: { name: Genre }
+    file_poster: config/posters/Fantasy Audiobooks.png
+    summary: Audiobooks with Fantasy influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: fantasy
+
+  Genre Fiction:
+    template: { name: Genre }
+    file_poster: config/posters/Genre Fiction Audiobooks.png
+    summary: Audiobooks with Genre Fiction influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: genre fiction
+
+  Ghost:
+    template: { name: Genre }
+    file_poster: config/posters/Ghost Audiobooks.png
+    summary: Audiobooks with Ghost influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: ghosts
+
+  History:
+    template: { name: Genre }
+    file_poster: config/posters/History Audiobooks.png
+    summary: Audiobooks with History influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: historical
+
+  Horror:
+    template: { name: Genre }
+    file_poster: config/posters/Horror Audiobooks.png
+    summary: Audiobooks with Horror influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: horror
+
+  Literary Fiction:
+    template: { name: Genre }
+    file_poster: config/posters/Literary Fiction Audiobooks.png
+    summary: Audiobooks with Literary Fiction influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: literary fiction
+
+  Mystery:
+    template: { name: Genre }
+    file_poster: config/posters/Mystery Audiobooks.png
+    summary: Audiobooks with Mystery influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: mystery
+
+  Mythical Creature:
+    template: { name: Genre }
+    file_poster: config/posters/Mythical Creature Audiobooks.png
+    summary: Audiobooks with Mythical Creature influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: Dragons & Mythical Creatures
+
+  Occult:
+    template: { name: Genre }
+    file_poster: config/posters/Occult Audiobooks.png
+    summary: Audiobooks with Occult influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: occult
+
+  Political:
+    template: { name: Genre }
+    file_poster: config/posters/Political Audiobooks.png
+    summary: Audiobooks with Political influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: politics & activism
+
+  Psychology:
+    template: { name: Genre }
+    file_poster: config/posters/Psychology Audiobooks.png
+    summary: Audiobooks with Psychology influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: psychological
+
+  Romance:
+    template: { name: Genre }
+    file_poster: config/posters/Romance Audiobooks.png
+    summary: Audiobooks with Romance influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: romance
+
+  Science Fiction:
+    template: { name: Genre }
+    file_poster: config/posters/Science Fiction Audiobooks.png
+    summary: Audiobooks with Science Fiction influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: science fiction
+
+  Space Opera:
+    template: { name: Genre }
+    file_poster: config/posters/Space Opera Audiobooks.png
+    summary: Audiobooks with Space Opera influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: space opera
+
+  Supernatural:
+    template: { name: Genre }
+    file_poster: config/posters/Supernatural Audiobooks.png
+    summary: Audiobooks with Supernatural influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: supernatural
+
+  Suspense:
+    template: { name: Genre }
+    file_poster: config/posters/Suspense Audiobooks.png
+    summary: Audiobooks with Suspense influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: suspense
+
+  Thriller:
+    template: { name: Genre }
+    file_poster: config/posters/Thriller Audiobooks.png
+    summary: Audiobooks with Thriller influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: thriller & suspense
+
+  Time Travel:
+    template: { name: Genre }
+    file_poster: config/posters/Time Travel Audiobooks.png
+    summary: Audiobooks with Time Travel influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: time travel
+
+  True Crime:
+    template: { name: Genre }
+    file_poster: config/posters/True Crime Audiobooks.png
+    summary: Audiobooks with True Crime influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: true crime
+
+  Womens Fiction:
+    template: { name: Genre }
+    file_poster: config/posters/Womens Fiction Audiobooks.png
+    summary: Audiobooks with Womens Fiction influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: women's fiction

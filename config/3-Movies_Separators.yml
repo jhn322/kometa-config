@@ -1,0 +1,96 @@
+######################################################
+#                SEPARATORS 4.0                      #
+######################################################
+
+templates:
+  Separator:
+    smart_label: random
+    sync_mode: sync
+    plex_search:
+      all:
+        title: parasite
+
+collections:
+  Actor Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZZ+ZZZ
+    summary: Actor collections up next.
+    file_poster: config/posters/Actor Collections.png
+
+  Award Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZ+AAA
+    summary: Award collections up next.
+    file_poster: config/posters/Award Collections.png
+
+  Chart Collections:
+    template: { name: Separator }
+    sort_title: ++++++_ZZZ
+    summary: Chart collections up next.
+    file_poster: config/posters/Chart Collections.png
+
+  Decade Collections:
+    template: { name: Separator }
+    sort_title: +AAA
+    summary: Decade collections up next.
+    file_poster: config/posters/Decade Collections.png
+
+  Director Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZZZZ+ZZZ
+    summary: Director collections up next.
+    file_poster: config/posters/Director Collections.png
+
+  Franchise Collections:
+    template: { name: Separator }
+    sort_title: +ZZZ
+    summary: Franchise collections up next.
+    file_poster: config/posters/Franchise Collections.png
+
+  Genre Collections:
+    template: { name: Separator }
+    sort_title: ++_AAA
+    summary: Genre collections up next.
+    file_poster: config/posters/Genre Collections.png
+
+  Holiday Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZZZZZZ+AAA
+    summary: Holiday collections up next.
+    file_poster: config/posters/Holiday Collections.png
+
+  Special Collections:
+    template: { name: Separator }
+    sort_title: ++++_000
+    summary: Special collections up next.
+    file_poster: config/posters/Special Collections.png
+
+  Streaming Collections:
+    template: { name: Separator }
+    sort_title: +++_AAA
+    summary: Streaming collections up next.
+    file_poster: config/posters/Streaming Collections.png
+
+  Studio Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZZ+000
+    summary: Studio collections up next.
+    file_poster: config/posters/Studio Collections.png
+
+  Subgenre Collections:
+    template: { name: Separator }
+    sort_title: +_AAA
+    summary: Subgenre collections up next.
+    file_poster: config/posters/Subgenre Collections.png
+
+  Writer Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZZZZ+AAA
+    summary: Writer collections up next.
+    file_poster: config/posters/Writer Collections.png
+
+  Year Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZ+AAA
+    summary: Year collections up next.
+    file_poster: config/posters/Year Collections.png

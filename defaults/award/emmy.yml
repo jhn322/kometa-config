@@ -1,0 +1,37 @@
+##############################################################################
+#                          Emmy Awards Collections                           #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#        https://metamanager.wiki/en/latest/defaults/award/emmy.html         #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: 130
+
+dynamic_collections:
+  Emmy Awards:
+    type: number
+    sync: true
+    data:
+      starting: current_year-5
+      ending: current_year
+    title_format: Emmys <<key_name>>
+    template:
+      - use_year_collections
+      - imdb
+      - shared
+      - arr
+      - custom
+    template_variables:
+      imdb_list:
+        default: https://www.imdb.com/search/title/?release_date=<<key-1>>-05-31,<<key>>-06-01&groups=emmy_winner&sort=<<imdb_sort>>
+      imdb_sort:
+        default: moviemeter,asc
+      image:
+        default: award/emmys/winner/<<key>>
+      translation_key:
+        default: emmy_year
+      dynamic:
+        default: true

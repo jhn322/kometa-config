@@ -1,0 +1,44 @@
+##############################################################################
+#                     Critics Choice Awards Collections                      #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#                    Credit to pjcob for the Trakt Lists                     #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#       https://metamanager.wiki/en/latest/defaults/award/choice.html        #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: 130
+
+dynamic_collections:
+  Critics Choice Awards:
+    type: number
+    sync: true
+    data:
+      starting: current_year-5
+      ending: current_year
+    title_format: Critics Choice Awards <<key_name>>
+    template:
+      - use_year_collections
+      - trakt
+      - shared
+      - arr
+      - custom
+    template_variables:
+      trakt_list:
+        default: https://trakt.tv/users/pjcob/lists/<<key>>-<<url>>-choice
+      image:
+        default: award/choice/<<key>>
+      translation_key:
+        default: choice_year
+      url:
+        default: critic-s
+        2019: critics
+        2018: critics
+        2017: critics
+        2016: critics
+        2015: critics
+        2014: critics
+      dynamic:
+        default: true

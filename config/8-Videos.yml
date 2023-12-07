@@ -1,0 +1,64 @@
+######################################################
+#                   VIDEOS 2.0                       #
+######################################################
+templates:
+  Videos:
+    sort_title: +_<<collection_name>>
+    visible_library: true
+
+collections:
+  Anime - Opening:
+    template: { name: Videos }
+    summary: Opening sequence of every watched anime.
+    file_poster: config/posters/Anime Opening.png
+    plex_search:
+      all:
+        title: (OP)
+
+  Anime - Ending:
+    template: { name: Videos }
+    summary: Ending sequence of every watched anime.
+    file_poster: config/posters/Anime Ending.png
+    plex_search:
+      all:
+        title: (ED)
+
+  Concert - Live:
+    template: { name: Videos }
+    summary: Live concerts.
+    file_poster: config/posters/Concert Live.png
+    plex_search:
+      all:
+        title: (Live)
+
+  Cartoon - Intro:
+    template: { name: Videos }
+    summary: Opening sequence of every watched cartoon.
+    file_poster: config/posters/Cartoon Intro.png
+    plex_search:
+      all:
+        title: (Cartoon)
+
+  Counter-Strike Global Offensive - Edit:
+    template: { name: Videos }
+    summary: CSGO edits by myself.
+    file_poster: config/posters/CSGO Edit.png
+    plex_search:
+      all:
+        title: (CSGO)
+
+  Counter-Strike Source - Edit:
+    template: { name: Videos }
+    summary: CSS edits by myself.
+    file_poster: config/posters/CSS Edit.png
+    plex_search:
+      all:
+        title: (CSS)
+
+  TV - Intro:
+    template: { name: Videos }
+    summary: Opening sequence of every watched TV Show.
+    file_poster: config/posters/TV Intro.png
+    plex_search:
+      all:
+        title: (TV)

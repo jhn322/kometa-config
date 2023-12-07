@@ -1,0 +1,64 @@
+##############################################################################
+#                          Other Charts Collections                          #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#        https://metamanager.wiki/en/latest/defaults/chart/other.html        #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: "020"
+    image: chart/<<mapping_name_encoded>>
+
+templates:
+  anidb:
+    default:
+      limit_anidb: 30
+    anidb_popular: <<limit_anidb>>
+
+  commonsense:
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/cssfamilies<<library_type>>s
+
+collections:
+  AniDB Popular:
+    variables:
+      key: anidb
+    template:
+      - name: anidb
+      - name: shared
+        translation_key: anidb_popular
+      - name: arr
+      - name: custom
+
+  Common Sense Selection:
+    variables:
+      key: commonsense
+    template:
+      - name: commonsense
+      - name: shared
+        translation_key: commonsense_selection
+      - name: arr
+      - name: custom
+
+  StevenLu's Popular Movies:
+    variables:
+      key: stevenlu
+    stevenlu_popular: true
+    template:
+      - name: shared
+        allowed_libraries: movie
+        translation_key:  stevenlu_popular
+      - name: arr
+      - name: custom
+
+  Top 10 Pirated Movies of the Week:
+    variables:
+      key: pirated
+    mdblist_list: https://mdblist.com/lists/hdlists/top-ten-pirated-movies-of-the-week-torrent-freak-com/
+    template:
+      - name: shared
+        allowed_libraries: movie
+        translation_key: pirated_popular
+      - name: arr
+      - name: custom

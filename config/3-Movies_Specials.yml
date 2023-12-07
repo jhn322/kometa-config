@@ -1,0 +1,141 @@
+######################################################
+#                   SPECIALS 15.0                    #
+######################################################
+templates:
+  Special:
+    smart_label: random
+    sync_mode: sync
+    sort_title: ++++_<<collection_name>>
+
+  Special Smart:
+    sync_mode: sync
+    sort_title: ++++_<<collection_name>>
+    visible_library: true
+
+  Special Other:
+    smart_label: random
+    sync_mode: sync
+    sort_title: ++++_<<collection_name>>
+    visible_library: true
+
+collections:
+  1001+ Movies You Must See Before You Die:
+    template: { name: Special Other }
+    summary: 1001+ of the best movies you need to see before you die.
+    visible_shared:
+      - monthly(4)
+      - monthly(6)
+    file_poster: config/posters/1001+ Movies.png
+    trakt_list:
+      - https://trakt.tv/users/captainnapalm/lists/1001-greatest-movies-of-all-time?sort=rank,asc
+      - https://trakt.tv/users/athwilson/lists/1001-movies?sort=released,desc
+
+  2160P:
+    template: { name: Special }
+    summary: A collection of movies in 4K.
+    sort_title: ++++_2160P
+    file_poster: config/posters/2160P.png
+    plex_search:
+      all:
+        resolution: 4K
+
+  DV/HDR:
+    template: { name: Special }
+    summary: A collection of movies in HDR10+ and Dolby Vision.
+    file_poster: config/posters/DVHDR.png
+    plex_search:
+      all:
+        hdr: true
+
+  Family Friendly:
+    template: { name: Special Other }
+    summary: Family Friendly recognizes outstanding entertainment with an official seal for quality and impact. Age Approved Selections include age-appropriate media with the potential to spark family conversations.
+    visible_shared: monthly(25)
+    file_poster: config/posters/Family Friendly.png
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/common-sense-selection-movies?sort=rank,asc
+
+  Longest:
+    template: { name: Special Smart }
+    file_poster: config/posters/Longest.png
+    summary: The longest movies on Plex  a minimum of 150 minutes in duration.
+    smart_filter:
+      sort_by: duration.desc
+      validate: false
+      all:
+        duration.gt: 149
+
+  Newly Released:
+    template: { name: Special Smart }
+    file_poster: config/posters/Newly Released.png
+    summary: Movies recently released in the past month.
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      all:
+        release: 30
+
+  No Swedish Subtitles:
+    sync_mode: sync
+    sort_title: ZZZZZZZZZZZZZZZZZZZ_NO SWE SUB
+    file_poster: config/posters/NO SWE SUB.png
+    summary: Movies yet to recieve swedish subtitles.
+    smart_filter:
+      sort_by: added.desc
+      all:
+        subtitle_language.not: sv
+
+  Popular:
+    template: { name: Special Smart }
+    tautulli_popular:
+      list_days: 31
+      list_size: 200
+      list_buffer: 20
+      list_minimum: 1
+    file_poster: config/posters/Popular.png
+    summary: Most popular movies on Plex the past month.
+    smart_label: viewed.desc
+
+  Random:
+    template: { name: Special Smart }
+    file_poster: config/posters/Random.png
+    summary: Random movies.
+    visible_shared: monthly(5)
+    smart_filter:
+      sort_by: random
+      validate: false
+      limit: 300
+      all:
+        audience_rating.gte: 4.0
+
+  Shortest:
+    template: { name: Special Smart }
+    visible_library: true
+    summary: The shortest movies on Plex with a max duration of 85 minutes and under.
+    file_poster: config/posters/Shortest.png
+    smart_filter:
+      sort_by: duration.asc
+      validate: false
+      all:
+        duration.lt: 85
+        genre.not: Animation
+
+  Watched:
+    template: { name: Special Smart }
+    tautulli_watched:
+      list_days: 9999
+      list_size: 9999
+      list_buffer: 20
+      list_minimum: 1
+    file_poster: config/posters/Watched.png
+    summary: Movies watched on Plex by all users.
+    smart_label: viewed.desc
+
+  Worst:
+    template: { name: Special Smart }
+    summary: Worst movies on Plex rated 4.0 or lower.
+    file_poster: config/posters/Worst.png
+    smart_filter:
+      sort_by: audience_rating.asc
+      validate: false
+      all:
+        audience_rating.lte: 4.0

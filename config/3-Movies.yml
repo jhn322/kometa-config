@@ -1,0 +1,231 @@
+######################################################
+#                   MOVIES 14.0                      #
+######################################################
+templates:
+  Movie:
+    smart_label: random
+    sync_mode: sync
+    sort_title: +++++_<<collection_name>>
+    visible_library: true
+
+  Movie Basic:
+    sync_mode: sync
+    sort_title: +++++_<<collection_name>>
+    visible_library: true
+
+  Movie Release:
+    smart_label: release.desc
+    sync_mode: sync
+    sort_title: +++++_<<collection_name>>
+    visible_library: true
+
+  Movie Top:
+    sync_mode: sync
+    visible_library: true
+
+collections:
+  IMDb - Best Recent:
+    template: { name: Movie Top }
+    sort_title: +++++++++_ZIMDb Best Rated
+    visible_shared:
+      - monthly(19)
+      - monthly(20)
+    summary: Movies rated 6.8 or higher on IMDb, released in the past 6 months.
+    file_poster: config/posters/IMDb Best Recent Bronze.png
+    smart_filter:
+      sort_by: audience_rating.desc
+      validate: false
+      all:
+        audience_rating.gte: 7.0
+        release: 180
+
+  IMDb - Popular:
+    template: { name: Movie }
+    sort_title: +++++++++_XIMDb Popular
+    file_poster: config/posters/IMDb Popular Silver.png
+    limit: 50
+    visible_shared:
+      - monthly(1)
+      - monthly(2)
+    visible_library: true
+    summary: Popular shows on IMDb over the past few months.
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-movies?sort=rank,asc
+
+  IMDb - Top 250:
+    template: { name: Movie Basic }
+    sort_title: +++++++++_IMDb top 250
+    smart_label: audience_rating.desc
+    summary: 250 highest rated movies on IMDb.
+    visible_shared:
+      - monthly(10)
+      - monthly(11)
+    file_poster: config/posters/IMDb Top 250 Gold.png
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
+
+  Letterboxd - Best Picture:
+    template: { name: Movie Release }
+    summary: Best movie of every year according to Letterboxd.
+    file_poster: config/posters/Letterboxd Best Picture.png
+    letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
+
+  Letterboxd - Million Watched:
+    template: { name: Movie }
+    summary: Movies with over a million views on Letterboxd.
+    file_poster: config/posters/Letterboxd Million Watched.png
+    imdb_list:
+      - https://www.imdb.com/list/ls527628941/
+      - https://www.imdb.com/list/ls564252143/
+
+  Letterboxd - Most Fans:
+    template: { name: Movie }
+    summary: Movies with the most "fans" on Letterboxd.
+    visible_shared: monthly(15)
+    file_poster: config/posters/Letterboxd Most Fans.png
+    letterboxd_list: https://letterboxd.com/crew/list/most-fans-on-letterboxd/
+
+  Letterboxd - Top 250:
+    template: { name: Movie Basic }
+    collection_order: custom
+    visible_shared: monthly(26)
+    summary: 250 best movies according to Letterboxd.
+    file_poster: config/posters/Letterboxd Top 250 Gold.png
+    trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
+
+  MAL - Most Favorited:
+    template: { name: Movie }
+    mal_favorite: 500
+    summary: Most favorited animes on MyAnimeList.
+    file_poster: config/posters/MAL Most Favorited.png
+
+  MAL - Popular:
+    template: { name: Movie }
+    mal_popular: 500
+    summary: Anime movies popular this season according to MyAnimeList and Anilist.
+    file_poster: config/posters/MAL Popular.png
+
+  MAL - Top Rated:
+    template: { name: Movie }
+    mal_movie: 500
+    visible_shared: monthly(18)
+    summary: The highest rated anime movies ever according to MyAnimeList.
+    file_poster: config/posters/MAL Top Rated Gold.png
+
+  Metacritic - Must-See:
+    template: { name: Movie }
+    limit: 200
+    visible_shared: monthly(31)
+    summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
+    file_poster: config/posters/Metacritic Must See.png
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/metacritic-must-see-movies?sort=rank,asc
+
+  RT - Certified Fresh:
+    template: { name: Movie }
+    limit: 200
+    visible_shared: monthly(14)
+    summary: Certified fresh A special distinction awarded to the best reviewed movies.
+    file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
+    trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
+
+  TMDb - Now Playing:
+    template: { name: Movie Release }
+    tmdb_now_playing: 50
+    file_poster: config/posters/TMDb Now Playing.png
+    visible_shared: monthly(3)
+    summary: Recentley released movies on TMDb.
+
+  TMDb - Popular:
+    template: { name: Movie }
+    tmdb_popular: 50
+    file_poster: config/posters/TMDb Popular.png
+    visible_shared: monthly(7)
+    summary: Popular shows on TMDb over the past few months.
+
+  TMDb - Trending:
+    template: { name: Movie }
+    tmdb_trending_weekly: 30
+    file_poster: config/posters/TMDb Trending.png
+    smart_label: release.desc
+    summary: Shows trending on TMDb this week.
+
+  TMDb - Top Rated:
+    template: { name: Movie }
+    tmdb_top_rated: 350
+    visible_shared:
+      - monthly(15)
+      - monthly(16)
+    file_poster: config/posters/TMDb Top Rated Gold.png
+    summary: Top Rated Movies on TMDb.
+
+  TorrentFreak - Most Pirated:
+    template: { name: Movie Basic }
+    summary: Most pirated movies of the week according TorrentFreak.
+    collection_order: custom
+    file_poster: config/posters/TorrentFreak Most Pirated.png
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+
+  Trakt - Most Watched (All-Time):
+    template: { name: Movie }
+    trakt_chart:
+      chart: watched
+      limit: 200
+      time_period: all
+    file_poster: config/posters/Trakt Most Watched All-Time.png
+    visible_shared: monthly(13)
+    summary: Movies most watched online of all time.
+
+  Trakt - Most Watched (Weekly):
+    template: { name: Movie }
+    trakt_chart:
+      chart: watched
+      limit: 30
+      time_period: weekly
+    file_poster: config/posters/Trakt Most Watched Weekly.png
+    summary: Most watched movies across the internet this week.
+
+  Trakt - Most Watched (Yearly):
+    template: { name: Movie }
+    trakt_chart:
+      chart: watched
+      limit: 100
+      time_period: yearly
+    file_poster: config/posters/Trakt Most Watched Yearly.png
+    summary: Most watched movies across the internet this year.
+    visible_shared: monthly(12)
+
+  Trakt - Popular:
+    template: { name: Movie }
+    sort_title: ++++++++++_XTrakt Popular
+    trakt_chart:
+      chart: popular
+      limit: 50
+    visible_shared: monthly(20)
+    file_poster: config/posters/Trakt Popular Silver.png
+    summary: Popular shows on Trakt over the past few months.
+
+  Trakt - Recommended:
+    template: { name: Movie }
+    trakt_recommendations: 40
+    summary: Shows recommended by trakt API.
+    visible_shared: monthly(19)
+    file_poster: config/posters/Trakt Recommended.png
+
+  Trakt - Top Rated:
+    template: { name: Movie }
+    sort_title: ++++++++++_Trakt Top Rated
+    visible_shared:
+      - monthly(27)
+      - monthly(14)
+      - monthly(29)
+    file_poster: config/posters/Trakt Top Rated Gold.png
+    summary: Top Rated Movies on trakt.
+    trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
+
+  Trakt - Trending:
+    template: { name: Movie Release }
+    sort_title: ++++++++++_ZTrakt Trending
+    trakt_chart:
+      chart: trending
+      limit: 30
+    file_poster: config/posters/Trakt Trending Bronze.png
+    visible_shared: monthly(30)
+    summary: Shows trending on Trakt this week.

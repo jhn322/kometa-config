@@ -1,0 +1,57 @@
+templates:
+  576P SD:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/576P.png
+
+  480P SD:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/480P.png
+
+  240P SD:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/240P.png
+
+overlays:
+  576P:
+    template:
+      - name: 576P SD
+    suppress_overlays:
+      - 480P
+      - 240P
+    plex_search:
+      all:
+        resolution: 576p
+
+  480P:
+    template:
+      - name: 480P SD
+    suppress_overlays:
+      - 240P
+    plex_search:
+      all:
+        resolution: 480p
+
+  240P:
+    template:
+      - name: 240P SD
+    plex_search:
+      all:
+        resolution: sd

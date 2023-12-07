@@ -1,0 +1,75 @@
+##############################################################################
+#                             Genre Collections                              #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#        https://metamanager.wiki/en/latest/defaults/both/genre.html         #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: "060"
+
+collections:
+  Genre Collections:
+    template:
+      - name: separator
+        separator: genre
+        key_name: Genre
+        translation_key: separator
+
+dynamic_collections:
+  Genre:
+    type: genre
+    title_format: <<key_name>> <<library_typeU>>s
+    template:
+      - smart_filter
+      - shared
+    template_variables:
+      search_term:
+        default: genre
+      image:
+        default: genre/<<original_key_name_encoded>>
+      translation_key:
+        default: genre
+      dynamic:
+        default: true
+    addons:
+      Action:
+        - Action/Adventure
+        - Action/adventure
+        - Action & Adventure
+        - Action & adventure
+        - Action and Adventure
+        - Action and adventure
+      Adventure:
+        - Action/Adventure
+        - Action/adventure
+        - Action & Adventure
+        - Action & adventure
+        - Action and Adventure
+        - Action and adventure
+      Biopic:
+        - Biography
+      Family:
+        - Kids & Family
+      Fantasy:
+        - SciFi & Fantasy
+        - Science Fiction & Fantasy
+        - Science-Fiction & Fantasy
+        - Sci-Fi & Fantasy
+      Film Noir:
+        Film-Noir
+      Politics:
+        - War & Politics
+      Science Fiction:
+        - SciFi
+        - Sci-Fi
+        - Science-Fiction
+        - SciFi & Fantasy
+        - Science Fiction & Fantasy
+        - Sci-Fi & Fantasy
+      Talk Show:
+        - Talk
+      War:
+        - War & Politics

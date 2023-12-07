@@ -1,0 +1,58 @@
+version: "2.1"
+services:
+  plex-meta-manager-operations:
+    image: lscr.io/linuxserver/plex-meta-manager:develop
+    container_name: plex-meta-manager-operations
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+      - PMM_OPERATIONS_ONLY=true
+      - PMM_CONFIG=/config/config.yml #optional
+      - PMM_TIME=08:00 #optional
+      - PMM_RUN=False #optional
+      - PMM_TEST=False #optional
+      - PMM_NO_MISSING=False #optional
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
+
+  plex-meta-manager-overlays:
+    image: lscr.io/linuxserver/plex-meta-manager:develop
+    container_name: plex-meta-manager-overlays
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+      - PMM_OVERLAYS_ONLY=true
+      - PMM_CONFIG=/config/config.yml #optional
+      - PMM_TIME=08:20 #optional
+      - PMM_RUN=False #optional
+      - PMM_TEST=False #optional
+      - PMM_NO_MISSING=False #optional
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
+
+  plex-meta-manager-collections:
+    image: lscr.io/linuxserver/plex-meta-manager:develop
+    container_name: plex-meta-manager-collections
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+      - PMM_COLLECTIONS_ONLY=true
+      - PMM_CONFIG=/config/config.yml #optional
+      - PMM_TIME=09:10 #optional
+      - PMM_RUN=False #optional
+      - PMM_TEST=False #optional
+      - PMM_NO_MISSING=False #optional
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
+
+#cd /your/file/path/to/Plex-meta-manager
+#sudo docker-compose up -d
+
+#docker pull meisnate12/plex-meta-manager
+#sudo docker-compose up -d

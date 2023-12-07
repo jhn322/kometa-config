@@ -1,0 +1,261 @@
+######################################################
+#                  FRANCHISES 6.0                    #
+######################################################
+
+templates:
+  Franchise:
+    collection_order: release.desc
+    sync_mode: sync
+    sort_title: zzz_<<collection_name>>
+
+collections:
+  Avatar Universe:
+    template: { name: Franchise }
+    summary: Avatar is an animated television series set in a world where certain people are born with the ability to manipulate one of the four classical elements water, earth, fire, and air. The series follows the story of Aang, the last surviving Airbender and the Avatar, a person capable of bending all four elements and tasked with maintaining balance in the world.
+    file_poster: config/posters/Avatar Universe.jpeg
+    trakt_list: https://trakt.tv/users/abhikbhatia/lists/avatar-studios?sort=released,desc
+    plex_search:
+      any:
+        title:
+          - avatar
+          - korra
+
+  Criminal:
+    template: { name: Franchise }
+    summary: A criminal anthology series is a TV show where each episode is a self-contained story with a unique plot and characters by Netflix.
+    file_poster: config/posters/criminal.png
+    plex_search:
+      all:
+        title: criminal
+
+  CSI:
+    template: { name: Franchise }
+    summary: The CSI (Crime Scene Investigation) TV franchise is a highly successful and influential series of crime procedural dramas that has captivated audiences worldwide. It was created by Anthony E. Zuiker and originally premiered in 2000.
+    file_poster: config/posters/CSI Collection.jpg
+    plex_search:
+      all:
+        title: CSI
+
+  DC Television:
+    template: { name: Franchise }
+    summary: DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner being published in 1937.
+    file_poster: config/posters/DC Comics.jpeg
+    trakt_list:
+      - https://trakt.tv/users/caspian024/lists/dc-tv?sort=released,asc
+      - https://trakt.tv/users/asif79/lists/dc-tv?sort=rank,asc
+      - https://trakt.tv/users/tropicsbear/lists/dc-tv?sort=released,desc
+    plex_search:
+      any:
+        title:
+          - fantastic four
+          - dc
+          - static shock
+          - superman
+          - teen titans
+          - swamp thing
+          - young justice
+          - justice league
+          - harley quinn
+          - aquaman
+          - batman
+          - joker
+
+  Game Of Thrones:
+    template: { name: Franchise }
+    summary: Game of Thrones is an epic fantasy television series that aired on HBO. The show is based on the "A Song of Ice and Fire" novels by George R.R. Martin and is set in the fictional world of Westeros, where different noble families fight for control of the Iron Throne, which represents the ultimate power in the Seven Kingdoms.
+    file_poster: config/posters/game of thrones.png
+    trakt_list:
+      - https://trakt.tv/users/abhikbhatia/lists/world-of-ice-and-fire-collection?sort=rank,asc
+      - https://trakt.tv/users/mptpro/lists/game-of-thrones?sort=rank,asc
+    plex_search:
+      any:
+        title:
+          - game of thrones
+          - house of the dragon
+          - the hedge knight
+
+  He-Man and She-Ra:
+    template: { name: Franchise }
+    summary: He-Man is the alter ego of Prince Adam and also the twin brother of She-Ra. He-Man and his friends defend Eternia and the secrets of Castle Grayskull from the evil forces of Skeletor.
+    file_poster: config/posters/heman shera tv.png
+    plex_search:
+      any:
+        title:
+          - he-man
+          - she-ra
+          - masters of the universe
+
+  Marvel Television:
+    template: { name: Franchise }
+    summary: Marvel Comics is an American comic book publisher and primary imprint of Marvel Worldwide Inc. (formerly Marvel Publishing, Inc. and Marvel Comics Group), part of Marvel Entertainment. In 2009, The Walt Disney Company acquired the parent company.
+    file_poster: config/posters/Marvel Television.png
+    trakt_list:
+      - https://trakt.tv/users/traction1/lists/marvel-tv?sort=released,asc
+      - https://trakt.tv/users/caspian024/lists/marvel-tv?sort=released,asc
+      - https://trakt.tv/users/asif79/lists/marvel-tv?sort=rank,asc
+    plex_search:
+      any:
+        studio: Marvel
+        title:
+          - wolverine
+          - spider-man
+          - hulk
+          - x-men
+          - iron man
+          - thor
+          - fantastic four
+          - marvel's
+
+  Marvel Cinematic Universe:
+    template: { name: Franchise }
+    summary: A collection of all Marvel Cinmatic Universe TV shows.
+    file_poster: config/posters/Marvel Cinematic Universee.jpeg
+    trakt_list: https://trakt.tv/users/neohexane/lists/mcu-tv?sort=released,asc
+    plex_search:
+      all:
+        studio: Marvel Studios
+        title.not:
+          - unlimited
+          - and the
+          - silver
+
+  Money Heist:
+    template: { name: Franchise }
+    summary: Money Heist, also known as La Casa de Papel, is a Spanish television crime drama series. The show follows a group of criminals, led by a mastermind known as "The Professor," who plan and execute the biggest heist in history robbing the Royal Mint of Spain.
+    file_poster: config/posters/Money Heist (2017).jpeg
+    plex_search:
+      all:
+        title: money heist
+
+  NCIS:
+    template: { name: Franchise }
+    summary: The NCIS (Naval Criminal Investigative Service) TV franchise is a highly successful and enduring series of crime procedural dramas that focus on the investigations conducted by the fictional NCIS agency, which is responsible for solving crimes involving members of the United States Navy and Marine Corps.
+    file_poster: config/posters/NCIS Collection.jpg
+    plex_search:
+      all:
+        title: NCIS
+
+  Peanuts:
+    template: { name: Franchise }
+    summary: Charlie Brown is the central protagonist of the long-running comic strip Peanuts, syndicated in daily and Sunday newspapers in numerous countries all over the world.
+    file_poster: config/posters/Peanuts (Charlie Brown) Collection.jpg
+    plex_search:
+      any:
+        title:
+          - charlie brown
+          - snoopy
+
+  Planet:
+    template: { name: Franchise }
+    summary: BBC Planet is a series of natural history television programs produced by the British Broadcasting Corporation. Each show explores different aspects of the natural world and features stunning cinematography and in depth scientific explanations.
+    file_poster: config/posters/Planet Collection.png
+    plex_search:
+      all:
+        title: planet
+        title.not: sheen
+
+  Power Universe:
+    template: { name: Franchise }
+    summary: Power is an American crime drama television series that follows James St. Patrick, also known as "Ghost," a wealthy nightclub owner who leads a double life as a drug kingpin in New York City. The series explores themes of loyalty, family, power, and corruption.
+    file_poster: config/posters/Power Universe.png
+    plex_search:
+      all:
+        title: power
+        genre: crime
+        genre.not: animation
+
+  Scooby-Doo:
+    template: { name: Franchise }
+    summary: Scooby-Doo is an American animated media franchise comprising many animated television series produced from 1969 to the present, as well as their derivative media.
+    file_poster: config/posters/Scooby-Doo!.jpg
+    plex_search:
+      any:
+        title:
+          - scooby-doo
+          - velma
+
+  Sonic the Hedgehog:
+    template: { name: Franchise }
+    summary: Sonic the Hedgehog is a Japanese video game series and media franchise created by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
+    file_poster: config/posters/Sonic the Hedgehog Complete Collection.jpeg
+    plex_search:
+      all:
+        title: sonic
+
+  Stargate:
+    template: { name: Franchise }
+    summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
+    file_poster: config/posters/Stargate- Complete Collection.png
+    plex_search:
+      all:
+        title: stargate
+
+  Star Trek:
+    template: { name: Franchise }
+    summary: Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series and quickly became a worldwide pop-culture phenomenon.
+    file_poster: config/posters/Star Trek.jpg
+    plex_search:
+      all:
+        title: star trek
+
+  Star Wars:
+    template: { name: Franchise }
+    summary: Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
+    file_poster: config/posters/Star Wars tv.jpeg
+    trakt_list: https://trakt.tv/users/arachn0id/lists/star-wars-tv-series?sort=released,desc
+    plex_search:
+      any:
+        title:
+          - bad batch
+          - star wars
+
+  Tom and Jerry:
+    template: { name: Franchise }
+    summary: Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry.
+    file_poster: config/posters/Tom and Jerry.jpg
+    plex_search:
+      all:
+        title: tom jerry
+
+  Transformers:
+    template: { name: Franchise }
+    summary: Transformers is a media franchise produced by American toy company Hasbro and Japanese toy company Takara Tomy. It primarily follows the Autobots and the Decepticons, two alien robot factions at war that can transform into other forms, such as vehicles and animals.
+    file_poster: config/posters/Transformers tv.jpeg
+    plex_search:
+      all:
+        title: transformers
+
+  Vikings:
+    template: { name: Franchise }
+    summary: Vikings is a historical drama television series that follows the legendary Norse hero Ragnar Lothbrok and his family as they navigate the treacherous waters of medieval Scandinavia. The show is loosely based on the sagas and legends of Viking warriors, raiders, and explorers who lived during the Viking Age.
+    file_poster: config/posters/Vikings Collection.png
+    plex_search:
+      all:
+        title: vikings
+
+  The Walking Dead Universe:
+    template: { name: Franchise }
+    summary: The Walking Dead is a zombie apocalypse media franchise, including a comic book series, several television series, a web series, films, novels, video games, and various other media such as audio books and soundtracks. The original comic books were created by writer Robert Kirkman and artist Tony Moore, with Charlie Adlard joining shortly after its creation.
+    file_poster: config/posters/The Walking Dead Coll.png
+    plex_search:
+      all:
+        title: walking dead
+
+  The Witcher:
+    template: { name: Franchise }
+    summary: The Witcher is a dark fantasy series, originally a series of books written by Polish author Andrzej Sapkowski, which has been adapted into various media, including a popular Netflix television series. The story follows Geralt of Rivia, a skilled monster hunter known as a "Witcher", as he navigates a world filled with danger, magic, and political intrigue.
+    file_poster: config/posters/The Witcher Collection.jpg
+    plex_search:
+      all:
+        title: witcher
+
+  Yellowstone:
+    template: { name: Franchise }
+    summary: Yellowstone is an American neo Western drama television series created by Taylor Sheridan and John Linson that premiered on June 20, 2018, on Paramount Network.
+    file_poster: config/posters/Yellowstone.png
+    plex_search:
+      any:
+        title:
+          - yellowstone
+          - 1923
+          - 1883

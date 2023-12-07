@@ -1,0 +1,66 @@
+##############################################################################
+#                    Academy Awards (Oscars) Collections                     #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#       https://metamanager.wiki/en/latest/defaults/award/oscars.html        #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: 130
+
+collections:
+  Oscars Best Picture Winners:
+    variables:
+      key: best_picture
+    template:
+      - name: shared
+        sort: Oscars !1
+        allowed_libraries: movie
+        image: award/oscars/best_picture_winner
+        translation_key: oscars_picture
+      - name: arr
+      - name: custom
+    imdb_list: https://www.imdb.com/search/title/?groups=best_picture_winner
+
+  Oscars Best Director Winners:
+    variables:
+      key: best_director
+    template:
+      - name: shared
+        sort: Oscars !2
+        allowed_libraries: movie
+        image: award/oscars/best_director_winner
+        translation_key: oscars_director
+      - name: arr
+      - name: custom
+    imdb_list: https://www.imdb.com/search/title/?groups=best_director_winner
+
+dynamic_collections:
+  Oscars Winners Awards:
+    type: number
+    sync: true
+    data:
+      starting: current_year-6
+      ending: current_year-1
+    title_format: Oscars Winners <<key_name>>
+    template:
+      - use_year_collections
+      - imdb
+      - shared
+      - arr
+      - custom
+    template_variables:
+      imdb_list:
+        default: https://www.imdb.com/search/title/?release_date=<<key-1>>-01-01,<<key-1>>-12-31&groups=oscar_winner&sort=<<imdb_sort>>
+      imdb_sort:
+        default: moviemeter,asc
+      allowed_libraries:
+        default: movie
+      image:
+        default: award/oscars/winner/<<key>>
+      translation_key:
+        default: oscars_year
+      dynamic:
+        default: true

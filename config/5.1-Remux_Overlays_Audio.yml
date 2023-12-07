@@ -1,0 +1,187 @@
+templates:
+  # DTS Surround
+  DTS X:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/DTS-X.png
+
+  DTS HD MA:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/DTS-HD-MA.png
+
+  DTS HD HRA:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/DTS-HD-HRA.png
+
+  DTS ES:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/DTS-ES.png
+
+  DTS:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/DTS.png
+
+  # Atmos Surround
+  Dolby TrueHD Atmos:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Dolby-TrueHD-Atmos.png
+
+  Dolby Digital Plus Atmos:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Dolby-Digital-Plus-Atmos.png
+
+  Dolby Atmos:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Dolby-Atmos.png
+
+overlays:
+  # DTS Surround
+  DTS-X:
+    template:
+      - name: DTS X
+        slug: x
+    suppress_overlays:
+      - DTS-HD-MA
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex: 'dts[-. ]?x(?!\d)'
+
+  DTS-HD-MA:
+    template:
+      - name: DTS HD MA
+        slug: hd
+    suppress_overlays:
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)dts[ .-]?(ma\b|hd[ .-]?ma|hd)(?!china|r)'
+
+  DTS-HD-HRA:
+    template:
+      - name: DTS HD HRA
+        slug: hra
+    suppress_overlays:
+      - DTS-ES
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex: "(?i)dts[ ._-]?(hd[. ]?)?(hr|hi)"
+
+  DTS-ES:
+    template:
+      - name: DTS ES
+        slug: es
+    suppress_overlays:
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex: 'dts[-. ]?es\b'
+
+  DTS:
+    template:
+      - name: DTS
+        slug: dts
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\bDTS(\b|\d)'
+
+  # Atmos Surround
+  Dolby-TrueHD-Atmos:
+    template:
+      - name: Dolby TrueHD Atmos
+        slug: truehd-atmos
+        standard_value: 189
+    suppress_overlays:
+      - Dolby-Digital-Plus-Atmos
+      - Dolby-Atmos
+      - DTS-X
+      - DTS-HD-MA
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)(?=.*\b(true[ .-]?hd))(?=.*\b(atmos(\b|\d)))'
+
+  Dolby-Digital-Plus-Atmos:
+    template:
+      - name: Dolby Digital Plus Atmos
+        slug: plus-atmos
+        standard_value: 189
+    suppress_overlays:
+      - Dolby-Atmos
+      - DTS-X
+      - DTS-HD-MA
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex:
+        - '(?i)((?=.*([^-]DD[P+](?!A)|eac3))(?=.*\b(atmos(\b|\d))))|(?=.*\b(DDPA(\b|\d)))'
+
+  Dolby-Atmos:
+    template:
+      - name: Dolby Atmos
+        slug: atmos
+    suppress_overlays:
+      - DTS-X
+      - DTS-HD-MA
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)^(?!.*([^-]DD[P+](?!A)|eac3|true[ .-]?hd))(?=.*\b(atmos(\b|\d))).*'

@@ -1,0 +1,46 @@
+templates:
+  IMDB Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      weight: <<weight>>
+
+  Audience Rating:
+    optional:
+      - overlay_level
+    default:
+      rating_type: audience_rating
+    collection_level: <<overlay_level>>
+    overlay:
+      name: text(<<rating_type>>)
+      weight: <<weight>>
+      font: fonts/Inter-Medium.ttf
+      font_size: 60
+      font_color: "#FFFFFF"
+      horizontal_offset: -306
+      horizontal_align: center
+      vertical_offset: 1422
+      vertical_align: top
+
+overlays:
+  IMDB-Overlay:
+    template:
+      name: IMDB Overlay
+      weight: 100
+    plex_search:
+      all:
+        audience_rating.gte: 0.1
+        audience_rating.lte: 10
+
+  Audience-Rating:
+    template:
+      name: Audience Rating
+      weight: 100
+    plex_search:
+      all:
+        audience_rating.gte: 0.1
+        audience_rating.lte: 10

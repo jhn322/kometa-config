@@ -31,16 +31,16 @@ My config of Plex Meta Manager for automatically creating collections and overla
 
 docker pull meisnate12/plex-meta-manager
 
-### This will create collections and overlays to these types of libraries:
+### Creates collections and overlays to these types of libraries:
 
-1. Anime
-2. Audiobooks
-3. Movies
-4. Music
-5. Remux
-6. Soundtracks
-7. TV
-8. Videos
+- Anime
+- Audiobooks
+- Movies
+- Music
+- Remux
+- Soundtracks
+- TV
+- Videos
 
 ### Collections example
 

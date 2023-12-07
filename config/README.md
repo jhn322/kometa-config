@@ -17,131 +17,131 @@
 
 **Anime:**
 
-1. Charts
-2. Specials
-3. Resolutions
-4. Streamning
-5. User specific
-6. Genres
-7. Subgenres
-8. Franchises
-9. Years
-10. Decades
-11. Awards
-12. Studios
-13. Separators
-14. Ratings
+- Charts
+- Specials
+- Resolutions
+- Streamning
+- User specific
+- Genres
+- Subgenres
+- Franchises
+- Years
+- Decades
+- Awards
+- Studios
+- Separators
+- Ratings
 
 **Audiobooks:**
 
-1. Genres
+- Genres
 
 **Movies:**
 
-1. Charts
-2. Specials
-3. Resolutions
-4. Streamning
-5. User specific
-6. Genres
-7. Subgenres
-8. Franchises
-9. Years
-10. Decades
-11. Awards
-12. Studios
-13. Actors
-14. Directors
-15. Authors
-16. Separators
+- Charts
+- Specials
+- Resolutions
+- Streamning
+- User specific
+- Genres
+- Subgenres
+- Franchises
+- Years
+- Decades
+- Awards
+- Studios
+- Actors
+- Directors
+- Authors
+- Separators
 
 **Music:**
 
-1. Popular Music
+- Popular Music
 
 **Remux:**
 
-1. Unwatched
+- Unwatched
 
 **Soundtracks:**
 
-1. Charts
-2. Genres
-3. Separators
+- Charts
+- Genres
+- Separators
 
 **TV Shows:**
 
-1. Charts
-2. Specials
-3. Resolutions
-4. Streamning
-5. User specific
-6. Genres
-7. Subgenres
-8. Franchises
-9. Years
-10. Decades
-11. Awards
-12. Studios
-13. Separators
-14. Ratings
+- Charts
+- Specials
+- Resolutions
+- Streamning
+- User specific
+- Genres
+- Subgenres
+- Franchises
+- Years
+- Decades
+- Awards
+- Studios
+- Separators
+- Ratings
 
 **Videos:**
 
-1. TV Intro
-2. Anime Opening
-3. Anime Ending
-4. CSS Edits
-5. CSGO Edits
-6. Live Concerts
+- TV Intro
+- Anime Opening
+- Anime Ending
+- CSS Edits
+- CSGO Edits
+- Live Concerts
 
 ## Overlay categories
 
 **Anime:**
 
-1. MyAnimeList Ratings
-2. Resolutions
-3. MyAnimeList & AniDB Top Rated Stars
-4. Explicit Content
+- MyAnimeList Ratings
+- Resolutions
+- MyAnimeList & AniDB Top Rated Stars
+- Explicit Content
 
 **Movies:**
 
-1. IMDb Ratings
-2. IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
-3. Resolutions
-4. No Swedish Subtitles
+- IMDb Ratings
+- IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
+- Resolutions
+- No Swedish Subtitles
 
 **Remux:**
 
-1. IMDb Ratings
-2. IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
-3. Resolutions
-4. Audio Codecs
+- IMDb Ratings
+- IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
+- Resolutions
+- Audio Codecs
 
 **TV:**
 
-1. IMDb Ratings
-2. IMDb, Trakt, TMDb Top Rated Stars
-3. Resolutions
-4. Canceled Shows
+- IMDb Ratings
+- IMDb, Trakt, TMDb Top Rated Stars
+- Resolutions
+- Canceled Shows
 
 ## Operations categories
 
 **Anime:**
 
-1. Mass MyAnimeList ratings update
+- Mass MyAnimeList ratings update
 
 **Movies:**
 
-1. Mass IMDb ratings update
+- Mass IMDb ratings update
 
 **Remux:**
 
-1. Mass IMDb ratings update
+- Mass IMDb ratings update
 
 **TV:**
 
-1. Mass IMDb ratings update
+- Mass IMDb ratings update
 
 ### Examples:
 

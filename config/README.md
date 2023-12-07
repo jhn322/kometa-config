@@ -95,6 +95,24 @@
 - CSGO Edits
 - Live Concerts
 
+## Operations categories
+
+**Anime:**
+
+- Mass MyAnimeList ratings update
+
+**Movies:**
+
+- Mass IMDb ratings update
+
+**Remux:**
+
+- Mass IMDb ratings update
+
+**TV:**
+
+- Mass IMDb ratings update
+
 ## Overlay categories
 
 **Anime:**
@@ -124,24 +142,6 @@
 - IMDb, Trakt, TMDb Top Rated Stars
 - Resolutions
 - Canceled Shows
-
-## Operations categories
-
-**Anime:**
-
-- Mass MyAnimeList ratings update
-
-**Movies:**
-
-- Mass IMDb ratings update
-
-**Remux:**
-
-- Mass IMDb ratings update
-
-**TV:**
-
-- Mass IMDb ratings update
 
 ### Examples:
 

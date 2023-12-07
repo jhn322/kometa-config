@@ -3296,7 +3296,7 @@ collections:
   REC:
     template: { name: Franchise }
     summary: Rec is a Spanish supernatural zombie horror film franchise.
-    file_poster: config/posters/[REC] Collection.jpeg
+    file_poster: config/posters/REC Collection.jpeg
     plex_search:
       all:
         title: rec

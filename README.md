@@ -1,6 +1,6 @@
-# PMM-Config
+# Plex Meta Manager Config
 
-A compilation of metadata .yml config files for automatically creating collections and overlays to Plex with the help of the Plex-Meta-Manager Python project. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb among others in your config.yml file. All collections, Overlays and Operations are configured to update on a daily schedule.
+My config of Plex Meta Manager for automatically creating collections and overlays to Plex. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb among others in your config.yml file. All collections, Overlays and Operations are configured to update on a daily schedule.
 
 ## Install
 

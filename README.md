@@ -44,11 +44,11 @@ docker pull meisnate12/plex-meta-manager
 
 ### Collections example
 
-![image search api](https://i.imgur.com/hURTISN.png)
-
-![image search api](https://i.imgur.com/siGUK9Y.png)
+![image search api](https://i.imgur.com/3JmoCNL.png)
 
 ![image search api](https://i.imgur.com/6gWXGXW.png)
+
+![image search api](https://i.imgur.com/siGUK9Y.png)
 
 ### Overlays example
 

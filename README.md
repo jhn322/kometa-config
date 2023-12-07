@@ -46,6 +46,10 @@ docker pull meisnate12/plex-meta-manager
 
 ![image search api](https://i.imgur.com/hURTISN.png)
 
+![image search api](https://i.imgur.com/siGUK9Y.png)
+
+![image search api](https://i.imgur.com/6gWXGXW.png)
+
 ### Overlays example
 
 ![image search api](https://i.imgur.com/aOjcjQh.png)

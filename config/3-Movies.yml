@@ -173,15 +173,6 @@ collections:
     visible_shared: monthly(13)
     summary: Movies most watched online of all time.
 
-  Trakt - Most Watched (Weekly):
-    template: { name: Movie }
-    trakt_chart:
-      chart: watched
-      limit: 30
-      time_period: weekly
-    file_poster: config/posters/Trakt Most Watched Weekly.png
-    summary: Most watched movies across the internet this week.
-
   Trakt - Most Watched (Yearly):
     template: { name: Movie }
     trakt_chart:

@@ -42,7 +42,7 @@ docker pull meisnate12/plex-meta-manager
 - TV
 - Videos
 
-### Collections example
+### Collections examples
 
 **Movies**
 
@@ -50,14 +50,16 @@ docker pull meisnate12/plex-meta-manager
 
 **Anime**
 
-![image search api](https://i.imgur.com/6gWXGXW.png)
+![image search api](https://i.imgur.com/dbuw1Gv.png)
 
-**Music**
+### Overlays examples
 
-![image search api](https://i.imgur.com/siGUK9Y.png)
-
-### Overlays example
+**Movies**
 
 ![image search api](https://i.imgur.com/aOjcjQh.png)
+
+**Remux**
+
+![image search api](https://i.imgur.com/7x5sOL2.png)
 
 ### For more help go to the wiki: https://metamanager.wiki/en/latest/

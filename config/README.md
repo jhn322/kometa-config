@@ -1,19 +1,4 @@
-# Libraries
-
-- 1-files = Anime
-- 1.1-files = Anime Overlays
-- 2-files = Audiobooks
-- 3-files = Movies
-- 3.1-files = Movie Overlays
-- 4-files = Music
-- 5-files = Remux
-- 5.1-files = Remux Overlays
-- 6-files = Soundtracks
-- 7-files = TV
-- 7.1-files = TV Show Overlays
-- 8-files = Videos
-
-## Collection categories
+# Collection categories
 
 **Anime:**
 
@@ -143,12 +128,16 @@
 - Resolutions
 - Canceled Shows
 
-### Examples:
+### Collection examples
 
-### Music
+### Anime
 
 ![image search api](https://i.imgur.com/6TD0Deb.png)
+
+### Movies
 
 ### TV
 
 ![image search api](https://i.imgur.com/x5TWUsi.jpg)
+
+### Overlay examples

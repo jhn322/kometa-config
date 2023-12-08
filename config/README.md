@@ -1,6 +1,6 @@
 # Config
 
-Feel free removing any unwanted collections/overlays as there are many by simply deleting the file path from your config file or by deleting them individually inside each yml file.
+Feel free removing any unwanted collections/overlays by simply deleting the file path from your config file or by deleting them individually inside each yml file. It goes without saying any collection can be tweaked to your liking as long as you follow the PMM parameters & syntax.
 
 ## Collection categories
 

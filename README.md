@@ -27,11 +27,7 @@ My config of Plex Meta Manager for automatically creating collections and overla
 
 **Linux:** "sudo docker run -it -v "/path/to/Plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
 
-### Update container
-
-docker pull meisnate12/plex-meta-manager
-
-### Creates collections and overlays to these types of libraries:
+## Creates collections and overlays to these types of libraries:
 
 - Anime
 - Audiobooks

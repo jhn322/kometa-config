@@ -4,7 +4,7 @@ My config of Plex Meta Manager for automatically creating collections and overla
 
 ## Install
 
-This will install Plex meta manager using docker with a daily run schedule for collections, overlays and operations as three seperate containers from the compose file.
+This will install Plex meta manager using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
 
 1. Download this repository.
 2. Rename folder to "Plex-meta-manager".
@@ -23,7 +23,7 @@ This will install Plex meta manager using docker with a daily run schedule for c
 
 **Done!**
 
-## One time run:
+## Docker run:
 
 This will run through the entire config one time, It will **not** keep updating on a schedule.
 

@@ -25,7 +25,7 @@ This will install Plex meta manager using docker with a daily run schedule for c
 
 ## One time run:
 
-This will simply run through the entire config one time to create everything, It will **not** keep updating on a schedule.
+This will run through the entire config one time, It will **not** keep updating on a schedule.
 
 **Windows:** "docker run -it -v "C:\path\to\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
 

@@ -1,6 +1,8 @@
-# Collection categories
+# Config
 
 Feel free removing any unwanted collections/overlays as there are many by simply deleting the file path from your config file or by deleting them individually inside each yml file.
+
+## Collection categories
 
 **Collections** are created for each library for different purposes and categories while also showing up on your home screen dynamically. From Movie series, trending, top rated, genres and much more.
 

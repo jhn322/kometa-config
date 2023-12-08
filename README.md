@@ -31,7 +31,7 @@ This will run through the entire config one time, It will **not** keep updating 
 
 **Linux:** "sudo docker run -it -v "/path/to/Plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
 
-## Creates collections and overlays to these types of libraries:
+## Targeted library types:
 
 - Anime
 - Audiobooks

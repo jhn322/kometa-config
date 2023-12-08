@@ -9,7 +9,7 @@ This will install Plex meta manager using docker compose with a daily run schedu
 1. Download this repository.
 2. Rename folder to "Plex-meta-manager".
 3. Add **your** Plex IP-adress and token.
-4. (Recommended) collections for services as Trakt, mdblist, mal and others require an api key/token/id to work, please visit the [config section in the wiki](https://metamanager.wiki/en/latest/config/trakt.html) for how to configure them.
+4. (Recommended) collections using services like Trakt, mdblist, mal and others require an api key/token/id to function, please visit the [config section in the wiki](https://metamanager.wiki/en/latest/config/trakt.html) for more info how to configure them.
 5. Install docker with compose or docker desktop if you haven't already.
 6. Open terminal and navigate to your path:
 

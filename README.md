@@ -6,7 +6,7 @@ My config of Plex Meta Manager for automatically creating collections and overla
 
 1. Download this repository.
 2. Rename folder to "Plex-meta-manager".
-3. Recommended to install docker with compose or docker desktop if you haven't already, otherwise local install with python 3.8 will do.
+3. Install docker with compose or docker desktop if you haven't already.
 4. Open terminal and navigate to your path:
 
 **Windows:** "cd C:\path\to\Plex-meta-manager"
@@ -21,7 +21,7 @@ My config of Plex Meta Manager for automatically creating collections and overla
 
 **Done!**
 
-### One time run:
+## One time run:
 
 **Windows:** "docker run -it -v "C:\path\to\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
 

@@ -1,5 +1,7 @@
 # Collection categories
 
+**Collections** are created for each library for different purposes and categories while also showing up on your home screen dynamically. From Movie series, trending, top rated, genres and much more.
+
 **Anime:**
 
 - Charts
@@ -82,6 +84,8 @@
 
 ## Operations categories
 
+**Operations** are run library wide regularly to ensure all ratings for each item are accurate. Per preference I choose IMDb for movies and TV shows and MyAnimeList for animes.
+
 **Anime:**
 
 - Mass MyAnimeList ratings update
@@ -99,6 +103,8 @@
 - Mass IMDb ratings update
 
 ## Overlay categories
+
+**Overlays** are created for some libraries to enhance the UI experience at a glance. I've put on emphasis a clean look with useful information instead of overdoing it with too many overlays.
 
 **Anime:**
 

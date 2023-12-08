@@ -56,7 +56,7 @@ docker pull meisnate12/plex-meta-manager
 
 **Movies**
 
-![image search api](https://i.imgur.com/hzFgAxz.png)
+![image search api](https://i.imgur.com/cTeNiMb.png)
 
 **Remux**
 

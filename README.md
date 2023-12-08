@@ -1,8 +1,10 @@
 # Plex Meta Manager Config
 
-My config of Plex Meta Manager for automatically creating collections and overlays to Plex. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb among others in your config.yml file. All collections, Overlays and Operations are configured to update on a daily schedule.
+My config of Plex Meta Manager for automatically creating collections and overlays to Plex. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb among others in your config.yml file.
 
 ## Install
+
+This will install Plex meta manager using docker with a daily run schedule for collections, overlays and operations as three seperate containers from the compose file.
 
 1. Download this repository.
 2. Rename folder to "Plex-meta-manager".
@@ -22,6 +24,8 @@ My config of Plex Meta Manager for automatically creating collections and overla
 **Done!**
 
 ## One time run:
+
+This will simply run through the entire config one time to create everything, It will **not** keep updating on a schedule.
 
 **Windows:** "docker run -it -v "C:\path\to\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
 

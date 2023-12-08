@@ -130,28 +130,28 @@
 
 ### Collection examples
 
-### Audiobooks
+**Audiobooks**
 
 ![image search api](https://i.imgur.com/paYKsAV.png)
 
-### Music
+**Music**
 
 ![image search api](https://i.imgur.com/Cr3DSsZ.png)
 
-### TV
+**TV**
 
 ![image search api](https://i.imgur.com/wAowutX.png)
 
 ### Overlay examples
 
-### Anime
+**Anime**
 
 ![image search api](https://i.imgur.com/FmzDHkO.png)
 
-### Movies
+**Movies**
 
 ![image search api](https://i.imgur.com/xcq8HqX.png)
 
-### TV
+**TV**
 
 ![image search api](https://i.imgur.com/7cUfZ53.png)

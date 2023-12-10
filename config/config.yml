@@ -77,7 +77,7 @@ libraries:
       - file: config/7.1-TV_Overlays_Canceled.yml
       - file: config/7.1-TV_Overlays_Rating.yml
       - file: config/7.1-TV_Overlays_Top.yml
-  Videos: remove all 
+  Videos:
     metadata_path:
       # - file: config/8-Videos.yml remove "#" to enable
 settings:

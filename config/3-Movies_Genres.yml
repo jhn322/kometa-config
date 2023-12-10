@@ -318,8 +318,9 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/kayaaron13/lists/ranker-top-alien-movies?sort=rank,asc
-      - https://trakt.tv/users/ireallylovevids/lists/alien-movies?sort=released,asc
       - https://trakt.tv/users/42069bbq/lists/ultimate-aliens-movie-list?sort=rank,asc
+      - https://trakt.tv/users/29zombies/lists/aliens?sort=title,asc
+      - https://trakt.tv/users/roswellgeek/lists/aliens?sort=title,asc
 
   Artificial Intelligence:
     template: { name: Genre Other }

@@ -38,6 +38,7 @@ libraries: # This is called out once within the config.yml file
       - remove_overlays: false
       - file: config/3.1-Movies_Overlays_4K.yml
       - file: config/3.1-Movies_Overlays_Rating.yml
+      # remove this to enable - file: config/3.1-Movies_Overlays_Subtitle.yml
       - file: config/3.1-Movies_Overlays_Top.yml
   Music:
     metadata_path:
@@ -78,7 +79,7 @@ libraries: # This is called out once within the config.yml file
       - file: config/7.1-TV_Overlays_Top.yml
   Videos:
     metadata_path:
-      - file: config/8-Videos.yml
+      # remove this to enable - file: config/8-Videos.yml
 settings:
   cache: true
   cache_expiration: 60

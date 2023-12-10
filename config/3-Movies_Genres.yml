@@ -884,7 +884,8 @@ collections:
     file_poster: config/posters/robot.png
     visible_shared: monthly(10)
     trakt_list:
-      - https://trakt.tv/users/ireallylovevids/lists/robot-movies?sort=title,asc
+      - https://trakt.tv/users/alhanouf40/lists/robot?sort=rank,asc
+      - https://trakt.tv/users/pterisaur/lists/robots-24253737?sort=popularity,asc
       - https://trakt.tv/users/cinematicthrowbacks/lists/sci-fi-hi-tech-robotics-cyborgs-bionics?sort=rank,asc
       - https://trakt.tv/users/kodiscrobble666/lists/killer-robot-movies?sort=rank,asc
 
@@ -1074,7 +1075,8 @@ collections:
     file_poster: config/posters/video game.png
     visible_shared: monthly(10)
     trakt_list:
-      - https://trakt.tv/users/ireallylovevids/lists/videos-game-movies
+      - https://trakt.tv/users/29zombies/lists/video-game?sort=rank,asc
+      - https://trakt.tv/users/pterisaur/lists/video-games-24271757?sort=popularity,asc
       - https://trakt.tv/users/idelo/lists/video-game-movies
 
   Villain:

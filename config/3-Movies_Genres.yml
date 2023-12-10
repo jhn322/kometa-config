@@ -1052,7 +1052,6 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/istoit/lists/movies-to-make-you-cancel-that-vacation?sort=rank,asc
-      - https://trakt.tv/users/crims7392/lists/road-trips-vacations-flix?sort=rank,asc
       - https://trakt.tv/users/kayaaron13/lists/vacations-gone-wrong?sort=rank,asc
       - https://trakt.tv/users/ld667/lists/25-best-travel-movies-of-all-time-films-that-will?sort=rank,asc
       - https://trakt.tv/users/mrtheta/lists/travel?sort=rank,asc

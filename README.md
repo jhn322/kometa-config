@@ -7,17 +7,16 @@ My Plex Meta Manager config for automatically creating collections and overlays 
 This will install Plex meta manager using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
 
 1. Download this repository.
-2. Rename folder to "Plex-meta-manager".
-3. Add **your** Plex IP-adress and token.
-4. (Recommended) collections using services like Trakt, mdblist, mal and others require an api key/token/id to function, please visit the [config section in the wiki](https://metamanager.wiki/en/latest/config/trakt.html) for more info how to configure them.
-5. Install docker with compose or docker desktop if you haven't already.
-6. Open terminal and navigate to your path:
+2. Add **your** Plex IP-adress and token.
+3. (Highly recommended) collections fetching from services like Trakt, mdblist and others require an api key/token/id to function, please visit the [config section in the wiki](https://metamanager.wiki/en/latest/config/trakt.html) for more info how to configure them.
+4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows (if you haven't already).
+5. Open terminal and navigate to your path:
 
-**Windows:** "cd C:\path\to\Plex-meta-manager"
+**Windows:** "cd C:\path\to\PMM-folder"
 
-**Linux:** "cd /path/to/Plex-meta-manager"
+**Linux:** "cd /path/to/PMM-folder"
 
-7. Now paste this in the terminal to create the containers:
+6. Now paste this in the terminal to create the containers:
 
 **Windows:** "docker-compose up -d"
 
@@ -29,9 +28,9 @@ This will install Plex meta manager using docker compose with a daily run schedu
 
 This will run through the entire config one time, It will **not** keep updating on a schedule.
 
-**Windows:** "docker run -it -v "C:\path\to\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
+**Windows:** "docker run -it -v "C:\path\to\PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
 
-**Linux:** "sudo docker run -it -v "/path/to/Plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run"
+**Linux:** "sudo docker run -it -v "/path/to/PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
 
 ## Targeted library types:
 

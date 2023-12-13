@@ -1,0 +1,180 @@
+######################################################
+#                    TV 15.0                         #
+######################################################
+
+templates:
+  TV:
+    smart_label: random
+    sync_mode: sync
+    sort_title: +++++_<<collection_name>>
+    visible_library: true
+
+  TV Release:
+    smart_label: release.desc
+    sync_mode: sync
+    sort_title: +++++_<<collection_name>>
+    visible_library: true
+
+  TV Top:
+    sync_mode: sync
+    visible_library: true
+
+collections:
+  # IMDb specific chart lists
+  IMDb - Best Recent:
+    template: { name: TV Top }
+    summary: TV shows rated 7.5 or higher on IMDb, released in the past 6 months.
+    sort_title: +++++++_ZIMDb Best Recent
+    visible_shared:
+      - monthly(11)
+      - monthly(12)
+    file_poster: config/posters/IMDb Best Recent Bronze.png
+    smart_filter:
+      sort_by: audience_rating.desc
+      validate: false
+      all:
+        audience_rating.gte: 7.7
+        release: 180
+
+  IMDb - Popular:
+    template: { name: TV }
+    sort_title: +++++++_XIMDb Popular
+    file_poster: config/posters/IMDb Popular Silver.png
+    limit: 40
+    visible_library: true
+    summary: Popular shows on IMDb over the past few months.
+    visible_shared:
+      - monthly(10)
+      - monthly(12)
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-tv-shows?sort=rank,asc
+
+  IMDb - Top 250:
+    template: { name: TV Top }
+    smart_label: audience_rating.desc
+    sort_title: +++++++_IMDB top 250
+    file_poster: config/posters/IMDb Top 250 Gold.png
+    visible_shared:
+      - monthly(4)
+      - monthly(9)
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-tv-shows?sort=rank,asc
+
+  # Metacritic specific chart lists
+  Metacritic - Must-See:
+    template: { name: TV }
+    visible_shared:
+      - monthly(14)
+      - monthly(31)
+    summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
+    file_poster: config/posters/Metacritic Must See.png
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/metacritic-must-see-shows?sort=rank,asc
+
+  # Rotten Tomatoes specific chart lists
+  RT - Certified Fresh:
+    template: { name: TV }
+    limit: 150
+    visible_shared:
+      - monthly(13)
+      - monthly(6)
+    summary: Certified fresh A special distinction awarded to the best reviewed TV Shows.
+    file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/certified-fresh-shows?sort=rank,asc
+
+  # TMDb specific chart lists
+  TMDb - On the Air:
+    template: { name: TV Release }
+    tmdb_on_the_air: 80
+    tmdb_airing_today: 40
+    visible_shared: monthly(1)
+    file_poster: config/posters/TMDb On The Air.png
+    summary: Shows airing right now across streaming services.
+
+  TMDb - Popular:
+    template: { name: TV }
+    tmdb_popular: 150
+    file_poster: config/posters/TMDb Popular.png
+    visible_shared: monthly(22)
+    summary: Popular shows on TMDb over the past few months.
+
+  TMDb - Trending:
+    template: { name: TV }
+    tmdb_trending_weekly: 30
+    file_poster: config/posters/TMDb Trending.png
+    visible_shared: monthly(21)
+    summary: Shows trending on TMDb this week.
+
+  TMDb - Top Rated:
+    template: { name: TV }
+    tmdb_top_rated: 300
+    file_poster: config/posters/TMDb Top Rated Gold.png
+    summary: Top Rated Shows on TMDb.
+    visible_shared:
+      - monthly(17)
+      - monthly(18)
+      - monthly(2)
+
+  # Trakt specific chart lists
+  Trakt - Most Watched (All-Time):
+    template: { name: TV }
+    trakt_chart:
+      chart: watched
+      limit: 220
+      time_period: all
+    file_poster: config/posters/Trakt Most Watched All-Time.png
+    visible_shared:
+      - monthly(28)
+      - monthly(25)
+    summary: Movies most watched online of all time.
+
+  Trakt - Most Watched (Yearly):
+    template: { name: TV }
+    trakt_chart:
+      chart: watched
+      limit: 60
+      time_period: yearly
+    file_poster: config/posters/Trakt Most Watched Yearly.png
+    summary: Most watched shows across the internet this year.
+    visible_shared: monthly(23)
+
+  Trakt - Popular:
+    template: { name: TV }
+    trakt_chart:
+      chart: popular
+      limit: 40
+    sort_title: ++++++++_XTrakt Popular
+    file_poster: config/posters/Trakt Popular Silver.png
+    visible_shared:
+      - monthly(7)
+      - monthly(8)
+    summary: Popular shows on Trakt over the past few months.
+
+  Trakt - Recommended:
+    template: { name: TV }
+    trakt_recommendations: 30
+    summary: Shows recommended by trakt API.
+    file_poster: config/posters/Trakt Recommended.png
+    visible_shared:
+      - monthly(29)
+      - monthly(30)
+
+  Trakt - Top Rated:
+    template: { name: TV }
+    sort_title: ++++++++_trakt Top Rated
+    file_poster: config/posters/Trakt Top Rated Gold.png
+    summary: Top Rated Shows on Trakt.
+    visible_shared:
+      - monthly(11)
+      - monthly(16)
+      - monthly(15)
+    trakt_list: https://trakt.tv/users/jason316/lists/trakt-yearly-top-tv?sort=released,asc
+
+  Trakt - Trending:
+    template: { name: TV Release }
+    trakt_chart:
+      chart: trending
+      limit: 30
+    sort_title: ++++++++_ZTrakt Trending
+    file_poster: config/posters/Trakt Trending Bronze.png
+    visible_shared:
+      - monthly(26)
+      - monthly(24)
+    summary: Shows trending on Trakt this week.

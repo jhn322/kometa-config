@@ -1,0 +1,16 @@
+# Adds the 18+ overlay to all qualified animes
+templates:
+  18+ ANIME:
+    default:
+      overlay: <<overlay_name>>
+    plex_search:
+      all:
+        content_rating: TV-MA
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/18+.png
+
+overlays:
+  18+:
+    template:
+      - name: 18+ ANIME

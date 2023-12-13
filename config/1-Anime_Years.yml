@@ -1,0 +1,395 @@
+######################################################
+#                   SEASONS 5.0                      #
+######################################################
+
+templates:
+  Decade:
+    smart_label: audience_rating.desc
+    sync_mode: sync
+    sort_title: zz_<<collection_name>>
+    visible_library: true
+
+  Season:
+    collection_order: custom
+    sync_mode: sync
+    visible_library: true
+
+  Year:
+    collection_order: custom
+    sync_mode: sync
+    sort_title: zzzz_<<collection_name>>
+    visible_library: true
+
+# Creates collection for currently airing animes in this season this year using mal
+collections:
+  Autumn Season:
+    template: { name: Season }
+    mal_season:
+      season: fall
+      limit: 100
+      sort_by: members
+      starting_only: false
+    sort_title: ++1autumn season
+    summary: Animes streaming this fall season according to MyAnimeList.
+    file_poster: config/posters/Autumn Anime.png
+
+  Spring Season:
+    template: { name: Season }
+    mal_season:
+      season: spring
+      limit: 100
+      sort_by: members
+      starting_only: false
+    sort_title: ++123spring season
+    summary: Animes streaming this spring season according to MyAnimeList.
+    file_poster: config/posters/Spring Anime.png
+
+  Summer Season:
+    template: { name: Season }
+    mal_season:
+      season: summer
+      limit: 100
+      sort_by: members
+      starting_only: false
+    sort_title: ++12summer season
+    summary: Animes streaming this summer season according to MyAnimeList.
+    file_poster: config/posters/Summer Anime.png
+
+  Winter Season:
+    template: { name: Season }
+    mal_season:
+      season: winter
+      limit: 100
+      sort_by: members
+      starting_only: false
+    sort_title: ++winter season
+    summary: Animes streaming this winter season according to MyAnimeList.
+    file_poster: config/posters/Winter Anime.png
+
+  ####################################################
+  #                  DECADES 4.0                     #
+  ####################################################
+
+  # Animes with a rating greater than 7.8 from mal from a decade
+  Best of 1940-1970s:
+    template: { name: Decade }
+    file_poster: config/posters/19401970s.png
+    plex_search:
+      all:
+        year.gt: 1939
+        year.lt: 1980
+        audience_rating.gte: 7.8
+
+  Best of 1980s:
+    template: { name: Decade }
+    file_poster: config/posters/1980s.png
+    plex_search:
+      all:
+        year.gt: 1979
+        year.lt: 1990
+        audience_rating.gte: 7.8
+
+  Best of 1990s:
+    template: { name: Decade }
+    file_poster: config/posters/1990s.png
+    plex_search:
+      all:
+        year.gt: 1989
+        year.lt: 2000
+        audience_rating.gte: 7.8
+
+  Best of 2000s:
+    template: { name: Decade }
+    file_poster: config/posters/2000s.png
+    plex_search:
+      all:
+        year.gt: 1999
+        year.lt: 2010
+        audience_rating.gte: 7.8
+
+  Best of 2010s:
+    template: { name: Decade }
+    file_poster: config/posters/2010s.png
+    plex_search:
+      all:
+        year.gt: 2009
+        year.lt: 2020
+        audience_rating.gte: 7.8
+
+  Best of 2020s:
+    template: { name: Decade }
+    file_poster: config/posters/2020s.png
+    plex_search:
+      all:
+        year.gt: 2019
+        year.lt: 2030
+        audience_rating.gte: 7.8
+
+  #####################################################
+  #                    YEARS 3.0                      #
+  #####################################################
+
+  # Best animes from 2000 and forward according to mal
+  Best of 2000:
+    template: { name: Year }
+    mal_season:
+      year: 2000
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2000.png
+
+  Best of 2001:
+    template: { name: Year }
+    mal_season:
+      year: 2001
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2001.png
+
+  Best of 2002:
+    template: { name: Year }
+    mal_season:
+      year: 2002
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2002.png
+
+  Best of 2003:
+    template: { name: Year }
+    mal_season:
+      year: 2003
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2003.png
+
+  Best of 2004:
+    template: { name: Year }
+    mal_season:
+      year: 2004
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2004.png
+
+  Best of 2005:
+    template: { name: Year }
+    mal_season:
+      year: 2005
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2005.png
+
+  Best of 2006:
+    template: { name: Year }
+    mal_season:
+      year: 2006
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2006.png
+
+  Best of 2007:
+    template: { name: Year }
+    mal_season:
+      year: 2007
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2007.png
+
+  Best of 2008:
+    template: { name: Year }
+    mal_season:
+      year: 2008
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2008.png
+
+  Best of 2009:
+    template: { name: Year }
+    mal_season:
+      year: 2009
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2009.png
+
+  Best of 2010:
+    template: { name: Year }
+    mal_season:
+      year: 2010
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2010.png
+
+  Best of 2011:
+    template: { name: Year }
+    mal_season:
+      year: 2011
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2011.png
+
+  Best of 2012:
+    template: { name: Year }
+    mal_season:
+      year: 2012
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2012.png
+
+  Best of 2013:
+    template: { name: Year }
+    mal_season:
+      year: 2013
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2013.png
+
+  Best of 2014:
+    template: { name: Year }
+    mal_season:
+      year: 2014
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2014.png
+
+  Best of 2015:
+    template: { name: Year }
+    mal_season:
+      year: 2015
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2015.png
+
+  Best of 2016:
+    template: { name: Year }
+    mal_season:
+      year: 2016
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2016.png
+
+  Best of 2017:
+    template: { name: Year }
+    mal_season:
+      year: 2017
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2017.png
+
+  Best of 2018:
+    template: { name: Year }
+    mal_season:
+      year: 2018
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2018.png
+
+  Best of 2019:
+    template: { name: Year }
+    mal_season:
+      year: 2019
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2019.png
+
+  Best of 2020:
+    template: { name: Year }
+    mal_season:
+      year: 2020
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2020.png
+
+  Best of 2021:
+    template: { name: Year }
+    mal_season:
+      year: 2021
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2021.png
+
+  Best of 2022:
+    template: { name: Year }
+    mal_season:
+      year: 2022
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2022.png
+
+  Best of 2023:
+    template: { name: Year }
+    mal_season:
+      year: 2023
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/2023.png

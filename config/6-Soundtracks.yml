@@ -1,0 +1,18 @@
+######################################################
+#                   MUSIC 1.0                        #
+######################################################
+templates:
+  Standard:
+    sort_title: +++_<<collection_name>>
+    visible_library: true
+
+# Creates a collection for the most popular tracks
+collections:
+  Popular:
+    template: { name: Standard }
+    summary: Most popular soundtracks on Plex with at least 10 track plays on minimum 1 song.
+    file_poster: config/posters/Popular Music.png
+    smart_filter:
+      all:
+        track_plays.gte: 10
+      sort_by: plays.desc

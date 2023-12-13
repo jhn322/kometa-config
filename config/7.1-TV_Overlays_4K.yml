@@ -1,0 +1,201 @@
+# Adds the resolution overlay to all qualified TV shows
+templates:
+  4KDV:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/4K-HDR-DV.png
+
+  4KHDR10+:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/4K-HDR10+.png
+
+  4KHDR:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/4K-HDR.png
+
+  4KUHD:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/4K-UHD.png
+
+  1080PDV:
+    optional:
+      - overlay_level
+      - use_<<opt1>>
+      - use_<<opt2>>
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/1080P-DV.png
+
+  1080PHDR10+:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/1080P-HDR10+.png
+
+  1080PHDR:
+    optional:
+      - overlay_level
+      - use_<<opt1>>
+      - use_<<opt2>>
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/1080P-HDR.png
+
+  4KDV2:
+    default:
+      use_4k: true
+      use_hdr: true
+      use_dv: true
+    allowed_library_types: <<use_4k>>, <<use_hdr>>, <<use_dv>>
+
+  4KHDR2:
+    default:
+      use_4k: true
+      use_hdr: true
+      use_dv: false
+    allowed_library_types: <<use_4k>>, <<use_hdr>>
+
+  4KUHD2:
+    default:
+      use_4k: true
+      use_hdr: false
+      use_dv: false
+    allowed_library_types: <<use_4k>>
+
+# Sorted by priority from most to least important
+overlays:
+  4K-DV:
+    template:
+      - name: 4KDV
+      - name: 4KDV2
+    suppress_overlays:
+      - 4K-HDR10+
+      - 4K-HDR
+      - 4K-UHD
+      - 1080P-DV
+      - 1080P-HDR10+
+      - 1080P-HDR
+    plex_search:
+      all:
+        resolution.regex: "(?i)2160|4k"
+        hdr: true
+    filters:
+      has_dolby_vision: true
+
+  4K-HDR10+:
+    template:
+      - name: 4KHDR10+
+    suppress_overlays:
+      - 4K-HDR
+      - 4K-UHD
+      - 1080P-DV
+      - 1080P-HDR10+
+      - 1080P-HDR
+    plex_search:
+      all:
+        resolution.regex: "(?i)2160|4k"
+    filters:
+      has_dolby_vision: false
+      filepath.regex: (?i)\bhdr10(\+|p(lus)?\b)
+
+  4K-HDR:
+    template:
+      - name: 4KHDR
+      - name: 4KHDR2
+    suppress_overlays:
+      - 4K-UHD
+      - 1080P-DV
+      - 1080P-HDR10+
+      - 1080P-HDR
+    plex_search:
+      all:
+        resolution.regex: "(?i)2160|4k"
+        hdr: true
+    filters:
+      has_dolby_vision: false
+
+  4K-UHD:
+    template:
+      - name: 4KUHD
+      - name: 4KUHD2
+    suppress_overlays:
+      - 1080P-DV
+      - 1080P-HDR10+
+      - 1080P-HDR
+    plex_search:
+      all:
+        resolution.regex: "(?i)2160|4k"
+        hdr: false
+    filters:
+      has_dolby_vision: false
+
+  1080P-DV:
+    template:
+      - name: 1080PDV
+        opt1: 1080p
+        opt2: dv
+    suppress_overlays:
+      - 1080P-HDR10+
+      - 1080P-HDR
+    plex_search:
+      all:
+        resolution.regex: "(?i)1080|2k"
+    filters:
+      has_dolby_vision: true
+
+  1080P-HDR10+:
+    template:
+      - name: 1080PHDR10+
+    suppress_overlays:
+      - 1080P-HDR
+    plex_search:
+      all:
+        resolution.regex: "(?i)1080|2k"
+    filters:
+      has_dolby_vision: false
+      filepath.regex: (?i)\bhdr10(\+|p(lus)?\b)
+
+  1080P-HDR:
+    template:
+      - name: 1080PHDR
+        opt1: 1080p
+        opt2: hdr
+    plex_search:
+      all:
+        resolution.regex: "(?i)1080|2k"
+        hdr: true
+    filters:
+      has_dolby_vision: false

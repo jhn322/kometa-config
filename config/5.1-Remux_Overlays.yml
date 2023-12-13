@@ -1,0 +1,19 @@
+# Adds the Remux overlay to all qualified remux movies
+templates:
+  REMUX:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/4K-REMUX.png
+
+overlays:
+  4K-REMUX:
+    template:
+      name: REMUX
+    plex_search:
+      all:
+        resolution: 4K

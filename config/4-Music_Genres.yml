@@ -1,0 +1,241 @@
+######################################################
+#                  GENRES 2.0                       #
+######################################################
+
+templates:
+  Genre:
+    visible_library: true
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+
+# Music genres using smart filter
+collections:
+  Alternative Metal:
+    template: { name: Genre }
+    file_poster: config/posters/Alternative Metal Audible.png
+    summary: Music with Alternative Metal influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: alternative metal
+
+  Blues:
+    template: { name: Genre }
+    file_poster: config/posters/Blues Audible.png
+    summary: Music with Blues influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: blues
+
+  Classical:
+    template: { name: Genre }
+    file_poster: config/posters/Classical Audible.png
+    summary: Music with Classical influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: classical
+
+  Club & Dance:
+    template: { name: Genre }
+    file_poster: config/posters/Club and Dance Audible.png
+    summary: Music with Dance influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: club/dance
+
+  Death Metal:
+    template: { name: Genre }
+    file_poster: config/posters/Death Metal Audible.png
+    summary: Music with Death Metal influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: death metal
+
+  Dubstep:
+    template: { name: Genre }
+    file_poster: config/posters/Dubstep Audible.png
+    summary: Music with Dubstep influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: dubstep
+
+  EDM:
+    template: { name: Genre }
+    file_poster: config/posters/EDM Audible.png
+    summary: Music with EDM influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: edm
+
+  Electronic:
+    template: { name: Genre }
+    file_poster: config/posters/Electronic Audible.png
+    summary: Music with Electronic influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: electronic
+
+  Hard Rock:
+    template: { name: Genre }
+    file_poster: config/posters/Hard Rock Audible.png
+    summary: Music with Hard Rock influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: hard rock
+
+  Heavy Metal:
+    template: { name: Genre }
+    file_poster: config/posters/Heavy Metal Audible.png
+    summary: Music with Heavy Metal influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: heavy metal
+
+  House:
+    template: { name: Genre }
+    file_poster: config/posters/House Audible.png
+    summary: Music with House influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: house
+
+  Metalcore:
+    template: { name: Genre }
+    file_poster: config/posters/Metalcore Audible.png
+    summary: Music with Metalcore influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: metalcore
+
+  Power Metal:
+    template: { name: Genre }
+    file_poster: config/posters/Power Metal Audible.png
+    summary: Music with Power Metal influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: power metal
+
+  Progressive Metal:
+    template: { name: Genre }
+    file_poster: config/posters/Progressive Metal Audible.png
+    summary: Music with Progressive Metal influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: progressive metal
+
+  Pop:
+    template: { name: Genre }
+    file_poster: config/posters/Pop Audible.png
+    summary: Music with Pop influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: pop
+
+  Rock:
+    template: { name: Genre }
+    file_poster: config/posters/Rock Audible.png
+    summary: Music with Rock influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: pop/rock
+
+  R&B:
+    template: { name: Genre }
+    file_poster: config/posters/R and B Audible.png
+    summary: Music with R&B influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: r&b
+
+  Rap:
+    template: { name: Genre }
+    file_poster: config/posters/Rap Audible.png
+    summary: Music with Rap influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: rap
+
+  Synthwave:
+    template: { name: Genre }
+    file_poster: config/posters/Synthwave Audible.png
+    summary: Music with Synthwave influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: synthwave
+
+  Speed & Thrash Metal:
+    template: { name: Genre }
+    file_poster: config/posters/Speed and Thrash Metal Audible.png
+    summary: Music with Speed & Thrash Metal influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: speed/thrash metal
+
+  Stage & Screen:
+    template: { name: Genre }
+    file_poster: config/posters/Stage and Screen Audible.png
+    summary: Music with Big Screen influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_genre: stage & screen
+
+  Techno:
+    template: { name: Genre }
+    file_poster: config/posters/Techno Audible.png
+    summary: Music with Techno influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: techno
+
+  Trance:
+    template: { name: Genre }
+    file_poster: config/posters/Trance Audible.png
+    summary: Music with Trance influence.
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        album_style: trance

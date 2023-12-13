@@ -1,0 +1,20 @@
+# Adds the Canceled overlay to all TV shows that has been canceled
+templates:
+  Canceled TV:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Canceled.png
+
+overlays:
+  Canceled:
+    template:
+      - name: Canceled TV
+    plex_all: true
+    filters:
+      tmdb_status:
+        - canceled

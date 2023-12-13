@@ -1,0 +1,19 @@
+# Adds the no swedish subtitles overlay to all qualified movies
+templates:
+  No Swe Sub:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/No-Swe-Sub.png
+
+overlays:
+  No-Swe-Sub:
+    template:
+      - name: No Swe Sub
+    plex_search:
+      all:
+        subtitle_language.not: sv

@@ -8,6 +8,7 @@ templates:
     sort_title: +++_<<collection_name>>
     sync_mode: sync
 
+# Audiobook genres using smart filter
 collections:
   Action:
     template: { name: Genre }

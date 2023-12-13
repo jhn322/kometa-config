@@ -20,6 +20,7 @@ templates:
     sort_title: zzzz_<<collection_name>>
     visible_library: true
 
+# Creates collection for currently airing animes in this season this year using mal
 collections:
   Autumn Season:
     template: { name: Season }
@@ -69,6 +70,7 @@ collections:
   #                  DECADES 4.0                     #
   ####################################################
 
+  # Animes with a rating greater than 7.8 from mal from a decade
   Best of 1940-1970s:
     template: { name: Decade }
     file_poster: config/posters/19401970s.png
@@ -127,6 +129,7 @@ collections:
   #                    YEARS 3.0                      #
   #####################################################
 
+  # Best animes from 2000 and forward according to mal
   Best of 2000:
     template: { name: Year }
     mal_season:

@@ -14,6 +14,7 @@ templates:
     sort_title: ZZZZZ+<<collection_name>>
     visible_library: true
 
+# Movies with a IMDb rating greater than 7.0 from a decade
 collections:
   Best of 1920s:
     template: { name: Decade }
@@ -140,6 +141,7 @@ collections:
   #                   YEARS 4.0                      #
   ######################################################
 
+  # Best movies from 2000 and forward according to IMDb with a rating of 7.0 and up
   Best of 2000:
     template: { name: Year }
     file_poster: config/posters/2000.png

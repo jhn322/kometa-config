@@ -6,6 +6,7 @@ templates:
     sort_title: +++_<<collection_name>>
     visible_library: true
 
+# Creates a collection for the most popular tracks
 collections:
   Popular:
     template: { name: Standard }

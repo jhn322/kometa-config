@@ -19,6 +19,7 @@ templates:
     sort_title: <<collection_name>>
     sync_mode: sync
 
+# Creates collections for genres with a limit of 200
 collections:
   Action:
     template: { name: Genre }
@@ -275,6 +276,7 @@ collections:
   #               SUBGENRES 10.0             #
   ############################################
 
+  # Creates more unique genre collections based on certain themes from Trakt lists
   Alien:
     template: { name: Genre Other }
     summary: Shows containing aliens in some form.

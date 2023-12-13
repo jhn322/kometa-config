@@ -1,3 +1,4 @@
+# Adds the resolution overlay to all qualified TV shows
 templates:
   4KDV:
     optional:
@@ -94,6 +95,7 @@ templates:
       use_dv: false
     allowed_library_types: <<use_4k>>
 
+# Sorted by priority from most to least important
 overlays:
   4K-DV:
     template:

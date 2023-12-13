@@ -2,6 +2,7 @@
 #                  ACTORS 13.0                       #
 ######################################################
 
+# Collections for prominent actors
 templates:
   Actor:
     smart_label: release.desc
@@ -1035,6 +1036,7 @@ collections:
   #                     Directors 3.0                         #
   #############################################################
 
+  # Collections for prominent Directors
   Alfred Hitchcock:
     template: { name: Director }
     file_poster: config/posters/Alfred Hitchcock (Directing).png
@@ -1256,6 +1258,7 @@ collections:
   #               Authors 0.2                          #
   ######################################################
 
+  # Collections for prominent authors
   Agatha Christie:
     template: { name: Author }
     summary: Dame Agatha Mary Clarissa Christie was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.

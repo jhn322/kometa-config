@@ -50,6 +50,7 @@ templates:
     trakt_list:
       - <<trakt_list>>
 
+# TV shows who has won some the most prestigious awards
 collections:
   BAFTA - Winners:
     summary: "A collection of BAFTA Winners"

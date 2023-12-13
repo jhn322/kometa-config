@@ -21,6 +21,7 @@ templates:
         network: <<network>>
     sort_title: zzzzz_<<collection_name>>
 
+# Fetched from TMDb using the studio id and/or name
 collections:
   A-1 Pictures:
     template: { name: studio, company: 13113 }

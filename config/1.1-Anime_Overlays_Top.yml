@@ -1,3 +1,4 @@
+# Adds a top overlay to all qualified animes depending if it's from mal or anilist
 templates:
   MAL Top:
     optional:
@@ -19,6 +20,7 @@ templates:
     overlay:
       name: <<overlay_name>>
 
+# Sorted by priority from most to least important
 overlays:
   MAL-Top:
     template:

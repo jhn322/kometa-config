@@ -8,6 +8,7 @@ templates:
     sync_mode: sync
     sort_title: zzz_<<collection_name>>
 
+# Creates collections for TV shows in the same series with 3 or more.
 collections:
   Avatar Universe:
     template: { name: Franchise }

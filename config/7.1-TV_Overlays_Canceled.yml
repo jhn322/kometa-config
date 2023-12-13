@@ -1,3 +1,4 @@
+# Adds the Canceled overlay to all TV shows that has been canceled
 templates:
   Canceled TV:
     optional:

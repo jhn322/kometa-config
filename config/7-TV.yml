@@ -20,6 +20,7 @@ templates:
     visible_library: true
 
 collections:
+  # IMDb specific chart lists
   IMDb - Best Recent:
     template: { name: TV Top }
     summary: TV shows rated 7.5 or higher on IMDb, released in the past 6 months.
@@ -57,6 +58,7 @@ collections:
       - monthly(9)
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-tv-shows?sort=rank,asc
 
+  # Metacritic specific chart lists
   Metacritic - Must-See:
     template: { name: TV }
     visible_shared:
@@ -66,6 +68,7 @@ collections:
     file_poster: config/posters/Metacritic Must See.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/metacritic-must-see-shows?sort=rank,asc
 
+  # Rotten Tomatoes specific chart lists
   RT - Certified Fresh:
     template: { name: TV }
     limit: 150
@@ -76,6 +79,7 @@ collections:
     file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/certified-fresh-shows?sort=rank,asc
 
+  # TMDb specific chart lists
   TMDb - On the Air:
     template: { name: TV Release }
     tmdb_on_the_air: 80
@@ -108,6 +112,7 @@ collections:
       - monthly(18)
       - monthly(2)
 
+  # Trakt specific chart lists
   Trakt - Most Watched (All-Time):
     template: { name: TV }
     trakt_chart:

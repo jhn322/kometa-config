@@ -28,7 +28,7 @@ templates:
     visible_library: true
 
 collections:
-  18+:
+  18+: # Sorts every anime with an adult rating
     template: { name: Special Smart }
     sort_title: ++++00_18+
     summary: Animes with this rating are generally not suitable for children or individuals under 17 (some sources may say 18). This content is only made for mature audiences because it contains mature themes, such as gore, sexual violence, strong language, nudity, substances, smoking, and sex.
@@ -39,7 +39,7 @@ collections:
       all:
         content_rating: TV-MA
 
-  480P+:
+  480P+: # Animes with a quality of 240p to 576p
     template: { name: Special Other }
     summary: Animes in SD, 480p and 576p quality.
     sort_title: ++++21_480P+
@@ -79,7 +79,7 @@ collections:
       all:
         release: 61
 
-  Popular:
+  Popular: # Fetched information from Tautulli
     template: { name: Special }
     tautulli_popular:
       list_days: 61
@@ -89,7 +89,7 @@ collections:
     file_poster: config/posters/Popular.png
     summary: Most popular animes on Plex the past 2 months.
 
-  Random:
+  Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }
     file_poster: config/posters/Random.png
     summary: Random Animes.
@@ -100,7 +100,7 @@ collections:
       all:
         audience_rating.gte: 4.0
 
-  Watched:
+  Watched: # Fetched information from Tautulli
     template: { name: Special }
     tautulli_watched:
       list_days: 9999
@@ -111,7 +111,7 @@ collections:
     summary: Animes watched on Plex by all users.
     smart_label: viewed.desc
 
-  Worst:
+  Worst: # Animes rating with less 5 in rating from mal
     template: { name: Special Smart Other }
     summary: Worst animes on Plex rated 5.0 or lower.
     file_poster: config/posters/Worst.png
@@ -125,6 +125,7 @@ collections:
   #                   RATINGS 1.0                      #
   ######################################################
 
+  ##################Add your own trakt lists##################
   10/10:
     template: { name: Rating }
     summary: Animes with a user rating of 10/10 (sorted from best to worst).

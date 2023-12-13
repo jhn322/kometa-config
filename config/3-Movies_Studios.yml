@@ -17,6 +17,7 @@ templates:
     smart_label: originally_available.desc
     visible_library: true
 
+# Fetched from TMDb using the studio id and/or name
 collections:
   20th Century:
     template: { name: Studio, company: "25, 127928" }
@@ -359,6 +360,7 @@ collections:
   #                 STREAMING SERVICES 3.0                 #
   ##########################################################
 
+  # Original movies from the most popular streaming services
   Apple TV+:
     template: { name: Streaming }
     summary: Apple TV+ Original movies.

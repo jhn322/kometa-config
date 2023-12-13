@@ -19,6 +19,7 @@ templates:
         network: <<network>>
     sort_title: ++_<<collection_name>>
 
+# Fetched from TMDb using the studio id and/or name
 collections:
   ABC:
     template: { name: network, network: "ABC, ABC Family" }
@@ -222,6 +223,8 @@ collections:
   ##########################################################
   #                   STREAMING 3.0                        #
   ##########################################################
+
+  # Original TV shows from the most popular streaming services
   Apple TV+:
     template: { name: streaming, network: "Apple TV+" }
     file_poster: config/posters/Apple TV+.png

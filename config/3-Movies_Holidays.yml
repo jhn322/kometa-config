@@ -9,6 +9,7 @@ templates:
     sync_mode: sync
     visible_home: false
 
+# Holiday collections that will show up when the holiday has started and disappear when it has ended
 collections:
   Christmas 🎄:
     template: { name: Holiday }

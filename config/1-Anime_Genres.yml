@@ -15,6 +15,7 @@ templates:
     visible_library: true
     sync_mode: sync
 
+# Genres from Anilist with a limit of 600 per collection
 collections:
   Action:
     template: { name: Genre }
@@ -173,6 +174,7 @@ collections:
   #                    SUBGENRES 7.0                   #
   ######################################################
 
+  # Created using tags from Anilist with a limit of 500 per collection
   Acting:
     template: { name: Genre Other }
     anilist_search:

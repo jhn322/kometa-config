@@ -8,6 +8,7 @@ templates:
     sort_title: +_<<collection_name>>
     sync_mode: sync
 
+# Music genres using smart filter
 collections:
   Alternative Metal:
     template: { name: Genre }

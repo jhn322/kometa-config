@@ -9,6 +9,7 @@ templates:
       all:
         title: breaking bad
 
+# Creates a separator to make it more clear where a category of collection starts and ends
 collections:
   Award Collections:
     template: { name: Separator }

@@ -1,3 +1,4 @@
+# Adds the 18+ overlay to all qualified animes
 templates:
   18+ ANIME:
     default:

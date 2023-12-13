@@ -6,6 +6,7 @@ templates:
     collection_order: release.desc
     sync_mode: sync
 
+# Creates collections for movies in the same series with 2 or more.
 collections:
   2 Days in..:
     template: { name: Franchise }

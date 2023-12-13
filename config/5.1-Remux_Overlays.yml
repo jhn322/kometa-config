@@ -1,3 +1,4 @@
+# Adds the Remux overlay to all qualified remux movies
 templates:
   REMUX:
     optional:

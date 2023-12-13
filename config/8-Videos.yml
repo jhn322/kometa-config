@@ -7,7 +7,7 @@ templates:
     visible_library: true
 
 collections:
-  Anime - Opening:
+  Anime - Opening: # Creates collection for Anime openings with tag in the name
     template: { name: Videos }
     summary: Opening sequence of every watched anime.
     file_poster: config/posters/Anime Opening.png
@@ -15,7 +15,7 @@ collections:
       all:
         title: (OP)
 
-  Anime - Ending:
+  Anime - Ending: # Creates collection for Anime endings with tag in the name
     template: { name: Videos }
     summary: Ending sequence of every watched anime.
     file_poster: config/posters/Anime Ending.png
@@ -23,7 +23,7 @@ collections:
       all:
         title: (ED)
 
-  Concert - Live:
+  Concert - Live: # Creates collection for concerts with tag in the name
     template: { name: Videos }
     summary: Live concerts.
     file_poster: config/posters/Concert Live.png
@@ -31,7 +31,7 @@ collections:
       all:
         title: (Live)
 
-  Cartoon - Intro:
+  Cartoon - Intro: # Creates collection for cartoon intros with tag in the name
     template: { name: Videos }
     summary: Opening sequence of every watched cartoon.
     file_poster: config/posters/Cartoon Intro.png
@@ -55,7 +55,7 @@ collections:
       all:
         title: (CSS)
 
-  TV - Intro:
+  TV - Intro: # Creates collection for TV intros with tag in the name
     template: { name: Videos }
     summary: Opening sequence of every watched TV Show.
     file_poster: config/posters/TV Intro.png

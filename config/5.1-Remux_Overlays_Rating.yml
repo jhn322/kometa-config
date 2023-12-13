@@ -1,3 +1,4 @@
+# Adds the IMDb overlay to all qualified remux movies alongside a number rating
 templates:
   IMDB Overlay:
     optional:

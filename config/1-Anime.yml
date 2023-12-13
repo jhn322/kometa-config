@@ -20,6 +20,7 @@ templates:
     sync_mode: sync
     visible_library: true
 
+# Anilist specific chart lists
 collections:
   AL - Popular:
     template: { name: Anime Top }
@@ -42,12 +43,14 @@ collections:
     sort_title: +++++++_ZAnilist Trending
     file_poster: config/posters/Anilist Trending Bronze.png
 
+  # AniDB specific chart lists
   AniDB - Popular:
     template: { name: Anime }
     anidb_popular: 30
     summary: Popular animes this week according to aniDB.
     file_poster: config/posters/aniDB Popular.png
 
+  # MyAnimeList specific chart lists
   Award Winning:
     template: { name: Anime Other }
     mal_search:

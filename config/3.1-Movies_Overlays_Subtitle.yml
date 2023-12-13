@@ -1,3 +1,4 @@
+# Adds the no swedish subtitles overlay to all qualified movies
 templates:
   No Swe Sub:
     optional:

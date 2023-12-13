@@ -8,6 +8,7 @@ templates:
     sync_mode: sync
     sort_title: zzz_<<collection_name>>
 
+# Creates collections for Animes in the same series with 3 or more.
 collections:
   Aikatsu:
     template: { name: Franchise }

@@ -23,6 +23,7 @@ templates:
     sync_mode: sync
     visible_library: true
 
+# IMDb specific chart lists
 collections:
   IMDb - Best Recent:
     template: { name: Movie Top }
@@ -62,6 +63,7 @@ collections:
     file_poster: config/posters/IMDb Top 250 Gold.png
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
 
+  # Letterboxd specific chart lists
   Letterboxd - Best Picture:
     template: { name: Movie Release }
     summary: Best movie of every year according to Letterboxd.
@@ -91,6 +93,7 @@ collections:
     file_poster: config/posters/Letterboxd Top 250 Gold.png
     trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
 
+  # MyAnimeList specific chart lists
   MAL - Most Favorited:
     template: { name: Movie }
     mal_favorite: 500
@@ -118,6 +121,7 @@ collections:
     file_poster: config/posters/Metacritic Must See.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/metacritic-must-see-movies?sort=rank,asc
 
+  # Rotten Tomatoes specific chart lists
   RT - Certified Fresh:
     template: { name: Movie }
     limit: 200
@@ -126,6 +130,7 @@ collections:
     file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
     trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
 
+  # TMDb specific chart lists
   TMDb - Now Playing:
     template: { name: Movie Release }
     tmdb_now_playing: 50
@@ -156,6 +161,7 @@ collections:
     file_poster: config/posters/TMDb Top Rated Gold.png
     summary: Top Rated Movies on TMDb.
 
+  # TorrentFreak specific chart lists
   TorrentFreak - Most Pirated:
     template: { name: Movie Basic }
     summary: Most pirated movies of the week according TorrentFreak.
@@ -163,6 +169,7 @@ collections:
     file_poster: config/posters/TorrentFreak Most Pirated.png
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
 
+  # Trakt specific chart lists
   Trakt - Most Watched (All-Time):
     template: { name: Movie }
     trakt_chart:

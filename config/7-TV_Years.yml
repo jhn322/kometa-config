@@ -15,6 +15,7 @@ templates:
     sort_title: zzzz_<<collection_name>>
     visible_library: true
 
+# TV shows with a IMDb rating greater than 7.8 from a decade
 collections:
   Best of 1940-1970s:
     template: { name: Decade }
@@ -80,6 +81,7 @@ collections:
   #                    DECADES 6.0                      #
   #######################################################
 
+  # Best movies from 2000 and forward according to IMDb with a rating of 7.8 and up
   Best of 2000:
     template: { name: Year }
     file_poster: config/posters/2000.png

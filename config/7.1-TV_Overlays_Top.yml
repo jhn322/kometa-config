@@ -1,3 +1,4 @@
+# Adds a top overlay to all qualified TV shows from IMDb, Trakt and TMDb
 templates:
   IMDB Top:
     optional:
@@ -29,6 +30,7 @@ templates:
     overlay:
       name: <<overlay_name>>
 
+# Sorted by priority from most to least important
 overlays:
   IMDB-Top:
     template:

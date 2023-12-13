@@ -10,6 +10,7 @@ templates:
       all:
         artist_title: metallica
 
+# Creates a separator to make it more clear where a category of collection starts and ends
 collections:
   Genre Collections:
     template: { name: Separator }

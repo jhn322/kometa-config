@@ -1,3 +1,4 @@
+# Adds the mal overlay to all qualified animes alongside a number rating
 templates:
   MAL Overlay:
     optional:

@@ -156,6 +156,7 @@ collections:
   #                       RATINGS 1.0                         #
   #############################################################
 
+  ##################Add your own trakt lists##################
   10/10:
     template: { name: Rating }
     summary: TV Shows with a user rating of 10/10 (sorted from best to worst).

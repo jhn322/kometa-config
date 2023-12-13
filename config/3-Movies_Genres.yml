@@ -1009,7 +1009,6 @@ collections:
     visible_shared: monthly(20)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/crims7392/lists/road-trips-vacations-flix?sort=rank,asc
       - https://trakt.tv/users/lyssierose/lists/summer-movies?sort=rank,asc
       - https://trakt.tv/users/momogl/lists/summer?sort=rank,asc
       - https://trakt.tv/users/urban-legend/lists/summer?sort=rank,asc

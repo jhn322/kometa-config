@@ -13,17 +13,17 @@ This will install Plex meta manager using docker compose with a daily run schedu
 5. Open terminal and navigate to your path:
 
 ```powershell
-**Windows:** "cd C:\path\to\PMM-folder"
+Windows: "cd C:\path\to\PMM-folder"
 
-**Linux:** "cd /path/to/PMM-folder"
+Linux: "cd /path/to/PMM-folder"
 ```
 
 6. Now paste this in the terminal to create the containers:
 
 ```powershell
-**Windows:** "docker-compose up -d"
+Windows: "docker-compose up -d"
 
-**Linux:** "sudo docker-compose up -d"
+Linux: "sudo docker-compose up -d"
 ```
 
 **Done!**
@@ -33,9 +33,9 @@ This will install Plex meta manager using docker compose with a daily run schedu
 This will run through the entire config one time, It will **not** keep updating on a schedule.
 
 ```powershell
-**Windows:** "docker run -it -v "C:\path\to\PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
+Windows: "docker run -it -v "C:\path\to\PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
 
-**Linux:** "sudo docker run -it -v "/path/to/PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
+Linux: "sudo docker run -it -v "/path/to/PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
 ```
 
 ## Targeted library types:

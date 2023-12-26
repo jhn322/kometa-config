@@ -1,5 +1,5 @@
 #####################################################
-#                 HOLIDAYS 5.0                      #
+#                 HOLIDAYS 6.0                      #
 #####################################################
 
 templates:
@@ -26,8 +26,8 @@ collections:
 
   Easter 🐣:
     template: { name: Holiday }
-    visible_home: range(03/20-04/30)
-    visible_shared: range(03/20-04/30)
+    visible_home: range(03/22-04/25)
+    visible_shared: range(03/22-04/25)
     summary: The Easter bunny is here!
     file_poster: config/posters/Easter.png
     trakt_list:
@@ -36,8 +36,8 @@ collections:
 
   Fathers Day 👨‍👦:
     template: { name: Holiday }
-    visible_home: range(11/09-11/14)
-    visible_shared: range(11/09-11/14)
+    visible_home: range(11/08-11/14)
+    visible_shared: range(11/08-11/14)
     summary: Every Fathers Special day.
     file_poster: config/posters/Fathers Day.png
     trakt_list:
@@ -58,8 +58,8 @@ collections:
 
   Mothers Day 👩‍👧:
     template: { name: Holiday }
-    visible_home: range(05/22-05/29)
-    visible_shared: range(05/22-05/29)
+    visible_home: range(05/25-05/31)
+    visible_shared: range(05/25-05/31)
     summary: Every Mothers special day.
     file_poster: config/posters/Mothers Day.png
     trakt_list:
@@ -68,8 +68,8 @@ collections:
 
   New Years 🍾:
     template: { name: Holiday }
-    visible_home: range(12/30-01/04)
-    visible_shared: range(12/30-01/04)
+    visible_home: range(12/30-01/05)
+    visible_shared: range(12/30-01/05)
     summary: Happy New Year!
     file_poster: config/posters/New Year.png
     trakt_list:

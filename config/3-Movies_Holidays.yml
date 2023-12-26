@@ -13,8 +13,8 @@ templates:
 collections:
   Christmas 🎄:
     template: { name: Holiday }
-    visible_home: range(12/01-12/31)
-    visible_shared: range(12/01-12/31)
+    visible_home: range(12/01-12/26)
+    visible_shared: range(12/01-12/26)
     summary: Ho ho ho.
     file_poster: config/posters/Christmas.png
     trakt_list:
@@ -68,8 +68,8 @@ collections:
 
   New Years 🍾:
     template: { name: Holiday }
-    visible_home: range(12/31-01/06)
-    visible_shared: range(12/31-01/06)
+    visible_home: range(12/30-01/04)
+    visible_shared: range(12/30-01/04)
     summary: Happy New Year!
     file_poster: config/posters/New Year.png
     trakt_list:

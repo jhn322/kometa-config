@@ -1,5 +1,5 @@
 ######################################################
-#                  GENRES 15.0                       #
+#                  GENRES 16.0                       #
 ######################################################
 
 templates:
@@ -298,7 +298,7 @@ collections:
         genre: western
 
   ######################################################
-  #                  SUBGENRES 13.0                    #
+  #                  SUBGENRES 14.0                    #
   ######################################################
 
   # Creates more unique genre collections based on certain themes mostly from Trakt and IMDb lists
@@ -488,7 +488,7 @@ collections:
     file_poster: config/posters/dark comedy.png
     visible_shared: weekly(tuesday)
     limit: 300
-    trakt_list: https://trakt.tv/users/ld667/lists/dark-comedies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/marko8426/lists/dark-comedy?sort=rank,asc
 
   Dark Fantasy:
     template: { name: Genre Other }
@@ -538,9 +538,9 @@ collections:
     file_poster: config/posters/drug.png
     visible_shared: weekly(sunday)
     trakt_list:
-      - https://trakt.tv/users/ld667/lists/the-30-best-drug-movies?sort=rank,asc
+      - https://trakt.tv/users/martachilegge/lists/drugs?sort=rank,asc
+      - https://trakt.tv/users/g0g0/lists/drugs?sort=rank,asc
       - https://trakt.tv/users/ximphrambugle/lists/drug-movies?sort=rank,asc
-      - https://trakt.tv/users/ld667/lists/drug-related-movies?sort=rank,asc
       - https://trakt.tv/users/r_u-d_i/lists/r_u-d_i-s-drug-movies?sort=rank,asc
 
   Dystopian:
@@ -592,7 +592,8 @@ collections:
     visible_shared: monthly(13)
     trakt_list:
       - https://trakt.tv/users/josieuna/lists/goth-to-watch?sort=rank,asc
-      - https://trakt.tv/users/ld667/lists/goth-style-cartoons-tv-series-and-movies?sort=rank,asc
+      - https://trakt.tv/users/anyriver/lists/southern-gothic?sort=rank,asc
+      - https://trakt.tv/users/majeed_pk/lists/classic-british-gothic-horror?sort=rank,asc
 
   Gore:
     template: { name: Genre Other }
@@ -664,10 +665,10 @@ collections:
     file_poster: config/posters/MEDIEVAL.png
     visible_shared: monthly(17)
     trakt_list:
-      - https://trakt.tv/users/ld667/lists/medieval-fantasy?sort=rank,asc
       - https://trakt.tv/users/n4m3n07f0und/lists/medieval-movies?sort=rank,asc
       - https://trakt.tv/users/destyl01/lists/medieval?sort=added,desc
       - https://trakt.tv/users/kayaaron13/lists/medieval-movies?sort=rank,asc
+      - https://trakt.tv/users/n4m3n07f0und/lists/medieval-movies
 
   Monster:
     template: { name: Genre Other }
@@ -994,7 +995,12 @@ collections:
     summary: The spy film genre, also known sometimes as an espionage film, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.
     file_poster: config/posters/spy.png
     visible_shared: monthly(8)
-    trakt_list: https://trakt.tv/users/ld667/lists/the-best-spy-movies-list?sort=rank,asc
+    trakt_list:
+      - https://trakt.tv/users/dpsxcii/lists/spy?sort=rank,asc
+      - https://trakt.tv/users/vdimaio/lists/spys?sort=released,desc
+      - https://trakt.tv/users/pprojecttv/lists/spy?sort=my_rating,asc
+      - https://trakt.tv/users/mattgriff/lists/spy-vs-spy?sort=rank,asc
+      - https://trakt.tv/users/marcelocastanheira/lists/spy-vs-spy?sort=released,asc
 
   Stop Motion:
     template: { name: Genre Other }
@@ -1057,7 +1063,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/istoit/lists/movies-to-make-you-cancel-that-vacation?sort=rank,asc
       - https://trakt.tv/users/kayaaron13/lists/vacations-gone-wrong?sort=rank,asc
-      - https://trakt.tv/users/ld667/lists/25-best-travel-movies-of-all-time-films-that-will?sort=rank,asc
       - https://trakt.tv/users/mrtheta/lists/travel?sort=rank,asc
 
   Vampire:
@@ -1087,7 +1092,7 @@ collections:
     visible_shared: monthly(5)
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/bad-guy-wins?sort=title,asc
-      - https://trakt.tv/users/ld667/lists/bad-guy-wins?sort=rank,asc
+      - https://trakt.tv/users/majeed_pk/lists/may-favorite-villains
 
   Werewolf:
     template: { name: Genre Other }
@@ -1120,8 +1125,9 @@ collections:
     file_poster: config/posters/zombie.png
     visible_shared: monthly(1)
     trakt_list:
-      - https://trakt.tv/users/ld667/lists/the-most-epic-zombie-films-since-2000
       - https://trakt.tv/users/mraniki/lists/zombie
+      - https://trakt.tv/users/29zombies/lists/zombies?sort=title,asc
+      - https://trakt.tv/users/simiansays/lists/zombies
 
   ######################################################
   #                  COUNTRIES 6.0                     #

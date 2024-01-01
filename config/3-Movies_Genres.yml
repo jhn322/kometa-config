@@ -31,6 +31,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.4
         genre: action
 
   Adventure:
@@ -43,6 +44,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.0
         genre: adventure
 
   Anime:
@@ -92,6 +94,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.0
         genre: comedy
 
   Crime:
@@ -104,6 +107,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.6
         genre: crime
 
   Documentary:
@@ -128,6 +132,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.7
         genre: drama
 
   Family:
@@ -140,6 +145,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.1
         genre: family
 
   Fantasy:
@@ -152,6 +158,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.4
         genre: fantasy
 
   History:
@@ -164,6 +171,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.8
         genre: history
 
   Horror:
@@ -176,6 +184,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 5.5
         genre: horror
 
   Martial Art:
@@ -212,6 +221,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.0
         genre: mystery
 
   Romance:
@@ -224,6 +234,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.4
         genre: romance
 
   Sci-Fi:
@@ -236,6 +247,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.5
         genre: science fiction
 
   Sport:
@@ -260,6 +272,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.3
         genre: thriller
 
   TV Movie:
@@ -271,6 +284,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.4
         genre: TV Movie
 
   War:
@@ -283,6 +297,7 @@ collections:
       limit: 400
       validate: false
       all:
+        audience_rating.gte: 6.4
         genre: war
 
   Western:

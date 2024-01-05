@@ -70,7 +70,7 @@ collections:
       - monthly(17)
       - monthly(18)
     file_poster: config/posters/Golden Globe Winners.png
-    imdb_list: https://www.imdb.com/search/title/?groups=golden_globe_winner&start=51&ref_=adv_nxt
+    letterboxd_list: https://letterboxd.com/jonny5244/list/golden-globe-winners/
 
   Oscars Winners:
     template: { name: Award Other }

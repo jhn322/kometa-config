@@ -45,8 +45,6 @@ templates:
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
-    imdb_list:
-      url: https://www.imdb.com/list/<<imdb_list>>/?sort=release_date,desc
     trakt_list:
       - <<trakt_list>>
 
@@ -65,7 +63,6 @@ collections:
     template:
       {
         name: custom_2,
-        imdb_list: "ls538625146",
         trakt_list: "https://trakt.tv/users/fdamico/lists/critics-choice-series?sort=released,asc",
       }
 
@@ -76,10 +73,8 @@ collections:
     file_poster: config/posters/Emmy Winners.png
     template:
       {
-        name: imdb,
-        groups: "emmy_winner",
-        title_type: "tv_series,tv_special,tv_miniseries",
-        languages: "en",
+        name: custom_2,
+        trakt_list: "https://trakt.tv/users/diimaan/lists/primetime-emmy-winners?sort=rank,asc",
       }
 
   Emmy - Nominees:
@@ -87,10 +82,8 @@ collections:
     file_poster: config/posters/Emmy Nominees.png
     template:
       {
-        name: imdb,
-        groups: "emmy_nominee",
-        title_type: "tv_series,tv_special,tv_miniseries",
-        languages: "en",
+        name: custom_2,
+        trakt_list: "https://trakt.tv/users/diimaan/lists/primetime-emmy-nominees?sort=rank,asc",
       }
 
   Golden Globe - Nominees:

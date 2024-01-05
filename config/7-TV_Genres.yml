@@ -19,7 +19,7 @@ templates:
     sort_title: <<collection_name>>
     sync_mode: sync
 
-# Creates collections for genres with a limit of 200
+# Creates collections for genres with a limit of 200.
 collections:
   Action:
     template: { name: Genre }

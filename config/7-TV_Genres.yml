@@ -1,5 +1,5 @@
 ############################################
-#               GENRES 11.0                #
+#               GENRES 12.0                #
 ############################################
 
 templates:
@@ -273,7 +273,7 @@ collections:
         genre: western
 
   ############################################
-  #               SUBGENRES 10.0             #
+  #               SUBGENRES 11.0             #
   ############################################
 
   # Creates more unique genre collections based on certain themes from Trakt lists
@@ -350,7 +350,7 @@ collections:
     file_poster: config/posters/dark comedy.png
     visible_shared: monthly(31)
     trakt_list:
-      - https://trakt.tv/users/ld667/lists/my-favorite-dark-comedy-tv-shows?sort=rank,asc
+      - https://trakt.tv/users/majeed_pk/lists/dark-comedy-uk-tv-shows?sort=rank,asc
       - https://trakt.tv/users/hitman860/lists/tv-shows-dark-comedy?sort=rank,asc
 
   Drug:
@@ -359,7 +359,8 @@ collections:
     visible_shared: monthly(13)
     trakt_list:
       - https://trakt.tv/users/dr-rieux/lists/drugs-in-tv-shows
-      - https://trakt.tv/users/ld667/lists/ultimate-drug-list_-modern-films-tv-shows-about?sort=rank,asc
+      - https://trakt.tv/users/bonnijolisa/lists/drugs-tv-25068808?sort=added,desc
+      - https://trakt.tv/users/dr-rieux/lists/drugs-in-tv-shows?sort=added,asc
 
   Dystopian:
     template: { name: Genre Other }
@@ -484,7 +485,8 @@ collections:
     visible_shared: monthly(12)
     trakt_list:
       - https://trakt.tv/users/kdlb/lists/post-apocalyptic-tv?sort=rank,asc
-      - https://trakt.tv/users/ld667/lists/post-apocalyptic-tv-shows?sort=rank,asc
+      - https://trakt.tv/users/shriek/lists/post-apocalyptic-tv-shows?sort=title,asc
+      - https://trakt.tv/users/kdlb/lists/post-apocalyptic-tv?sort=rank,asc
 
   Prison:
     template: { name: Genre Other }
@@ -563,7 +565,7 @@ collections:
     visible_shared: weekly(saturday)
     trakt_list:
       - https://trakt.tv/users/vagnerr/lists/time-travel
-      - https://trakt.tv/users/ld667/lists/42-best-time-travel-tv-series?sort=rank,asc
+      - https://trakt.tv/users/julia1998invisible/lists/time-travel-tv-shows?sort=my_rating,asc
       - https://trakt.tv/users/mic-madalena/lists/time-travel-tv?sort=rank,asc
 
   Vampire:
@@ -572,9 +574,9 @@ collections:
     file_poster: config/posters/vampire.png
     visible_shared: monthly(25)
     trakt_list:
-      - https://trakt.tv/users/ld667/lists/42-best-vampire-tv-series?sort=rank,asc
-      - https://trakt.tv/users/ld667/lists/top-20-vampire-tv-shows-of-all-time?sort=rank,asc
       - https://trakt.tv/users/kali2002/lists/vampire?sort=title,asc
+      - https://trakt.tv/users/padawan_seneca/lists/vampires-tv-series?sort=rank,asc
+      - https://trakt.tv/users/racketpoint6789/lists/english-vampire-tv-shows?sort=rank,asc
 
   Video Game:
     template: { name: Genre Other }

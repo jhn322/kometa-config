@@ -1,5 +1,5 @@
 #############################################################
-#                       AWARDS 6.0                          #
+#                       AWARDS 7.0                          #
 #############################################################
 
 templates:
@@ -10,7 +10,7 @@ templates:
     delete_not_scheduled: false
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=<<title_type>>&groups=<<groups>>&languages=<<languages>>&sort=release_date,desc
-      limit: 350
+      limit: 1000
 
   letterboxd:
     optional:
@@ -25,7 +25,7 @@ templates:
     delete_not_scheduled: false
     letterboxd_list::
       url: https://letterboxd.com/<<user>>/list/<<list>>/by/<<sort>>
-      limit: 350
+      limit: 1000
 
   custom_1:
     optional:
@@ -36,7 +36,7 @@ templates:
     delete_not_scheduled: false
     imdb_list:
       url: https://www.imdb.com/list/<<imdb_list>>/?sort=release_date,desc
-      limit: 350
+      limit: 1000
 
   custom_2:
     optional:
@@ -84,27 +84,4 @@ collections:
       {
         name: custom_2,
         trakt_list: "https://trakt.tv/users/diimaan/lists/primetime-emmy-nominees?sort=rank,asc",
-      }
-
-  Golden Globe - Nominees:
-    summary: "A collection of Golden Globes Nominees"
-    file_poster: config/posters/Golden Globe Nominees.png
-    template:
-      {
-        name: imdb,
-        groups: "golden_globe_nominee",
-        title_type: "tv_series,tv_special,tv_miniseries",
-        languages: "en",
-      }
-
-  Golden Globe - Winners:
-    summary: "A collection of Golden Globes Winners"
-    visible_shared: monthly(15)
-    file_poster: config/posters/Golden Globe Winners.png
-    template:
-      {
-        name: imdb,
-        groups: "golden_globe_winners",
-        title_type: "tv_series,tv_special,tv_miniseries",
-        languages: "en",
       }

@@ -1,16 +1,17 @@
 #############################################################
-#                       AWARDS 7.0                          #
+#                       AWARDS 8.0                          #
 #############################################################
 
 templates:
   imdb:
+    optional:
+      - trakt_list
     sort_title: "zzzzz_<<num>>_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=<<title_type>>&groups=<<groups>>&languages=<<languages>>&sort=release_date,desc
-      limit: 1000
+    trakt_list:
+      - <<trakt_list>>
 
   letterboxd:
     optional:
@@ -23,11 +24,11 @@ templates:
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
-    letterboxd_list::
+    letterboxd_list:
       url: https://letterboxd.com/<<user>>/list/<<list>>/by/<<sort>>
-      limit: 1000
+      limit: 9999
 
-  custom_1:
+  custom:
     optional:
       - trakt_list
     sort_title: "zzzzz_<<num>>_<<collection_name>>"
@@ -36,52 +37,99 @@ templates:
     delete_not_scheduled: false
     imdb_list:
       url: https://www.imdb.com/list/<<imdb_list>>/?sort=release_date,desc
-      limit: 1000
-
-  custom_2:
-    optional:
-      - trakt_list
-    sort_title: "zzzzz_<<num>>_<<collection_name>>"
-    sync_mode: sync
-    smart_label: release.desc
-    delete_not_scheduled: false
-    trakt_list:
-      - <<trakt_list>>
+      limit: 9999
 
 # TV shows who has won some the most prestigious awards
 collections:
+  BAFTA - Nominees:
+    template: { name: imdb }
+    summary: "A collection of BAFTA Nominees"
+    file_poster: config/posters/BAFTA Nominees.png
+    imdb_search:
+      event: "bafta"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
+
   BAFTA - Winners:
+    template: { name: imdb }
     summary: "A collection of BAFTA Winners"
     visible_shared: monthly(10)
     file_poster: config/posters/BAFTA Winners.png
-    template: { name: custom_1, imdb_list: "ls538625886" }
+    imdb_search:
+      event.winning: "bafta"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
+
+  Critics Choice Awards - Nominees:
+    template: { name: imdb }
+    summary: "A collection of Critics Choice Award Nominees"
+    file_poster: config/posters/Critics Choice Nominees.png
+    imdb_search:
+      event: "choice"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
 
   Critics Choice Awards - Winners:
+    template: { name: imdb }
     summary: "A collection of Critics Choice Award Winners"
     visible_shared: monthly(5)
     file_poster: config/posters/critics choice winners.png
-    template:
-      {
-        name: custom_2,
-        trakt_list: "https://trakt.tv/users/fdamico/lists/critics-choice-series?sort=released,asc",
-      }
+    imdb_search:
+      event.winning: "choice"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
 
   Emmy - Winners:
+    template: { name: imdb }
     summary: "A collection of Emmy Award Winners"
     visible_library: true
     visible_shared: monthly(20)
     file_poster: config/posters/Emmy Winners.png
-    template:
-      {
-        name: custom_2,
-        trakt_list: "https://trakt.tv/users/diimaan/lists/primetime-emmy-winners?sort=rank,asc",
-      }
+    imdb_search:
+      event.winning: "emmy"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
 
   Emmy - Nominees:
+    template: { name: imdb }
     summary: "A collection of Emmy Award Nominees"
     file_poster: config/posters/Emmy Nominees.png
-    template:
-      {
-        name: custom_2,
-        trakt_list: "https://trakt.tv/users/diimaan/lists/primetime-emmy-nominees?sort=rank,asc",
-      }
+    imdb_search:
+      event: "emmy"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
+
+  Golden Globe - Nominees:
+    template: { name: imdb }
+    summary: "A collection of Golden Globes Nominees"
+    file_poster: config/posters/Golden Globe Nominees.png
+    imdb_search:
+      event: "golden"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999
+
+  Golden Globe - Winners:
+    template: { name: imdb }
+    summary: "A collection of Golden Globes Winners"
+    visible_shared: monthly(15)
+    file_poster: config/posters/Golden Globe Winners.png
+    imdb_search:
+      event.winning: "golden"
+      type: "tv_series,tv_special,tv_mini_series"
+      language: "en"
+      sort_by: release.desc
+      limit: 9999

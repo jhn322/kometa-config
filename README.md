@@ -1,13 +1,13 @@
 # Plex Meta Manager Config
 
-My Plex Meta Manager config for automatically creating collections and overlays to Plex. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb among others in your config.yml file.
+My Plex Meta Manager config for automatically creating collections and overlays to Plex. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb and more in your config.yml file.
 
 ## Install (Docker Compose)
 
 This will install Plex meta manager using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
 
 1. Download this repository.
-2. Add **your** Plex IP-adress and token.
+2. Add **your** Plex IP-adress and token to config.yml.
 3. **(Highly recommended)** many collections in this config pulls information from services like Trakt, mdblist and more which requires a valid api key/token/id. Please visit the [config section in the wiki](https://metamanager.wiki/en/latest/config/trakt.html) on how to configure them.
 4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows (if you haven't already).
 5. Open terminal and navigate to your path:

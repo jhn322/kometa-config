@@ -30,7 +30,7 @@ Linux: "sudo docker-compose up -d"
 
 ## Docker run
 
-This will run through the entire config one time, It will **not** keep updating on a schedule.
+This will run through the entire config one time, It will **not** keep PMM updated on a schedule.
 
 ```powershell
 Windows: "docker run -it -v "C:\path\to\PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"

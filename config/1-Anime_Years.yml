@@ -22,16 +22,16 @@ templates:
 
 # Creates collection for currently airing animes in this season this year using mal
 collections:
-  Autumn Season:
-    template: { name: Season }
-    mal_season:
-      season: fall
-      limit: 100
-      sort_by: members
-      starting_only: false
-    sort_title: ++1autumn season
-    summary: Animes streaming this fall season according to MyAnimeList.
-    file_poster: config/posters/Autumn Anime.png
+  # Autumn Season: Currently disabled
+  #   template: { name: Season }
+  #   mal_season:
+  #     season: fall
+  #     limit: 100
+  #     sort_by: members
+  #     starting_only: false
+  #   sort_title: ++1autumn season
+  #   summary: Animes streaming this fall season according to MyAnimeList.
+  #   file_poster: config/posters/Autumn Anime.png
 
   Spring Season:
     template: { name: Season }

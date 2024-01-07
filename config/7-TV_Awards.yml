@@ -10,6 +10,7 @@ templates:
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
+    visible_library: true
     trakt_list:
       - <<trakt_list>>
 

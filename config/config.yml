@@ -1,7 +1,8 @@
 # Change the library names below to your exact(!) plex library names.
 libraries:
   Anime:
-    metadata_path:
+    remove_overlays: false
+    collection_files:
       - file: config/1-Anime.yml
       - file: config/1-Anime_Genres.yml
       - file: config/1-Anime_Franchises.yml
@@ -12,16 +13,16 @@ libraries:
     operations:
       mass_audience_rating_update: mdb_myanimelist
     overlay_path:
-      - remove_overlays: false
       - file: config/1.1-Anime_Overlays_ContentRating.yml
       - file: config/1.1-Anime_Overlays_Rating.yml
       - file: config/1.1-Anime_Overlays_Resolution.yml
       - file: config/1.1-Anime_Overlays_Top.yml
   Audiobooks:
-    metadata_path:
+    collection_files:
       - file: config/2-Audiobooks_Genres.yml
   Movies:
-    metadata_path:
+    remove_overlays: false
+    collection_files:
       - file: config/3-Movies.yml
       - file: config/3-Movies_Actors.yml
       - file: config/3-Movies_Awards.yml
@@ -35,32 +36,32 @@ libraries:
     operations:
       mass_audience_rating_update: imdb
     overlay_path:
-      - remove_overlays: false
       - file: config/3.1-Movies_Overlays_4K.yml
       - file: config/3.1-Movies_Overlays_Rating.yml
       # - file: config/3.1-Movies_Overlays_Subtitle.yml remove "#" to enable
       - file: config/3.1-Movies_Overlays_Top.yml
   Music:
-    metadata_path:
+    collection_files:
       - file: config/4-Music.yml
       - file: config/4-Music_Genres.yml
       - file: config/4-Music_Separators.yml
   Remux:
-    metadata_path:
+    remove_overlays: false
+    collection_files:
       - file: config/5-Remux.yml
     overlay_path:
-      - remove_overlays: false
       - file: config/5.1-Remux_Overlays.yml
       - file: config/5.1-Remux_Overlays_Audio.yml
       - file: config/5.1-Remux_Overlays_Rating.yml
       - file: config/5.1-Remux_Overlays_Top.yml
   Soundtracks:
-    metadata_path:
+    collection_files:
       # - file: config/6-Soundtracks.yml remove "#" to enable
       # - file: config/6-Soundtracks_Genres.yml
       # - file: config/6-Soundtracks_Separators.yml
   TV:
-    metadata_path:
+    remove_overlays: false
+    collection_files:
       - file: config/7-TV.yml
       - file: config/7-TV_Awards.yml
       - file: config/7-TV_Franchises.yml
@@ -72,13 +73,12 @@ libraries:
     operations:
       mass_audience_rating_update: imdb
     overlay_path:
-      - remove_overlays: false
       - file: config/7.1-TV_Overlays_4K.yml
       - file: config/7.1-TV_Overlays_Canceled.yml
       - file: config/7.1-TV_Overlays_Rating.yml
       - file: config/7.1-TV_Overlays_Top.yml
   Videos:
-    metadata_path:
+    collection_files:
       # - file: config/8-Videos.yml remove "#" to enable
 settings:
   cache: true

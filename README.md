@@ -1,4 +1,4 @@
-# Plex Meta Manager Config
+# Plex Meta Manager Config (v1.20 and later)
 
 My Plex Meta Manager config for automatically creating collections and overlays to Plex. These files were originally created using templates and has since then been rewritten completely and updated regularly by me since 2021. For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb and more in your config.yml file.
 
@@ -36,6 +36,16 @@ This will run through the entire config one time, It will **not** keep PMM updat
 Windows: "docker run -it -v "C:\path\to\PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
 
 Linux: "sudo docker run -it -v "/path/to/PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
+```
+
+## Update PMM
+
+This will update Plex meta manager to the latest branch version.
+
+```powershell
+Stable: docker pull meisnate12/plex-meta-manager
+Develop: docker pull meisnate12/plex-meta-manager:develop
+Nightly: docker pull meisnate12/plex-meta-manager:nightly
 ```
 
 ## Targeted library types:

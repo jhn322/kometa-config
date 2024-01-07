@@ -1,11 +1,11 @@
 #####################################################
-#                 HOLIDAYS 6.0                      #
+#                 HOLIDAYS 7.0                      #
 #####################################################
 
 templates:
   Holiday:
     sort_title: ZZZZZZZZZZZZZZZZZZZ+<<collection_name>>
-    # smart_label: random not working as of 231114
+    smart_label: random
     sync_mode: sync
     visible_home: false
 

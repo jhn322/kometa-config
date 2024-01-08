@@ -10,7 +10,6 @@ templates:
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
-    visible_library: true
     trakt_list:
       - <<trakt_list>>
 
@@ -46,8 +45,10 @@ collections:
     template: { name: imdb }
     summary: "A collection of BAFTA Nominees"
     file_poster: config/posters/BAFTA Nominees.png
-    imdb_search:
-      event: "bafta"
+    imdb_award:
+      event_id: "ev0000123"
+      event_year: "1949-current"
+      winning: false
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -58,8 +59,10 @@ collections:
     summary: "A collection of BAFTA Winners"
     visible_shared: monthly(10)
     file_poster: config/posters/BAFTA Winners.png
-    imdb_search:
-      event.winning: "bafta"
+    imdb_award:
+      event_id: "ev0000123"
+      event_year: "1949-current"
+      winning: true
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -69,8 +72,10 @@ collections:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Nominees"
     file_poster: config/posters/Critics Choice Nominees.png
-    imdb_search:
-      event: "choice"
+    imdb_award:
+      event_id: "ev0000133"
+      event_year: "1996-current"
+      winning: false
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -81,8 +86,10 @@ collections:
     summary: "A collection of Critics Choice Award Winners"
     visible_shared: monthly(5)
     file_poster: config/posters/critics choice winners.png
-    imdb_search:
-      event.winning: "choice"
+    imdb_award:
+      event_id: "ev0000133"
+      event_year: "1996-current"
+      winning: true
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -94,8 +101,10 @@ collections:
     visible_library: true
     visible_shared: monthly(20)
     file_poster: config/posters/Emmy Winners.png
-    imdb_search:
-      event.winning: "emmy"
+    imdb_award:
+      event_id: "ev0000223"
+      event_year: "1949-current"
+      winning: true
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -105,8 +114,10 @@ collections:
     template: { name: imdb }
     summary: "A collection of Emmy Award Nominees"
     file_poster: config/posters/Emmy Nominees.png
-    imdb_search:
-      event: "emmy"
+    imdb_award:
+      event_id: "ev0000223"
+      event_year: "1949-current"
+      winning: false
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -116,8 +127,10 @@ collections:
     template: { name: imdb }
     summary: "A collection of Golden Globes Nominees"
     file_poster: config/posters/Golden Globe Nominees.png
-    imdb_search:
-      event: "golden"
+    imdb_award:
+      event_id: "ev0000292"
+      event_year: "1944-current"
+      winning: false
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc
@@ -128,8 +141,10 @@ collections:
     summary: "A collection of Golden Globes Winners"
     visible_shared: monthly(15)
     file_poster: config/posters/Golden Globe Winners.png
-    imdb_search:
-      event.winning: "golden"
+    imdb_award:
+      event_id: "ev0000292"
+      event_year: "1944-current"
+      winning: true
       type: "tv_series,tv_special,tv_mini_series"
       language: "en"
       sort_by: release.desc

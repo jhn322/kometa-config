@@ -1,5 +1,5 @@
 #############################################################
-#                       AWARDS 9.0                          #
+#                       AWARDS 8.0                          #
 #############################################################
 
 templates:
@@ -9,6 +9,7 @@ templates:
     sort_title: "zzzzz_<<num>>_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
+    visible_library: true
     delete_not_scheduled: false
     trakt_list:
       - <<trakt_list>>
@@ -71,6 +72,7 @@ collections:
   Critics Choice Awards - Nominees:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Nominees"
+    visible_shared: monthly(30)
     file_poster: config/posters/Critics Choice Nominees.png
     imdb_award:
       event_id: "ev0000133"
@@ -98,7 +100,6 @@ collections:
   Emmy - Winners:
     template: { name: imdb }
     summary: "A collection of Emmy Award Winners"
-    visible_library: true
     visible_shared: monthly(20)
     file_poster: config/posters/Emmy Winners.png
     imdb_award:
@@ -113,6 +114,7 @@ collections:
   Emmy - Nominees:
     template: { name: imdb }
     summary: "A collection of Emmy Award Nominees"
+    visible_shared: monthly(25)
     file_poster: config/posters/Emmy Nominees.png
     imdb_award:
       event_id: "ev0000223"

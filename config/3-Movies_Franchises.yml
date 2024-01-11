@@ -3508,14 +3508,6 @@ collections:
       all:
         title: save the last dance
 
-  Sailor Moon:
-    template: { name: Franchise }
-    summary: Sailor Moon, originally translated as Pretty Soldier Sailor Moon and later as Pretty Guardian Sailor Moon is a Japanese manga series written and illustrated by Naoko Takeuchi.
-    file_poster: config/posters/Sailor Moon Collection.jpg
-    plex_search:
-      all:
-        title: sailor moon
-
   Samurai Trilogy:
     template: { name: Franchise }
     file_poster: config/posters/Samurai Trilogy (Yoji Yamada).png

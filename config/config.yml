@@ -17,9 +17,9 @@ libraries:
       - file: config/1.1-Anime_Overlays_Rating.yml
       - file: config/1.1-Anime_Overlays_Resolution.yml
       - file: config/1.1-Anime_Overlays_Top.yml
-  Audiobooks:
-    collection_files:
-      - file: config/2-Audiobooks_Genres.yml
+  # Audiobooks:
+  # collection_files:
+  # - file: config/2-Audiobooks_Genres.yml
   Movies:
     remove_overlays: false
     collection_files:
@@ -38,7 +38,7 @@ libraries:
     overlay_path:
       - file: config/3.1-Movies_Overlays_4K.yml
       - file: config/3.1-Movies_Overlays_Rating.yml
-      # - file: config/3.1-Movies_Overlays_Subtitle.yml remove "#" to enable
+      # - file: config/3.1-Movies_Overlays_Subtitle.yml
       - file: config/3.1-Movies_Overlays_Top.yml
   Music:
     collection_files:
@@ -54,11 +54,11 @@ libraries:
       - file: config/5.1-Remux_Overlays_Audio.yml
       - file: config/5.1-Remux_Overlays_Rating.yml
       - file: config/5.1-Remux_Overlays_Top.yml
-  Soundtracks:
-    collection_files:
-      # - file: config/6-Soundtracks.yml remove "#" to enable
-      # - file: config/6-Soundtracks_Genres.yml
-      # - file: config/6-Soundtracks_Separators.yml
+  # Soundtracks:
+  # collection_files:
+  # - file: config/6-Soundtracks.yml
+  # - file: config/6-Soundtracks_Genres.yml
+  # - file: config/6-Soundtracks_Separators.yml
   TV:
     remove_overlays: false
     collection_files:
@@ -79,7 +79,7 @@ libraries:
       - file: config/7.1-TV_Overlays_Top.yml
   Videos:
     collection_files:
-      # - file: config/8-Videos.yml remove "#" to enable
+      # - file: config/8-Videos.yml
 settings:
   cache: true
   cache_expiration: 60

@@ -1,0 +1,93 @@
+docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run
+docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:develop --run
+docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:nightly --run
+---------------------------------------------------------------------------------------------------------------------------------
+docker run --restart=unless-stopped -d -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:develop -co --time 08:00
+docker run --restart=unless-stopped -d -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:develop -op --time 11:00
+docker run --restart=unless-stopped -d -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:develop -ov --time 12:00
+---------------------------------------------------------------------------------------------------------------------------------
+docker pull meisnate12/plex-meta-manager
+docker pull meisnate12/plex-meta-manager:develop
+docker pull meisnate12/plex-meta-manager:nightly
+docker rename CONTAINER new_name
+---------------------------------------------------------------------------------------------------------------------------------
+  Anime:
+    remove_overlays: false
+    collection_files:
+      - file: config/1-Anime.yml
+      - file: config/1-Anime_Genres.yml
+      - file: config/1-Anime_Franchises.yml
+      - file: config/1-Anime_Networks.yml
+      - file: config/1-Anime_Separators.yml
+      - file: config/1-Anime_Specials.yml
+      - file: config/1-Anime_Years.yml
+    operations:
+      mass_audience_rating_update: mdb_myanimelist
+    overlay_files:
+      - file: config/1.1-Anime_Overlays_ContentRating.yml
+      - file: config/1.1-Anime_Overlays_Rating.yml
+      - file: config/1.1-Anime_Overlays_Resolution.yml
+      - file: config/1.1-Anime_Overlays_Top.yml
+  Audiobooks:
+    collection_files:
+      - file: config/2-Audiobooks_Genres.yml
+  Movies:
+    remove_overlays: false
+    collection_files:
+      - file: config/3-Movies.yml
+      - file: config/3-Movies_Actors.yml
+      - file: config/3-Movies_Awards.yml
+      - file: config/3-Movies_Franchises.yml
+      - file: config/3-Movies_Genres.yml
+      - file: config/3-Movies_Holidays
+      - file: config/3-Movies_Separators.yml
+      - file: config/3-Movies_Specials.yml
+      - file: config/3-Movies_Studios.yml
+      - file: config/3-Movies_Years.yml
+    operations:
+      mass_audience_rating_update: imdb
+    overlay_files:
+      - file: config/3.1-Movies_Overlays_4K.yml
+      - file: config/3.1-Movies_Overlays_Rating.yml
+      - file: config/3.1-Movies_Overlays_Subtitle.yml
+      - file: config/3.1-Movies_Overlays_Top.yml
+  Music:
+    collection_files:
+      - file: config/4-Music.yml
+      - file: config/4-Music_Genres.yml
+      - file: config/4-Music_Separators.yml
+  Remux:
+    remove_overlays: false
+    collection_files:
+      - file: config/5-Remux.yml
+    overlay_files:
+      - file: config/5.1-Remux_Overlays.yml
+      - file: config/5.1-Remux_Overlays_Audio.yml
+      - file: config/5.1-Remux_Overlays_Rating.yml
+      - file: config/5.1-Remux_Overlays_Top.yml
+  Soundtracks:
+    collection_files:
+      - file: config/6-Soundtracks.yml
+      - file: config/6-Soundtracks_Genres.yml
+      - file: config/6-Soundtracks_Separators.yml
+  TV:
+    remove_overlays: false
+    collection_files:
+      - file: config/7-TV.yml
+      - file: config/7-TV_Awards.yml
+      - file: config/7-TV_Franchises.yml
+      - file: config/7-TV_Genres.yml
+      - file: config/7-TV_Networks.yml
+      - file: config/7-TV_Separators.yml
+      - file: config/7-TV_Specials.yml
+      - file: config/7-TV_Years.yml
+    operations:
+      mass_audience_rating_update: imdb
+    overlay_files:
+      - file: config/7.1-TV_Overlays_4K.yml
+      - file: config/7.1-TV_Overlays_Canceled.yml
+      - file: config/7.1-TV_Overlays_Rating.yml
+      - file: config/7.1-TV_Overlays_Top.yml
+  Videos:
+    collection_files:
+      - file: config/8-Videos.yml

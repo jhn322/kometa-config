@@ -77,9 +77,9 @@ libraries:
       - file: config/7.1-TV_Overlays_Canceled.yml
       - file: config/7.1-TV_Overlays_Rating.yml
       - file: config/7.1-TV_Overlays_Top.yml
-  Videos:
-    collection_files:
-      # - file: config/8-Videos.yml
+  #Videos:
+  #collection_files:
+  # - file: config/8-Videos.yml
 settings:
   cache: true
   cache_expiration: 60

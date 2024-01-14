@@ -114,27 +114,27 @@ Feel free removing any unwanted collections/overlays by simply deleting the file
 
 - MyAnimeList Ratings
 - Resolutions
-- MyAnimeList & AniDB Top Rated Stars
+- MyAnimeList & AniDB Top Rated star symbol
 - Explicit Content
 
 **Movies:**
 
 - IMDb Ratings
-- IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
+- IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated star symbol
 - Resolutions
-- No Swedish Subtitles
+- No Swedish Subtitles (If enabled)
 
 **Remux:**
 
 - IMDb Ratings
-- IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated Stars
+- IMDb, Trakt, Letterboxed, TMDb, MyAnimeList Top Rated star symbol
 - Resolutions
 - Audio Codecs
 
 **TV:**
 
 - IMDb Ratings
-- IMDb, Trakt, TMDb Top Rated Stars
+- IMDb, Trakt, TMDb Top Rated star symbol
 - Resolutions
 - Canceled Shows
 

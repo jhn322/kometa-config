@@ -12,7 +12,7 @@ libraries:
       - file: config/1-Anime_Years.yml
     operations:
       mass_audience_rating_update: mdb_myanimelist
-    overlay_path:
+    overlay_files:
       - file: config/1.1-Anime_Overlays_ContentRating.yml
       - file: config/1.1-Anime_Overlays_Rating.yml
       - file: config/1.1-Anime_Overlays_Resolution.yml
@@ -35,7 +35,7 @@ libraries:
       - file: config/3-Movies_Years.yml
     operations:
       mass_audience_rating_update: imdb
-    overlay_path:
+    overlay_files:
       - file: config/3.1-Movies_Overlays_4K.yml
       - file: config/3.1-Movies_Overlays_Rating.yml
       # - file: config/3.1-Movies_Overlays_Subtitle.yml
@@ -49,7 +49,7 @@ libraries:
     remove_overlays: false
     collection_files:
       - file: config/5-Remux.yml
-    overlay_path:
+    overlay_files:
       - file: config/5.1-Remux_Overlays.yml
       - file: config/5.1-Remux_Overlays_Audio.yml
       - file: config/5.1-Remux_Overlays_Rating.yml
@@ -72,7 +72,7 @@ libraries:
       - file: config/7-TV_Years.yml
     operations:
       mass_audience_rating_update: imdb
-    overlay_path:
+    overlay_files:
       - file: config/7.1-TV_Overlays_4K.yml
       - file: config/7.1-TV_Overlays_Canceled.yml
       - file: config/7.1-TV_Overlays_Rating.yml

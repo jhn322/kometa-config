@@ -121,42 +121,44 @@ collections:
       all:
         audience_rating.lte: 5.0
 
-  ######################################################
-  #                   RATINGS 1.0                      #
-  ######################################################
+  #############################################################################
+  #               WATCHED AIMES WITH USER SPECIFIC RATINGS 2.0                #
+  #                                                                           #
+  # Create 5 lists on Trakt and sort animes you've watched by your preference.#                #
+  #      For example: "Kill la Kill" 8/10. Then uncomment everything and      #
+  #               simply add each corresponding list down below.              #
+  #############################################################################
+  # 10/10:
+  #   template: { name: Rating }
+  #   summary: Animes with a user rating of 10/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzzzz_10/10
+  #   file_poster: config/posters/10.png
+  #   trakt_list:
 
-  ##################Add your own trakt lists##################
-  10/10:
-    template: { name: Rating }
-    summary: Animes with a user rating of 10/10 (sorted from best to worst).
-    sort_title: zzzzzzzzzz_10/10
-    file_poster: config/posters/10.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/10-10-anime
+  # 9/10:
+  #   template: { name: Rating }
+  #   summary: Animes with a user rating of 9/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzzz_9/10
+  #   file_poster: config/posters/9.png
+  #   trakt_list:
 
-  9/10:
-    template: { name: Rating }
-    summary: Animes with a user rating of 9/10 (sorted from best to worst).
-    sort_title: zzzzzzzzz_9/10
-    file_poster: config/posters/9.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/9-10-anime
+  # 8/10:
+  #   template: { name: Rating }
+  #   summary: Animes with a user rating of 8/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzz_8/10
+  #   file_poster: config/posters/8.png
+  #   trakt_list:
 
-  8/10:
-    template: { name: Rating }
-    summary: Animes with a user rating of 8/10 (sorted from best to worst).
-    sort_title: zzzzzzzz_8/10
-    file_poster: config/posters/8.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/8-10-anime?sort=rank,asc
+  # 7/10:
+  #   template: { name: Rating }
+  #   summary: Animes with a user rating of 7/10 (sorted from best to worst).
+  #   sort_title: zzzzzzz_7/10
+  #   file_poster: config/posters/7.png
+  #   trakt_list:
 
-  7/10:
-    template: { name: Rating }
-    summary: Animes with a user rating of 7/10 (sorted from best to worst).
-    sort_title: zzzzzzz_7/10
-    file_poster: config/posters/7.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/7-10-anime?sort=rank,asc
-
-  6/10:
-    template: { name: Rating }
-    summary: Animes with a user rating of 6/10 (sorted from best to worst).
-    sort_title: zzzzzz_6/10
-    file_poster: config/posters/6.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/6-10-anime?sort=rank,asc
+  # 6/10:
+  #   template: { name: Rating }
+  #   summary: Animes with a user rating of 6/10 (sorted from best to worst).
+  #   sort_title: zzzzzz_6/10
+  #   file_poster: config/posters/6.png
+  #   trakt_list:

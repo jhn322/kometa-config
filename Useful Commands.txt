@@ -11,12 +11,6 @@ docker pull meisnate12/plex-meta-manager:develop
 docker pull meisnate12/plex-meta-manager:nightly
 docker rename CONTAINER new_name
 ---------------------------------------------------------------------------------------------------------------------------------
-cd /your/file/path/to/Plex-meta-manager
-docker-compose up -d
-
-docker pull meisnate12/plex-meta-manager
-docker-compose up -d
----------------------------------------------------------------------------------------------------------------------------------
   Anime:
     remove_overlays: false
     collection_files:
@@ -97,6 +91,10 @@ docker-compose up -d
   Videos:
     collection_files:
       - file: config/8-Videos.yml
+---------------------------------------------------------------------------------------------------------------------------------
+cd /your/file/path/to/Plex-meta-manager
+docker pull meisnate12/plex-meta-manager
+docker-compose up -d
 ---------------------------------------------------------------------------------------------------------------------------------
 version: "2.1"
 services:

@@ -77,7 +77,7 @@ collections:
   No Swedish Subtitles:
     sync_mode: sync
     sort_title: ZZZZZZZZZZZZZZZZZZZ_NO SWE SUB
-    file_poster: config/posters/NO SWE SUB.png
+    file_poster: config/posters/No Swedish Subtitles.png
     summary: Movies yet to recieve swedish subtitles.
     smart_filter:
       sort_by: added.desc

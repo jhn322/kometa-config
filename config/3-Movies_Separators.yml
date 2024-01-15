@@ -18,6 +18,12 @@ collections:
     summary: Actor collections up next.
     file_poster: config/posters/Actor Collections.png
 
+  Author Collections:
+    template: { name: Separator }
+    sort_title: ZZZZZZZZZ+AAA
+    summary: Author collections up next.
+    file_poster: config/posters/Author Collections.png
+
   Award Collections:
     template: { name: Separator }
     sort_title: ZZZZZZ+AAA
@@ -83,12 +89,6 @@ collections:
     sort_title: +_AAA
     summary: Subgenre collections up next.
     file_poster: config/posters/Subgenre Collections.png
-
-  Writer Collections:
-    template: { name: Separator }
-    sort_title: ZZZZZZZZZ+AAA
-    summary: Writer collections up next.
-    file_poster: config/posters/Writer Collections.png
 
   Year Collections:
     template: { name: Separator }

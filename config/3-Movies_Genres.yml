@@ -744,6 +744,15 @@ collections:
       - https://trakt.tv/users/limbend/lists/tense-movies-in-one-location?sort=my_rating,asc
       - https://trakt.tv/users/luisholy1/lists/one-location-movies-with-a-mystery-going-on?sort=percentage,asc
 
+  One-shot:
+    template: { name: Genre Other }
+    summary: Films that appear as one shot, whether achieved through a genuine single take or edited together.
+    file_poster: config/posters/One-shot.png
+    visible_shared: monthly(18)
+    letterboxd_list:
+      - https://letterboxd.com/wribhu/list/one-shot/
+      - https://letterboxd.com/darrencb/list/one-shot-movies/
+
   Outer Space:
     template: { name: Genre Other }
     summary: Movies That Take Place in Outer Space

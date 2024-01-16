@@ -1,0 +1,128 @@
+# Adds overlay to each category of videos
+templates:
+  Anime Ending Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Anime-Ending.png
+
+  Anime Opening Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Anime-Opening.png
+
+  Cartoon Intro Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Cartoon-Intro.png
+
+  Concert Live Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Concert-Live.png
+
+  CSGO Edit Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/CSGO-Edit.png
+
+  CSS Edit Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/CSS-Edit.png
+
+  TV Intro Overlay:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/TV-Intro.png
+
+overlays:
+  Anime-Ending:
+    template:
+      name: Anime Ending Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (ED)
+
+  Anime-Opening:
+    template:
+      name: Anime Opening Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (OP)
+
+  Cartoon-Intro:
+    template:
+      name: Cartoon Intro Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (Cartoon)
+
+  Concert-Live:
+    template:
+      name: Concert Live Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (Live)
+
+  CSGO-Edit:
+    template:
+      name: CSGO Edit Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (CSGO)
+
+  CSS-Edit:
+    template:
+      name: CSS Edit Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (CSS)
+
+  TV-Intro:
+    template:
+      name: TV Intro Overlay
+      weight: 100
+    plex_search:
+      all:
+        title: (TV)

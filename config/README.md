@@ -138,6 +138,15 @@ Feel free removing any unwanted collections/overlays by simply deleting the file
 - Resolutions
 - Canceled Shows
 
+**Videos:**
+
+- TV Category
+- Anime Opening Category
+- Anime Ending Category
+- CSS Category
+- CSGO Category
+- Concerts Category
+
 ### Collection examples
 
 **Audiobooks**

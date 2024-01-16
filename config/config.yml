@@ -80,6 +80,8 @@ libraries:
   #Videos:
   #collection_files:
   # - file: config/8-Videos.yml
+  # overlay_files:
+  # - file: config/8.1-Videos_Overlays_Category
 settings:
   cache: true
   cache_expiration: 60

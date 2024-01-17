@@ -1,5 +1,5 @@
 ######################################################
-#                   SEASONS 5.0                      #
+#                   SEASONS 6.0                      #
 ######################################################
 
 templates:
@@ -73,7 +73,7 @@ collections:
   # Animes with a rating greater than 7.8 from mal from a decade
   Best of 1940-1970s:
     template: { name: Decade }
-    file_poster: config/posters/19401970s.png
+    file_poster: config/posters/Best of 1940-1970s.png
     plex_search:
       all:
         year.gt: 1939
@@ -82,7 +82,7 @@ collections:
 
   Best of 1980s:
     template: { name: Decade }
-    file_poster: config/posters/1980s.png
+    file_poster: config/posters/Best of 1980s.png
     plex_search:
       all:
         year.gt: 1979
@@ -91,7 +91,7 @@ collections:
 
   Best of 1990s:
     template: { name: Decade }
-    file_poster: config/posters/1990s.png
+    file_poster: config/posters/Best of 1990s.png
     plex_search:
       all:
         year.gt: 1989
@@ -100,7 +100,7 @@ collections:
 
   Best of 2000s:
     template: { name: Decade }
-    file_poster: config/posters/2000s.png
+    file_poster: config/posters/Best of 2000s.png
     plex_search:
       all:
         year.gt: 1999
@@ -109,7 +109,7 @@ collections:
 
   Best of 2010s:
     template: { name: Decade }
-    file_poster: config/posters/2010s.png
+    file_poster: config/posters/Best of 2010s.png
     plex_search:
       all:
         year.gt: 2009
@@ -118,7 +118,7 @@ collections:
 
   Best of 2020s:
     template: { name: Decade }
-    file_poster: config/posters/2020s.png
+    file_poster: config/posters/Best of 2020s.png
     plex_search:
       all:
         year.gt: 2019
@@ -139,7 +139,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2000.png
+    file_poster: config/posters/Best of 2000.png
 
   Best of 2001:
     template: { name: Year }
@@ -150,7 +150,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2001.png
+    file_poster: config/posters/Best of 2001.png
 
   Best of 2002:
     template: { name: Year }
@@ -161,7 +161,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2002.png
+    file_poster: config/posters/Best of 2002.png
 
   Best of 2003:
     template: { name: Year }
@@ -172,7 +172,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2003.png
+    file_poster: config/posters/Best of 2003.png
 
   Best of 2004:
     template: { name: Year }
@@ -183,7 +183,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2004.png
+    file_poster: config/posters/Best of 2004.png
 
   Best of 2005:
     template: { name: Year }
@@ -194,7 +194,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2005.png
+    file_poster: config/posters/Best of 2005.png
 
   Best of 2006:
     template: { name: Year }
@@ -205,7 +205,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2006.png
+    file_poster: config/posters/Best of 2006.png
 
   Best of 2007:
     template: { name: Year }
@@ -216,7 +216,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2007.png
+    file_poster: config/posters/Best of 2007.png
 
   Best of 2008:
     template: { name: Year }
@@ -227,7 +227,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2008.png
+    file_poster: config/posters/Best of 2008.png
 
   Best of 2009:
     template: { name: Year }
@@ -238,7 +238,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2009.png
+    file_poster: config/posters/Best of 2009.png
 
   Best of 2010:
     template: { name: Year }
@@ -249,7 +249,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2010.png
+    file_poster: config/posters/Best of 2010.png
 
   Best of 2011:
     template: { name: Year }
@@ -260,7 +260,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2011.png
+    file_poster: config/posters/Best of 2011.png
 
   Best of 2012:
     template: { name: Year }
@@ -271,7 +271,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2012.png
+    file_poster: config/posters/Best of 2012.png
 
   Best of 2013:
     template: { name: Year }
@@ -282,7 +282,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2013.png
+    file_poster: config/posters/Best of 2013.png
 
   Best of 2014:
     template: { name: Year }
@@ -293,7 +293,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2014.png
+    file_poster: config/posters/Best of 2014.png
 
   Best of 2015:
     template: { name: Year }
@@ -304,7 +304,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2015.png
+    file_poster: config/posters/Best of 2015.png
 
   Best of 2016:
     template: { name: Year }
@@ -315,7 +315,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2016.png
+    file_poster: config/posters/Best of 2016.png
 
   Best of 2017:
     template: { name: Year }
@@ -326,7 +326,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2017.png
+    file_poster: config/posters/Best of 2017.png
 
   Best of 2018:
     template: { name: Year }
@@ -337,7 +337,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2018.png
+    file_poster: config/posters/Best of 2018.png
 
   Best of 2019:
     template: { name: Year }
@@ -348,7 +348,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2019.png
+    file_poster: config/posters/Best of 2019.png
 
   Best of 2020:
     template: { name: Year }
@@ -359,7 +359,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2020.png
+    file_poster: config/posters/Best of 2020.png
 
   Best of 2021:
     template: { name: Year }
@@ -370,7 +370,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2021.png
+    file_poster: config/posters/Best of 2021.png
 
   Best of 2022:
     template: { name: Year }
@@ -381,7 +381,7 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2022.png
+    file_poster: config/posters/Best of 2022.png
 
   Best of 2023:
     template: { name: Year }
@@ -392,4 +392,15 @@ collections:
       starting_only: false
       sort_by: score
     summary: Best animes this year according to MyAnimeList.
-    file_poster: config/posters/2023.png
+    file_poster: config/posters/Best of 2023.png
+
+  Best of 2024:
+    template: { name: Year }
+    mal_season:
+      year: 2024
+      limit: 100
+      season: current
+      starting_only: false
+      sort_by: score
+    summary: Best animes this year according to MyAnimeList.
+    file_poster: config/posters/Best of 2024.png

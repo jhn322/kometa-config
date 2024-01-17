@@ -1,5 +1,5 @@
 #####################################################
-#                  NETWORKS 5.0                     #
+#                  NETWORKS 6.0                     #
 #####################################################
 
 templates:
@@ -46,7 +46,7 @@ collections:
 
   A&E:
     template: { name: network, network: "A&E" }
-    file_poster: config/posters/AE.png
+    file_poster: config/posters/A&E.png
     studio: A&E
 
   BBC:
@@ -172,7 +172,7 @@ collections:
 
   Syfy:
     template: { name: network, network: "Syfy" }
-    file_poster: config/posters/SYFY.png
+    file_poster: config/posters/Syfy.png
     visible_shared:
       - monthly(7)
       - monthly(8)

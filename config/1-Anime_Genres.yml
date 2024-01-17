@@ -1,5 +1,5 @@
 ######################################################
-#                    GENRES 9.0                      #
+#                    GENRES 10.0                     #
 ######################################################
 
 templates:
@@ -598,7 +598,7 @@ collections:
 
   Donghua (Chinese Anime):
     template: { name: Genre Other }
-    file_poster: config/posters/Donghua Anime.png
+    file_poster: config/posters/Donghua.png
     summary: Chinese animation refers to animation made in China. In China and in Chinese, donghua describes all animated works, regardless of style or origin. However, outside of China and in English, donghua is colloquial for Chinese animation and refers specifically to animation produced in China.
     plex_search:
       any:
@@ -807,7 +807,7 @@ collections:
       tag: gods
       sort_by: score
       limit: 500
-    file_poster: config/posters/God anime.png
+    file_poster: config/posters/God Anime.png
     summary: Features a character of divine or religious nature.
 
   Gore:
@@ -816,7 +816,7 @@ collections:
       tag: gore
       sort_by: score
       limit: 400
-    file_poster: config/posters/Gore anime.png
+    file_poster: config/posters/Gore Anime.png
     summary: Prominently features graphic bloodshed and violence.
 
   Gun:
@@ -1452,7 +1452,7 @@ collections:
   Tragedy:
     template: { name: Genre Other }
     anilist_search:
-      tag: tragedy
+      tag: Tragedy
       sort_by: score
       limit: 350
     file_poster: config/posters/Tragedy Anime.png

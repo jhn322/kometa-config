@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 14.0                    #
+#                   SPECIALS 15.0                    #
 ######################################################
 
 templates:
@@ -78,7 +78,7 @@ collections:
   DV/HDR: # 1080p or 4K movies with HDR and or Dolby Vision
     template: { name: Special }
     summary: A collection of TV Shows in HDR10+ and Dolby Vision.
-    file_poster: config/posters/DVHDR.png
+    file_poster: config/posters/DV-HDR.png
     plex_search:
       all:
         hdr: true

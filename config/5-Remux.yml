@@ -1,5 +1,5 @@
 ######################################################
-#                   UNWATCHED 2.0                    #
+#                   UNWATCHED 3.0                    #
 ######################################################
 templates:
   Standard:
@@ -11,7 +11,7 @@ collections:
   Unwatched:
     template: { name: Standard }
     summary: Unwatched Remux movies I am planning to watch.
-    file_poster: config/posters/Plex Unwatched.png
+    file_poster: config/posters/Unwatched.png
     smart_filter:
       all:
         plays.lt: 1

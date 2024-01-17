@@ -1,5 +1,5 @@
 ######################################################
-#                  GENRES 2.0                       #
+#                  GENRES 3.0                       #
 ######################################################
 
 templates:
@@ -42,7 +42,7 @@ collections:
 
   Club & Dance:
     template: { name: Genre }
-    file_poster: config/posters/Club and Dance Audible.png
+    file_poster: config/posters/Club & Dance Audible.png
     summary: Music with Dance influence.
     smart_filter:
       sort_by: random
@@ -172,7 +172,7 @@ collections:
 
   R&B:
     template: { name: Genre }
-    file_poster: config/posters/R and B Audible.png
+    file_poster: config/posters/R&B Audible.png
     summary: Music with R&B influence.
     smart_filter:
       sort_by: random
@@ -202,7 +202,7 @@ collections:
 
   Speed & Thrash Metal:
     template: { name: Genre }
-    file_poster: config/posters/Speed and Thrash Metal Audible.png
+    file_poster: config/posters/Speed & Thrash Metal Audible.png
     summary: Music with Speed & Thrash Metal influence.
     smart_filter:
       sort_by: random
@@ -212,7 +212,7 @@ collections:
 
   Stage & Screen:
     template: { name: Genre }
-    file_poster: config/posters/Stage and Screen Audible.png
+    file_poster: config/posters/Stage & Screen Audible.png
     summary: Music with Big Screen influence.
     smart_filter:
       sort_by: random

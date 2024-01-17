@@ -1,5 +1,5 @@
 #####################################################
-#                   DECADES 7.0                     #
+#                   DECADES 8.0                     #
 #####################################################
 templates:
   Decade:
@@ -25,7 +25,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(10/01-10/15)
-    file_poster: config/posters/1920s.png
+    file_poster: config/posters/Best of 1920s.png
 
   Best of 1930s:
     template: { name: Decade }
@@ -36,7 +36,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(06/01-06/15)
-    file_poster: config/posters/1930s.png
+    file_poster: config/posters/Best of 1930s.png
 
   Best of 1940s:
     template: { name: Decade }
@@ -47,7 +47,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(04/01-04/15)
-    file_poster: config/posters/1940s.png
+    file_poster: config/posters/Best of 1940s.png
 
   Best of 1950s:
     template: { name: Decade }
@@ -58,7 +58,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(12/01-12/15)
-    file_poster: config/posters/1950s.png
+    file_poster: config/posters/Best of 1950s.png
 
   Best of 1960s:
     template: { name: Decade }
@@ -69,7 +69,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(03/01-03/15)
-    file_poster: config/posters/1960s.png
+    file_poster: config/posters/Best of 1960s.png
 
   Best of 1970s:
     template: { name: Decade }
@@ -80,7 +80,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(07/01-07/15)
-    file_poster: config/posters/1970s.png
+    file_poster: config/posters/Best of 1970s.png
 
   Best of 1980s:
     template: { name: Decade }
@@ -91,7 +91,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(01/01-01/15)
-    file_poster: config/posters/1980s.png
+    file_poster: config/posters/Best of 1980s.png
 
   Best of 1990s:
     template: { name: Decade }
@@ -102,7 +102,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(11/01-11/15)
-    file_poster: config/posters/1990s.png
+    file_poster: config/posters/Best of 1990s.png
 
   Best of 2000s:
     template: { name: Decade }
@@ -113,7 +113,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(09/01-09/15)
-    file_poster: config/posters/2000s.png
+    file_poster: config/posters/Best of 2000s.png
 
   Best of 2010s:
     template: { name: Decade }
@@ -124,7 +124,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(05/01-05/15)
-    file_poster: config/posters/2010s.png
+    file_poster: config/posters/Best of 2010s.png
 
   Best of 2020s:
     template: { name: Decade }
@@ -135,7 +135,7 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(02/01-02/15)
-    file_poster: config/posters/2020s.png
+    file_poster: config/posters/Best of 2020s.png
 
   ######################################################
   #                   YEARS 4.0                      #
@@ -144,7 +144,7 @@ collections:
   # Best movies from 2000 and forward according to IMDb with a rating of 7.0 and up
   Best of 2000:
     template: { name: Year }
-    file_poster: config/posters/2000.png
+    file_poster: config/posters/Best of 2000.png
     visible_shared: range(03/23-04/01)
     plex_search:
       all:
@@ -153,7 +153,7 @@ collections:
 
   Best of 2001:
     template: { name: Year }
-    file_poster: config/posters/2001.png
+    file_poster: config/posters/Best of 2001.png
     visible_shared: range(05/16-05/22)
     plex_search:
       all:
@@ -162,7 +162,7 @@ collections:
 
   Best of 2002:
     template: { name: Year }
-    file_poster: config/posters/2002.png
+    file_poster: config/posters/Best of 2002.png
     visible_shared: range(07/16-07/22)
     plex_search:
       all:
@@ -171,7 +171,7 @@ collections:
 
   Best of 2003:
     template: { name: Year }
-    file_poster: config/posters/2003.png
+    file_poster: config/posters/Best of 2003.png
     visible_shared: range(06/23-06/30)
     plex_search:
       all:
@@ -180,7 +180,7 @@ collections:
 
   Best of 2004:
     template: { name: Year }
-    file_poster: config/posters/2004.png
+    file_poster: config/posters/Best of 2004.png
     visible_shared: range(04/02-04/15)
     plex_search:
       all:
@@ -189,7 +189,7 @@ collections:
 
   Best of 2005:
     template: { name: Year }
-    file_poster: config/posters/2005.png
+    file_poster: config/posters/Best of 2005.png
     visible_shared: range(08/01-08/15)
     plex_search:
       all:
@@ -198,7 +198,7 @@ collections:
 
   Best of 2006:
     template: { name: Year }
-    file_poster: config/posters/2006.png
+    file_poster: config/posters/Best of 2006.png
     visible_shared: range(05/23-05/31)
     plex_search:
       all:
@@ -207,7 +207,7 @@ collections:
 
   Best of 2007:
     template: { name: Year }
-    file_poster: config/posters/2007.png
+    file_poster: config/posters/Best of 2007.png
     visible_shared: range(07/23-07/30)
     plex_search:
       all:
@@ -216,7 +216,7 @@ collections:
 
   Best of 2008:
     template: { name: Year }
-    file_poster: config/posters/2008.png
+    file_poster: config/posters/Best of 2008.png
     visible_shared: range(01/16-01/22)
     plex_search:
       all:
@@ -225,7 +225,7 @@ collections:
 
   Best of 2009:
     template: { name: Year }
-    file_poster: config/posters/2009.png
+    file_poster: config/posters/Best of 2009.png
     visible_shared: range(01/23-01/31)
     plex_search:
       all:
@@ -234,7 +234,7 @@ collections:
 
   Best of 2010:
     template: { name: Year }
-    file_poster: config/posters/2010.png
+    file_poster: config/posters/Best of 2010.png
     visible_shared: range(04/16-04/30)
     plex_search:
       all:
@@ -243,7 +243,7 @@ collections:
 
   Best of 2011:
     template: { name: Year }
-    file_poster: config/posters/2011.png
+    file_poster: config/posters/Best of 2011.png
     visible_shared: range(10/23-10/31)
     plex_search:
       all:
@@ -252,7 +252,7 @@ collections:
 
   Best of 2012:
     template: { name: Year }
-    file_poster: config/posters/2012.png
+    file_poster: config/posters/Best of 2012.png
     visible_shared: range(06/01-06/15)
     plex_search:
       all:
@@ -261,7 +261,7 @@ collections:
 
   Best of 2013:
     template: { name: Year }
-    file_poster: config/posters/2013.png
+    file_poster: config/posters/Best of 2013.png
     visible_shared: range(12/16-12/31)
     plex_search:
       all:
@@ -270,7 +270,7 @@ collections:
 
   Best of 2014:
     template: { name: Year }
-    file_poster: config/posters/2014.png
+    file_poster: config/posters/Best of 2014.png
     visible_shared: range(02/01-02/15)
     plex_search:
       all:
@@ -279,7 +279,7 @@ collections:
 
   Best of 2015:
     template: { name: Year }
-    file_poster: config/posters/2015.png
+    file_poster: config/posters/Best of 2015.png
     visible_shared: range(06/16-06/22)
     plex_search:
       all:
@@ -288,7 +288,7 @@ collections:
 
   Best of 2016:
     template: { name: Year }
-    file_poster: config/posters/2016.png
+    file_poster: config/posters/Best of 2016.png
     visible_shared: range(12/01-12/15)
     plex_search:
       all:
@@ -297,7 +297,7 @@ collections:
 
   Best of 2017:
     template: { name: Year }
-    file_poster: config/posters/2017.png
+    file_poster: config/posters/Best of 2017.png
     visible_shared: range(10/01-10/15)
     plex_search:
       all:
@@ -306,7 +306,7 @@ collections:
 
   Best of 2018:
     template: { name: Year }
-    file_poster: config/posters/2018.png
+    file_poster: config/posters/Best of 2018.png
     visible_shared: range(02/16-02/28)
     plex_search:
       all:
@@ -315,7 +315,7 @@ collections:
 
   Best of 2019:
     template: { name: Year }
-    file_poster: config/posters/2019.png
+    file_poster: config/posters/Best of 2019.png
     visible_shared: range(08/16-08/31)
     plex_search:
       all:
@@ -324,7 +324,7 @@ collections:
 
   Best of 2020:
     template: { name: Year }
-    file_poster: config/posters/2020.png
+    file_poster: config/posters/Best of 2020.png
     visible_shared: range(11/16-11/30)
     plex_search:
       all:
@@ -333,7 +333,7 @@ collections:
 
   Best of 2021:
     template: { name: Year }
-    file_poster: config/posters/2021.png
+    file_poster: config/posters/Best of 2021.png
     visible_shared: range(09/16-09/31)
     plex_search:
       all:
@@ -342,7 +342,7 @@ collections:
 
   Best of 2022:
     template: { name: Year }
-    file_poster: config/posters/2022.png
+    file_poster: config/posters/Best of 2022.png
     visible_shared: range(10/16-10/22)
     plex_search:
       all:
@@ -351,9 +351,18 @@ collections:
 
   Best of 2023:
     template: { name: Year }
-    file_poster: config/posters/2023.png
+    file_poster: config/posters/Best of 2023.png
     visible_shared: range(03/16-03/22)
     plex_search:
       all:
         year: 2023
+        audience_rating.gte: 7.0
+
+  Best of 2024:
+    template: { name: Year }
+    file_poster: config/posters/Best of 2024.png
+    visible_shared: range(04/16-04/22)
+    plex_search:
+      all:
+        year: 2024
         audience_rating.gte: 7.0

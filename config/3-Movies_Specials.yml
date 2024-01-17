@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 15.0                    #
+#                   SPECIALS 16.0                    #
 ######################################################
 templates:
   Special:
@@ -25,7 +25,7 @@ collections:
     visible_shared:
       - monthly(4)
       - monthly(6)
-    file_poster: config/posters/1001+ Movies.png
+    file_poster: config/posters/1001+ Movies You Must See Before You Die.png
     trakt_list:
       - https://trakt.tv/users/captainnapalm/lists/1001-greatest-movies-of-all-time?sort=rank,asc
       - https://trakt.tv/users/athwilson/lists/1001-movies?sort=released,desc
@@ -42,7 +42,7 @@ collections:
   DV/HDR: # 1080p or 4K movies with HDR and or Dolby Vision
     template: { name: Special }
     summary: A collection of movies in HDR10+ and Dolby Vision.
-    file_poster: config/posters/DVHDR.png
+    file_poster: config/posters/DV-HDR.png
     plex_search:
       all:
         hdr: true

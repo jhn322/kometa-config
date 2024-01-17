@@ -1,5 +1,5 @@
 ######################################################
-#                 FRANCHISES 5.0                     #
+#                 FRANCHISES 6.0                     #
 ######################################################
 
 templates:
@@ -12,21 +12,21 @@ templates:
 collections:
   Aikatsu:
     template: { name: Franchise }
-    file_poster: config/posters/aikatsu.png
+    file_poster: config/posters/Aikatsu.png
     plex_search:
       all:
         title: aikatsu
 
   Angelique:
     template: { name: Franchise }
-    file_poster: config/posters/angelique.png
+    file_poster: config/posters/Angelique.png
     plex_search:
       all:
         title: angelique
 
   Ayakashi:
     template: { name: Franchise }
-    file_poster: config/posters/ayakashi.png
+    file_poster: config/posters/Ayakashi.png
     plex_search:
       all:
         title: ayakashi
@@ -34,35 +34,35 @@ collections:
 
   Baki:
     template: { name: Franchise }
-    file_poster: config/posters/baki.png
+    file_poster: config/posters/Baki.png
     plex_search:
       all:
         title: baki
 
   Berserk:
     template: { name: Franchise }
-    file_poster: config/posters/Berserk- Golden Age Arc Collection.png
+    file_poster: config/posters/Berserk.png
     plex_search:
       all:
         title: berserk
 
   Beyblade:
     template: { name: Franchise }
-    file_poster: config/posters/beyblade.jpg
+    file_poster: config/posters/Beyblade.jpg
     plex_search:
       all:
         title: beyblade
 
   Black Jack:
     template: { name: Franchise }
-    file_poster: config/posters/black jack.png
+    file_poster: config/posters/Black Jack.png
     plex_search:
       all:
         title: black jack
 
   Brave:
     template: { name: Franchise }
-    file_poster: config/posters/brave elixser.png
+    file_poster: config/posters/Brave.png
     plex_search:
       all:
         title: brave
@@ -125,7 +125,7 @@ collections:
 
   Dragon Ball:
     template: { name: Franchise }
-    file_poster: config/posters/dragon ball.png
+    file_poster: config/posters/Dragon Ball.png
     plex_search:
       any:
         title:
@@ -134,7 +134,7 @@ collections:
 
   El Hazard:
     template: { name: Franchise }
-    file_poster: config/posters/el hazard.png
+    file_poster: config/posters/El Hazard.png
     plex_search:
       any:
         title:
@@ -143,7 +143,7 @@ collections:
 
   Fate/:
     template: { name: Franchise }
-    file_poster: config/posters/Fate-Stay Night- Heaven's Feel Collection.png
+    file_poster: config/posters/Fate.png
     plex_search:
       all:
         title: fate/
@@ -151,14 +151,14 @@ collections:
 
   Final Fantasy:
     template: { name: Franchise }
-    file_poster: config/posters/final fantasy.png
+    file_poster: config/posters/Final Fantasy.png
     plex_search:
       all:
         title: final fantasy
 
   Fist of the North Star:
     template: { name: Franchise }
-    file_poster: config/posters/New Fist of the North Star.png
+    file_poster: config/posters/Fist of the North Star.png
     plex_search:
       all:
         title: fist of the
@@ -172,17 +172,10 @@ collections:
 
   Gatchaman:
     template: { name: Franchise }
-    file_poster: config/posters/gatchaman.png
+    file_poster: config/posters/Gatchaman.png
     plex_search:
       all:
         title: gatchaman
-
-  Gundam:
-    template: { name: Franchise }
-    file_poster: config/posters/Mobile Suit Gundam Collection.jpeg
-    plex_search:
-      all:
-        title: gundam
 
   Hellsing:
     template: { name: Franchise }
@@ -193,7 +186,7 @@ collections:
 
   The Idolm@ster:
     template: { name: Franchise }
-    file_poster: config/posters/the idol.png
+    file_poster: config/posters/The Idolmaster.png
     plex_search:
       any:
         title:
@@ -209,28 +202,28 @@ collections:
 
   Love Live:
     template: { name: Franchise }
-    file_poster: config/posters/Lupin III Collection.png
+    file_poster: config/posters/Love Live.png
     plex_search:
       all:
         title: love live
 
   Lupin III:
     template: { name: Franchise }
-    file_poster: config/posters/love live.png
+    file_poster: config/posters/Lupin III.png
     plex_search:
       all:
         title: lupin
 
   Macross:
     template: { name: Franchise }
-    file_poster: config/posters/macross 7.png
+    file_poster: config/posters/Macross.png
     plex_search:
       all:
         title: macross
 
-  Mazinger:
+  Mazinger Z:
     template: { name: Franchise }
-    file_poster: config/posters/mazinger z.png
+    file_poster: config/posters/Mazinger Z.png
     plex_search:
       any:
         title:
@@ -238,16 +231,23 @@ collections:
           - goshogun
           - mazinkaiser
 
+  Mobile Suit Gundam:
+    template: { name: Franchise }
+    file_poster: config/posters/Mobile Suit Gundam.jpeg
+    plex_search:
+      all:
+        title: gundam
+
   Naruto:
     template: { name: Franchise }
-    file_poster: config/posters/naruto.jpg
+    file_poster: config/posters/Naruto.jpg
     plex_search:
       all:
         title: naruto
 
   Persona:
     template: { name: Franchise }
-    file_poster: config/posters/Persona Collection.png
+    file_poster: config/posters/Persona.png
     plex_search:
       all:
         title: persona
@@ -255,7 +255,7 @@ collections:
 
   Pokémon:
     template: { name: Franchise }
-    file_poster: config/posters/Pokemon Collection anime.png
+    file_poster: config/posters/Pokemon.png
     plex_search:
       any:
         title:
@@ -273,21 +273,21 @@ collections:
 
   Saber Marionette:
     template: { name: Franchise }
-    file_poster: config/posters/saber mar.png
+    file_poster: config/posters/Saber Marionette.png
     plex_search:
       all:
         title: saber marionette
 
-  Show by Rock:
+  Show by Rock!!:
     template: { name: Franchise }
-    file_poster: config/posters/show by rok.png
+    file_poster: config/posters/Show by Rock!!.png
     plex_search:
       all:
         title: show by rock
 
   Strike Witches:
     template: { name: Franchise }
-    file_poster: config/posters/strike witches.png
+    file_poster: config/posters/Strike Witches.png
     plex_search:
       any:
         title:
@@ -297,35 +297,35 @@ collections:
 
   Super Dimension:
     template: { name: Franchise }
-    file_poster: config/posters/Super Dimension Fortress Macross (1982).jpg
+    file_poster: config/posters/Super Dimension.jpg
     plex_search:
       all:
         title: super dimension
 
   Tekkaman:
     template: { name: Franchise }
-    file_poster: config/posters/tekkaman.png
+    file_poster: config/posters/Tekkaman.png
     plex_search:
       all:
         title: tekkaman
 
   Tenchi:
     template: { name: Franchise }
-    file_poster: config/posters/tenchi.png
+    file_poster: config/posters/Tenchi.png
     plex_search:
       all:
         title: tenchi
 
   Transformers:
     template: { name: Franchise }
-    file_poster: config/posters/Transformers Anime.png
+    file_poster: config/posters/Transformers.png
     plex_search:
       all:
         title: transformers
 
   Yu-Gi-Oh:
     template: { name: Franchise }
-    file_poster: config/posters/yugioh.png
+    file_poster: config/posters/Yu-Gi-Oh.png
     plex_search:
       all:
         title: yu-gi-oh

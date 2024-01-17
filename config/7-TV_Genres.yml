@@ -1,5 +1,5 @@
 ############################################
-#               GENRES 12.0                #
+#               GENRES 13.0                #
 ############################################
 
 templates:
@@ -24,7 +24,7 @@ collections:
   Action:
     template: { name: Genre }
     visible_shared: weekly(wednesday)
-    file_poster: config/posters/action.png
+    file_poster: config/posters/Action.png
     summary: Action is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
     smart_filter:
       sort_by: random
@@ -36,7 +36,7 @@ collections:
   Adventure:
     template: { name: Genre }
     visible_shared: weekly(thursday)
-    file_poster: config/posters/adventure.png
+    file_poster: config/posters/Adventure.png
     summary: Adventure is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
     smart_filter:
       sort_by: random
@@ -61,7 +61,7 @@ collections:
     template: { name: Genre }
     visible_shared: weekly(tuesday)
     summary: All animated cartoon shows.
-    file_poster: config/posters/Cartoon.png
+    file_poster: config/posters/Cartoon TV.png
     smart_filter:
       sort_by: random
       validate: false
@@ -71,7 +71,7 @@ collections:
   Comedy:
     template: { name: Genre }
     visible_shared: weekly(friday)
-    file_poster: config/posters/comedy.png
+    file_poster: config/posters/Comedy.png
     summary: Comedy is a genre that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many other genres. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
     smart_filter:
       sort_by: random
@@ -83,7 +83,7 @@ collections:
   Crime:
     template: { name: Genre }
     visible_shared: weekly(monday)
-    file_poster: config/posters/crime.png
+    file_poster: config/posters/Crime.png
     summary: Crime is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
     smart_filter:
       sort_by: random
@@ -95,7 +95,7 @@ collections:
   Documentary:
     template: { name: Genre }
     summary: Some of the most impactful and critically acclaimed documentaries ever filmed.
-    file_poster: config/posters/documentary.png
+    file_poster: config/posters/Documentary.png
     visible_shared: weekly(wednesday)
     smart_filter:
       sort_by: random
@@ -107,7 +107,7 @@ collections:
   Drama:
     template: { name: Genre }
     visible_shared: weekly(saturday)
-    file_poster: config/posters/drama.png
+    file_poster: config/posters/Drama.png
     summary: Drama is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
     smart_filter:
       sort_by: random
@@ -119,7 +119,7 @@ collections:
   Family:
     template: { name: Genre }
     visible_shared: weekly(sunday)
-    file_poster: config/posters/family.png
+    file_poster: config/posters/Family.png
     summary: Family is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. While the storyline may appeal to a younger audience, there are components of the film that are geared towards adults- such as witty jokes and humor. This genre may fall into many other genres, including comedy, adventure, fantasy, and animated film.
     smart_filter:
       sort_by: random
@@ -131,7 +131,7 @@ collections:
   Fantasy:
     template: { name: Genre }
     visible_shared: weekly(tuesday)
-    file_poster: config/posters/fantasy.png
+    file_poster: config/posters/Fantasy.png
     summary: Fantasy is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
     smart_filter:
       sort_by: random
@@ -143,7 +143,7 @@ collections:
   History:
     template: { name: Genre }
     visible_shared: weekly(friday)
-    file_poster: config/posters/history.png
+    file_poster: config/posters/History.png
     summary: History is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
     smart_filter:
       sort_by: random
@@ -155,7 +155,7 @@ collections:
   Horror:
     template: { name: Genre }
     visible_shared: weekly(monday)
-    file_poster: config/posters/horror.png
+    file_poster: config/posters/Horror.png
     summary: Horror is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
     smart_filter:
       sort_by: random
@@ -167,7 +167,7 @@ collections:
   K-Drama:
     template: { name: Genre }
     smart_label: random
-    file_poster: config/posters/K-DRAMA.png
+    file_poster: config/posters/K-Drama.png
     visible_shared: weekly(tuesday)
     summary: All Korean shows in one place.
     trakt_list:
@@ -177,7 +177,7 @@ collections:
   Miniseries:
     template: { name: Genre }
     visible_shared: weekly(sunday)
-    file_poster: config/posters/miniseries.png
+    file_poster: config/posters/Miniseries.png
     summary: Shows with only one season.
     smart_filter:
       sort_by: random
@@ -189,7 +189,7 @@ collections:
   Mystery:
     template: { name: Genre }
     visible_shared: weekly(saturday)
-    file_poster: config/posters/mystery.png
+    file_poster: config/posters/Mystery.png
     summary: A Mystery centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
     smart_filter:
       sort_by: random
@@ -201,7 +201,7 @@ collections:
   Romance:
     template: { name: Genre }
     visible_shared: weekly(wednesday)
-    file_poster: config/posters/romance.png
+    file_poster: config/posters/Romance.png
     summary: Romance can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
     smart_filter:
       sort_by: random
@@ -213,7 +213,7 @@ collections:
   Sci-Fi:
     template: { name: Genre }
     visible_shared: weekly(monday)
-    file_poster: config/posters/sci-fi.png
+    file_poster: config/posters/Sci-Fi.png
     summary: Science Fiction is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
     smart_filter:
       sort_by: random
@@ -237,7 +237,7 @@ collections:
   Thriller:
     template: { name: Genre }
     visible_shared: weekly(thursday)
-    file_poster: config/posters/thriller.png
+    file_poster: config/posters/Thriller.png
     summary: Thriller series is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these series is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller series falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the series and leads to a highly stressful climax.
     smart_filter:
       sort_by: random
@@ -249,7 +249,7 @@ collections:
   War:
     template: { name: Genre }
     visible_shared: weekly(friday)
-    file_poster: config/posters/war.png
+    file_poster: config/posters/War.png
     summary: War is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
     smart_filter:
       sort_by: random
@@ -263,7 +263,7 @@ collections:
   Western:
     template: { name: Genre }
     visible_shared: weekly(sunday)
-    file_poster: config/posters/western.png
+    file_poster: config/posters/Western.png
     summary: Westerns often stress the harshness and isolation of the wilderness, and frequently set the action in an arid, desolate landscape. Western films generally have specific settings, such as isolated ranches, Native American villages, or small frontier towns with a saloon.
     smart_filter:
       sort_by: random
@@ -290,7 +290,7 @@ collections:
     template: { name: Genre Other }
     visible_shared: monthly(31)
     summary: An anthology series is a television, or film series that presents a different story and a different set of characters in each episode, season, segment or short.
-    file_poster: config/posters/ANTHOLOGY.png
+    file_poster: config/posters/Anthology.png
     trakt_list:
       - https://trakt.tv/users/tyler-schmaltz/lists/anthology?sort=rank,asc
       - https://trakt.tv/users/kainsir/lists/anthology-series?sort=popularity,asc
@@ -299,7 +299,7 @@ collections:
     template: { name: Genre Other }
     visible_shared: monthly(8)
     summary: Shows based on true events.
-    file_poster: config/posters/based on a true story.png
+    file_poster: config/posters/Based on a True Story.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-true-stories?sort=rank,asc
 
   Book Adaption:
@@ -322,7 +322,7 @@ collections:
   Classic:
     template: { name: Genre Other }
     summary: TV shows made back in the good old days.
-    file_poster: config/posters/classic.png
+    file_poster: config/posters/Classic.png
     visible_shared: monthly(5)
     trakt_list:
       - https://trakt.tv/users/trackme666/lists/classic-tv?sort=title,asc
@@ -338,7 +338,7 @@ collections:
   Courtroom:
     template: { name: Genre Other }
     summary: Showcasing brainy lawyers, gripping cases, and complex plotlines, these are the best legal dramas to watch
-    file_poster: config/posters/courtroom.png
+    file_poster: config/posters/Courtroom.png
     visible_shared: monthly(7)
     trakt_list:
       - https://trakt.tv/users/galence/lists/lawyers-tv-show?sort=rank,asc
@@ -347,7 +347,7 @@ collections:
   Dark Comedy:
     template: { name: Genre Other }
     summary: Dark comedy is a style of comedy that makes light of subject matter that is generally considered taboo, particularly subjects that are normally considered serious or painful to discuss.
-    file_poster: config/posters/dark comedy.png
+    file_poster: config/posters/Dark Comedy.png
     visible_shared: monthly(31)
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/dark-comedy-uk-tv-shows?sort=rank,asc
@@ -355,7 +355,7 @@ collections:
 
   Drug:
     template: { name: Genre Other }
-    file_poster: config/posters/drug.png
+    file_poster: config/posters/Drug.png
     visible_shared: monthly(13)
     trakt_list:
       - https://trakt.tv/users/dr-rieux/lists/drugs-in-tv-shows
@@ -365,7 +365,7 @@ collections:
   Dystopian:
     template: { name: Genre Other }
     summary: A dystopia, or cacotopia, is a speculated ideal society with minimal crime, violence and poverty that is undesirable or frightening.
-    file_poster: config/posters/dystopian.png
+    file_poster: config/posters/Dystopian.png
     visible_shared: monthly(1)
     trakt_list:
       - https://trakt.tv/users/skavau/lists/dystopian-live-action-series?sort=popularity,asc
@@ -374,7 +374,7 @@ collections:
   Gangster:
     template: { name: Genre Other }
     summary: Gangster show is a sub-genre of crime shows that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
-    file_poster: config/posters/gangster.png
+    file_poster: config/posters/Gangster.png
     visible_shared: monthly(27)
     trakt_list: https://trakt.tv/users/majeed_pk/lists/best-mafia-gangsters-tv-shows?sort=rank,asc
 
@@ -391,7 +391,7 @@ collections:
   LGBTQ+:
     template: { name: Genre Other }
     summary: LGBTQ+ show is a genre of shows where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
-    file_poster: config/posters/lgbtq+.png
+    file_poster: config/posters/LGBTQ+.png
     visible_shared: monthly(19)
     trakt_list:
       - https://trakt.tv/users/thegeerson/lists/lgbtq-shows?sort=rank,asc
@@ -402,7 +402,7 @@ collections:
   Monster:
     template: { name: Genre Other }
     summary: Shows where the main protagonist is a monster of some form.
-    file_poster: config/posters/monster.png
+    file_poster: config/posters/Monster.png
     visible_shared: monthly(9)
     trakt_list:
       - https://trakt.tv/users/sroyalty/lists/monster-and-scary-shows?sort=title,asc
@@ -413,7 +413,7 @@ collections:
     template: { name: Genre Smart }
     visible_shared: monthly(24)
     summary: Music series is genre that revolves around music being an integral part of the characters lives.
-    file_poster: config/posters/MUSIC.png
+    file_poster: config/posters/Music.png
     smart_filter:
       sort_by: random
       limit: 200
@@ -424,7 +424,7 @@ collections:
   Outer Space:
     template: { name: Genre Other }
     summary: Shows That Take Place in Outer Space
-    file_poster: config/posters/OUTER SPACE.png
+    file_poster: config/posters/Outer Space.png
     visible_shared: monthly(6)
     trakt_list:
       - https://trakt.tv/users/captaincarrot/lists/space-tv-shows-non-animated?sort=rank,asc
@@ -435,7 +435,7 @@ collections:
   Pandemic:
     template: { name: Genre Other }
     summary: A Pandemic show resolves around widespread viruses, plagues, and diseases.
-    file_poster: config/posters/pandemic.png
+    file_poster: config/posters/Pandemic.png
     visible_shared: monthly(31)
     trakt_list:
       - https://trakt.tv/users/turkkildare/lists/best-worldwide-apocalyptic-pandemic-zombie-tv-shows?sort=rank,asc
@@ -452,7 +452,7 @@ collections:
   Period Piece:
     template: { name: Genre Other }
     summary: Shows in the period piece fiction genre are made up of stories that feature historical places, people, or events that are crucial to the story.
-    file_poster: config/posters/period piece.png
+    file_poster: config/posters/Period Piece.png
     visible_shared: weekly(sunday)
     trakt_list:
       - https://trakt.tv/users/yuzuchan/lists/period-pieces?sort=rank,asc
@@ -463,7 +463,7 @@ collections:
   Police:
     template: { name: Genre Other }
     summary: Shows in the perspective of a policeman or a policeman being present in any capacity.
-    file_poster: config/posters/police.png
+    file_poster: config/posters/Police.png
     visible_shared: monthly(20)
     trakt_list:
       - https://trakt.tv/users/wsquaredtoronto/lists/tv-american-police-procedurals?sort=rank,asc
@@ -472,7 +472,7 @@ collections:
   Political:
     template: { name: Genre Other }
     summary: Political refers to shows that do not hide their political stance. In this sense, they differ from other films not because they are political, but because of the way in which their politics is presented.
-    file_poster: config/posters/political.png
+    file_poster: config/posters/Political.png
     visible_shared: monthly(16)
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/political-tv-series?sort=rank,asc
@@ -481,7 +481,7 @@ collections:
   Post Apocalyptic:
     template: { name: Genre Other }
     summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
-    file_poster: config/posters/post apocalyptic.png
+    file_poster: config/posters/Post Apocalyptic.png
     visible_shared: monthly(12)
     trakt_list:
       - https://trakt.tv/users/kdlb/lists/post-apocalyptic-tv?sort=rank,asc
@@ -491,14 +491,14 @@ collections:
   Prison:
     template: { name: Genre Other }
     summary: Shows taking place inside a prison.
-    file_poster: config/posters/prison.png
+    file_poster: config/posters/Prison.png
     visible_shared: monthly(12)
     trakt_list: https://trakt.tv/users/aliasrogue/lists/crime-punishment?sort=rank,asc
 
   Robot:
     template: { name: Genre Other }
     summary: Shows containing robots in many forms, often set in the future.
-    file_poster: config/posters/robot.png
+    file_poster: config/posters/Robot.png
     visible_shared: monthly(20)
     trakt_list:
       - https://trakt.tv/users/cinematicthrowbacks/lists/sci-fi-hi-tech-robotics-cyborgs-bionics?sort=rank,asc
@@ -507,7 +507,7 @@ collections:
   Romantic Comedy:
     template: { name: Genre Smart }
     visible_shared: weekly(tuesday)
-    file_poster: config/posters/romantic comedy.png
+    file_poster: config/posters/Romantic Comedy.png
     summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy series revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
     smart_filter:
       sort_by: random
@@ -521,7 +521,7 @@ collections:
   Romantic Drama:
     template: { name: Genre Smart }
     visible_shared: monthly(31)
-    file_poster: config/posters/romantic drama.png
+    file_poster: config/posters/Romantic Drama.png
     summary: Romantic Drama series is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama series can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
     smart_filter:
       sort_by: random
@@ -543,7 +543,7 @@ collections:
   Spy:
     template: { name: Genre Other }
     summary: The spy genre, also known sometimes as an espionage, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.
-    file_poster: config/posters/spy.png
+    file_poster: config/posters/Spy.png
     visible_shared: monthly(4)
     trakt_list:
       - https://trakt.tv/users/wsquaredtoronto/lists/tv-spy-and-espionage?sort=rank,asc
@@ -552,7 +552,7 @@ collections:
   Sword & Sorcery:
     template: { name: Genre Other }
     summary: Sword and Sorcery shows is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
-    file_poster: config/posters/SWORD & SORCERY.png
+    file_poster: config/posters/Sword & Sorcery.png
     visible_shared:
       - monthly(1)
       - monthly(15)
@@ -561,7 +561,7 @@ collections:
   Time Travel:
     template: { name: Genre Other }
     summary: A show  that contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
-    file_poster: config/posters/time travel.png
+    file_poster: config/posters/Time Travel.png
     visible_shared: weekly(saturday)
     trakt_list:
       - https://trakt.tv/users/vagnerr/lists/time-travel
@@ -571,7 +571,7 @@ collections:
   Vampire:
     template: { name: Genre Other }
     summary: A vampire is a creature from folklore that subsists by feeding on the vital essence (generally in the form of blood) of the living.
-    file_poster: config/posters/vampire.png
+    file_poster: config/posters/Vampire.png
     visible_shared: monthly(25)
     trakt_list:
       - https://trakt.tv/users/kali2002/lists/vampire?sort=title,asc
@@ -581,14 +581,14 @@ collections:
   Video Game:
     template: { name: Genre Other }
     summary: Shows lightly or stritcly based of different types of video games.
-    file_poster: config/posters/video game.png
+    file_poster: config/posters/Video Game.png
     visible_shared: monthly(18)
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-video-games?sort=rank,asc
 
   Zombie:
     template: { name: Genre Other }
     summary: A zombie is a mythological undead corporeal revenant created through the reanimation of a corpse.
-    file_poster: config/posters/zombie.png
+    file_poster: config/posters/Zombie.png
     visible_shared: weekly(wednesday)
     trakt_list:
       - https://trakt.tv/users/theobscureking/lists/all-zombie-series-or-similiar?sort=rank,asc

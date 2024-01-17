@@ -1,5 +1,5 @@
 ######################################################
-#                    TV 15.0                         #
+#                    TV 16.0                         #
 ######################################################
 
 templates:
@@ -85,7 +85,7 @@ collections:
     tmdb_on_the_air: 80
     tmdb_airing_today: 40
     visible_shared: monthly(1)
-    file_poster: config/posters/TMDb On The Air.png
+    file_poster: config/posters/TMDb On the Air.png
     summary: Shows airing right now across streaming services.
 
   TMDb - Popular:

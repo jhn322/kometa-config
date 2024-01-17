@@ -1,5 +1,5 @@
 #############################################################
-#                       AWARDS 8.0                          #
+#                       AWARDS 9.0                          #
 #############################################################
 
 templates:
@@ -73,7 +73,7 @@ collections:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Nominees"
     visible_shared: monthly(30)
-    file_poster: config/posters/Critics Choice Nominees.png
+    file_poster: config/posters/Critics Choice Awards Nominees.png
     imdb_award:
       event_id: "ev0000133"
       event_year: "1996-current"
@@ -87,7 +87,7 @@ collections:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Winners"
     visible_shared: monthly(5)
-    file_poster: config/posters/critics choice winners.png
+    file_poster: config/posters/Critics Choice Awards Winners.png
     imdb_award:
       event_id: "ev0000133"
       event_year: "1996-current"

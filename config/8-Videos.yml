@@ -6,7 +6,7 @@ templates:
     sort_title: +_<<collection_name>>
     visible_library: true
     sync_mode: sync
-    smart_label: title.desc
+    smart_label: title.asc
 
 collections:
   Anime - Opening: # Creates collection for Anime openings with tag in the name

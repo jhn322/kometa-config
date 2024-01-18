@@ -24,11 +24,11 @@ libraries:
     remove_overlays: false
     collection_files:
       - file: config/3-Movies.yml
-      - file: config/3-Movies_Actors.yml
       - file: config/3-Movies_Awards.yml
       - file: config/3-Movies_Franchises.yml
       - file: config/3-Movies_Genres.yml
       - file: config/3-Movies_Holidays
+      - file: config/3-Movies_People.yml
       - file: config/3-Movies_Separators.yml
       - file: config/3-Movies_Specials.yml
       - file: config/3-Movies_Studios.yml

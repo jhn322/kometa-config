@@ -1033,34 +1033,54 @@ collections:
         actor: Will Smith
 
   #############################################################
-  #                     Directors 3.0                         #
+  #                     Directors 5.0                         #
   #############################################################
 
   # Collections for prominent Directors
   Alfred Hitchcock:
     template: { name: Director }
     file_poster: config/posters/Alfred Hitchcock.png
-    visible_shared: range(01/14-01/18)
+    visible_shared: range(01/11-01/20)
     plex_search:
       any:
         director: Alfred Hitchcock
         producer: Alfred Hitchcock
         writer: Alfred Hitchcock
 
+  Ang Lee:
+    template: { name: Director }
+    file_poster: config/posters/Ang Lee.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Ang Lee
+        producer: Ang Lee
+        writer: Ang Lee
+
   Bong Joon-ho:
     template: { name: Director }
     file_poster: config/posters/Bong Joon-Ho.png
-    visible_shared: range(02/14-02/18)
+    visible_shared: range(02/11-02/20)
     plex_search:
       any:
         director: Bong Joon-ho
         producer: Bong Joon-ho
         writer: Bong Joon-ho
 
+  Brian De Palma:
+    template: { name: Director }
+    file_poster: config/posters/Brian De Palma.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Brian De Palma
+        producer: Brian De Palma
+        writer: Brian De Palma
+
   Christopher Nolan:
     template: { name: Director }
     file_poster: config/posters/Christopher Nolan.png
-    visible_shared: range(03/14-03/18)
+    visible_shared: range(03/11-03/20)
     plex_search:
       any:
         director: Christopher Nolan
@@ -1071,7 +1091,7 @@ collections:
     template: { name: Director }
     summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
     file_poster: config/posters/Coen Brothers.png
-    visible_shared: range(04/14-04/18)
+    visible_shared: range(04/11-04/20)
     plex_search:
       any:
         director:
@@ -1087,6 +1107,7 @@ collections:
   Danny Boyle:
     template: { name: Director }
     file_poster: config/posters/Danny Boyle.png
+    visible_shared: range(01/01-01/10)
     plex_search:
       any:
         director: Danny Boyle
@@ -1096,6 +1117,7 @@ collections:
   David Lynch:
     template: { name: Director }
     file_poster: config/posters/David Lynch.png
+    visible_shared: range(02/01-02/10)
     plex_search:
       any:
         director: David Lynch
@@ -1105,17 +1127,27 @@ collections:
   Francis Ford Coppola:
     template: { name: Director }
     file_poster: config/posters/Francis Ford Coppola.png
-    visible_shared: range(05/14-05/18)
+    visible_shared: range(05/11-05/20)
     plex_search:
       any:
         director: Francis Ford Coppola
         producer: Francis Ford Coppola
         writer: Francis Ford Coppola
 
+  George Lucas:
+    template: { name: Director }
+    file_poster: config/posters/George Lucas.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: George Lucas
+        producer: George Lucas
+        writer: George Lucas
+
   Guillermo del Toro:
     template: { name: Director }
     file_poster: config/posters/Guillermo del Toro.png
-    visible_shared: range(06/14-06/18)
+    visible_shared: range(06/11-06/20)
     plex_search:
       any:
         director: Guillermo del Toro
@@ -1125,7 +1157,7 @@ collections:
   Hayao Miyazaki:
     template: { name: Director }
     file_poster: config/posters/Hayao Miyazaki.png
-    visible_shared: range(07/14-07/18)
+    visible_shared: range(07/11-07/20)
     plex_search:
       any:
         director: Hayao Miyazaki
@@ -1135,34 +1167,37 @@ collections:
   Isao Takahata:
     template: { name: Director }
     file_poster: config/posters/Isao Takahata.png
+    visible_shared: range(03/01-03/10)
     plex_search:
       any:
         director: Isao Takahata
         producer: Isao Takahata
         writer: Isao Takahata
 
-  James Cameron:
-    template: { name: Director }
-    file_poster: config/posters/James Cameron.png
-    visible_shared: range(08/14-08/18)
-    plex_search:
-      any:
-        director: James Cameron
-        producer: James Cameron
-        writer: James Cameron
-
   J.J. Abrams:
     template: { name: Director }
     file_poster: config/posters/J.J. Abrams.png
+    visible_shared: range(11/01-11/10)
     plex_search:
       any:
         director: J.J. Abrams
         producer: J.J. Abrams
         writer: J.J. Abrams
 
+  James Cameron:
+    template: { name: Director }
+    file_poster: config/posters/James Cameron.png
+    visible_shared: range(08/11-08/20)
+    plex_search:
+      any:
+        director: James Cameron
+        producer: James Cameron
+        writer: James Cameron
+
   John Carpenter:
     template: { name: Director }
     file_poster: config/posters/John Carpenter.png
+    visible_shared: range(04/01-04/10)
     plex_search:
       any:
         director: John Carpenter
@@ -1172,25 +1207,87 @@ collections:
   M. Night Shyamalan:
     template: { name: Director }
     file_poster: config/posters/M. Night Shyamalan.png
+    visible_shared: range(10/01-10/10)
     plex_search:
       any:
         director: M. Night Shyamalan
         producer: M. Night Shyamalan
         writer: M. Night Shyamalan
 
+  Martin Scorsese:
+    template: { name: Director }
+    file_poster: config/posters/Martin Scorsese.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Martin Scorsese
+        producer: Martin Scorsese
+        writer: Martin Scorsese
+
+  Mel Brooks:
+    template: { name: Director }
+    file_poster: config/posters/Mel Brooks.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Mel Brooks
+        producer: Mel Brooks
+        writer: Mel Brooks
+
+  Michael Mann:
+    template: { name: Director }
+    file_poster: config/posters/Michael Mann.png
+    visible_shared: range(05/01-05/10)
+    plex_search:
+      any:
+        director: Michael Mann
+        producer: Michael Mann
+        writer: Michael Mann
+
+  Miloš Forman:
+    template: { name: Director }
+    file_poster: config/posters/Milos Forman.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Miloš Forman
+        producer: Miloš Forman
+        writer: Miloš Forman
+
+  Oliver Stone:
+    template: { name: Director }
+    file_poster: config/posters/Oliver Stone.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Oliver Stone
+        producer: Oliver Stone
+        writer: Oliver Stone
+
   Park Chan-wook:
     template: { name: Director }
     file_poster: config/posters/Park Chan-wook.png
+    visible_shared: range(06/01-06/10)
     plex_search:
       any:
         director: Park Chan-wook
         producer: Park Chan-wook
         writer: Park Chan-wook
 
+  Peter Jackson:
+    template: { name: Director }
+    file_poster: config/posters/Peter Jackson.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Peter Jackson
+        producer: Peter Jackson
+        writer: Peter Jackson
+
   Quentin Tarantino:
     template: { name: Director }
     file_poster: config/posters/Quentin Tarantino.png
-    visible_shared: range(09/14-09/18)
+    visible_shared: range(09/11-09/20)
     plex_search:
       any:
         director: Quentin Tarantino
@@ -1207,19 +1304,50 @@ collections:
         producer: Ridley Scott
         writer: Ridley Scott
 
+  Robert Zemeckis:
+    template: { name: Director }
+    file_poster: config/posters/Robert Zemeckis.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Robert Zemeckis
+        producer: Robert Zemeckis
+        writer: Robert Zemeckis
+
+  Roman Polanski:
+    template: { name: Director }
+    file_poster: config/posters/Roman Polanski.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Roman Polanski
+        producer: Roman Polanski
+        writer: Roman Polanski
+
   Sergio Leone:
     template: { name: Director }
     file_poster: config/posters/Sergio Leone.png
+    visible_shared: range(07/01-07/10)
     plex_search:
       any:
         director: Sergio Leone
         producer: Sergio Leone
         writer: Sergio Leone
 
+  Sidney Lumet:
+    template: { name: Director }
+    file_poster: config/posters/Sidney Lumet.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Sidney Lumet
+        producer: Sidney Lumet
+        writer: Sidney Lumet
+
   Stanley Kubrick:
     template: { name: Director }
     file_poster: config/posters/Stanley Kubrick.png
-    visible_shared: range(11/14-11/18)
+    visible_shared: range(11/11-11/20)
     plex_search:
       any:
         director: Stanley Kubrick
@@ -1229,7 +1357,7 @@ collections:
   Steven Spielberg:
     template: { name: Director }
     file_poster: config/posters/Steven Spielberg.png
-    visible_shared: range(12/14-12/18)
+    visible_shared: range(12/11-12/20)
     plex_search:
       any:
         director: Steven Spielberg
@@ -1239,15 +1367,37 @@ collections:
   Taika Waititi:
     template: { name: Director }
     file_poster: config/posters/Taika Waititi.png
+    visible_shared: range(09/01-09/10)
     plex_search:
       any:
         director: Taika Waititi
         producer: Taika Waititi
         writer: Taika Waititi
 
+  Terrence Malick:
+    template: { name: Director }
+    file_poster: config/posters/Terrence Malick.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Terrence Malick
+        producer: Terrence Malick
+        writer: Terrence Malick
+
+  Tim Burton:
+    template: { name: Director }
+    file_poster: config/posters/Tim Burton.png
+    visible_shared: range(08/01-08/10)
+    plex_search:
+      any:
+        director: Tim Burton
+        producer: Tim Burton
+        writer: Tim Burton
+
   Wes Anderson:
     template: { name: Director }
     file_poster: config/posters/Wes Anderson.png
+    visible_shared: range(08/01-08/10)
     plex_search:
       any:
         director: Wes Anderson

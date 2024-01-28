@@ -116,7 +116,7 @@ collections:
     summary: Worst animes on Plex rated 5.0 or lower.
     file_poster: config/posters/Worst.png
     smart_filter:
-      sort_by: random
+      sort_by: audience_rating.asc
       validate: false
       all:
         audience_rating.lte: 5.0

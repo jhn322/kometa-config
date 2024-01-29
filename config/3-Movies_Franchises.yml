@@ -4278,7 +4278,7 @@ collections:
   Venom:
     template: { name: Franchise }
     summary: Introduced in Venom (2018), Venom is depicted as a symbiote who binds with human investigative journalist Eddie Brock after landing on Earth, with the duo subsequently becoming a vigilante jointly known by Venom's name, and later as the Lethal Protector.
-    file_poster: config/posters/Venom.jpg
+    file_poster: config/posters/Venom.png
     plex_search:
       all:
         title: venom

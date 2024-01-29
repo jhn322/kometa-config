@@ -50,15 +50,6 @@ collections:
     summary: Popular animes this week according to aniDB.
     file_poster: config/posters/aniDB Popular.png
 
-  # MyAnimeList specific chart lists
-  Award Winning:
-    template: { name: Anime Other }
-    mal_search:
-      genre: 46
-      limit: 500
-    summary: Titles which have won prestigious or professional awards in Japan. Examples include the Tokyo Anime Award or Japan Media Arts Festival awards.
-    file_poster: config/posters/Award Winning.png
-
   MAL - Most Favorited:
     template: { name: Anime Top }
     mal_favorite: 30

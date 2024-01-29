@@ -1,5 +1,5 @@
 #####################################################
-#                  NETWORKS 6.0                     #
+#                  NETWORKS 4.0                     #
 #####################################################
 
 templates:
@@ -9,7 +9,7 @@ templates:
       - network
     tmdb_company: <<company>>
     tmdb_network: <<network>>
-    sort_title: zzzzz_collection_name>>
+    sort_title: zzzz_collection_name>>
     sync_mode: sync
     smart_label: release.desc
 
@@ -19,9 +19,8 @@ templates:
       validate: false
       any:
         network: <<network>>
-    sort_title: zzzzz_<<collection_name>>
+    sort_title: zzzz_<<collection_name>>
 
-# Fetched from TMDb using the studio id and/or name
 collections:
   A-1 Pictures:
     template: { name: studio, company: 13113 }
@@ -131,11 +130,12 @@ collections:
     file_poster: config/posters/Fuji TV.png
 
   Gainax:
-    template: { name: network, studio: "GAINAX" }
     sync_mode: sync
     smart_label: release.desc
+    sort_title: zzzz_Gainax
     summary: GAINAX Co, Ltd. is a Japanese anime studio famous for productions such as Neon Genesis Evangelion, Royal Space Force, Gunbuster, Nadia The Secret of Blue Water, Kare Kano, FLCL, Magical Shopping Arcade Abenobashi, and Gurren Lagann, which have garnered critical acclaim and commercial success.
     file_poster: config/posters/Gainax.png
+    studio: GAINAX
 
   GYAO!:
     template: { name: network, network: "GyaO!, GYAO! Store" }

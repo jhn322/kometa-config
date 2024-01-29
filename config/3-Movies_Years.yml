@@ -5,13 +5,13 @@ templates:
   Decade:
     smart_label: audience_rating.desc
     sync_mode: sync
-    sort_title: +<<collection_name>>
+    sort_title: zzz_<<collection_name>>
     visible_library: true
 
   Year:
     smart_label: audience_rating.desc
     sync_mode: sync
-    sort_title: ZZZZZ+<<collection_name>>
+    sort_title: zzzz_<<collection_name>>
     visible_library: true
 
 # Movies with a IMDb rating greater than 7.0 from a decade

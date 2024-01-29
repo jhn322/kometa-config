@@ -7,12 +7,12 @@ templates:
     optional:
       - company
     tmdb_company: <<company>>
-    sort_title: ZZZZZZZ+<<collection_name>>
+    sort_title: zzzzz_<<collection_name>>
     sync_mode: sync
     smart_label: release.desc
 
   Streaming:
-    sort_title: +++_<<collection_name>>
+    sort_title: ++_<<collection_name>>
     sync_mode: sync
     smart_label: originally_available.desc
     visible_library: true
@@ -410,16 +410,16 @@ collections:
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/netflix-movies?sort=rank,asc
 
   Paramount+:
-    template: { name: Studio, company: 4 }
+    template: { name: Streaming }
     summary: Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake subsidiary of Paramount Global. It is the fifth oldest film studio in the world, the second oldest film studio in the United States (behind Universal Pictures), and the sole member of the "Big Five" film studios still located in the city limits of Los Angeles.
     visible_shared: monthly(31)
     visible_library: true
     file_poster: config/posters/Paramount+.png
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/paramount-originals?sort=rank,asc
 
   Peacock:
     template: { name: Streaming }
     visible_library: true
-    sort_title: ZZZZZZZ+Peacock
     file_poster: config/posters/Peacock.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/peacock-movies?sort=rank,asc
 

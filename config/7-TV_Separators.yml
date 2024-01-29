@@ -13,7 +13,7 @@ templates:
 collections:
   Award Collections:
     template: { name: Separator }
-    sort_title: zzzzz_<<AAA
+    sort_title: zzz_<<AAA
     summary: Award collections up next.
     file_poster: config/posters/Award Collections.png
 
@@ -25,13 +25,13 @@ collections:
 
   Decade Collections:
     template: { name: Separator }
-    sort_title: zz_AAA
+    sort_title: zzzz_AAA
     summary: Decade collections up next.
     file_poster: config/posters/Decade Collections.png
 
   Franchise Collections:
     template: { name: Separator }
-    sort_title: zzz_AAA
+    sort_title: zzzzzzz_<<
     summary: Franchise collections up next.
     file_poster: config/posters/Franchise Collections.png
 
@@ -43,19 +43,19 @@ collections:
 
   Network Collections:
     template: { name: Separator }
-    sort_title: zzzzzz_<<
+    sort_title: zzzzzz_1AAA
     summary: Network collections up next.
     file_poster: config/posters/Network Collections.png
 
   Rating Collections:
     template: { name: Separator }
-    sort_title: zzzzzzz_11
+    sort_title: zzzzzzzz_11
     summary: Rating collections up next.
     file_poster: config/posters/Rating Collections.png
 
   Special Collections:
     template: { name: Separator }
-    sort_title: ++++_000
+    sort_title: zz_000
     summary: Special collections up next.
     file_poster: config/posters/Special Collections.png
 
@@ -73,6 +73,6 @@ collections:
 
   Year Collections:
     template: { name: Separator }
-    sort_title: zzzz_AAA
+    sort_title: zzzzz_AAA
     summary: Year collections up next.
     file_poster: config/posters/Year Collections.png

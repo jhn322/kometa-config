@@ -6,7 +6,7 @@ templates:
   Franchise:
     collection_order: release.desc
     sync_mode: sync
-    sort_title: zzz_<<collection_name>>
+    sort_title: zzzzzzz_<<collection_name>>
 
 # Creates collections for TV shows in the same series with 3 or more.
 collections:

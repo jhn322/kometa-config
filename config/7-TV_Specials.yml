@@ -10,17 +10,17 @@ templates:
   Special:
     smart_label: random
     sync_mode: sync
-    sort_title: +++_<<collection_name>>
+    sort_title: zz__<<collection_name>>
     visible_library: true
 
   Special Smart:
     sync_mode: sync
-    sort_title: ++++_<<collection_name>>
+    sort_title: zz__<<collection_name>>
     visible_library: true
 
   Special Smart Other:
     sync_mode: sync
-    sort_title: +++_<<collection_name>>
+    sort_title: zz__<<collection_name>>
     visible_library: true
 
 collections:
@@ -29,6 +29,7 @@ collections:
     visible_shared: monthly(9)
     summary: TV shows with this rating are generally not suitable for children or individuals under 17 (some sources may say 18). This content is only made for mature audiences because it contains mature themes, such as gore, sexual violence, strong language, nudity, substances, smoking, and sex.
     file_poster: config/posters/18+.png
+    sort_title: zz__118+
     smart_filter:
       sort_by: random
       limit: 200
@@ -39,7 +40,7 @@ collections:
   480P+: # 480p and 576p TV Shows
     template: { name: Special }
     summary: A collection of TV Shows in SD, 480p and 576p quality.
-    sort_title: ++++_480P+
+    sort_title: zz__1480P+
     file_poster: config/posters/480P+.png
     plex_search:
       any:
@@ -51,7 +52,7 @@ collections:
   720P:
     template: { name: Special }
     summary: A collection of TV Shows in 720p quality.
-    sort_title: ++++_720P
+    sort_title: zz__1720P
     file_poster: config/posters/720P.png
     plex_search:
       all:
@@ -60,7 +61,7 @@ collections:
   1080P:
     template: { name: Special }
     summary: A collection of TV Shows in 1080p quality.
-    sort_title: +++_1080P
+    sort_title: zz__31080P
     file_poster: config/posters/1080P.png
     plex_search:
       all:
@@ -69,7 +70,7 @@ collections:
   2160P:
     template: { name: Special }
     summary: A collection of TV Shows in 4K.
-    sort_title: +++_2160P
+    sort_title: zz__42160P
     file_poster: config/posters/2160P.png
     plex_search:
       all:

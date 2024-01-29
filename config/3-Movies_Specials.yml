@@ -5,17 +5,17 @@ templates:
   Special:
     smart_label: random
     sync_mode: sync
-    sort_title: ++++_<<collection_name>>
+    sort_title: zz-<<collection_name>>
 
   Special Smart:
     sync_mode: sync
-    sort_title: ++++_<<collection_name>>
+    sort_title: zz-<<collection_name>>
     visible_library: true
 
   Special Other:
     smart_label: random
     sync_mode: sync
-    sort_title: ++++_<<collection_name>>
+    sort_title: zz-<<collection_name>>
     visible_library: true
 
 collections:
@@ -33,7 +33,6 @@ collections:
   2160P:
     template: { name: Special }
     summary: A collection of movies in 4K.
-    sort_title: ++++_2160P
     file_poster: config/posters/2160P.png
     plex_search:
       all:
@@ -76,7 +75,7 @@ collections:
 
   No Swedish Subtitles:
     sync_mode: sync
-    sort_title: ZZZZZZZZZZZZZZZZZZZ_NO SWE SUB
+    sort_title: zzzzzzzzzzz_No Swedish Subtitles
     file_poster: config/posters/No Swedish Subtitles.png
     summary: Movies yet to recieve swedish subtitles.
     smart_filter:

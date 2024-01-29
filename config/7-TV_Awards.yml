@@ -6,7 +6,7 @@ templates:
   imdb:
     optional:
       - trakt_list
-    sort_title: "zzzzz_<<num>>_<<collection_name>>"
+    sort_title: "zzz_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
     visible_library: true
@@ -21,7 +21,7 @@ templates:
       - letterboxd_extra_3
       - letterboxd_extra_4
       - letterboxd_extra_5
-    sort_title: "zzzzz_<<num>>_<<collection_name>>"
+    sort_title: "zzz_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
@@ -32,7 +32,7 @@ templates:
   custom:
     optional:
       - trakt_list
-    sort_title: "zzzzz_<<num>>_<<collection_name>>"
+    sort_title: "zzz_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false

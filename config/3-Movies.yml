@@ -5,18 +5,18 @@ templates:
   Movie:
     smart_label: random
     sync_mode: sync
-    sort_title: +++++_<<collection_name>>
+    sort_title: +++_<<collection_name>>
     visible_library: true
 
   Movie Basic:
     sync_mode: sync
-    sort_title: +++++_<<collection_name>>
+    sort_title: +++_<<collection_name>>
     visible_library: true
 
   Movie Release:
     smart_label: release.desc
     sync_mode: sync
-    sort_title: +++++_<<collection_name>>
+    sort_title: +++_<<collection_name>>
     visible_library: true
 
   Movie Top:
@@ -27,7 +27,7 @@ templates:
 collections:
   IMDb - Best Recent:
     template: { name: Movie Top }
-    sort_title: +++++++++_ZIMDb Best Rated
+    sort_title: ++++_ZIMDb Best Rated
     visible_shared:
       - monthly(19)
       - monthly(20)
@@ -42,7 +42,7 @@ collections:
 
   IMDb - Popular:
     template: { name: Movie }
-    sort_title: +++++++++_XIMDb Popular
+    sort_title: ++++_XIMDb Popular
     file_poster: config/posters/IMDb Popular Silver.png
     limit: 50
     visible_shared:
@@ -54,7 +54,7 @@ collections:
 
   IMDb - Top 250:
     template: { name: Movie Basic }
-    sort_title: +++++++++_IMDb top 250
+    sort_title: ++++_IMDb top 250
     smart_label: audience_rating.desc
     summary: 250 highest rated movies on IMDb.
     visible_shared:
@@ -192,7 +192,7 @@ collections:
 
   Trakt - Popular:
     template: { name: Movie }
-    sort_title: ++++++++++_XTrakt Popular
+    sort_title: +++++_XTrakt Popular
     trakt_chart:
       chart: popular
       limit: 50
@@ -209,7 +209,7 @@ collections:
 
   Trakt - Top Rated:
     template: { name: Movie }
-    sort_title: ++++++++++_Trakt Top Rated
+    sort_title: +++++_Trakt Top Rated
     visible_shared:
       - monthly(27)
       - monthly(14)
@@ -220,7 +220,7 @@ collections:
 
   Trakt - Trending:
     template: { name: Movie Release }
-    sort_title: ++++++++++_ZTrakt Trending
+    sort_title: +++++_ZTrakt Trending
     trakt_chart:
       chart: trending
       limit: 30

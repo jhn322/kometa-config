@@ -5,6 +5,7 @@ templates:
   Franchise:
     collection_order: release.desc
     sync_mode: sync
+    sort_title: zzzzzz_<<collection_name>>
 
 # Creates collections for movies in the same series with 2 or more.
 collections:
@@ -4516,7 +4517,6 @@ collections:
   DC Extended Universe:
     template: { name: Franchise }
     summary: A of all DC Extended Universe movies.
-    sort_title: DC
     file_poster: config/posters/DC Extended Universe.png
     trakt_list: https://trakt.tv/users/donxy/lists/dc-extended-universe?sort=rank,asc
 

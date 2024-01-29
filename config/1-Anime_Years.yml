@@ -9,68 +9,17 @@ templates:
     sort_title: zz_<<collection_name>>
     visible_library: true
 
-  Season:
-    collection_order: custom
-    sync_mode: sync
-    visible_library: true
-
   Year:
     collection_order: custom
     sync_mode: sync
-    sort_title: zzzz_<<collection_name>>
+    sort_title: zzz_<<collection_name>>
     visible_library: true
 
-# Creates collection for currently airing animes in this season this year using mal
 collections:
-  # Autumn Season: Currently disabled
-  #   template: { name: Season }
-  #   mal_season:
-  #     season: fall
-  #     limit: 100
-  #     sort_by: members
-  #     starting_only: false
-  #   sort_title: ++1autumn season
-  #   summary: Animes streaming this fall season according to MyAnimeList.
-  #   file_poster: config/posters/Autumn Anime.png
-
-  Spring Season:
-    template: { name: Season }
-    mal_season:
-      season: spring
-      limit: 100
-      sort_by: members
-      starting_only: false
-    sort_title: ++123spring season
-    summary: Animes streaming this spring season according to MyAnimeList.
-    file_poster: config/posters/Spring Anime.png
-
-  Summer Season:
-    template: { name: Season }
-    mal_season:
-      season: summer
-      limit: 100
-      sort_by: members
-      starting_only: false
-    sort_title: ++12summer season
-    summary: Animes streaming this summer season according to MyAnimeList.
-    file_poster: config/posters/Summer Anime.png
-
-  Winter Season:
-    template: { name: Season }
-    mal_season:
-      season: winter
-      limit: 100
-      sort_by: members
-      starting_only: false
-    sort_title: ++winter season
-    summary: Animes streaming this winter season according to MyAnimeList.
-    file_poster: config/posters/Winter Anime.png
-
   ####################################################
   #                  DECADES 4.0                     #
+  #  Rating greater than 7.8 from mal from a decade  #
   ####################################################
-
-  # Animes with a rating greater than 7.8 from mal from a decade
   Best of 1940-1970s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1940-1970s.png

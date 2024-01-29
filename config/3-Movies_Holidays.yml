@@ -4,7 +4,7 @@
 
 templates:
   Holiday:
-    sort_title: ZZZZZZZZZZZZZZZZZZZ+<<collection_name>>
+    sort_title: zzzzzzzzzz_<<collection_name>>
     smart_label: random
     sync_mode: sync
     visible_home: false

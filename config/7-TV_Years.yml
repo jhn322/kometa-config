@@ -6,13 +6,13 @@ templates:
   Decade:
     smart_label: audience_rating.desc
     sync_mode: sync
-    sort_title: zz_<<collection_name>>
+    sort_title: zzzz_<<collection_name>>
     visible_library: true
 
   Year:
     smart_label: audience_rating.desc
     sync_mode: sync
-    sort_title: zzzz_<<collection_name>>
+    sort_title: zzzzz_<<collection_name>>
     visible_library: true
 
 # TV shows with a IMDb rating greater than 7.8 from a decade

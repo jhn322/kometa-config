@@ -5,18 +5,18 @@
 templates:
   Genre:
     visible_library: true
-    sort_title: ++_<<collection_name>>
+    sort_title: +_<<collection_name>>
     sync_mode: sync
 
   Genre Other:
     visible_library: true
-    sort_title: +_<<collection_name>>
+    sort_title: <<collection_name>>
     sync_mode: sync
     smart_label: random
 
   Genre Smart:
     visible_library: true
-    sort_title: +_<<collection_name>>
+    sort_title: <<collection_name>>
     sync_mode: sync
 
 # Creates collections for genres with a limit of 400

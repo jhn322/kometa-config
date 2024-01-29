@@ -1,5 +1,5 @@
 ######################################################
-#                SEPARATORS 3.0                      #
+#                SEPARATORS 2.0                      #
 ######################################################
 
 templates:
@@ -10,13 +10,12 @@ templates:
       all:
         title: vinland saga
 
-# Creates a separator to make it more clear where a category of collection starts and ends
 collections:
   Chart Collections:
     template: { name: Separator }
     sort_title: +++++++_ZZZ
     summary: Chart collections up next.
-    file_poster: config/posters/Chart Collections.png
+    file_poster: config//posters/Chart Collections.png
 
   Decade Collections:
     template: { name: Separator }
@@ -26,7 +25,7 @@ collections:
 
   Franchise Collections:
     template: { name: Separator }
-    sort_title: zzz_AAA
+    sort_title: zzzzz_<<AAA
     summary: Franchise collections up next.
     file_poster: config/posters/Franchise Collections.png
 
@@ -38,7 +37,7 @@ collections:
 
   Network Collections:
     template: { name: Separator }
-    sort_title: zzzzz_<<AAA
+    sort_title: zzzz_AAA
     summary: Studio collections up next.
     file_poster: config/posters/Network Collections.png
 
@@ -48,15 +47,9 @@ collections:
     summary: Rating collections up next.
     file_poster: config/posters/Rating Collections.png
 
-  Season Collections:
-    template: { name: Separator }
-    sort_title: ++123_ZZZ
-    summary: Season collections up next.
-    file_poster: config/posters/Season Collections.png
-
   Special Collections:
     template: { name: Separator }
-    sort_title: +++++_ZZZ
+    sort_title: zz___000
     summary: Special collections up next.
     file_poster: config/posters/Special Collections.png
 
@@ -68,6 +61,6 @@ collections:
 
   Year Collections:
     template: { name: Separator }
-    sort_title: zzzz_AAA
+    sort_title: zzz_AAA
     summary: Year collections up next.
     file_poster: config/posters/Year Collections.png

@@ -1,5 +1,5 @@
 ######################################################
-#                   ANIME 14.0                       #
+#                   ANIME 15.0                       #
 ######################################################
 
 templates:
@@ -20,43 +20,14 @@ templates:
     sync_mode: sync
     visible_library: true
 
-# Anilist specific chart lists
 collections:
-  AL - Popular:
-    template: { name: Anime Top }
-    anilist_popular: 50
-    summary: Popular animes this week according to Anilist.
-    sort_title: +++++++_XAnilist Popular
-    file_poster: config/posters/Anilist Popular Silver.png
-
-  AL - Top Rated:
-    template: { name: Anime Top }
-    anilist_top_rated: 300
-    summary: The highest rated animes ever on Anilist.
-    sort_title: +++++++_Anilist Top Rated
-    file_poster: config/posters/Anilist Top Rated Gold.png
-
-  AL - Trending:
-    template: { name: Anime Top }
-    anilist_trending: 30
-    summary: Trending animes this week according to Anilist.
-    sort_title: +++++++_ZAnilist Trending
-    file_poster: config/posters/Anilist Trending Bronze.png
-
-  # AniDB specific chart lists
-  AniDB - Popular:
-    template: { name: Anime }
-    anidb_popular: 30
-    summary: Popular animes this week according to aniDB.
-    file_poster: config/posters/aniDB Popular.png
-
-  MAL - Most Favorited:
+  MAL - Most Favorited: # MAL Specific lists
     template: { name: Anime Top }
     mal_favorite: 30
     summary: Most favorited animes on MyAnimeList.
-    sort_title: ++++++++_ZMyAnimeList Most Favorited
+    sort_title: +++++++_MyAnimeList Most Favorited
     smart_label: random
-    file_poster: config/posters/MAL Most Favorited Bronze.png
+    file_poster: config/posters/MAL Most Favorited.png
 
   MAL - Top Upcoming:
     template: { name: Anime }
@@ -64,16 +35,10 @@ collections:
     summary: The most anticipated new anime series according to MyAnimeList.
     file_poster: config/posters/MAL Top Upcoming.png
 
-  MAL - Popular:
-    template: { name: Anime Top }
-    mal_popular: 50
-    summary: Popular animes this season according to MyAnimeList.
-    sort_title: ++++++++_XMyAnimeList Popular
-    file_poster: config/posters/MAL Popular Silver.png
-
   MAL - Suggested:
     template: { name: Anime }
     mal_suggested: 30
+    sort_title: +++++++_MAL Suggested
     summary: Animes suggested by MyAnimeList API.
     file_poster: config/posters/MAL Suggested.png
 
@@ -89,16 +54,44 @@ collections:
     summary: The highest rated OVAs of anime series according to MyAnimeList. OVA (Original Video Animation) are considered filler episodes of a certain anime. But also, OVA can be a major episode breakthrough as it contains scenes that might be very useful in the story building and could further be taken as a flashback episode for making scenes dramatic.
     file_poster: config/posters/MAL Top OVA.png
 
-  MAL - Top Rated:
-    template: { name: Anime Top }
-    mal_tv: 350
-    summary: The highest rated animes ever on MyAnimeList.
-    sort_title: ++++++++_MyAnimeList Top Rated
-    smart_label: audience_rating.desc
-    file_poster: config/posters/MAL Top Rated Gold.png
-
   MAL - Top Specials:
     template: { name: Anime }
     mal_special: 100
     summary: The highest rated specials of anime series according to MyAnimeList.
     file_poster: config/posters/MAL Top Specials.png
+
+  Popular: # Popular list from MyAnimeList, Anilist and AniDB
+    template: { name: Anime Top }
+    mal_popular: 50
+    anilist_popular: 50
+    anidb_popular: 30
+    summary: Popular animes this week according to MyAnimeList, Anilist and AniDB.
+    sort_title: ++++++++_XPopular
+    file_poster: config/posters/Popular.png
+
+  Season: # Tracking every anime season
+    template: { name: Anime }
+    mal_season:
+      season: current
+      limit: 100
+      sort_by: members
+      starting_only: false
+    sort_title: +++++++_Season
+    summary: Animes streaming in the current season according to MyAnimeList.
+    file_poster: config/posters/Season.png
+
+  Top Rated: # Top rated list from MyAnimeList and Anilist
+    template: { name: Anime Top }
+    mal_tv: 350
+    anilist_top_rated: 300
+    summary: The highest rated animes ever on MyAnimeList and Anilist.
+    sort_title: ++++++++_Top Rated
+    smart_label: audience_rating.desc
+    file_poster: config/posters/Top Rated.png
+
+  Trending: # Trending list from Anilist
+    template: { name: Anime Top }
+    anilist_trending: 30
+    summary: Trending animes this week according to Anilist.
+    sort_title: ++++++++_ZTrending
+    file_poster: config/posters/Trending.png

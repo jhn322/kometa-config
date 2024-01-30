@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 15.0                    #
+#                   SPECIALS 16.0                    #
 ######################################################
 
 templates:
@@ -93,15 +93,15 @@ collections:
       all:
         release: 61
 
-  Popular: # Fetched information from Tautulli
+  Played: # Fetched information from Tautulli
     template: { name: Special }
     tautulli_popular:
       list_days: 61
       list_size: 50
       list_buffer: 20
       list_minimum: 1
-    file_poster: config/posters/Popular.png
-    summary: Most popular animes on Plex the past 2 months.
+    file_poster: config/posters/Played.png
+    summary: Most played animes on Plex the past 2 months.
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }
@@ -113,16 +113,6 @@ collections:
       validate: false
       all:
         audience_rating.gte: 4.0
-
-  Season:
-    template: { name: Season }
-    mal_season:
-      season: current
-      limit: 100
-      sort_by: members
-      starting_only: false
-    summary: Animes streaming in the current season according to MyAnimeList.
-    file_poster: config/posters/Season.png
 
   Watched: # Fetched information from Tautulli
     template: { name: Special }

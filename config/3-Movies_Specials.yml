@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 16.0                    #
+#                   SPECIALS 17.0                    #
 ######################################################
 templates:
   Special:
@@ -83,15 +83,15 @@ collections:
       all:
         subtitle_language.not: sv
 
-  Popular: # Fetched information from Tautulli
+  Played: # Fetched information from Tautulli
     template: { name: Special Smart }
     tautulli_popular:
       list_days: 31
       list_size: 200
       list_buffer: 20
       list_minimum: 1
-    file_poster: config/posters/Popular.png
-    summary: Most popular movies on Plex the past month.
+    file_poster: config/posters/Played.png
+    summary: Most played movies on Plex the past month.
     smart_label: viewed.desc
 
   Random: # Random movies with a rating above 4 from IMDb

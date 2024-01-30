@@ -1,5 +1,5 @@
 ######################################################
-#                   MOVIES 15.0                      #
+#                   MOVIES 16.0                      #
 ######################################################
 templates:
   Movie:
@@ -23,34 +23,21 @@ templates:
     sync_mode: sync
     visible_library: true
 
-# IMDb specific chart lists
 collections:
-  IMDb - Best Recent:
+  IMDb - Best Recent: # IMDb specific chart lists
     template: { name: Movie Top }
-    sort_title: ++++_ZIMDb Best Rated
+    sort_title: ++++_IMDb Best Rated
     visible_shared:
       - monthly(19)
       - monthly(20)
     summary: Movies rated 6.8 or higher on IMDb, released in the past 6 months.
-    file_poster: config/posters/IMDb Best Recent Bronze.png
+    file_poster: config/posters/IMDb Best Recent.png
     smart_filter:
       sort_by: audience_rating.desc
       validate: false
       all:
         audience_rating.gte: 7.0
         release: 180
-
-  IMDb - Popular:
-    template: { name: Movie }
-    sort_title: ++++_XIMDb Popular
-    file_poster: config/posters/IMDb Popular Silver.png
-    limit: 50
-    visible_shared:
-      - monthly(1)
-      - monthly(2)
-    visible_library: true
-    summary: Popular shows on IMDb over the past few months.
-    trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-movies?sort=rank,asc
 
   IMDb - Top 250:
     template: { name: Movie Basic }
@@ -63,8 +50,7 @@ collections:
     file_poster: config/posters/IMDb Top 250 Gold.png
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
 
-  # Letterboxd specific chart lists
-  Letterboxd - Best Picture:
+  Letterboxd - Best Picture: # Letterboxd specific chart lists
     template: { name: Movie Release }
     summary: Best movie of every year according to Letterboxd.
     file_poster: config/posters/Letterboxd Best Picture.png
@@ -93,8 +79,7 @@ collections:
     file_poster: config/posters/Letterboxd Top 250 Gold.png
     trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
 
-  # MyAnimeList specific chart lists
-  MAL - Most Favorited:
+  MAL - Most Favorited: # MyAnimeList specific chart lists
     template: { name: Movie }
     mal_favorite: 500
     summary: Most favorited animes on MyAnimeList.
@@ -121,8 +106,23 @@ collections:
     file_poster: config/posters/Metacritic Must See.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/metacritic-must-see-movies?sort=rank,asc
 
-  # Rotten Tomatoes specific chart lists
-  RT - Certified Fresh:
+  Popular: # Popular list from IMDb, Trakt and TMDb
+    template: { name: Movie }
+    tmdb_popular: 50
+    trakt_chart:
+      chart: popular
+      limit: 50
+    sort_title: +++++_XPopular
+    visible_shared:
+      - monthly(1)
+      - monthly(7)
+      - monthly(20)
+    visible_library: true
+    file_poster: config/posters/Popular.png
+    summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-movies?sort=rank,asc
+
+  RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: Movie }
     limit: 200
     visible_shared: monthly(14)
@@ -130,47 +130,35 @@ collections:
     file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
     trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
 
-  # TMDb specific chart lists
-  TMDb - Now Playing:
+  TMDb - Now Playing: # TMDb specific chart lists
     template: { name: Movie Release }
     tmdb_now_playing: 50
     file_poster: config/posters/TMDb Now Playing.png
     visible_shared: monthly(3)
     summary: Recentley released movies on TMDb.
 
-  TMDb - Popular:
-    template: { name: Movie }
-    tmdb_popular: 50
-    file_poster: config/posters/TMDb Popular.png
-    visible_shared: monthly(7)
-    summary: Popular shows on TMDb over the past few months.
-
-  TMDb - Trending:
-    template: { name: Movie }
-    tmdb_trending_weekly: 30
-    file_poster: config/posters/TMDb Trending.png
-    smart_label: release.desc
-    summary: Shows trending on TMDb this week.
-
-  TMDb - Top Rated:
+  Top Rated: # Top rated list from Trakt and TMdb
     template: { name: Movie }
     tmdb_top_rated: 350
+    sort_title: ++++++_Top Rated
     visible_shared:
+      - monthly(2)
+      - monthly(14)
       - monthly(15)
       - monthly(16)
-    file_poster: config/posters/TMDb Top Rated Gold.png
-    summary: Top Rated Movies on TMDb.
+      - monthly(27)
+    file_poster: config/posters/Top Rated.png
+    summary: Top Rated Movies on Trakt and TMDb.
+    trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
 
-  # TorrentFreak specific chart lists
-  TorrentFreak - Most Pirated:
+  TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
     template: { name: Movie Basic }
     summary: Most pirated movies of the week according TorrentFreak.
     collection_order: custom
     file_poster: config/posters/TorrentFreak Most Pirated.png
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
 
-  # Trakt specific chart lists
-  Trakt - Most Watched (All-Time):
+  Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: Movie }
     trakt_chart:
       chart: watched
@@ -190,40 +178,23 @@ collections:
     summary: Most watched movies across the internet this year.
     visible_shared: monthly(12)
 
-  Trakt - Popular:
-    template: { name: Movie }
-    sort_title: +++++_XTrakt Popular
-    trakt_chart:
-      chart: popular
-      limit: 50
-    visible_shared: monthly(20)
-    file_poster: config/posters/Trakt Popular Silver.png
-    summary: Popular shows on Trakt over the past few months.
-
   Trakt - Recommended:
     template: { name: Movie }
-    trakt_recommendations: 40
+    trakt_recommendations: 60
+    sort_title: ++++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     visible_shared: monthly(19)
     file_poster: config/posters/Trakt Recommended.png
 
-  Trakt - Top Rated:
-    template: { name: Movie }
-    sort_title: +++++_Trakt Top Rated
-    visible_shared:
-      - monthly(27)
-      - monthly(14)
-      - monthly(29)
-    file_poster: config/posters/Trakt Top Rated Gold.png
-    summary: Top Rated Movies on trakt.
-    trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
-
-  Trakt - Trending:
+  Trending: # Trending list from Trakt and TMDb
     template: { name: Movie Release }
-    sort_title: +++++_ZTrakt Trending
+    tmdb_trending_weekly: 30
     trakt_chart:
       chart: trending
       limit: 30
-    file_poster: config/posters/Trakt Trending Bronze.png
-    visible_shared: monthly(30)
-    summary: Shows trending on Trakt this week.
+    sort_title: +++++_ZTrending
+    visible_shared:
+      - monthly(29)
+      - monthly(30)
+    file_poster: config/posters/Trending.png
+    summary: Shows trending on Trakt and TMDb this week.

@@ -44,7 +44,7 @@ collections:
 
   MAL - Top Airing:
     template: { name: Anime }
-    mal_airing: 150
+    mal_airing: 45
     summary: The highest rated animes airing right now according to MyAnimeList.
     file_poster: config/posters/MAL Top Airing.png
 

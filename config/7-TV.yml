@@ -27,7 +27,7 @@ collections:
     visible_shared:
       - monthly(11)
       - monthly(12)
-    file_poster: config/posters/IMDb Best Recent Bronze.png
+    file_poster: config/posters/IMDb Best Recent.png
     smart_filter:
       sort_by: audience_rating.desc
       validate: false

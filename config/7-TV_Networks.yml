@@ -207,14 +207,6 @@ collections:
     file_poster: config/posters/TNT.png
     studio: TNT (USA)
 
-  Peacock:
-    template: { name: network, network: "Peacock" }
-    file_poster: config/posters/Peacock.png
-    visible_shared:
-      - monthly(13)
-      - monthly(14)
-      - monthly(15)
-
   The CW:
     template: { name: network, network: "The CW" }
     file_poster: config/posters/The CW.png
@@ -281,6 +273,14 @@ collections:
       - monthly(5)
       - monthly(6)
     studio: Paramount+, Paramount Television Studios
+
+  Peacock:
+    template: { name: streaming, network: "Peacock" }
+    file_poster: config/posters/Peacock.png
+    visible_shared:
+      - monthly(13)
+      - monthly(14)
+      - monthly(15)
 
   Prime Video:
     template: { name: streaming, network: "Amazon" }

@@ -159,7 +159,7 @@ Feel free removing any unwanted collections/overlays by simply deleting the file
 
 **TV**
 
-![image search api](https://i.imgur.com/wAowutX.png)
+![image search api](https://i.imgur.com/sPgGQTW.png)
 
 ### Overlay examples
 

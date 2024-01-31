@@ -63,11 +63,11 @@ Nightly: docker pull meisnate12/plex-meta-manager:nightly
 
 **Movies**
 
-![image search api](https://i.imgur.com/Q6njLZ9.png)
+![image search api](https://i.imgur.com/CpZfhDf.png)
 
 **Anime**
 
-![image search api](https://i.imgur.com/dbuw1Gv.png)
+![image search api](https://i.imgur.com/GaM8Ti3.png)
 
 ### Overlays examples
 

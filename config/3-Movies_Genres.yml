@@ -339,6 +339,14 @@ collections:
       - https://trakt.tv/users/29zombies/lists/aliens?sort=title,asc
       - https://trakt.tv/users/roswellgeek/lists/aliens?sort=title,asc
 
+  Anxiety:
+    template: { name: Genre Other }
+    summary: Movies that leave you visibly shaken. Masterclasses in building tension that make you feel truly anxious for whatever is happening on screen.
+    file_poster: config/posters/Anxiety.png
+    visible_shared: monthly(2)
+    limit: 300
+    letterboxd_list: https://letterboxd.com/juliendonkeyboi/list/anxiety-inducing-cinema/
+
   Artificial Intelligence:
     template: { name: Genre Other }
     summary: Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that would typically require human intelligence, such as understanding natural language, recognizing images and speech, making decisions, and solving complex problems. AI systems are designed to simulate cognitive abilities, such as reasoning, learning, perception, and self-correction.
@@ -454,6 +462,13 @@ collections:
       - https://trakt.tv/users/aidansmyth/lists/comedy-horror?sort=rank,asc
       - https://trakt.tv/users/rizreflects/lists/comedy-horrors?sort=rank,asc
       - https://trakt.tv/users/ravynloony/lists/comedy-horror?sort=votes,asc
+
+  Comfort:
+    template: { name: Genre Other }
+    summary: For when youre feeling like everything is a bit too much.
+    file_poster: config/posters/Comfort.png
+    visible_shared: monthly(20)
+    letterboxd_list: https://letterboxd.com/ventunopiloti/list/comfort-movies/
 
   Coming of Age:
     template: { name: Genre Other }
@@ -642,6 +657,13 @@ collections:
     trakt_list:
       - https://trakt.tv/users/flekz22/lists/heists?sort=rank,asc
       - https://trakt.tv/users/urban-legend/lists/heist?sort=rank,asc
+
+  Impactful:
+    template: { name: Genre Other }
+    summary: These movies is a cinematic alchemists, wielding narratives that intricately blend emotions, intellect, and visuals to induce a transformative journey for the viewer. By the final frame, these films leave an indelible mark, reshaping perspectives and imprinting a lasting impact on the audience's psyche.
+    file_poster: config/posters/Impactful.png
+    visible_shared: monthly(11)
+    letterboxd_list: https://letterboxd.com/andredenervaux/list/youre-not-the-same-person-once-the-film-has/
 
   Indie:
     template: { name: Genre Other }
@@ -1117,6 +1139,13 @@ collections:
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/bad-guy-wins?sort=title,asc
       - https://trakt.tv/users/majeed_pk/lists/may-favorite-villains
+
+  Visually Insane:
+    template: { name: Genre Other }
+    summary: Often exhibit surreal and mind-bending visuals, pushing the boundaries of conventional storytelling with hallucinatory sequences and abstract imagery. These films captivate audiences by immersing them in unpredictable and visually stunning cinematic experiences that challenge traditional norms of narrative coherence.
+    file_poster: config/posters/Visually Insane.png
+    visible_shared: monthly(8)
+    letterboxd_list: https://letterboxd.com/etolkin/list/filmlist:28697007/
 
   Werewolf:
     template: { name: Genre Other }

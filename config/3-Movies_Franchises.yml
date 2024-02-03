@@ -36,14 +36,6 @@ collections:
           - 3 men
           - three men
 
-  8MM:
-    template: { name: Franchise }
-    file_poster: config/posters/8MM.png
-    summary: 8MM follows the story of Tom Welles (Nicolas Cage), a private investigator who is hired by a wealthy widow to investigate an 8mm film found in her late husband's safe that appears to depict a young girl being tortured and killed. Welles soon discovers that the film is part of an underground snuff film industry, and he becomes determined to uncover the truth and bring the perpetrators to justice.
-    plex_search:
-      all:
-        title: 8MM
-
   28 Days Later:
     template: { name: Franchise }
     summary: 8 Days Later is a British post-apocalyptic horror franchise which consists of two films, a graphic novel, and a comic book series.
@@ -97,14 +89,6 @@ collections:
     summary: Alien is a 1979 science fiction horror film directed by Ridley Scott and written by Dan O'Bannon. Based on a story by O'Bannon and Ronald Shusett, it follows the crew of the commercial space tug Nostromo who encounter the eponymous Alien, a deadly and aggressive extraterrestrial set loose on the ship.
     file_poster: config/posters/Alien..jpg
     trakt_list: https://trakt.tv/users/barffy194/lists/aliens?sort=released,asc
-
-  Accident Man:
-    template: { name: Franchise }
-    file_poster: config/posters/Accident Man.png
-    summary: Mike Fallon (Scott Adkins) is a hitman who specializes in making his killings look like accidents. However, when his ex-girlfriend is murdered, Fallon sets out to avenge her death and takes on a dangerous underworld of organized crime.
-    plex_search:
-      all:
-        title: accident man
 
   Ace Ventura:
     template: { name: Franchise }
@@ -162,20 +146,6 @@ collections:
       all:
         title: all dogs go to heaven
 
-  Alex Cross:
-    template: { name: Franchise }
-    file_poster: config/posters/Alex Cross.png
-    summary: of thriller films, based on the fictional character of Alex Cross, who originally appeared in a series of novels by James Patterson. In the series of three films, two actors have portrayed Cross.
-    tmdb_collection: 142680
-
-  American Graffiti:
-    template: { name: Franchise }
-    file_poster: config/posters/American Graffiti.png
-    summary: American Graffiti is a 1973 coming-of-age film directed by George Lucas and starring Richard Dreyfuss, Ron Howard, Cindy Williams, and Harrison Ford. There is no American Graffiti movie series; only one movie was made.
-    plex_search:
-      all:
-        title: American Graffiti
-
   American Psycho:
     template: { name: Franchise }
     file_poster: config/posters/American Psycho.png
@@ -183,14 +153,6 @@ collections:
     plex_search:
       all:
         title: American psycho
-
-  An American Werewolf:
-    template: { name: Franchise }
-    file_poster: config/posters/An American Werewolf.png
-    summary: An American Werewolf in London is a 1981 horror-comedy film directed by John Landis and starring David Naughton and Jenny Agutter.
-    plex_search:
-      all:
-        title: American werewolf
 
   A Cinderella Story:
     template: { name: Franchise }
@@ -228,23 +190,6 @@ collections:
     summary: Erotic Animation Trilogy, which happens to include the first adult animated film in Japanese history. Initiated and produced by Osamu TEZUKA, it is directed by Eiichi YAMAMOTO.
     tmdb_collection: 716923
 
-  Anatomy:
-    template: { name: Franchise }
-    file_poster: config/posters/Anatomy.png
-    summary: Anatomy follows a young medical student named Paula Henning (played by Franka Potente) who joins an elite anatomy class led by a charismatic professor named Dr. Grombek (played by Benno Furmann). However, as Paula begins to uncover the professor's dark secret involving illegal medical experiments, she finds herself in grave danger.
-    plex_search:
-      all:
-        title: Anatomy
-        genre: horror
-
-  Along with the Gods.:
-    template: { name: Franchise }
-    summary: Along with the Gods The Two Worlds is a 2017 South Korean fantasy action film directed by Kim Yong-hwa and based on the webtoon series by Joo Ho-min, Along with the Gods.
-    file_poster: config/posters/Along Gods.png
-    plex_search:
-      all:
-        title: along with the gods
-
   Anchorman:
     template: { name: Franchise }
     summary: The Anchorman series is a media franchise initially consisting of three American comedy films Anchorman The Legend of Ron Burgundy, Wake Up, Ron Burgundy The Lost Movie (both 2004), and Anchorman 2 The Legend Continues (2013).
@@ -278,12 +223,6 @@ collections:
     summary: The Apu is a trilogy consisting of three Bengali films directed by Satyajit Ray Pather Panchali (Song of the Little Road), Aparajito (The Unvanquished) and Apur Sansar (The World of Apu). The films completed 1955-1959 were based on two Bengali novels written by Bibhutibhushan Bandopadhyay Pather Panchali (1929) and Aparajito (1932). They are frequently listed among the greatest films of all time and are often cited as the greatest films in the history of Indian cinema. The original music for the films was composed by Ravi Shankar.
     trakt_list: https://trakt.tv/lists/official/the-apu-trilogy?sort=rank,asc
 
-  Aileen Wuornos:
-    template: { name: Franchise }
-    file_poster: config/posters/Aileen Wuornos.png
-    summary: Films a part of the sensationalized Aileen Wuornos canon. Aileen Wuornos American Boogeywoman (2021) is a sequel to Monster (2003).
-    tmdb_collection: 936268
-
   Arthur Trilogy:
     template: { name: Franchise }
     file_poster: config/posters/Arthur Trilogy.png
@@ -297,14 +236,6 @@ collections:
     plex_search:
       all:
         title: Asterix
-
-  Around the World in 80 Days.:
-    template: { name: Franchise }
-    summary: Around the World in Eighty Days is an adventure novel by the French writer Jules Verne, first published in French in 1872.
-    file_poster: config/posters/Around the World.jpg
-    plex_search:
-      all:
-        title: around the world
 
   American Pie:
     template: { name: Franchise }
@@ -363,14 +294,6 @@ collections:
         title: babe
         genre: family
 
-  Backdraft:
-    template: { name: Franchise }
-    file_poster: config/posters/Backdraft.png
-    summary: Both films were directed by Ron Howard and were praised for their intense action sequences and portrayal of the dangerous and heroic work of firefighters. The original Backdraft also received critical acclaim for its visual effects and use of practical stunts to create realistic fire and smoke effects.
-    plex_search:
-      all:
-        title: Backdraft
-
   Bad Moms:
     template: { name: Franchise }
     file_poster: config/posters/Bad Moms.png
@@ -378,14 +301,6 @@ collections:
     plex_search:
       all:
         title: bad moms
-
-  The Bad News Bears:
-    template: { name: Franchise }
-    file_poster: config/posters/The Bad News Bears.png
-    summary: The Bad News Bears movies were directed by Michael Ritchie and were praised for their irreverent humor, authentic portrayal of youth sports, and heartwarming message about the importance of sportsmanship and perseverance. The films also inspired a short-lived TV series in 1979 and a 2005 remake starring Billy Bob Thornton as Buttermaker.
-    plex_search:
-      all:
-        title: Bad News Bears
 
   Barbershop:
     template: { name: Franchise }
@@ -403,14 +318,6 @@ collections:
       all:
         title: basic instinct
 
-  Basket Case:
-    template: { name: Franchise }
-    file_poster: config/posters/Basket Case.jpeg
-    summary: Basket Case is a 1982 American horror film series written and directed by Frank Henenlotter in his feature directorial debut.
-    plex_search:
-      all:
-        title: basket case
-
   Bad Santa:
     template: { name: Franchise }
     summary: Bad Santa is a 2003 American Christmas black comedy film directed by Terry Zwigoff and written by Glenn Ficarra and John Requa.
@@ -418,14 +325,6 @@ collections:
     plex_search:
       all:
         title: bad santa
-
-  The Bad Seed:
-    template: { name: Franchise }
-    summary: A father is forced to question everything he thought he knew about his daughter when he believes she may have played a role in the tragic death of a classmate at her school.
-    file_poster: config/posters/The Bad Seed.jpg
-    plex_search:
-      all:
-        title: the bad seed
 
   The Blues Brothers:
     template: { name: Franchise }
@@ -443,14 +342,6 @@ collections:
       all:
         title: battle royale
 
-  Bats:
-    template: { name: Franchise }
-    summary: Bats is a American horror film series directed by Louis Morneau, written by John Logan and produced by Bradley Jenkel and Louise Rosner.
-    file_poster: config/posters/Bats.jpg
-    plex_search:
-      all:
-        title: bats
-
   Barefoot Gen.:
     template: { name: Franchise }
     summary: Barefoot Gen is a Japanese historical manga series by Keiji Nakazawa. Loosely based on Nakazawa's own experiences as a Hiroshima survivor, the series begins in 1945 in and around Hiroshima, Japan, where the six-year-old boy Gen Nakaoka lives with his family.
@@ -458,14 +349,6 @@ collections:
     plex_search:
       all:
         title: barefoot gen
-
-  Benchwarmers:
-    template: { name: Franchise }
-    file_poster: config/posters/The Benchwarmers.png
-    summary: The Benchwarmers film was directed by Dennis Dugan and was known for its slapstick humor and heartwarming message of self-acceptance and redemption. The film featured a cast of well-known comedic actors and was a box office success, grossing over $64 million worldwide. While it received mixed reviews from critics, it has since become a cult classic among fans of sports comedies.
-    plex_search:
-      all:
-        title: Benchwarmers
 
   Belle and Sebastian:
     template: { name: Franchise }
@@ -492,14 +375,6 @@ collections:
       all:
         title: big momma
 
-  Black Christmas:
-    template: { name: Franchise }
-    summary: Black Christmas is a Canadian-American horror film series that comprises three standalone slasher films, as well as a novelization. The original film has gained a large cult following and is credited as being one of the first slasher films, inspiring many others, including the critically acclaimed hit Halloween (1978).
-    file_poster: config/posters/Black Christmas.png
-    plex_search:
-      all:
-        title: black christmas
-
   Black Water:
     template: { name: Franchise }
     file_poster: config/posters/Black Water.png
@@ -507,22 +382,6 @@ collections:
     plex_search:
       all:
         title: black water
-
-  Butch Cassidy & Sundance Kid:
-    template: { name: Franchise }
-    file_poster: config/posters/Butch Cassidy & Sundance Kid.png
-    summary: Directed by George Roy Hill and written by William Goldman, Butch Cassidy and the Sundance Kid is known for its sharp dialogue, charismatic performances, and memorable scenes, such as the iconic bicycle ride and the final shootout. The film was a critical and commercial success, grossing over $100 million worldwide and winning several Academy Awards, including Best Original Screenplay. It remains a beloved classic in American cinema.
-    plex_search:
-      all:
-        title: butch sundance
-
-  Buddy Games:
-    template: { name: Franchise }
-    file_poster: config/posters/Buddy Games.png
-    summary: A group of friends reunite to play The Buddy Games, a wild assortment of absurd physical and mental challenges. In the process, they'll heal old wounds, right past wrongs and figure out the true meaning of friendship...or die trying.
-    plex_search:
-      all:
-        title: buddy games
 
   Blade Runner:
     template: { name: Franchise }
@@ -548,14 +407,6 @@ collections:
       all:
         title: blair witch
 
-  Book Club:
-    template: { name: Franchise }
-    summary: Book Club is a romantic comedy film released in 2018. The movie revolves around four lifelong friends Diane, Vivian, Sharon, and Carol, who are all in their 60s and belong to the same book club. The club, which has been meeting for decades, decides to spice things up by reading the erotic novel Fifty Shades of Grey.
-    file_poster: config/posters/Book Club.jpg
-    plex_search:
-      all:
-        title: book club
-
   Back to the Future:
     template: { name: Franchise }
     summary: Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis and written by Zemeckis and Bob Gale. It stars Michael J. Fox as teenager Marty McFly, who accidentally travels back in time to 1955, where he meets his future parents and becomes his mother's romantic interest.
@@ -579,14 +430,6 @@ collections:
     plex_search:
       all:
         title: bad boys
-
-  Buddha:
-    template: { name: Franchise }
-    summary: 2005 years ago in India, a boy named Siddhartha Gautama of the kingdom Shakya is born. When Siddhartha was born there was a prophecy that the boy would become a king of all the kingdoms.
-    file_poster: config/posters/Buddha.png
-    plex_search:
-      all:
-        title: Buddha
 
   A Better Tomorrow:
     template: { name: Franchise }
@@ -631,23 +474,6 @@ collections:
         title: blade
         actor: wesley snipes
 
-  Brother:
-    template: { name: Franchise }
-    file_poster: config/posters/Brother.png
-    summary: Both films were directed by Takeshi Kitano, who also stars as Yamamoto. The Brother series is known for its gritty and violent portrayal of organized crime, as well as its exploration of themes such as loyalty, betrayal, and cultural identity. While the films received mixed reviews, they have gained a cult following for their stylish visuals and intense action sequences.
-    plex_search:
-      all:
-        title: brother
-        director: Aleksey Balabanov
-
-  Bulletproof:
-    template: { name: Franchise }
-    file_poster: config/posters/Bulletproof.png
-    summary: The Bulletproof movies are action-comedies that feature a mix of humor and explosive action sequences. While the first film received mixed reviews, it has since gained a cult following for its energetic performances by Sandler and Wayans, as well as its memorable soundtrack. The sequel, which was released more than two decades after the original, received mostly negative reviews.
-    plex_search:
-      all:
-        title: bulletproof
-
   The Butterfly Effect:
     template: { name: Franchise }
     file_poster: config/posters/The Butterfly Effect.png
@@ -681,24 +507,6 @@ collections:
       all:
         title: boogeyman
 
-  The Best Man:
-    template: { name: Franchise }
-    summary: The Best Man is a romantic comedy drama film released in 1999, directed by Malcolm D. Lee. It follows a group of college friends who reunite for a wedding, resulting in romantic complications and comedic moments. The film was well-received and became a cult classic.
-    file_poster: config/posters/The Best Man.jpg
-    plex_search:
-      all:
-        title: the best man
-        genre.not: action
-
-  The Birds:
-    template: { name: Franchise }
-    summary: The Birds is a famous movie directed by Alfred Hitchcock and released in 1963. It is a suspenseful thriller about a small town that comes under attack by swarms of aggressive birds. The film is known for its innovative use of special effects and its tense atmosphere. However, there is no official movie series based on The Birds beyond the original film.
-    file_poster: config/posters/The Birds.jpg
-    plex_search:
-      all:
-        title: the birds
-        genre: horror
-
   Candyman:
     template: { name: Franchise }
     summary: A children's ghost story comes to terrifying life in these gut-wrenching thrillers. A modern folklore brought to life.
@@ -707,22 +515,6 @@ collections:
       all:
         title: candyman
 
-  Caddyshack:
-    template: { name: Franchise }
-    file_poster: config/posters/Caddyshack.png
-    summary: The plot revolves around the caddies and members of the club as they prepare for the upcoming golf tournament, while dealing with various comedic mishaps and conflicts along the way. The film is known for its hilarious and irreverent humor, as well as its iconic characters and memorable quotes. Caddyshack has become a cult classic and is widely considered to be one of the greatest comedy films of all time.
-    plex_search:
-      all:
-        title: caddyshack
-
-  Cat People:
-    template: { name: Franchise }
-    file_poster: config/posters/Cat People.png
-    summary: Cat People is a 1982 horror film directed by Paul Schrader and starring Nastassja Kinski, Malcolm McDowell, and John Heard. The film is a remake of the 1942 film of the same name and follows the story of a young woman named Irena (played by Kinski), who discovers that she is part of an ancient race of cat people who can transform into black panthers when sexually aroused or threatened.
-    plex_search:
-      all:
-        title: cat people
-
   Cabin Fever:
     template: { name: Franchise }
     file_poster: config/posters/Cabin Fever.png
@@ -730,17 +522,6 @@ collections:
     plex_search:
       all:
         title: cabin fever
-
-  The Cell:
-    template: { name: Franchise }
-    file_poster: config/posters/The Cell.png
-    summary: The Cell is a 2000 psychological thriller directed by Tarsem Singh and starring Jennifer Lopez, Vince Vaughn, and Vincent D'Onofrio. The film follows Catherine Deane (played by Lopez), a child psychologist who uses a groundbreaking technology to enter the minds of her patients and explore their subconscious.
-    plex_search:
-      all:
-        title: the cell
-        genre:
-          - horror
-          - science fiction
 
   Childs Play:
     template: { name: Franchise }
@@ -759,14 +540,6 @@ collections:
     plex_search:
       all:
         title: children of the corn
-
-  City Slickers:
-    template: { name: Franchise }
-    file_poster: config/posters/City Slickers.png
-    summary: City Slickers is a 1991 comedy film directed by Ron Underwood and starring Billy Crystal, Daniel Stern, and Bruno Kirby. The movie follows three friends in their 30s who are going through midlife crises and decide to go on a cattle drive adventure in the American Southwest.
-    plex_search:
-      all:
-        title: city slickers
 
   Clerks:
     template: { name: Franchise }
@@ -818,14 +591,6 @@ collections:
       all:
         title: cold prey
 
-  The Condemned:
-    template: { name: Franchise }
-    file_poster: config/posters/The Condemned.png
-    summary: The Condemned is a 2007 action-thriller film directed by Scott Wiper and starring Stone Cold Steve Austin. The movie follows a group of death row prisoners who are selected to participate in a televised competition on a deserted island, where they must fight to the death until only one survivor remains.
-    plex_search:
-      all:
-        title: The Condemned
-
   Conan the Barbarian:
     template: { name: Franchise }
     summary: Conan the Barbarian is a fictional sword and sorcery hero who originated in pulp magazines and has since been adapted to several films (including Conan the Barbarian and Conan the Destroyer). The character was created by writer Robert E. Howard in 1932 for a series of fantasy stories published in Weird Tales magazine.
@@ -866,14 +631,6 @@ collections:
       all:
         title: the christmas chronicles
 
-  Contracted:
-    template: { name: Franchise }
-    summary: Contracted is a American zombie body horror independent film series written and directed by Eric England.
-    file_poster: config/posters/Contracted.jpg
-    plex_search:
-      all:
-        title: contracted
-
   The Collector:
     template: { name: Franchise }
     summary: The Collector is a 2009 American horror film written by Patrick Melton and Marcus Dunstan, and directed by Dunstan.
@@ -884,23 +641,6 @@ collections:
           -
           - collected
 
-  Cocoon:
-    template: { name: Franchise }
-    file_poster: config/posters/Cocoon.png
-    summary: Cocoon is a 1985 science fiction film directed by Ron Howard. The movie follows a group of elderly residents of a retirement home in Florida who discover an alien pod in a nearby swimming pool. After touching the pod, they start feeling younger and more energetic, and soon realize that the aliens are rejuvenating them.
-    plex_search:
-      all:
-        title: cocoon
-
-  Center Stage:
-    template: { name: Franchise }
-    summary: The Center Stage movie series consists of two films that revolve around the world of professional ballet and the challenges faced by aspiring dancers.
-    file_poster: config/posters/Center Stage.png
-    plex_search:
-      all:
-        title: Center Stage
-        actor.not: Maggie Cheung
-
   Charlies Angels:
     template: { name: Franchise }
     summary: The Charlie's Angels movie series is a franchise that began with the original television series in the 1970s and has since expanded into several movies. The concept revolves around a trio of highly skilled female detectives who work for the enigmatic Charlie Townsend.
@@ -908,14 +648,6 @@ collections:
     plex_search:
       all:
         title: charlie's angels
-
-  Charlottes Web:
-    template: { name: Franchise }
-    summary: The Charlotte's Web movie series is based on the beloved children's novel of the same name written by E.B. White. The story revolves around a young pig named Wilbur and his friendship with a wise spider named Charlotte, who helps him avoid being slaughtered.
-    file_poster: config/posters/Charlottes Web.jpeg
-    plex_search:
-      all:
-        title: charlotte's web
 
   Cheech & Chong:
     template: { name: Franchise }
@@ -933,20 +665,6 @@ collections:
       all:
         title: crocodile
         genre: horror
-
-  Crouching Tiger Hidden Dragon:
-    template: { name: Franchise }
-    summary: The Crouching Tiger, Hidden Dragon movie series consists of two films that are renowned for their visually stunning martial arts choreography and captivating storytelling. Both movies are directed by Ang Lee.
-    file_poster: config/posters/Crouching Tiger Hidden Dragon.png
-    tmdb_collection: 290973
-
-  Crows Zero:
-    template: { name: Franchise }
-    summary: The Crows Zero movie series is a Japanese action franchise based on the manga of the same name by Hiroshi Takahashi. The films depict the intense rivalries and battles among high school delinquent gangs, known as crows.
-    file_poster: config/posters/Crows Zero.png
-    plex_search:
-      all:
-        title: Crows
 
   Crank:
     template: { name: Franchise }
@@ -1017,14 +735,6 @@ collections:
       all:
         title: the cutting edge
 
-  Cruel Intentions:
-    template: { name: Franchise }
-    file_poster: config/posters/Cruel Intentions.png
-    summary: Cruel Intentions is a 1999 teen drama film directed by Roger Kumble. The movie is a modern retelling of the classic French novel Les Liaisons dangereuses by Pierre Choderlos de Laclos. The film follows the manipulative and seductive step-siblings Kathryn Merteuil and Sebastian Valmont as they scheme to ruin the reputation of their fellow classmates.
-    plex_search:
-      all:
-        title: cruel intentions
-
   Cube:
     template: { name: Franchise }
     summary: All three Cube films are centered, with slight variations, on the same science-fictional setting a gigantic, mechanized cubical structure of unknown purpose and origin, made up of numerous smaller cubical rooms, in which most or all of the principal characters inexplicably awaken.
@@ -1032,14 +742,6 @@ collections:
     plex_search:
       all:
         title: cube
-
-  Cyborg:
-    template: { name: Franchise }
-    file_poster: config/posters/Cyborg.jpg
-    summary: Cyborg is a American martial arts cyberpunk film series directed by Albert Pyun. Jean Claude van Damme stars as Gibson Rickenbacker, a mercenary who battles a group of murderous marauders led by Fender Tremolo along the East coast of the United States in a post-apocalyptic future.
-    plex_search:
-      all:
-        title: cyborg
 
   The Dark Knight:
     template: { name: Franchise }
@@ -1050,24 +752,6 @@ collections:
         genre: crime
         actor: christian bale
         director: christopher nolan
-
-  The Damned:
-    template: { name: Franchise }
-    file_poster: config/posters/The Damned.png
-    summary: The Damned is a 2013 horror film directed by Víctor García. The movie follows a group of people who become stranded in an abandoned hotel in the middle of a desert after their bus breaks down. The hotel was once a Nazi hideout and has a dark and haunted past that begins to affect the group.
-    plex_search:
-      all:
-        title: the damned
-        genre: horror
-        title.not:
-          - kiss
-          - queen
-
-  Damiel and Cassiel:
-    template: { name: Franchise }
-    file_poster: config/posters/Damiel and Cassiel.png
-    summary: We don't have an overview translated in English. Help us expand our database by adding one.
-    tmdb_collection: 582828
 
   Death Wish:
     template: { name: Franchise }
@@ -1094,22 +778,6 @@ collections:
         actor: nikolaj lie kaas
         genre: crime
         writer: nikolaj arcel
-
-  Detective Knight:
-    template: { name: Franchise }
-    file_poster: config/posters/Detective Knight.png
-    summary: 2022 movie series with Bruce Willis.
-    plex_search:
-      all:
-        title: detective knight
-
-  The Dentist:
-    template: { name: Franchise }
-    file_poster: config/posters/The Dentist.png
-    summary: The Dentist is a 1996 horror film directed by Brian Yuzna. The movie follows Dr. Alan Feinstone, a successful dentist who has it all - a beautiful wife, a thriving practice, and a luxurious home. However, his life begins to unravel when he discovers that his wife is having an affair with the pool boy.
-    plex_search:
-      all:
-        title: the dentist
 
   Die Hard:
     template: { name: Franchise }
@@ -1164,20 +832,6 @@ collections:
       all:
         title: deadpool
 
-  Dr. Mabuse:
-    template: { name: Franchise }
-    summary: Dr. Mabuse is a fictional character created by Norbert Jacques in his 1921 novel Dr. Mabuse, der Spieler and his 1932 follow-up novel Das Testament des Dr. Mabuse (1932).
-    file_poster: config/posters/Dr. Mabuse.jpeg
-    plex_search:
-      all:
-        title: mabuse
-
-  Dragon Nest:
-    template: { name: Franchise }
-    summary: Dragon Nest is a Chinese animated fantasy-romance-adventure film series directed by Song Yuefeng and based on the Dragon Nest video game.
-    file_poster: config/posters/Dragon Nest.jpeg
-    tmdb_collection: 464125
-
   Death Race:
     template: { name: Franchise }
     file_poster: config/posters/Death Race.png
@@ -1185,20 +839,6 @@ collections:
     plex_search:
       all:
         title: death race
-
-  Dead River:
-    template: { name: Franchise }
-    file_poster: config/posters/Dead River.png
-    summary: A horror film series focusing on a tribe of feral cannibals living in the forests and caves surrounding the small coastal town of Dead River, Maine. Based on characters created by Jack Ketchum in his novels Off Season (1980), Offspring (1991) and The Woman (2010, co-authored with Lucky McKee, director of the film version), and his short story Winter Child (1998).
-    tmdb_collection: 534180
-
-  Dead Snow:
-    template: { name: Franchise }
-    summary: The Dead Snow movie series is a Norwegian horror-comedy franchise that centers around a group of friends fighting against Nazi zombies in a remote mountainous area. The films combine elements of humor, gore, and zombie horror.
-    file_poster: config/posters/Dead Snow.jpg
-    plex_search:
-      all:
-        title: Dead Snow
 
   Delta Force:
     template: { name: Franchise }
@@ -1224,14 +864,6 @@ collections:
       all:
         title: Drunken Master
 
-  Drishyam:
-    template: { name: Franchise }
-    file_poster: config/posters/Drishyam.png
-    summary: Drishyam is a popular Indian film series that consists of two movies directed by Nishikant Kamat. Both movies are crime thrillers and center around a common man named George Kutty, played by Mohanlal, who is a cable TV operator and a family man.
-    plex_search:
-      all:
-        title: drishyam
-
   The Dirty Dozen:
     template: { name: Franchise }
     file_poster: config/posters/The Dirty Dozen.png
@@ -1255,14 +887,6 @@ collections:
     plex_search:
       all:
         title: don't breathe
-
-  Dolphin Tale:
-    template: { name: Franchise }
-    summary: Dolphin Tale is an American 3D family drama film directed by Charles Martin Smith, from a screenplay by Karen Janszen and Noam Dromi and a book of the same name. It stars Harry Connick Jr., Ashley Judd, Nathan Gamble, Kris Kristofferson, Cozi Zuehlsdorff in her film debut, and Morgan Freeman. The book and film are inspired by the true story of Winter, a bottlenose dolphin that was rescued in December 2005 off the Florida coast and taken in by the Clearwater Marine Aquarium. In the film, Winter lost her tail after becoming entangled with a rope attached to a crab trap, and was fitted with a prosthetic one.
-    file_poster: config/posters/Dolphin Tale.jpg
-    plex_search:
-      all:
-        title: dolphin tale
 
   Downton Abbey:
     template: { name: Franchise }
@@ -1397,15 +1021,6 @@ collections:
       all:
         title: the expendables
 
-  Eraser:
-    template: { name: Franchise }
-    file_poster: config/posters/Eraser.png
-    summary: Eraser is an action film series starring Arnold Schwarzenegger as U.S. Marshal John Kruger, who works for the Witness Security Protection Program (WITSEC) and specializes in erasing the identities of witnesses under his protection.
-    plex_search:
-      all:
-        title: eraser
-        title.not: head
-
   Father of the Bride:
     template: { name: Franchise }
     summary: The Father of the Bride franchise consists of a series of released comedy and romantic comedy films, based on the premise of the 1949 novel of the same name. The film adaptations respectively depict the events of wedding preparations from the point of view of an overly-protective father, and his growing realizations that his daughter has grown.
@@ -1481,14 +1096,6 @@ collections:
       all:
         title: fifty shades
 
-  Freeway:
-    template: { name: Franchise }
-    file_poster: config/posters/Freeway.png
-    summary: Freeway is a crime thriller film series that consists of two movies. The films follow the character of Vanessa Lutz, played by Reese Witherspoon in the first movie, as she tries to escape her troubled past and navigate dangerous situations.
-    plex_search:
-      all:
-        title: freeway
-
   Frankenstein:
     template: { name: Franchise }
     file_poster: config/posters/Frankenstein.png
@@ -1511,15 +1118,6 @@ collections:
       all:
         title: fear street
 
-  Fletch:
-    template: { name: Franchise }
-    file_poster: config/posters/Fletch.png
-    summary: The Fletch movie series consists of two films based on the novels by Gregory Mcdonald. The movies follow the character of Irwin M. Fletcher, played by Chevy Chase, who is an investigative reporter known for his unorthodox and humorous methods of getting the story.
-    plex_search:
-      all:
-        title: fletch
-        actor: chevy chase
-
   Final Destination:
     template: { name: Franchise }
     summary: Final Destination is an American horror franchise composed of five films. It is based on an unproduced spec script by Jeffrey Reddick, originally written for The X-Files television series. All five films center around a small group of people who escape impending death.
@@ -1535,15 +1133,6 @@ collections:
     plex_search:
       all:
         title: free willy
-
-  Fortress:
-    template: { name: Franchise }
-    file_poster: config/posters/Fortress.png
-    summary: Fortress is a science fiction action film released in 1992. The movie is set in a dystopian future where a totalitarian government has implemented strict population control laws. A married couple, played by Christopher Lambert and Loryn Locklin, are expecting a second child, which is against the law. They are arrested and sent to a maximum-security prison for couples who break the law.
-    plex_search:
-      all:
-        title: fortress
-        genre: science fiction
 
   Firefly Family:
     template: { name: Franchise }
@@ -1575,14 +1164,6 @@ collections:
       all:
         title: from dusk till dawn
 
-  George of the Jungle:
-    template: { name: Franchise }
-    summary: The George of the Jungle film series consists of two movies, released in 1997 and 2003 respectively. Both films are based on the classic cartoon character, George of the Jungle, who was created by Jay Ward.
-    file_poster: config/posters/George of the Jungle.png
-    plex_search:
-      any:
-        title: george of the jungle
-
   G.I. Joe:
     template: { name: Franchise }
     summary: G.I. Joe is a military science fiction action film series, based on Hasbro's G.I. Joe toy, comic, and media franchises. Development for the first film began in 2003, but when the United States launched the invasion of Iraq in March 2003, Hasbro suggested adapting the Transformers instead. In 2009, the first film was released.
@@ -1600,22 +1181,6 @@ collections:
     plex_search:
       all:
         title: ghostbusters
-
-  Gabriels Inferno:
-    template: { name: Franchise }
-    summary: The Gabriel's Inferno movie series is a romantic drama franchise based on the popular romance novels by Sylvain Reynard. The movies center around the intense love story between Gabriel Emerson, a professor, and Julia Mitchell, his student.
-    file_poster: config/posters/Gabriels Inferno.jpg
-    plex_search:
-      all:
-        title: gabriel's inferno
-
-  Gabriels Rapture:
-    template: { name: Franchise }
-    summary: Based on the best selling novel from by Sylvain Reynard.
-    file_poster: config/posters/Gabriels Rapture.png
-    plex_search:
-      all:
-        title: gabriel rapture
 
   Ginger Snaps:
     template: { name: Franchise }
@@ -1642,22 +1207,6 @@ collections:
       all:
         title: the great escape
 
-  The Great Gatsby:
-    template: { name: Franchise }
-    summary: The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.
-    file_poster: config/posters/The Great Gatsby.png
-    plex_search:
-      all:
-        title: the great gatsby
-
-  Grumpy Old Men:
-    template: { name: Franchise }
-    file_poster: config/posters/Grumpy Old Men.png
-    summary: Grumpy Old Men is a comedy film released in 1993, directed by Donald Petrie. The movie is about two elderly men, Max Goldman (Walter Matthau) and John Gustafson Jr. (Jack Lemmon), who have been friends and neighbors for years. However, they become bitter rivals after a new neighbor, the attractive and charming Ariel Truax (Ann-Margret), moves in across the street. Both Max and John become smitten with Ariel, leading to a series of pranks and misadventures as they try to outdo each other and win her affection. The film was a box office success and spawned a sequel, Grumpier Old Men, released in 1995.
-    plex_search:
-      all:
-        title: grump
-
   Goal!:
     template: { name: Franchise }
     file_poster: config/posters/Goal!.png
@@ -1671,14 +1220,6 @@ collections:
     plex_search:
       all:
         title: goosebumps
-
-  Gods Not Dead:
-    template: { name: Franchise }
-    file_poster: config/posters/Gods Not Dead.png
-    summary: The God's Not Dead film series consists of American Christian fiction drama films, based on the book of same name authored by Rice Broocks.
-    plex_search:
-      all:
-        title: god not dead
 
   Godzilla (Anime):
     template: { name: Franchise }
@@ -1729,12 +1270,6 @@ collections:
       all:
         title: the godfather
 
-  Golden Swallow:
-    template: { name: Franchise }
-    file_poster: config/posters/Golden Swallow.png
-    summary: All movies with the golden swallow.
-    tmdb_collection: 658794
-
   Halloween:
     template: { name: Franchise }
     summary: Halloween is an American slasher franchise that consists of eleven films with more on the way. The films primarily focus on Michael Myers who was committed to a sanitarium as a child for the murder of his sister, Judith Myers. Michael's killings occur on the holiday of Halloween, on which all of the films primarily take place.
@@ -1746,14 +1281,6 @@ collections:
           - adam sandler
         genre.not: animation
         title: halloween
-
-  Hana & Alice:
-    template: { name: Franchise }
-    file_poster: config/posters/Hana & Alice.png
-    summary: Hana & Alice is a Japanese coming-of-age film directed by Shunji Iwai. The film follows two teenage girls, Hana and Alice, who become friends and embark on a series of adventures in their small town. The plot revolves around their relationship, as well as Alice's pursuit of a boy she likes and their investigation into a mysterious murder that happened in their school. The film features a unique visual style and explores themes of friendship, identity, and teenage angst.
-    plex_search:
-      all:
-        title: hana alice
 
   The Hangover:
     template: { name: Franchise }
@@ -1775,23 +1302,6 @@ collections:
           - thriller
         actor: anthony hopkins
 
-  Haikara-san:
-    template: { name: Franchise }
-    summary: Haikara-San also known as Smart-san or Mademoiselle Anne, is a Japanese shōjo manga series by Waki Yamato.
-    file_poster: config/posters/Haikara-san.png
-    plex_search:
-      all:
-        title: haikara
-
-  The Hidden:
-    template: { name: Franchise }
-    file_poster: config/posters/The Hidden.png
-    summary: The Hidden is a 1987 science fiction action film about a cop named Tom Beck who teams up with an FBI agent named Lloyd Gallagher to track down a violent criminal who possesses the ability to jump from one body to another, leaving a trail of destruction in his wake. As Beck and Gallagher investigate the case, they discover that the killer is actually an extraterrestrial creature who is being pursued by his own kind, and they must race against time to stop him before he causes even more chaos. The film features intense action scenes and a mix of horror, comedy, and suspense elements.
-    plex_search:
-      all:
-        title: The Hidden
-        genre: horror
-
   Harry Potter:
     template: { name: Franchise }
     summary: The Harry Potter films are a fantasy series based on the series of seven Harry Potter novels by British writer J. K. Rowling.
@@ -1800,25 +1310,11 @@ collections:
       all:
         title: harry potter
 
-  Havoc:
-    template: { name: Franchise }
-    file_poster: config/posters/Havoc.png
-    summary: If you’re a fan of Anne Hathaway’s 2005 sexually charged drama Havoc, you’ll be interested in writer/director Beth Schacter’s Havoc 2 Normal Adolescent Behavior”, which chronicles the sexual exploits of high school teens.
-    tmdb_collection: 378268
-
   Hatchet:
     template: { name: Franchise }
     summary: Hatchet is an American slasher film franchise consisting of four films, with a fifth one rumored to be in development. The franchise primarily focuses on urban legend Victor Crowley, as well as his extremely violent kills.
     file_poster: config/posters/Hatchet.jpg
     tmdb_collection: 124901
-
-  Hard Target:
-    template: { name: Franchise }
-    file_poster: config/posters/Hard Target.png
-    summary: Hard Target is a 1993 action film directed by John Woo and stars Jean-Claude Van Damme as Chance Boudreaux, a former soldier who is hired by a woman named Natasha Binder (Yancy Butler) to find her missing father. However, Chance soon discovers that Binder's father was involved in a dangerous game of human hunting, where wealthy people pay to hunt homeless veterans as sport. Chance is now not only tasked with finding Binder's father, but also taking down the group of hunters who are after him. The film is known for its signature John Woo action scenes, featuring slow-motion gun battles and acrobatic stunts.
-    plex_search:
-      all:
-        title: hard target
 
   Hitman:
     template: { name: Franchise }
@@ -1837,22 +1333,6 @@ collections:
     plex_search:
       all:
         title: howling
-
-  Happy Feet:
-    template: { name: Franchise }
-    summary: Happy Feet is a computer-animated jukebox musical comedy film directed, produced, and co-written by George Miller. It stars the voices of Elijah Wood, Robin Williams, Brittany Murphy, Hugh Jackman, Nicole Kidman, Hugo Weaving, and E.G. Daily.
-    file_poster: config/posters/Happy Feet.jpg
-    plex_search:
-      all:
-        title: happy feet
-
-  The Haunting in Connecticut:
-    template: { name: Franchise }
-    file_poster: config/posters/The Haunting in Connecticut.png
-    summary: The Haunting in Connecticut is a 2009 horror movie loosely based on the true story of the Snedeker family. After moving into a new house, the family begins to experience terrifying and unexplainable supernatural events. They discover that the home was once a mortuary and that the previous owners conducted seances and other occult practices. As the events become more intense, the family realizes that they must confront the evil spirits inhabiting the house in order to save themselves.
-    plex_search:
-      all:
-        title: the haunting in connecticut
 
   Hellboy:
     template: { name: Franchise }
@@ -1894,14 +1374,6 @@ collections:
       all:
         title: highlander
         genre.not: animation
-
-  Hoodwinked:
-    template: { name: Franchise }
-    summary: Hoodwinked! is a computer animated musical comedy mystery film series. It retells the folktale Little Red Riding Hood as a police procedural, using backstories to show multiple characters points of view.
-    file_poster: config/posters/Hoodwinked.jpeg
-    plex_search:
-      all:
-        title: hoodwinked
 
   The Hobbit:
     template: { name: Franchise }
@@ -2032,15 +1504,6 @@ collections:
       all:
         title: inside man
 
-  Friday:
-    template: { name: Franchise }
-    file_poster: config/posters/Friday.png
-    summary: Friday is a 1995 comedy film directed by F. Gary Gray and written by Ice Cube and DJ Pooh. The movie follows a day in the life of Craig Jones (Ice Cube), who has just lost his job and has to deal with a series of misadventures with his best friend Smokey (Chris Tucker). As they spend their Friday getting into all sorts of trouble, they also have to deal with the local drug dealer, Big Worm (Faizon Love), and a neighborhood bully named Deebo (Tommy Lister Jr.). Along the way, they encounter a variety of eccentric characters and learn some valuable lessons about life. The movie was a commercial success and has since become a cult classic.
-    plex_search:
-      all:
-        title: friday
-        actor: ice cube
-
   Independence Day.:
     template: { name: Franchise }
     summary: Independence Day is a franchise of American science fiction action films that started with Independence Day in 1996, which was followed by the sequel, Independence Day Resurgence in 2016.
@@ -2068,14 +1531,6 @@ collections:
         genre:
           - horror
           - fantasy
-
-  Ivan the Terrible:
-    template: { name: Franchise }
-    summary: Ivan the Terrible is a two-part Soviet epic historical drama film written and directed by Sergei Eisenstein. A biopic of Ivan IV of Russia, it was Eisenstein's final film, commissioned by Soviet Premier Joseph Stalin, who admired and identified with Ivan.
-    file_poster: config/posters/Ivan the Terrible.jpg
-    plex_search:
-      all:
-        title: ivan the terrible
 
   Insidious:
     template: { name: Franchise }
@@ -2125,14 +1580,6 @@ collections:
       all:
         title: jack reacher
 
-  Jack Frost:
-    template: { name: Franchise }
-    file_poster: config/posters/Jack Frost.png
-    summary: Jack Frost is a 1998 family comedy drama film directed by Troy Miller. The movie stars Michael Keaton as Jack Frost, a musician who is always on the road and fails to prioritize his family, including his wife Gabby (Kelly Preston) and son Charlie (Joseph Cross).
-    plex_search:
-      all:
-        title: jack frost
-
   Jay & Silent Bob:
     template: { name: Franchise }
     file_poster: config/posters/Jay & Silent Bob.png
@@ -2157,14 +1604,6 @@ collections:
       all:
         title: jeepers creepers
 
-  Joe Dirt:
-    template: { name: Franchise }
-    summary: Joe Dirt is a 2001 American adventure comedy film, directed by Dennie Gordon (in her feature film directorial debut), starring David Spade, Dennis Miller, Christopher Walken, Adam Beach, Brian Thompson, Brittany Daniel, Jaime Pressly, Erik Per Sullivan, and Kid Rock.
-    file_poster: config/posters/Joe Dirt.jpeg
-    plex_search:
-      all:
-        title: joe dirt
-
   Ju-On The Grudge:
     template: { name: Franchise }
     summary: Ju-On The Grudge is a Japanese-American horror franchise created by Takashi Shimizu. The Ju-On films revolve around a curse created in a house in Nerima, Tokyo (or Suginami in the American films) when Takeo Saeki, convinced that his wife Kayako was having an affair with another man, murdered her, their son Toshio and Toshio's pet cat in a jealous rage.
@@ -2175,15 +1614,6 @@ collections:
           - the grudge
           - sadako
           - ju-on
-
-  The Jungle Book:
-    template: { name: Franchise }
-    summary: The Jungle Book is based on Rudyard Kipling's works of the same name. The franchise includes a 2003 sequel to the animated film and three live-action films produced by Walt Disney Pictures.
-    file_poster: config/posters/The Jungle Book.jpg
-    plex_search:
-      all:
-        title: jungle book
-        genre.not: animation
 
   Johnny English:
     template: { name: Franchise }
@@ -2232,14 +1662,6 @@ collections:
     plex_search:
       all:
         title: the karate kid
-
-  Kahaani:
-    template: { name: Franchise }
-    file_poster: config/posters/Kahaani.png
-    summary: Kahaani is a Indian Hindi-language thriller film series co written, co produced, and directed by Sujoy Ghosh.
-    plex_search:
-      all:
-        title: kahaani
 
   Kill Bill:
     template: { name: Franchise }
@@ -2299,12 +1721,6 @@ collections:
       all:
         title: kickboxer
 
-  Knocked Up:
-    template: { name: Franchise }
-    file_poster: config/posters/Knocked Up.png
-    summary: Knocked Up is a 2007 romantic comedy film directed by Judd Apatow and starring Seth Rogen and Katherine Heigl. The movie follows the story of Ben Stone (Rogen), a slacker who impregnates Alison Scott (Heigl), an up-and-coming entertainment journalist, after a one-night stand.
-    tmdb_collection: 779062
-
   The Land Before Time:
     template: { name: Franchise }
     file_poster: config/posters/The Land Before Time.png
@@ -2320,30 +1736,6 @@ collections:
     plex_search:
       all:
         title: Lake placid
-
-  The Last House on the Left:
-    template: { name: Franchise }
-    file_poster: config/posters/The Last House on the Left.png
-    summary: The Last House on the Left is a 1972 horror film directed by Wes Craven. The movie follows the story of Mari Collingwood (Sandra Peabody), a teenager who is abducted, raped, and brutally murdered by a gang of escaped convicts.
-    plex_search:
-      all:
-        title: The Last House on the Left
-
-  Lady Snowblood:
-    template: { name: Franchise }
-    file_poster: config/posters/Lady Snowblood.png
-    summary: Lady Snowblood is a 1973 Japanese revenge thriller film directed by Toshiya Fujita and starring Meiko Kaji in the lead role. The movie is based on a manga series by Kazuo Koike and illustrated by Kazuo Kamimura.
-    plex_search:
-      all:
-        title: lady snowblood
-
-  The Last Warrior:
-    template: { name: Franchise }
-    summary: Ivan, an ordinary guy, is accidentally transported from modern Moscow to the fantastic land of Belogoria. In this parallel world, the heroes of Russian fairy tales live, magic is an integral part of everyday life, and controversial problems are solved by battles with heroic swords.
-    file_poster: config/posters/The Last Warrior.png
-    plex_search:
-      all:
-        title: the last warrior
 
   Leprechaun:
     template: { name: Franchise }
@@ -2377,12 +1769,6 @@ collections:
       all:
         title: lethal Weapon
 
-  Louis & Luca:
-    template: { name: Franchise }
-    file_poster: config/posters/Louis & Luca.png
-    summary: Louis & Luca is a Norwegian animated movie franchise that follows the adventures of two friends, Louis, a hare, and Luca, a hedgehog, who live in the fictional village of Flaklypa.
-    tmdb_collection: 482109
-
   Living Dead:
     template: { name: Franchise }
     summary: The Living Dead is a series of six zombie horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
@@ -2399,43 +1785,11 @@ collections:
           - candyman
           - cut
 
-  Little Nicholas:
-    template: { name: Franchise }
-    file_poster: config/posters/Little Nicholas.png
-    summary: Little Nicholas is a 2009 French comedy film directed by Laurent Tirard and based on the popular series of children's books by René Goscinny and Jean-Jacques Sempé. The movie is set in the 1950s and follows the mischievous adventures of a young boy named Nicolas (Maxime Godart) and his group of friends.
-    plex_search:
-      all:
-        title: Little Nicholas
-
-  L.O.R.D:
-    template: { name: Franchise }
-    summary: L.O.R.D. Legend of Ravaging Dynasties is a 2016 Chinese computer animated motion capture action fantasy adventure film written and directed by Guo Jingming.
-    file_poster: config/posters/L.O.R.D.png
-    plex_search:
-      all:
-        title: l.o.r.d
-
   Love Comes Softly:
     template: { name: Franchise }
     file_poster: config/posters/Love Comes Softly.png
     summary: A Christian drama television movie set in the 19th century, based on a series of books by Janette Oke.
     tmdb_collection: 97919
-
-  The Lawnmower Man:
-    template: { name: Franchise }
-    file_poster: config/posters/The Lawnmower Man.png
-    summary: The Lawnmower Man is a 1992 science fiction horror film directed by Brett Leonard and starring Jeff Fahey and Pierce Brosnan. The movie is loosely based on a Stephen King short story of the same name and explores the concept of virtual reality and the potential dangers of technology.
-    plex_search:
-      all:
-        title: Lawnmower Man
-
-  The Last Exorcism:
-    template: { name: Franchise }
-    summary: The Last Exorcism is a 2010 American found footage supernatural horror film directed by Daniel Stamm. It stars Patrick Fabian, Ashley Bell, Iris Bahr, Caleb Landry Jones, and Louis Herthum.
-    file_poster: config/posters/The Last Exorcism.jpeg
-    plex_search:
-      all:
-        title: the last exorcism
 
   Lego:
     template: { name: Franchise }
@@ -2461,14 +1815,6 @@ collections:
       all:
         title: lost boys
 
-  Lost Bullet:
-    template: { name: Franchise }
-    file_poster: config/posters/Lost Bullet.png
-    summary: Lost Bullet is a 2020 French action-thriller film directed by Guillaume Pierret. The movie follows Lino (Alban Lenoir), a former convict who now works as a mechanic for the police force. When a car thief steals a rare, bulletproof sports car from the impound lot, Lino is blamed for the theft and is forced to go on the run to clear his name.
-    plex_search:
-      all:
-        title: Lost Bullet
-
   Look Whos Talking:
     template: { name: Franchise }
     file_poster: config/posters/Look Whos Talking.png
@@ -2476,14 +1822,6 @@ collections:
     plex_search:
       all:
         title: Look Who Talking
-
-  Lord of the Flies:
-    template: { name: Franchise }
-    summary: Lord of the Flies is a 1990 American survival drama film directed by Harry Hook and starring Balthazar Getty, Chris Furrh, Danuel Pipoly and James Badge Dale.
-    file_poster: config/posters/Lord of the Flies.png
-    plex_search:
-      all:
-        title: lord of the flies
 
   Mad Max:
     template: { name: Franchise }
@@ -2548,24 +1886,7 @@ collections:
     file_poster: config/posters/Magnificent Seven.png
     plex_search:
       all:
-        title: magnificent seve
-
-  The Man from Earth:
-    template: { name: Franchise }
-    file_poster: config/posters/The Man from Earth.png
-    summary: The Man from Earth is a 2007 science fiction drama film directed by Richard Schenkman and written by Jerome Bixby. The movie is a thought-provoking exploration of the concept of immortality and the human experience through the eyes of John Oldman (David Lee Smith), a college professor who claims to be a 14,000-year-old caveman.
-    plex_search:
-      all:
-        title: The Man from Earth
-
-  The Mask:
-    template: { name: Franchise }
-    file_poster: config/posters/The Mask.png
-    summary: The Mask is a 1994 superhero comedy film directed by Chuck Russell and starring Jim Carrey, Cameron Diaz, and Peter Riegert. The movie follows the story of Stanley Ipkiss (Carrey), a mild-mannered bank clerk who discovers a mysterious mask that transforms him into a wild and unpredictable superhero named The Mask.
-    plex_search:
-      all:
-        title: the mask
-        genre: fantasy
+        title: magnificent seven
 
   Mamma Mia!:
     template: { name: Franchise }
@@ -2574,12 +1895,6 @@ collections:
     plex_search:
       all:
         title: mamma mia
-
-  Max (Dog):
-    template: { name: Franchise }
-    file_poster: config/posters/Max Dog.jpg
-    summary: Max is a American family adventure war drama film series directed by Boaz Yakin, and co-written with Sheldon Lettich. The film stars Josh Wiggins, Thomas Haden Church, Robbie Amell, Lauren Graham, Luke Kleintank, and Jay Hernandez. The film was released by Warner Bros.
-    tmdb_collection: 456778
 
   Maze Runner:
     template: { name: Franchise }
@@ -2686,9 +2001,7 @@ collections:
     template: { name: Franchise }
     summary: Murder Mystery is a comedy mystery movie series on Netflix. It stars Adam Sandler and Jennifer Aniston as a married couple who go on a European vacation to rekindle their marriage. However, they unexpectedly become embroiled in a murder investigation on the yacht of a billionaire. The couple then tries to solve the crime to clear their names and avoid being accused of the murder themselves. The movie is full of twists and turns, and features a mix of comedic and suspenseful moments throughout.
     file_poster: config/posters/Murder Mystery.png
-    plex_search:
-      all:
-        title: murder mystery
+    tmdb_collection: 929336
 
   The Millennium:
     template: { name: Franchise }
@@ -2740,22 +2053,6 @@ collections:
       all:
         title: magic mike
 
-  Mirror Mirror:
-    template: { name: Franchise }
-    summary: Shy teenager Megan moves to a new town with her widowed mother and quickly becomes the most unpopular girl in high school. But when she starts to communicate with a mysterious mirror, her tormentors begin to meet with a horrifying series of 'accidents'. Is the mirror a reflection of Megan's own inner demons...
-    file_poster: config/posters/Mirror Mirror.jpg
-    plex_search:
-      all:
-        title: mirror mirror
-
-  Mirrors:
-    template: { name: Franchise }
-    summary: The Mirrors movie series consists of two horror films that revolve around supernatural occurrences and malevolent forces associated with mirrors.
-    file_poster: config/posters/Mirrors.png
-    plex_search:
-      all:
-        title: mirrors
-
   My Big Fat Greek Wedding:
     template: { name: Franchise }
     summary: My Big Fat Greek Wedding is a 2002 Canadian-American romantic comedy film written by and starring Nia Vardalos and directed by Joel Zwick. The sequel, My Big Fat Greek Wedding 2 was released on March 25, 2016.
@@ -2772,20 +2069,6 @@ collections:
       all:
         title: the mountain
         title.not: between us
-
-  New Gods:
-    template: { name: Franchise }
-    summary: The New Gods are a fictional extraterrestrial race appearing in the eponymous comic book series published by DC Comics, as well as selected other DC titles.
-    file_poster: config/posters/New Gods.png
-    plex_search:
-      all:
-        title: new gods
-
-  Never Back Down:
-    template: { name: Franchise }
-    summary: Never Back Down is a action film series starring Sean Faris, Amber Heard, Cam Gigandet, and Djimon Hounsou. A 2011 sequel entitled Never Back Down 2 The Beatdown was released with Evan Peters reprising his role as Max Cooperman. Directed by Michael Jai White - who makes his directorial debut and also top-bills the cast, the film stars Alex Meraz, Jillian Murray, MMA fighter Scott Epstein and Australian actor-singer Dean Geyer.
-    file_poster: config/posters/Never Back Down.png
-    tmdb_collection: 96676
 
   Nymphomaniac:
     template: { name: Franchise }
@@ -2810,20 +2093,6 @@ collections:
     plex_search:
       all:
         title: national lampoon
-
-  Navarone:
-    template: { name: Franchise }
-    file_poster: config/posters/Navarone.png
-    summary: Film series about an Allied command operation against the German army in World War 2, based on novels by Alistair MacLean.
-    tmdb_collection: 366826
-
-  Nanny Mcphee:
-    template: { name: Franchise }
-    summary: Nanny McPhee is a 2005 British-American comedy-drama fantasy film based on the Nurse Matilda character by Christianna Brand.
-    file_poster: config/posters/Nanny McPhee.jpeg
-    plex_search:
-      all:
-        title: nanny mcphee
 
   National Treasure:
     template: { name: Franchise }
@@ -2881,14 +2150,6 @@ collections:
       all:
         title: Ocean's
 
-  Oliver Twist:
-    template: { name: Franchise }
-    summary: Oliver Twist, or the Parish Boy's Progress, Charles Dickens's second novel, was published as a serial from 1837 to 1839, and as a three-volume book in 1838.
-    file_poster: config/posters/Oliver Twist.png
-    plex_search:
-      all:
-        title: oliver twist
-
   Open Water:
     template: { name: Franchise }
     file_poster: config/posters/Open Water.png
@@ -2896,36 +2157,6 @@ collections:
     plex_search:
       all:
         title: open water
-
-  OMG:
-    template: { name: Franchise }
-    file_poster: config/posters/OMG.png
-    summary: Oh My God is a Indian Hindi language satirical comedy-drama film series written and directed by Umesh Shukla and produced by Viacom 18 Motion Pictures, S Spice Studios, Grazing Goat Pictures and Playtime Creations.
-    plex_search:
-      all:
-        title: omg
-
-  One Cut of the Dead:
-    template: { name: Franchise }
-    file_poster: config/posters/One Cut of the Dead.png
-    summary: One Cut of the Dead is a 2017 Japanese zombie comedy film directed by Shinichiro Ueda. The movie follows the story of a low-budget film crew who are making a zombie movie in an abandoned water filtration plant, only to find themselves facing a real zombie apocalypse.
-    tmdb_collection: 668003
-
-  Occupation:
-    template: { name: Franchise }
-    file_poster: config/posters/Occupation.png
-    summary: Occupation is a 2018 Australian science fiction action film directed by Luke Sparke. The movie takes place after an alien invasion of Earth, in which a group of survivors in a small town band together to fight back against the alien occupiers.
-    plex_search:
-      all:
-        title: Occupation
-
-  The Other Side of Heaven:
-    template: { name: Franchise }
-    file_poster: config/posters/The Other Side of Heaven.png
-    summary: The Other Side of Heaven is a 2001 drama film directed by Mitch Davis and starring Christopher Gorham and Anne Hathaway. The movie is based on the true story of John H. Groberg, a Mormon missionary who travels to Tonga in the 1950s to spread the word of his faith.
-    plex_search:
-      all:
-        title: the other side of heaven
 
   Ouija:
     template: { name: Franchise }
@@ -2943,14 +2174,6 @@ collections:
       all:
         title: Once Upon a Time in China
 
-  Overboard:
-    template: { name: Franchise }
-    summary: Overboard is a 2018 American romantic comedy film directed by Rob Greenberg. The screenplay was written by Greenberg, Bob Fisher, and Leslie Dixon. The film stars Eugenio Derbez, Anna Faris, Eva Longoria, and John Hannah.
-    file_poster: config/posters/Overboard.jpg
-    plex_search:
-      all:
-        title: overboard
-
   The Omen:
     template: { name: Franchise }
     summary: The Omen is a horror film franchise beginning in 1976. The story was originally written by David Seltzer, who chose not to continue the series after the first novel. The second novel was then written by Joseph Howard; the third novel was done by Gordon McGill.
@@ -2966,14 +2189,6 @@ collections:
     plex_search:
       all:
         title: one missed call
-
-  Ong Bak:
-    template: { name: Franchise }
-    file_poster: config/posters/Ong Bak.png
-    summary: Ong Bak is a 2003 Thai martial arts film directed by Prachya Pinkaew and starring Tony Jaa. The movie follows a young man named Ting (Jaa) who must travel from his rural village to Bangkok to retrieve the stolen head of his village's sacred Buddha statue, known as Ong Bak.
-    plex_search:
-      all:
-        title: ong bak
 
   The Outlaws:
     template: { name: Franchise }
@@ -3012,14 +2227,6 @@ collections:
     plex_search:
       all:
         title: phantasm
-
-  The Philadelphia Experiment:
-    template: { name: Franchise }
-    file_poster: config/posters/The Philadelphia Experiment.png
-    summary: The Philadelphia Experiment is a 1984 science fiction film directed by Stewart Raffill. The movie is based on the urban legend of the same name, which suggests that the US government conducted experiments in invisibility and time travel during World War II.
-    plex_search:
-      all:
-        title: philadelphia experiment
 
   The Pink Panther:
     template: { name: Franchise }
@@ -3060,14 +2267,6 @@ collections:
     plex_search:
       all:
         title: pacific rim
-
-  The Paleface:
-    template: { name: Franchise }
-    file_poster: config/posters/The Paleface.png
-    summary: The Paleface is a 1948 American western comedy film directed by Norman Z. McLeod and starring Bob Hope and Jane Russell. The movie follows a cowardly dentist named Painless Peter Potter (Hope), who is mistaken for a tough gunman by a group of Native Americans who hire him as their doctor.
-    plex_search:
-      all:
-        title: paleface
 
   Paddington:
     template: { name: Franchise }
@@ -3157,30 +2356,6 @@ collections:
       all:
         title: pitch perfect
 
-  Pusher:
-    template: { name: Franchise }
-    summary: The Pusher movie series is a Danish crime thriller franchise directed by Nicolas Winding Refn. The films explore the dark and gritty criminal underworld of Copenhagen.
-    file_poster: config/posters/Pusher.jpg
-    plex_search:
-      all:
-        title: pusher
-
-  The Pact:
-    template: { name: Franchise }
-    summary: The Pact is a horror movie series consisting of three films The Pact (2012), The Pact II (2014), and The Pact III (2021). The series revolves around a supernatural mystery and follows different characters and storylines in each installment. Please note that there may have been developments or announcements regarding the Pact movie series since my last update in September 2021.
-    file_poster: config/posters/The Pact.png
-    plex_search:
-      all:
-        title: the pact
-
-  The Parent Trap:
-    template: { name: Franchise }
-    summary: The Parent Trap franchise consists of American family-comedies, including the original theatrical film, three made-for-television sequel movies, and a theatrical legacy sequel/soft-remake.
-    file_poster: config/posters/The Parent Trap.jpg
-    plex_search:
-      all:
-        title: the parent trap
-
   Power Rangers:
     template: { name: Franchise }
     summary: Power Rangers is an American entertainment and merchandising franchise built around a live-action superhero television series, based on the Japanese tokusatsu franchise Super Sentai. Produced first by Saban Entertainment, second by BVS Entertainment, later by Saban Brands, and today by SCG Power Rangers LLC and its parent company, Hasbro, the Power Rangers television series takes much of its footage from the Super Sentai television series, produced by Toei Company.
@@ -3188,12 +2363,6 @@ collections:
     plex_search:
       all:
         title: power Rangers
-
-  The Philip Lovecraft:
-    template: { name: Franchise }
-    file_poster: config/posters/The Philip Lovecraft.png
-    summary: Hardboiled private detective H. Philip Lovecraft, works in a fictional Los Angeles where magic is real, monsters and mythical beasts stalk the back alleys, zombies are used as cheap labor, and everyone—except Lovecraft—uses magic every day. Yet, cars, telephones and other modern technology also exist in this world.
-    tmdb_collection: 702997
 
   Predator:
     template: { name: Franchise }
@@ -3234,14 +2403,6 @@ collections:
       all:
         title: the purge
 
-  Quarantine:
-    template: { name: Franchise }
-    summary: Quarantine is an American supernatural zombie horror film franchise. It is a remake of the Spanish movie series REC.
-    file_poster: config/posters/Quarantine.jpeg
-    plex_search:
-      all:
-        title: quarantine
-
   Rambo:
     template: { name: Franchise }
     summary: Rambo is an American franchise based on the David Morrell 1972 novel First Blood, about John Rambo, a troubled Vietnam War veteran and former U.S. Army Special Forces Soldier who is skilled in many aspects of survival, weaponry, hand-to-hand combat and guerrilla warfare.
@@ -3259,14 +2420,6 @@ collections:
       all:
         title: re-Animator
 
-  Rest Stop:
-    template: { name: Franchise }
-    summary: Rest Stop The first film follows a young couple, Nicole and Jesse, who are on a road trip across the country. They decide to take a rest stop along a desolate highway, only to find themselves trapped in a terrifying nightmare. They encounter a psychotic killer known as The Driver who stalks and torments them at the rest stop. As they try to escape, they uncover dark secrets and face deadly challenges.
-    file_poster: config/posters/Rest Stop.jpg
-    plex_search:
-      all:
-        title: rest stop
-
   The Raid:
     template: { name: Franchise }
     summary: The Raid is a 2011 Indonesian action thriller film written, directed and edited by the Welsh filmmaker Gareth Evans.
@@ -3275,22 +2428,6 @@ collections:
       all:
         title: the raid
         country: indonesia
-
-  Rebecca:
-    template: { name: Franchise }
-    summary: Rebecca is a 2020 British romantic thriller film directed by Ben Wheatley from a screenplay by Jane Goldman, Joe Shrapnel, and Anna Waterhouse. Based on the 1938 novel Rebecca by Daphne du Maurier, the film stars Lily James, Armie Hammer, Kristin Scott Thomas, Keeley Hawes, Ann Dowd, and Sam Riley.
-    file_poster: config/posters/Rebecca.png
-    plex_search:
-      all:
-        title: rebecca
-
-  The Reef:
-    template: { name: Franchise }
-    file_poster: config/posters/The Reef.png
-    summary: The Reef is a 2010 Australian horror film directed by Andrew Traucki. The movie is based on true events and follows a group of friends who set out on a sailing trip to Indonesia. However, things take a turn for the worse when their boat capsizes, leaving them stranded in shark-infested waters. As they attempt to swim to a nearby island, they must fight for their survival against the relentless predators that stalk them.
-    plex_search:
-      all:
-        title: the reef
 
   REC:
     template: { name: Franchise }
@@ -3310,15 +2447,6 @@ collections:
         title: red
         actor: bruce willis
 
-  Red Dog:
-    template: { name: Franchise }
-    summary: Red Dog is a 2011 Australian comedy-drama family film written by Daniel Taplitz, directed by Kriv Stenders and produced by Nelson Woss and Julie Ryan.
-    file_poster: config/posters/Red Dog.png
-    plex_search:
-      all:
-        title: red dog
-        genre.not: animation
-
   Ride Along:
     template: { name: Franchise }
     summary: Ride Along is a 2014 American action comedy film directed by Tim Story and starring Ice Cube, and Kevin Hart.
@@ -3326,20 +2454,6 @@ collections:
     plex_search:
       all:
         title: ride along
-
-  R.I.P.D.:
-    template: { name: Franchise }
-    summary: R.I.P.D. Rest in Peace Department, is an American supernatural action comedy film series starring Jeff Bridges and Ryan Reynolds. The film was directed by Robert Schwentke and written by Phil Hay and Matt Manfredi, based on the 1999 comic book R.I.P.D. by Peter M. Lenkov.
-    file_poster: config/posters/R.I.P.D..jpg
-    plex_search:
-      all:
-        title: r.i.p.d.
-
-  Rooster Cogburn:
-    template: { name: Franchise }
-    file_poster: config/posters/Rooster Cogburn.png
-    summary: The two westerns starring John Wayne as US Marshal 'Rooster' Cogburn.
-    tmdb_collection: 584320
 
   Road House:
     template: { name: Franchise }
@@ -3392,12 +2506,6 @@ collections:
       all:
         title: rurouni kenshin
 
-  The Rocky Horror Picture Show:
-    template: { name: Franchise }
-    file_poster: config/posters/The Rocky Horror Picture Show.jpg
-    summary: The Rocky Horror Picture Show is a 1975 musical comedy horror film directed by Jim Sharman. The screenplay was written by Sharman and actor Richard O'Brien, who is also a member of the cast. The production is a parody tribute to the science fiction and horror B movies of the 1930s through to the early 1960s. Along with O'Brien, the film stars Tim Curry, Susan Sarandon, and Barry Bostwick and is narrated by Charles Gray. Shock Treatment is a 1981 follow-up to the 1975 film The Rocky Horror Picture Show also directed by Jim Sharman, and co-written by Sharman and Richard O'Brien. While not an outright sequel, the film does feature several characters from the previous film, most portrayed by different actors, as well as several Rocky Horror actors in new roles. The film stars Jessica Harper as Janet and Cliff De Young in a dual role as Brad and the film's main antagonist Farley Flavors, with O'Brien and Patricia Quinn playing sibling character actors.
-    tmdb_collection: 694606
-
   Rush Hour:
     template: { name: Franchise }
     summary: The Rush Hour franchise is a American action comedy films created by Ross LaManna and directed by Brett Ratner. All three films center on a pair of police detectives Hong Kong Police Force Chief Inspector Lee (Jackie Chan) and LAPD Detective James Carter (Chris Tucker), both of whom go on a series of misadventures often involving corrupt crime figures in Hong Kong and Los Angeles.
@@ -3405,14 +2513,6 @@ collections:
     plex_search:
       all:
         title: rush hour
-
-  Red Cliff:
-    template: { name: Franchise }
-    summary: The Red Cliff movie series, also known as the Chi bi series, is a Chinese historical epic film franchise directed by John Woo. The movies are based on the historical events surrounding the Battle of Red Cliffs during the Three Kingdoms period in ancient China.
-    file_poster: config/posters/Red Cliff.jpg
-    plex_search:
-      all:
-        title: red cliff
 
   Rise of the Footsoldier:
     template: { name: Franchise }
@@ -3431,39 +2531,6 @@ collections:
         title: robin hood
         title.not: paradise lost
 
-  Santa Clause:
-    template: { name: Franchise }
-    summary: The Santa Clause is a media franchise that consists of three American holiday family comedy theatrical feature films starring Tim Allen, and one limited series for Disney+.
-    file_poster: config/posters/Santa Clause.png
-    plex_search:
-      all:
-        title: santa clause
-
-  Scanner Cop:
-    template: { name: Franchise }
-    summary: The Scanner Cop movie series is a sci-fi thriller franchise that revolves around individuals known as scanners who possess extraordinary psychic abilities.
-    file_poster: config/posters/Scanner Cop.png
-    plex_search:
-      all:
-        title: scanner cop
-
-  Screamers:
-    template: { name: Franchise }
-    summary: The Screamers movie series is based on the science fiction short story Second Variety by Philip K. Dick. It features self-replicating robots known as screamers that are designed to eliminate human enemies.
-    file_poster: config/posters/Screamers.png
-    plex_search:
-      all:
-        title: screamers
-
-  See No Evil:
-    template: { name: Franchise }
-    summary: The See No Evil movie series is a horror franchise centered around the character of Jacob Goodnight, a sadistic and psychopathic killer.
-    file_poster: config/posters/See No Evil.jpg
-    plex_search:
-      all:
-        title: see no evil
-        genre: horror
-
   Slap Shot.:
     template: { name: Franchise }
     summary: The Slap Shot movie series is a sports comedy centered around ice hockey.
@@ -3471,20 +2538,6 @@ collections:
     plex_search:
       all:
         title: Slap Shot
-
-  Stake Land:
-    template: { name: Franchise }
-    summary: The Stake Land movie series is a post-apocalyptic horror franchise set in a world overrun by vampires.
-    file_poster: config/posters/Stake Land.jpg
-    tmdb_collection: 473843
-
-  Step Up:
-    template: { name: Franchise }
-    summary: The Step Up movie series is a franchise of dance films known for their energetic choreography and uplifting stories.
-    file_poster: config/posters/Step Up.png
-    plex_search:
-      all:
-        title: step up
 
   Saw:
     template: { name: Franchise }
@@ -3497,14 +2550,6 @@ collections:
     file_poster: config/posters/Saturday Night Fever.png
     summary: Saturday Night Fever & Staying Alive.
     tmdb_collection: 288280
-
-  Save the Last Dance:
-    template: { name: Franchise }
-    file_poster: config/posters/Save the Last Dance.png
-    summary: Save the Last Dance is a American teen dance film series produced by MTV Films, directed by Thomas Carter and distributed by Paramount Pictures.
-    plex_search:
-      all:
-        title: save the last dance
 
   Samurai Trilogy:
     template: { name: Franchise }
@@ -3642,14 +2687,6 @@ collections:
       all:
         title: sonic
 
-  The Sting:
-    template: { name: Franchise }
-    file_poster: config/posters/The Sting.png
-    summary: The Sting is a 1973 crime-comedy film directed by George Roy Hill and starring Paul Newman and Robert Redford. The movie is set in the 1930s and follows two professional grifters, Johnny Hooker and Henry Gondorff, as they plan to pull off a long con against a ruthless and powerful gangster named Doyle Lonnegan.
-    plex_search:
-      all:
-        title: the sting
-
   Speed:
     template: { name: Franchise }
     summary: The Speed movie franchise consists of two films, Speed and Speed 2 Cruise Control. The first movie, released in 1994, starred Keanu Reeves as LAPD officer Jack Traven and Sandra Bullock as Annie Porter, a passenger on a bus rigged with a bomb that will explode if the bus goes below 50 miles per hour. The film was a critical and commercial success, known for its intense action sequences and tense suspense.
@@ -3684,14 +2721,6 @@ collections:
     plex_search:
       all:
         title: spider-verse
-
-  Scarface:
-    template: { name: Franchise }
-    summary: Scarface is a 1983 American crime drama film directed by Brian De Palma and written by Oliver Stone. Loosely based on the 1929 novel of the same name and serving as a loose remake of the 1932 film, it tells the story of Cuban refugee Tony Montana (Al Pacino), who arrives penniless in Miami during the Mariel boatlift and becomes a powerful and extremely homicidal drug lord.
-    file_poster: config/posters/Scarface.png
-    plex_search:
-      all:
-        title: scarface
 
   The Secret Garden:
     template: { name: Franchise }
@@ -3732,14 +2761,6 @@ collections:
       all:
         title: sherlock holmes
         genre.not: animation
-
-  Short Circuit:
-    template: { name: Franchise }
-    file_poster: config/posters/Short Circuit.png
-    summary: Short Circuit is a 1986 science fiction comedy film directed by John Badham. The movie follows a military robot named Number 5 who gains consciousness after being struck by lightning. He escapes from the military base where he was created and embarks on a journey of self-discovery with the help of a young woman named Stephanie.
-    plex_search:
-      all:
-        title: Short Circuit
 
   The Shining:
     template: { name: Franchise }
@@ -3783,14 +2804,6 @@ collections:
       all:
         title: sister act
 
-  Smokin Aces:
-    template: { name: Franchise }
-    file_poster: config/posters/Smokin Aces.jpeg
-    summary: Smokin' Aces is a 2006 action thriller film directed by Joe Carnahan. The movie follows a group of hitmen and assassins who are hired to kill a Las Vegas magician named Buddy Aces Israel, who has turned informant and is now in protective custody. The FBI scrambles to protect him, but a series of events unfold, and chaos ensues as the assassins try to take him out.
-    plex_search:
-      all:
-        title: smokin aces
-
   Smokey and the Bandit:
     template: { name: Franchise }
     file_poster: config/posters/Smokey and the Bandit.png
@@ -3831,14 +2844,6 @@ collections:
       all:
         title: smokin aces
         title.not: endangered
-
-  Stomp the Yard:
-    template: { name: Franchise }
-    file_poster: config/posters/Stomp the Yard.png
-    summary: Stomp the Yard is a 2007 dance drama film directed by Sylvain White. The movie follows a young man named DJ Williams (Columbus Short) who moves to Atlanta to attend Truth University, a historically black college. There, he becomes involved with the school's popular and highly competitive step team, hoping to lead them to victory in a national competition.
-    plex_search:
-      all:
-        title: stomp the yard
 
   Stand by Me:
     template: { name: Franchise }
@@ -3896,14 +2901,6 @@ collections:
     plex_search:
       all:
         title: star wars
-
-  Street Kings:
-    template: { name: Franchise }
-    file_poster: config/posters/Street Kings.png
-    summary: Street Kings is a 2008 crime thriller film directed by David Ayer and starring Keanu Reeves as LAPD Detective Tom Ludlow. The film follows Ludlow, who is a veteran cop known for his aggressive tactics in a corrupt police department, as he investigates the murder of his former partner.
-    plex_search:
-      all:
-        title: street kings
 
   Taken:
     template: { name: Franchise }
@@ -3990,14 +2987,6 @@ collections:
       all:
         title: Teenage Mutant Ninja Turtles
 
-  Tetsuo:
-    template: { name: Franchise }
-    summary: The Tetsuo movie series, also known as the Tetsuo Iron Man series, is a Japanese cyberpunk film franchise known for its surreal and nightmarish visuals.
-    file_poster: config/posters/Tetsuo.jpeg
-    plex_search:
-      all:
-        title: tetsuo
-
   The Twilight Saga:
     template: { name: Franchise }
     summary: The Twilight saga is a popular movie series based on the vampire-themed romance novels written by Stephenie Meyer.
@@ -4050,14 +3039,6 @@ collections:
           - another world
           - wild
         genre: horror
-
-  The Third Saturday in October:
-    template: { name: Franchise }
-    summary: When a psycho goes on a murderous rampage after surviving a botched execution, only two survivors of his initial attack can stop him.
-    file_poster: config/posters/The Third Saturday in October.png
-    plex_search:
-      all:
-        title: the third saturday in october
 
   Titans:
     template: { name: Franchise }
@@ -4166,12 +3147,6 @@ collections:
       all:
         title: undisputed
 
-  The Untold Story:
-    template: { name: Franchise }
-    summary: The Untold Story is a Hong Kong crime-thriller film series directed by Herman Yau and starring Danny Lee and Anthony Wong, with the former also serving as the films producer.
-    file_poster: config/posters/The Untold Story.jpg
-    tmdb_collection: 686791
-
   Underworld:
     template: { name: Franchise }
     summary: Underworld is a series of action horror films created by Len Wiseman, Kevin Grevioux and Danny McBride. The first film, Underworld, was released in 2003. It tells the story of Selene (Kate Beckinsale), a vampire who works as a Death Dealer, killing the lycans who allegedly slaughtered her family.
@@ -4179,22 +3154,6 @@ collections:
     plex_search:
       all:
         title: underworld
-
-  Under Siege:
-    template: { name: Franchise }
-    file_poster: config/posters/Under Siege.png
-    summary: Under Siege is a 1992 American action film directed by Andrew Davis and starring Steven Seagal, Tommy Lee Jones, and Gary Busey. The movie follows Casey Ryback, a former Navy SEAL who becomes the only hope for a battleship that is taken over by a group of terrorists led by ex CIA operative William Strannix. Casey, who was working in the kitchen, takes on the terrorists and tries to save the ship from being used as a weapon of mass destruction. The movie was a commercial success and spawned a sequel, Under Siege 2 Dark Territory.
-    plex_search:
-      all:
-        title: Under Siege
-
-  Unbroken:
-    template: { name: Franchise }
-    file_poster: config/posters/Unbroken.png
-    summary: Unbroken is a 2014 war drama film directed by Angelina Jolie and based on the non-fiction book of the same name by Laura Hillenbrand. The film tells the true story of Louis Zamperini, an Olympic runner who becomes a prisoner of war during World War II.
-    plex_search:
-      all:
-        title: Unbroken
 
   Untold:
     template: { name: Franchise }
@@ -4231,14 +3190,6 @@ collections:
           - vacancy
           - terror trap
 
-  Vacation Friends:
-    template: { name: Franchise }
-    summary: Vacation Friends is a American buddy comedy film series directed by Clay Tarver, and co-written by Tom Mullen, Tim Mullen, Jonathan Goldstein and John Francis Daley.
-    file_poster: config/posters/Vacation Friends.jpg
-    plex_search:
-      all:
-        title: vacation friends
-
   Van Wilder:
     template: { name: Franchise }
     summary: National Lampoons Van Wilder is a American comedy film series directed by Walt Becker and written by Brent Goldberg and David T. Wagner.
@@ -4261,12 +3212,6 @@ collections:
     file_poster: config/posters/Vengeance Trilogy.jpg
     trakt_list: https://trakt.tv/users/dinkysniff/lists/collection-the-vengeance-trilogy?sort=released,desc
 
-  Virgil Tibbs Trilogy:
-    template: { name: Franchise }
-    file_poster: config/posters/Virgil Tibbs Trilogy.jpg
-    summary: In the Heat of the Night is a 1967 American mystery drama film directed by Norman Jewison. It is based on John Ball's 1965 novel of the same name and tells the story of Virgil Tibbs, a black police detective from Philadelphia, who becomes involved in a murder investigation in a small town in Mississippi. It stars Sidney Poitier. The film was followed by two sequels also starring Poitier, They Call Me Mister Tibbs! (1970) and The Organization (1971). It was also the basis of a 1988 television series adaptation of the same name.
-    tmdb_collection: 492896
-
   The Visitors:
     template: { name: Franchise }
     summary: The franchise consists of several movies that blend historical and comedic elements.
@@ -4284,22 +3229,6 @@ collections:
         title: venom
         actor: tom hardy
 
-  Walking Tall:
-    template: { name: Franchise }
-    file_poster: config/posters/Walking Tall.png
-    summary: Walking Tall is a 1973 American action-drama film directed by Phil Karlson and starring Joe Don Baker as Buford Pusser, a former professional wrestler-turned-lawman in McNairy County, Tennessee. The film is loosely based on the true story of Pusser's fight against organized crime in the area.
-    plex_search:
-      all:
-        title: walking tall
-
-  WarGames:
-    template: { name: Franchise }
-    summary: WarGames Directed by John Badham, this science fiction thriller stars Matthew Broderick as a young computer enthusiast who accidentally hacks into a military supercomputer and unwittingly starts a nuclear war simulation. He must find a way to avert the real-world consequences.
-    file_poster: config/posters/WarGames.jpg
-    plex_search:
-      all:
-        title: wargames
-
   The Wog Boys:
     template: { name: Franchise }
     summary: The Wog Boy is a Australian comedy film series directed by Aleksi Vellis and starring Nick Giannopoulos, Vince Colosimo, Lucy Bell, Abi Tucker, Stephen Curry, Tony Nikolakopoulos and Derryn Hinch.
@@ -4312,14 +3241,6 @@ collections:
     file_poster: config/posters/Whispering Corridors.jpg
     tmdb_collection: 131780
 
-  Wolf Creek:
-    template: { name: Franchise }
-    summary: The Wolf Creek movie series is a horror franchise that focuses on the character of Mick Taylor, a sadistic Australian serial killer.
-    file_poster: config/posters/Wolf Creek.jpeg
-    plex_search:
-      all:
-        title: wolf creek
-
   The Wandering Earth:
     template: { name: Franchise }
     summary: As the sun is dying out, people all around the world build giant planet thrusters to move Earth out of its orbit and sail Earth to a new star system.
@@ -4327,14 +3248,6 @@ collections:
     plex_search:
       all:
         title: the wandering earth
-
-  The Woman in Black:
-    template: { name: Franchise }
-    summary: The Woman in Black is a supernatural horror film series based on the novel of the same name by Susan Hill.
-    file_poster: config/posters/The Woman in Black.jpeg
-    plex_search:
-      all:
-        title: the woman in black
 
   When a Stranger Calls:
     template: { name: Franchise }
@@ -4351,14 +3264,6 @@ collections:
     plex_search:
       all:
         title: weekend at
-
-  West Side Story:
-    template: { name: Franchise }
-    summary: West Side Story is a 2021 American musical romantic drama film directed and co-produced by Steven Spielberg from a screenplay by Tony Kushner.
-    file_poster: config/posters/West Side Story.png
-    plex_search:
-      all:
-        title: west side story
 
   White Snake:
     template: { name: Franchise }
@@ -4378,33 +3283,11 @@ collections:
         title: wild things
         genre.not: family
 
-  Wild Geese:
-    template: { name: Franchise }
-    file_poster: config/posters/Wild Geese.png
-    summary: The Wild Geese is a British war film released in 1978. The movie tells the story of a group of mercenaries hired by a British businessman to rescue the President of a fictional African country from a military coup. The mercenaries are led by Colonel Allen Faulkner, played by Richard Burton. The cast also includes Roger Moore, who plays a South African soldier of fortune, and Richard Harris, who plays an alcoholic doctor who joins the mission.
-    plex_search:
-      all:
-        title: wild geese
-
-  WolfCop:
-    template: { name: Franchise }
-    file_poster: config/posters/WolfCop.jpg
-    summary: WolfCop is a Canadian comedy horror film series written and directed by Lowell Dean, and starring Jesse Moss, Amy Matysio, Jonathan Cherry, Sarah Lind, Aidan Devine, Corrine Conley and Leo Fafard.
-    plex_search:
-      all:
-        title: wolfcop
-
   The Whole Nine/Ten Yards:
     template: { name: Franchise }
     file_poster: config/posters/The Whole Nine-Ten Yards.png
     summary: We don't have an overview translated in English. Help us expand our database by adding one.
     tmdb_collection: 103577
-
-  The Worricker Trilogy:
-    template: { name: Franchise }
-    file_poster: config/posters/The Worricker Trilogy.png
-    summary: The 2011 BBC Two film Page Eight was followed in March 2014 by Turks & Caicos and Salting the Battlefield. The three films are jointly known as The Worricker Trilogy. All three films feature Johnny Worricker (Bill Nighy), a long-serving MI5 officer, who learns that the Prime Minister knew about secret US rendition camps long before the British intelligence community knew about them. When the PM realises that Johnny knows, Johnny has to flee the country. And while in exile in the tax haven Turks & Caicos, Johnny learns even more disturbing things about the PM, before he has to flee again.
-    tmdb_collection: 260601
 
   Wrong Turn:
     template: { name: Franchise }
@@ -4413,14 +3296,6 @@ collections:
     plex_search:
       all:
         title: wrong turn
-
-  Wolf Warrior:
-    template: { name: Franchise }
-    summary: Wolf Warrior is a Chinese war film series written and directed by Wu Jing. It stars Wu Jing along with Scott Adkins, Yu Nan and Kevin Lee. It was first released on 2 April 2015.
-    file_poster: config/posters/Wolf Warrior.jpg
-    plex_search:
-      all:
-        title: wolf warrior
 
   X-Men:
     template: { name: Franchise }
@@ -4437,14 +3312,6 @@ collections:
     plex_search:
       all:
         title: xxx
-
-  Young Guns:
-    template: { name: Franchise }
-    summary: The film series is a retelling of the adventures of Billy the Kid during the Lincoln County War, which took place in New Mexico during 1877. It was filmed in and around New Mexico. Historian Paul Hutton called Young Guns the most historically accurate of all Billy the Kid films as of June 1990.
-    file_poster: config/posters/Young Guns.png
-    plex_search:
-      all:
-        title: young guns
 
   X:
     template: { name: Franchise }

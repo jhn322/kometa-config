@@ -1,8 +1,16 @@
 ######################################################
-#                   STUDIOS 6.0                      #
+#                   STUDIOS 7.0                      #
 ######################################################
 
 templates:
+  Plex:
+    smart_filter:
+      all:
+        studio: <<studio>>
+      sort_by: release.desc
+    sort_title: zzzzz_<<collection_name>>
+    sync_mode: sync
+
   Studio:
     optional:
       - company
@@ -85,7 +93,7 @@ collections:
     file_poster: config/posters/Blue Sky.png
 
   Columbia Pictures:
-    template: { name: Studio, company: 5 }
+    template: { name: Plex, studio: "Columbia Pictures" }
     summary: Columbia Pictures is an American film production studio that is a member of the Sony Pictures Motion Picture Group, a division of Sony Entertainment's Sony Pictures Entertainment, which is one of the Big Five studios and a subsidiary of the multinational conglomerate Sony.
     file_poster: config/posters/Columbia Pictures.png
 
@@ -239,11 +247,6 @@ collections:
     summary: Fox Searchlight Pictures. is an American film studio that is a division of 20th Century Studios, a subsidiary of Walt Disney Studios, which is part of The Walt Disney Company. A sister studio of 20th Century Studios (previously 20th Century Fox), Searchlight was founded in February 20, 1980 as Searchlight, Inc.
     file_poster: config/posters/Searchlight Pictures.png
 
-  Sony Pictures:
-    template: { name: Studio, company: 34 }
-    summary: Sony Pictures Entertainment is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platforms. Through an intermediate holding company called Sony Film Holding Inc.
-    file_poster: config/posters/Sony Pictures.png
-
   Shaft Animation:
     template: { name: Studio, company: 6689 }
     summary: Shaft, also known as Shaft Animation Studio, is a Japanese animation studio headquartered in Suginami, Tokyo, and founded in 1975.
@@ -272,30 +275,35 @@ collections:
       all:
         title: Nausicaä
 
+  Sony Pictures:
+    template: { name: Plex, studio: "Sony Pictures, Sony Pictures Classics, Sony Pictures Home Entertainment" }
+    summary: Sony Pictures Entertainment is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platforms. Through an intermediate holding company called Sony Film Holding Inc.
+    file_poster: config/posters/Sony Pictures.png
+
   Sony Pictures Animation:
     template: { name: Studio, company: 2251 }
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
     file_poster: config/posters/Sony Pictures Animation.png
-
-  TriStar:
-    template: { name: Studio, company: 559 }
-    summary: TriStar Pictures is an American film studio and production company that is a member of the Sony Pictures Motion Picture Group, part of the Japanese multinational conglomerate Sony.
-    file_poster: config/posters/TriStar.png
 
   Trigger:
     template: { name: Studio, company: 50908 }
     summary: Trigger Inc. also known as Studio Trigger, is a Japanese animation studio founded by former Gainax employees Hiroyuki Imaishi and Masahiko Otsuka on August 22, 2011.
     file_poster: config/posters/Trigger.png
 
+  Touchstone Pictures:
+    template: { name: Plex, studio: "Touchstone Pictures" }
+    summary: Touchstone Pictures was an American film distribution label of Walt Disney Studios Motion Pictures, created and owned by The Walt Disney Company. Feature films released under the Touchstone label were produced and financed by The Walt Disney Studios, and featured more mature themes targeted towards adult audiences than typical Disney releases. As such, Touchstone was merely a brand of the studio and did not exist as a distinct business operation.
+    file_poster: config/posters/Touchstone Pictures.png
+
+  TriStar:
+    template: { name: Plex, studio: "TriStar Pictures, TriStar Television" }
+    summary: TriStar Pictures is an American film studio and production company that is a member of the Sony Pictures Motion Picture Group, part of the Japanese multinational conglomerate Sony.
+    file_poster: config/posters/TriStar.png
+
   Toei Animation:
     template: { name: Studio, company: 5542 }
     summary: Toei Animation Co is a Japanese animation studio primarily controlled by its namesake Toei Company.
     file_poster: config/posters/Toei Animation.png
-
-  Touchstone Pictures:
-    template: { name: Studio, company: 9195 }
-    summary: Touchstone Pictures was an American film distribution label of Walt Disney Studios Motion Pictures, created and owned by The Walt Disney Company. Feature films released under the Touchstone label were produced and financed by The Walt Disney Studios, and featured more mature themes targeted towards adult audiences than typical Disney releases. As such, Touchstone was merely a brand of the studio and did not exist as a distinct business operation.
-    file_poster: config/posters/Touchstone Pictures.png
 
   Universal:
     template: { name: Studio, company: 33 }

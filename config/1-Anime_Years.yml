@@ -1,18 +1,16 @@
-######################################################
-#                   SEASONS 6.0                      #
-######################################################
-
 templates:
   Decade:
     smart_label: audience_rating.desc
     sync_mode: sync
     sort_title: zz_<<collection_name>>
+    summary: Best animes of the decade with a minimum of 7.9 MyAnimeList Rating.
     visible_library: true
 
   Year:
     collection_order: custom
     sync_mode: sync
     sort_title: zzz_<<collection_name>>
+    summary: Best animes this year according to MyAnimeList.
     visible_library: true
 
 collections:
@@ -87,7 +85,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2000.png
 
   Best of 2001:
@@ -98,7 +95,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2001.png
 
   Best of 2002:
@@ -109,7 +105,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2002.png
 
   Best of 2003:
@@ -120,7 +115,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2003.png
 
   Best of 2004:
@@ -131,7 +125,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2004.png
 
   Best of 2005:
@@ -142,7 +135,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2005.png
 
   Best of 2006:
@@ -153,7 +145,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2006.png
 
   Best of 2007:
@@ -164,7 +155,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2007.png
 
   Best of 2008:
@@ -175,7 +165,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2008.png
 
   Best of 2009:
@@ -186,7 +175,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2009.png
 
   Best of 2010:
@@ -197,7 +185,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2010.png
 
   Best of 2011:
@@ -208,7 +195,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2011.png
 
   Best of 2012:
@@ -219,7 +205,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2012.png
 
   Best of 2013:
@@ -230,7 +215,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2013.png
 
   Best of 2014:
@@ -241,7 +225,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2014.png
 
   Best of 2015:
@@ -252,7 +235,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2015.png
 
   Best of 2016:
@@ -263,7 +245,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2016.png
 
   Best of 2017:
@@ -274,7 +255,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2017.png
 
   Best of 2018:
@@ -285,7 +265,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2018.png
 
   Best of 2019:
@@ -296,7 +275,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2019.png
 
   Best of 2020:
@@ -307,7 +285,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2020.png
 
   Best of 2021:
@@ -318,7 +295,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2021.png
 
   Best of 2022:
@@ -329,7 +305,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2022.png
 
   Best of 2023:
@@ -340,7 +315,6 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2023.png
 
   Best of 2024:
@@ -351,5 +325,4 @@ collections:
       season: current
       starting_only: false
       sort_by: score
-    summary: Best animes this year according to MyAnimeList.
     file_poster: config/posters/Best of 2024.png

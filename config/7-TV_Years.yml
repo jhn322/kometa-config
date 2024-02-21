@@ -1,5 +1,5 @@
 #####################################################
-#                  YEARS 8.0                        #
+#                  YEARS 9.0                        #
 #####################################################
 
 templates:
@@ -7,12 +7,14 @@ templates:
     smart_label: audience_rating.desc
     sync_mode: sync
     sort_title: zzzz_<<collection_name>>
+    summary: Best shows of the decade with a minimum of 7.8 IMDb Rating.
     visible_library: true
 
   Year:
     smart_label: audience_rating.desc
     sync_mode: sync
     sort_title: zzzzz_<<collection_name>>
+    summary: Best shows of the year with a minimum of 7.8 IMDb Rating.
     visible_library: true
 
 # TV shows with a IMDb rating greater than 7.8 from a decade
@@ -78,7 +80,7 @@ collections:
         audience_rating.gte: 7.8
 
   #######################################################
-  #                    DECADES 6.0                      #
+  #                    DECADES 9.0                      #
   #######################################################
 
   # Best movies from 2000 and forward according to IMDb with a rating of 7.8 and up

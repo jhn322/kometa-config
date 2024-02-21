@@ -1,17 +1,19 @@
 #####################################################
-#                   DECADES 8.0                     #
+#                   DECADES 9.0                     #
 #####################################################
 templates:
   Decade:
     smart_label: audience_rating.desc
     sync_mode: sync
     sort_title: zzz_<<collection_name>>
+    summary: Best movies of the decade with a minimum of 7.0 IMDb Rating.
     visible_library: true
 
   Year:
     smart_label: audience_rating.desc
     sync_mode: sync
     sort_title: zzzz_<<collection_name>>
+    summary: Best movies of the year with a minimum of 7.0 IMDb Rating.
     visible_library: true
 
 # Movies with a IMDb rating greater than 7.0 from a decade

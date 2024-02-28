@@ -47,6 +47,19 @@ collections:
         audience_rating.gte: 6.0
         genre: adventure
 
+  Animation:
+    template: { name: Genre }
+    visible_shared: monthly(2)
+    summary: All animated cartoon movies.
+    file_poster: config/posters/Animation.png
+    smart_filter:
+      sort_by: random
+      validate: false
+      all:
+        genre: animation
+        country.not: japan
+        audio_language.not: ja
+
   Anime:
     template: { name: Genre }
     visible_shared: monthly(3)
@@ -70,19 +83,6 @@ collections:
       validate: false
       all:
         genre: biography
-
-  Cartoon:
-    template: { name: Genre }
-    visible_shared: monthly(2)
-    summary: All animated cartoon movies.
-    file_poster: config/posters/Cartoon.png
-    smart_filter:
-      sort_by: random
-      validate: false
-      all:
-        genre: animation
-        country.not: japan
-        audio_language.not: ja
 
   Comedy:
     template: { name: Genre }
@@ -713,6 +713,15 @@ collections:
     file_poster: config/posters/Monster.png
     visible_shared: monthly(19)
     trakt_list: https://trakt.tv/users/hammers-lists/lists/creature-feature-monster-movies?sort=rank,asc
+
+  Motorsport:
+    template: { name: Genre Other }
+    summary: Motorsport movies revolve around the thrilling world of racing, capturing the high-speed excitement, intense competition, and the human stories behind the drivers. These films often combine adrenaline-pumping race sequences with character-driven narratives, offering audiences a visceral experience of the passion and challenges within the motorsport culture.
+    file_poster: config/posters/Motorsport.png
+    visible_shared: monthly(7)
+    letterboxd_list:
+      - https://letterboxd.com/josstyk/list/motorsport/
+      - https://letterboxd.com/empw/list/racing-motorsport/
 
   Music:
     template: { name: Genre Smart }

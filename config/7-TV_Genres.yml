@@ -1,5 +1,5 @@
 ############################################
-#               GENRES 13.0                #
+#               GENRES 14.0                #
 ############################################
 
 templates:
@@ -24,37 +24,40 @@ collections:
   Action:
     template: { name: Genre }
     visible_shared: weekly(wednesday)
-    file_poster: config/posters/Action.png
+    file_poster: config/posters/Action TV.png
     summary: Action is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: action
 
   Adventure:
     template: { name: Genre }
     visible_shared: weekly(thursday)
-    file_poster: config/posters/Adventure.png
+    file_poster: config/posters/Adventure TV.png
     summary: Adventure is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: adventure
 
   Biopic:
     template: { name: Genre }
     visible_shared: weekly(thursday)
-    file_poster: config/posters/Biopic.png
+    file_poster: config/posters/Biopic TV.png
     summary: A biographical or biopic is a film that dramatizes the life of a non-fictional or historically-based person or people. Such films show the life of a historical person and the central character's real name is used.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: biography
 
   Cartoon:
@@ -66,108 +69,117 @@ collections:
       sort_by: random
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: animation
 
   Comedy:
     template: { name: Genre }
     visible_shared: weekly(friday)
-    file_poster: config/posters/Comedy.png
+    file_poster: config/posters/Comedy TV.png
     summary: Comedy is a genre that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many other genres. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: comedy
 
   Crime:
     template: { name: Genre }
     visible_shared: weekly(monday)
-    file_poster: config/posters/Crime.png
+    file_poster: config/posters/Crime TV.png
     summary: Crime is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: crime
 
   Documentary:
     template: { name: Genre }
     summary: Some of the most impactful and critically acclaimed documentaries ever filmed.
-    file_poster: config/posters/Documentary.png
+    file_poster: config/posters/Documentary TV.png
     visible_shared: weekly(wednesday)
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: documentary
 
   Drama:
     template: { name: Genre }
     visible_shared: weekly(saturday)
-    file_poster: config/posters/Drama.png
+    file_poster: config/posters/Drama TV.png
     summary: Drama is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: drama
 
   Family:
     template: { name: Genre }
     visible_shared: weekly(sunday)
-    file_poster: config/posters/Family.png
+    file_poster: config/posters/Family TV.png
     summary: Family is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. While the storyline may appeal to a younger audience, there are components of the film that are geared towards adults- such as witty jokes and humor. This genre may fall into many other genres, including comedy, adventure, fantasy, and animated film.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: family
 
   Fantasy:
     template: { name: Genre }
     visible_shared: weekly(tuesday)
-    file_poster: config/posters/Fantasy.png
+    file_poster: config/posters/Fantasy TV.png
     summary: Fantasy is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: fantasy
 
   History:
     template: { name: Genre }
     visible_shared: weekly(friday)
-    file_poster: config/posters/History.png
+    file_poster: config/posters/History TV.png
     summary: History is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: history
 
   Horror:
     template: { name: Genre }
     visible_shared: weekly(monday)
-    file_poster: config/posters/Horror.png
+    file_poster: config/posters/Horror TV.png
     summary: Horror is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: horror
 
   K-Drama:
     template: { name: Genre }
     smart_label: random
-    file_poster: config/posters/K-Drama.png
+    file_poster: config/posters/K-Drama TV.png
     visible_shared: weekly(tuesday)
     summary: All Korean shows in one place.
     trakt_list:
@@ -177,85 +189,92 @@ collections:
   Miniseries:
     template: { name: Genre }
     visible_shared: weekly(sunday)
-    file_poster: config/posters/Miniseries.png
+    file_poster: config/posters/Miniseries TV.png
     summary: Shows with only one season.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: mini-series
 
   Mystery:
     template: { name: Genre }
     visible_shared: weekly(saturday)
-    file_poster: config/posters/Mystery.png
+    file_poster: config/posters/Mystery TV.png
     summary: A Mystery centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: mystery
 
   Romance:
     template: { name: Genre }
     visible_shared: weekly(wednesday)
-    file_poster: config/posters/Romance.png
+    file_poster: config/posters/Romance TV.png
     summary: Romance can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: romance
 
   Sci-Fi:
     template: { name: Genre }
     visible_shared: weekly(monday)
-    file_poster: config/posters/Sci-Fi.png
+    file_poster: config/posters/Sci-Fi TV.png
     summary: Science Fiction is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: science fiction
 
   Sport:
     template: { name: Genre }
     visible_shared: monthly(8)
-    file_poster: config/posters/Sport.png
+    file_poster: config/posters/Sport TV.png
     summary: A Sport revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: sport
 
   Thriller:
     template: { name: Genre }
     visible_shared: weekly(thursday)
-    file_poster: config/posters/Thriller.png
+    file_poster: config/posters/Thriller TV.png
     summary: Thriller series is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these series is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller series falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the series and leads to a highly stressful climax.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: thriller
 
   War:
     template: { name: Genre }
     visible_shared: weekly(friday)
-    file_poster: config/posters/War.png
+    file_poster: config/posters/War TV.png
     summary: War is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre:
           - war
           - war & politics
@@ -263,13 +282,14 @@ collections:
   Western:
     template: { name: Genre }
     visible_shared: weekly(sunday)
-    file_poster: config/posters/Western.png
+    file_poster: config/posters/Western TV.png
     summary: Westerns often stress the harshness and isolation of the wilderness, and frequently set the action in an arid, desolate landscape. Western films generally have specific settings, such as isolated ranches, Native American villages, or small frontier towns with a saloon.
     smart_filter:
       sort_by: random
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: western
 
   ############################################
@@ -419,6 +439,7 @@ collections:
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre: music
 
   Outer Space:
@@ -514,6 +535,7 @@ collections:
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre:
           - romance
           - comedy
@@ -528,6 +550,7 @@ collections:
       limit: 200
       validate: false
       all:
+        audience_rating.gte: 7.0
         genre:
           - romance
           - drama
@@ -535,7 +558,7 @@ collections:
   Sitcom:
     template: { name: Genre Other }
     summary: A Sitcom is a serialized comedic program where each episode revolves around a different situation. In each different situation, however, there is the same cast of characters who return from episode to episode.
-    file_poster: config/posters/Sitcom.png
+    file_poster: config/posters/Sitcom TV.png
     visible_shared: weekly(friday)
     trakt_list:
       - https://trakt.tv/users/norman05/lists/sitcoms?sort=title,asc

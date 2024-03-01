@@ -157,10 +157,6 @@ Feel free removing any unwanted collections/overlays by simply deleting the file
 
 ![image search api](https://i.imgur.com/Cr3DSsZ.png)
 
-**TV**
-
-![image search api](https://i.imgur.com/sPgGQTW.png)
-
 ### Overlay examples
 
 **Anime**
@@ -170,7 +166,3 @@ Feel free removing any unwanted collections/overlays by simply deleting the file
 **Movies**
 
 ![image search api](https://i.imgur.com/xcq8HqX.png)
-
-**TV**
-
-![image search api](https://i.imgur.com/7cUfZ53.png)

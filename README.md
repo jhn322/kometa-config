@@ -63,7 +63,11 @@ Nightly: docker pull meisnate12/plex-meta-manager:nightly
 
 **Movies**
 
-![image search api](https://i.imgur.com/CpZfhDf.png)
+![image search api](https://i.imgur.com/BcRlpKv.png)
+
+**TV**
+
+![image search api](https://i.imgur.com/sPgGQTW.png)
 
 **Anime**
 
@@ -74,6 +78,10 @@ Nightly: docker pull meisnate12/plex-meta-manager:nightly
 **Movies**
 
 ![image search api](https://i.imgur.com/cTeNiMb.png)
+
+**TV**
+
+![image search api](https://i.imgur.com/7cUfZ53.png)
 
 **Remux**
 

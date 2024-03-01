@@ -583,6 +583,14 @@ collections:
         title: creature
         genre: horror
 
+  Code 8:
+    template: { name: Franchise }
+    file_poster: config/posters/Code 8.png
+    summary: A super-powered construction worker falls in with a group of criminals in order to raise the funds to help his ill mother.
+    plex_search:
+      all:
+        title: code 8
+
   Cold Prey:
     template: { name: Franchise }
     summary: Cold Prey is a Norwegian horror franchise consisting of 3 films. All films are sentered around a fictional serial killer known as the Mountain Man, who between the late 80s and 2006 murders unsuspecting hikers in the Jotunheimen mountains, particularily in or near the Leirdalen valley.

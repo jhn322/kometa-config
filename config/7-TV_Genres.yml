@@ -326,7 +326,7 @@ collections:
     template: { name: Genre Other }
     summary: Shows based on book novels.
     visible_shared: monthly(11)
-    file_poster: config/posters/Book Adaption.png
+    file_poster: config/posters/Book Adaption TV.png
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-books?sort=rank,asc
 
   British Detective:

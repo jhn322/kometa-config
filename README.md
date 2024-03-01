@@ -67,7 +67,7 @@ Nightly: docker pull meisnate12/plex-meta-manager:nightly
 
 **TV**
 
-![image search api](https://i.imgur.com/zrlLoZO.png)
+![image search api](https://i.imgur.com/GjuyuRq.png)
 
 **Anime**
 

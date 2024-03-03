@@ -104,7 +104,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  European Film Award Winners:
+  European Film Award - Winners:
     template: { name: Award }
     summary: The European Film Awards (EFA) is an annual awards ceremony that honors outstanding achievements in European cinema. The awards were first presented in 1988, and since then, they have become one of the most prestigious film awards in the world.
     file_poster: config/posters/European Film Awards Winners.png

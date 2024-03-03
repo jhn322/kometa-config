@@ -79,7 +79,7 @@ collections:
     template: { name: imdb }
     summary: The Cannes Film Festival until 2003 called the International Film Festival (Festival international du film) and known in English as the Cannes Film Festival, is an annual film festival held in Cannes, France, which previews new films of all genres, including documentaries, from all around the world. Founded in 1946, the invitation-only festival is held annually at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.
     visible_shared: monthly(17)
-    #file_poster: config/posters/Cannes Palme d'or.png
+    file_poster: config/posters/Cannes Palme d'or.png
     imdb_award:
       event_id: "ev0000147"
       event_year: "1955-current"
@@ -94,7 +94,7 @@ collections:
     template: { name: imdb }
     summary: The Critics' Choice Movie Awards (formerly known as the Broadcast Film Critics Association Award) is an awards show presented annually by the American-Canadian Critics Choice Association to honor the finest in cinematic achievement.
     visible_shared: monthly(14)
-    #file_poster: config/posters/Critics Choice Awards Winners.png
+    file_poster: config/posters/Critics Choice Awards Winners.png
     imdb_award:
       event_id: "ev0000133"
       event_year: "1996-current"
@@ -107,7 +107,7 @@ collections:
   European Film Award Winners:
     template: { name: Award }
     summary: The European Film Awards (EFA) is an annual awards ceremony that honors outstanding achievements in European cinema. The awards were first presented in 1988, and since then, they have become one of the most prestigious film awards in the world.
-    #file_poster: config/posters/European Film Awards Winners.png
+    file_poster: config/posters/European Film Awards Winners.png
     letterboxd_list: https://letterboxd.com/ra_pha/list/european-film-awards/
 
   Golden Globe - Best Picture:
@@ -170,7 +170,7 @@ collections:
       - monthly(21)
       - monthly(22)
     summary: Highest honor at the oscars.
-    #file_poster: config/posters/Oscars Best Picture.png
+    file_poster: config/posters/Oscars Best Picture.png
     imdb_award:
       event_id: "ev0000003"
       event_year: "1929-current"
@@ -201,7 +201,7 @@ collections:
     visible_shared:
       - monthly(30)
       - monthly(31)
-    #file_poster: config/posters/Oscars Winners.png
+    file_poster: config/posters/Oscars Winners.png
     summary: Oscar Category Winning Movies.
     imdb_award:
       event_id: "ev0000003"
@@ -214,7 +214,7 @@ collections:
   Razzies - Worst Picture:
     template: { name: imdb }
     summary: Worst movies of the year award.
-    #file_poster: config/posters/Razzie Worst Picture.png
+    file_poster: config/posters/Razzie Worst Picture.png
     imdb_award:
       event_id: "ev0000558"
       event_year: "1981-current"
@@ -228,7 +228,7 @@ collections:
     template: { name: imdb }
     summary: A list of all (with exceptions of short movies) films that won awards at the American Sundance Film Festival.
     visible_shared: monthly(11)
-    #file_poster: config/posters/Sundance Winners.png
+    file_poster: config/posters/Sundance Winners.png
     imdb_award:
       event_id: "ev0000631"
       event_year: "1978-current"

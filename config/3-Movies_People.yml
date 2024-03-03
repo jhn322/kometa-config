@@ -1107,7 +1107,7 @@ collections:
   Danny Boyle:
     template: { name: Director }
     file_poster: config/posters/Danny Boyle.png
-    visible_shared: range(03/01-03/09)
+    visible_shared: range(03/01-03/05)
     plex_search:
       any:
         director: Danny Boyle
@@ -1117,12 +1117,22 @@ collections:
   David Lynch:
     template: { name: Director }
     file_poster: config/posters/David Lynch.png
-    visible_shared: range(03/10-03/19)
+    visible_shared: range(03/06-03/13)
     plex_search:
       any:
         director: David Lynch
         producer: David Lynch
         writer: David Lynch
+
+  Denis Villeneuve:
+    template: { name: Director }
+    file_poster: config/posters/Denis Villeneuve.png
+    visible_shared: range(03/14-03/19)
+    plex_search:
+      any:
+        director: Denis Villeneuve
+        producer: Denis Villeneuve
+        writer: Denis Villeneuve
 
   Francis Ford Coppola:
     template: { name: Director }

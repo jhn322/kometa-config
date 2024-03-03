@@ -13,7 +13,6 @@ templates:
     smart_label: release.desc
     sync_mode: sync
     sort_title: zzzzzzzz_<<collection_name>>
-    visible_library: true
 
   Director:
     smart_label: release.desc

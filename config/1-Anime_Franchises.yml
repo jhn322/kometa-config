@@ -318,7 +318,7 @@ collections:
 
   Transformers:
     template: { name: Franchise }
-    file_poster: config/posters/Transformers.png
+    file_poster: config/posters/Transformers Anime.png
     plex_search:
       all:
         title: transformers

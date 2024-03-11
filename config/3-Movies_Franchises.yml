@@ -3313,9 +3313,7 @@ collections:
     template: { name: Franchise }
     summary: A superhero film series about a team of mutant superheroes based on the Marvel Comics superheroes of the same name.
     file_poster: config/posters/X-Men.jpeg
-    plex_search:
-      all:
-        title: x-men
+    trakt_list: https://trakt.tv/users/negricaroll/lists/xmen?sort=released,desc
 
   xXx:
     template: { name: Franchise }

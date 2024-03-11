@@ -1,5 +1,5 @@
 ######################################################
-#                   FRANCHISES 12.0                  #
+#                   FRANCHISES 13.0                  #
 ######################################################
 templates:
   Franchise:
@@ -519,9 +519,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Cabin Fever.png
     summary: Cabin Fever is a 2002 horror film directed by Eli Roth and starring Rider Strong, Jordan Ladd, and James DeBello. The movie follows a group of college students who rent a cabin in the woods for a vacation, only to become infected with a flesh-eating virus that causes horrific symptoms.
-    plex_search:
-      all:
-        title: cabin fever
+    trakt_list: https://trakt.tv/users/hottentott/lists/cabin-fever-collection
 
   Childs Play:
     template: { name: Franchise }
@@ -578,10 +576,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Creature From The Black Lagoon.png
     summary: Creature from the Black Lagoon is a 1954 science fiction-horror film directed by Jack Arnold. The movie follows a team of scientists who embark on an expedition to the Amazon to study the fossils of a prehistoric creature.
-    plex_search:
-      all:
-        title: creature
-        genre: horror
+    tmdb_collection: 221537
 
   Code 8:
     template: { name: Franchise }
@@ -694,12 +689,7 @@ collections:
     template: { name: Franchise }
     summary: Creep is a 2014 American found footage psychological horror film directed by Patrick Brice, his directorial debut, from a story by Brice and Mark Duplass, who both star in the film. Filmed as found footage, Brice portrays a videographer assigned to record an eccentric client, played by Duplass.
     file_poster: config/posters/Creep.jpg
-    plex_search:
-      all:
-        title: creep
-        title.not:
-          - jeepers
-          - night
+    tmdb_collection: 488990
 
   Creed:
     template: { name: Franchise }
@@ -808,19 +798,7 @@ collections:
     template: { name: Franchise }
     summary: Dirty Harry is an American film series featuring San Francisco Police Department Homicide Division Inspector Dirty Harry Callahan who is notorious for being extremely violent and ruthless in his methods, and a danger for any partner assigned to him. Actor Clint Eastwood portrayed Callahan in all five of the series' films.
     file_poster: config/posters/Dirty Harry.jpeg
-    plex_search:
-      all:
-        actor: clint eastwood
-        genre:
-          - crime
-          - thriller
-          - action
-        title.not:
-          - absolute
-          - blood
-          - coogan
-          - escape
-          - fire
+    tmdb_collection: 10456
 
   The Divergent:
     template: { name: Franchise }
@@ -1017,9 +995,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/The Exorcist.png
     summary: The Exorcist is a horror film series based on the novel of the same name by William Peter Blatty. The series focuses on the demonic possession of individuals and the efforts of priests and others to exorcise the demon.
-    plex_search:
-      all:
-        title: exorcist
+    tmdb_collection: 12263
 
   The Expendables:
     template: { name: Franchise }
@@ -1130,9 +1106,7 @@ collections:
     template: { name: Franchise }
     summary: Final Destination is an American horror franchise composed of five films. It is based on an unproduced spec script by Jeffrey Reddick, originally written for The X-Files television series. All five films center around a small group of people who escape impending death.
     file_poster: config/posters/Final Destination.jpg
-    plex_search:
-      all:
-        title: final destination
+    tmdb_collection: 8864
 
   Free Willy:
     template: { name: Franchise }
@@ -1616,6 +1590,7 @@ collections:
     template: { name: Franchise }
     summary: Ju-On The Grudge is a Japanese-American horror franchise created by Takashi Shimizu. The Ju-On films revolve around a curse created in a house in Nerima, Tokyo (or Suginami in the American films) when Takeo Saeki, convinced that his wife Kayako was having an affair with another man, murdered her, their son Toshio and Toshio's pet cat in a jealous rage.
     file_poster: config/posters/Ju-On The Grudge.jpeg
+    trakt_list: https://trakt.tv/users/lelmuertol/lists/ju-on-the-ringu?sort=rank,asc
     plex_search:
       any:
         title:
@@ -1635,9 +1610,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Joy Ride.png
     summary: Joy Ride is a 2001 thriller film directed by John Dahl and starring Paul Walker, Steve Zahn, and Leelee Sobieski. The movie follows two brothers, Lewis (Walker) and Fuller (Zahn), who are on a road trip to pick up Lewis's friend Venna (Sobieski).
-    plex_search:
-      all:
-        title: joy ride
+    tmdb_collection: 166378
 
   Jumanji:
     template: { name: Franchise }
@@ -1781,17 +1754,7 @@ collections:
     template: { name: Franchise }
     summary: The Living Dead is a series of six zombie horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
     file_poster: config/posters/Living Dead.jpg
-    plex_search:
-      all:
-        title: of the dead
-        genre: horror
-        title.not:
-          - army
-          - wyrm
-          - phantasm
-          - shaun
-          - candyman
-          - cut
+    trakt_list: https://trakt.tv/users/grendelcrusher/lists/franchise-living-dead?sort=released,desc
 
   Love Comes Softly:
     template: { name: Franchise }
@@ -2653,14 +2616,11 @@ collections:
       all:
         title: sharknado
 
-  Silent Night Deadly Night:
+  Silent Night, Deadly Night:
     template: { name: Franchise }
     summary: Silent Night, Deadly Night is an American horror film series consisting of six films. The first film in the series, Silent Night, Deadly Night (1984), originally titled Slay Ride, tells the story of Billy, a young man who experiences a psychotic break and goes on a murder spree dressed as Santa Claus.
     file_poster: config/posters/Silent Night Deadly Night.jpeg
-    plex_search:
-      all:
-        title: silent night
-        director.not: camille griffin
+    tmdb_collection: 256296
 
   Sinbad:
     template: { name: Franchise }
@@ -2949,10 +2909,7 @@ collections:
     template: { name: Franchise }
     summary: The Texas Chainsaw Massacre is an American horror franchise consisting of eight slasher films. The franchise focuses on serial killer Leatherface and his psychotic family, who terrorize unsuspecting visitors to their territories in the desolate Texas countryside, typically killing and cannibalizing them.
     file_poster: config/posters/The Texas Chainsaw Massacre.jpg
-    plex_search:
-      all:
-        title: texas
-        genre: horror
+    trakt_list: https://trakt.tv/users/ximphrambugle/lists/texas-chainsaw-massacre?sort=rank,asc
 
   Three Colours Trilogy:
     template: { name: Franchise }

@@ -3064,6 +3064,14 @@ collections:
       all:
         title: total recall
 
+  Trancers:
+    template: { name: Franchise }
+    sumamry: Trancers is a sci-fi film series following Jack Deth, a futuristic detective who travels through time to apprehend psychic criminals called trancers. The series blends elements of action, science fiction, and noir as Jack battles adversaries across different eras to prevent a dystopian future.
+    file_poster: config/posters/Trancers.png
+    plex_search:
+      all:
+        title: trancers
+
   Trainspotting:
     template: { name: Franchise }
     summary: Trainspotting is a 1996 British black comedy drama film series directed by Danny Boyle and starring Ewan McGregor, Ewen Bremner, Jonny Lee Miller, Kevin McKidd, Robert Carlyle, and Kelly Macdonald in her film debut. Based on the 1993 novel of the same title by Irvine Welsh, the film series was released in the United Kingdom on 23 February 1996.

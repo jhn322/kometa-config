@@ -3133,9 +3133,7 @@ collections:
     template: { name: Franchise }
     summary: The Unbreakable trilogy, also known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The series has been noted for its differences to more traditional superhero movies, with Shyamalan's work referred to as the first auteur shared superhero universe.
     file_poster: config/posters/Unbreakable.png
-    plex_search:
-      all:
-        title: unbreakable
+    trakt_list: https://trakt.tv/users/grelipe/lists/unbreakable?sort=released,desc
 
   Universal Soldier:
     template: { name: Franchise }

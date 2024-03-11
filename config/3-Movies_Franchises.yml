@@ -3119,9 +3119,7 @@ collections:
     template: { name: Franchise }
     summary: Transformers is a series of American science fiction action films based on the Transformers franchise which began in the 1980s.
     file_poster: config/posters/Transformers.png
-    plex_search:
-      all:
-        title: transformers
+    trakt_list: https://trakt.tv/users/strangerer/lists/transformers?sort=rank,asc
 
   The Transporter:
     template: { name: Franchise }

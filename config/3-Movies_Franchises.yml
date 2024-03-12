@@ -3023,7 +3023,7 @@ collections:
 
   Trancers:
     template: { name: Franchise }
-    sumamry: Trancers is a sci-fi film series following Jack Deth, a futuristic detective who travels through time to apprehend psychic criminals called trancers. The series blends elements of action, science fiction, and noir as Jack battles adversaries across different eras to prevent a dystopian future.
+    summary: Trancers is a sci-fi film series following Jack Deth, a futuristic detective who travels through time to apprehend psychic criminals called trancers. The series blends elements of action, science fiction, and noir as Jack battles adversaries across different eras to prevent a dystopian future.
     file_poster: config/posters/Trancers.png
     plex_search:
       all:

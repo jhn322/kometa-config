@@ -477,6 +477,7 @@ collections:
     file_poster: config/posters/Period Piece TV.png
     visible_shared: weekly(sunday)
     trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/period-dramas-tv?sort=rank,asc
       - https://trakt.tv/users/yuzuchan/lists/period-pieces?sort=rank,asc
       - https://trakt.tv/users/shamooga/lists/period-pieces?sort=rank,asc
       - https://trakt.tv/users/jhsizemore/lists/period-pieces?sort=percentage,asc

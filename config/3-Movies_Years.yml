@@ -1,5 +1,5 @@
 #####################################################
-#                   DECADES 9.0                     #
+#                   DECADES 9.5                     #
 #####################################################
 templates:
   Decade:
@@ -14,7 +14,7 @@ templates:
     sync_mode: sync
     sort_title: zzzz_<<collection_name>>
     summary: Best movies of the year with a minimum of 7.0 IMDb Rating.
-    visible_library: true
+    visible_library: false
 
 # Movies with a IMDb rating greater than 7.0 from a decade
 collections:
@@ -140,7 +140,7 @@ collections:
     file_poster: config/posters/Best of 2020s.png
 
   ######################################################
-  #                   YEARS 4.0                      #
+  #                   YEARS 4.5                      #
   ######################################################
 
   # Best movies from 2000 and forward according to IMDb with a rating of 7.0 and up

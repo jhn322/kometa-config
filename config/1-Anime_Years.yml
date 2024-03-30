@@ -11,11 +11,11 @@ templates:
     sync_mode: sync
     sort_title: zzz_<<collection_name>>
     summary: Best animes this year according to MyAnimeList.
-    visible_library: true
+    visible_library: false
 
 collections:
   ####################################################
-  #                  DECADES 4.0                     #
+  #                  DECADES 4.5                     #
   #  Rating greater than 7.8 from mal from a decade  #
   ####################################################
   Best of 1940-1970s:
@@ -73,7 +73,7 @@ collections:
         audience_rating.gte: 7.8
 
   #####################################################
-  #                    YEARS 3.0                      #
+  #                    YEARS 3.5                      #
   #####################################################
 
   # Best animes from 2000 and forward according to mal

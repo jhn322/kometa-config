@@ -1,5 +1,5 @@
 #############################################################
-#                       AWARDS 9.0                          #
+#                       AWARDS 9.5                          #
 #############################################################
 
 templates:
@@ -45,6 +45,7 @@ collections:
   BAFTA - Nominees:
     template: { name: imdb }
     summary: "A collection of BAFTA Nominees"
+    visible_library: false
     file_poster: config/posters/BAFTA Nominees.png
     imdb_award:
       event_id: "ev0000123"
@@ -59,6 +60,7 @@ collections:
     template: { name: imdb }
     summary: "A collection of BAFTA Winners"
     visible_shared: monthly(10)
+    visible_library: false
     file_poster: config/posters/BAFTA Winners.png
     imdb_award:
       event_id: "ev0000123"
@@ -73,6 +75,7 @@ collections:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Nominees"
     visible_shared: monthly(30)
+    visible_library: false
     file_poster: config/posters/Critics Choice Awards Nominees.png
     imdb_award:
       event_id: "ev0000133"
@@ -87,6 +90,7 @@ collections:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Winners"
     visible_shared: monthly(5)
+    visible_library: false
     file_poster: config/posters/Critics Choice Awards Winners.png
     imdb_award:
       event_id: "ev0000133"
@@ -128,6 +132,7 @@ collections:
   Golden Globe - Nominees:
     template: { name: imdb }
     summary: "A collection of Golden Globes Nominees"
+    visible_library: false
     file_poster: config/posters/Golden Globe Nominees.png
     imdb_award:
       event_id: "ev0000292"

@@ -1,5 +1,5 @@
 ######################################################
-#                  AWARDS 9.0                        #
+#                  AWARDS 9.5                        #
 ######################################################
 
 templates:
@@ -214,6 +214,7 @@ collections:
   Razzies - Worst Picture:
     template: { name: imdb }
     summary: Worst movies of the year award.
+    visible_library: false
     file_poster: config/posters/Razzie Worst Picture.png
     imdb_award:
       event_id: "ev0000558"

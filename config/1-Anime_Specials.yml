@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 16.0                    #
+#                   SPECIALS 16.5                    #
 ######################################################
 
 templates:
@@ -48,6 +48,7 @@ collections:
   480P+: # Animes with a quality of 240p to 576p
     template: { name: Special Other }
     summary: Animes in SD, 480p and 576p quality.
+    visible_library: false
     sort_title: zz___21_480P+
     file_poster: config/posters/480P+.png
     plex_search:
@@ -60,6 +61,7 @@ collections:
   720P:
     template: { name: Special Other }
     summary: Animes in 720p quality.
+    visible_library: false
     sort_title: zz___22_720P
     file_poster: config/posters/720P.png
     plex_search:
@@ -95,6 +97,7 @@ collections:
 
   Played: # Fetched information from Tautulli
     template: { name: Special }
+    visible_library: false
     tautulli_popular:
       list_days: 61
       list_size: 50
@@ -116,6 +119,7 @@ collections:
 
   Watched: # Fetched information from Tautulli
     template: { name: Special }
+    visible_library: false
     tautulli_watched:
       list_days: 9999
       list_size: 9999
@@ -128,6 +132,7 @@ collections:
   Worst: # Animes rating with less 5 in rating from mal
     template: { name: Special Smart Other }
     summary: Worst animes on Plex rated 5.0 or lower.
+    visible_library: false
     file_poster: config/posters/Worst.png
     smart_filter:
       sort_by: audience_rating.asc

@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 16.0                    #
+#                   SPECIALS 16.5                    #
 ######################################################
 
 templates:
@@ -21,7 +21,7 @@ templates:
   Special Smart Other:
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
+    visible_library: false
 
 collections:
   18+: # TV shows with an adult rating
@@ -38,7 +38,7 @@ collections:
         content_rating: TV-MA
 
   480P+: # 480p and 576p TV Shows
-    template: { name: Special }
+    template: { name: Special Smart Other }
     summary: A collection of TV Shows in SD, 480p and 576p quality.
     sort_title: zz__1480P+
     file_poster: config/posters/480P+.png
@@ -50,7 +50,7 @@ collections:
           - 576p
 
   720P:
-    template: { name: Special }
+    template: { name: Special Smart Other }
     summary: A collection of TV Shows in 720p quality.
     sort_title: zz__1720P
     file_poster: config/posters/720P.png
@@ -92,7 +92,7 @@ collections:
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/common-sense-selection-shows?sort=rank,asc
 
   Longest: # Longest TV shows on plex
-    template: { name: Special }
+    template: { name: Special Smart Other }
     summary: The lengthiest shows on Plex.
     file_poster: config/posters/Longest.png
     trakt_list:
@@ -100,7 +100,7 @@ collections:
       - https://trakt.tv/users/copeland1994/lists/all-time-series-rankings-long-running-shows-only?sort=rank,asc
 
   Newly Released: # Released within last 2 months
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     file_poster: config/posters/Newly Released.png
     summary: Shows recently released in the past 2 months.
     visible_shared: monthly(27)
@@ -111,7 +111,7 @@ collections:
         release: 61
 
   Played: # Fetched information from Tautulli
-    template: { name: Special }
+    template: { name: Special Smart Other }
     tautulli_popular:
       list_days: 31
       list_size: 50
@@ -121,7 +121,7 @@ collections:
     summary: Most played shows on Plex the past 2 months.
 
   Random: # Random TV shows with a rating above 4 from IMDb
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     file_poster: config/posters/Random.png
     summary: Random TV Shows.
     visible_shared: monthly(5)
@@ -133,7 +133,7 @@ collections:
         audience_rating.gte: 4.0
 
   Watched: # Fetched information from Tautulli
-    template: { name: Special }
+    template: { name: Special Smart Other }
     tautulli_watched:
       list_days: 9999
       list_size: 9999

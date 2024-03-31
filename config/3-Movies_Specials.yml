@@ -10,13 +10,18 @@ templates:
   Special Smart:
     sync_mode: sync
     sort_title: zz-<<collection_name>>
-    visible_library: false
+    visible_library: true
 
   Special Other:
     smart_label: random
     sync_mode: sync
     sort_title: zz-<<collection_name>>
     visible_library: true
+
+  Special Smart Other:
+    sync_mode: sync
+    sort_title: zz-<<collection_name>>
+    visible_library: false
 
 collections:
   1001+ Movies You Must See Before You Die:
@@ -54,7 +59,7 @@ collections:
     trakt_list: https://trakt.tv/users/plexmetamanager/lists/common-sense-selection-movies?sort=rank,asc
 
   Longest: # Longest movies on plex
-    template: { name: Special Smart }
+    template: { name: Special Smart Other }
     file_poster: config/posters/Longest.png
     summary: The longest movies on Plex  a minimum of 150 minutes in duration.
     smart_filter:
@@ -64,7 +69,7 @@ collections:
         duration.gt: 149
 
   Newly Released: # Released within the month
-    template: { name: Special Other }
+    template: { name: Special Smart }
     file_poster: config/posters/Newly Released.png
     summary: Movies recently released in the past month.
     smart_filter:
@@ -84,7 +89,7 @@ collections:
         subtitle_language.not: sv
 
   Played: # Fetched information from Tautulli
-    template: { name: Special Smart }
+    template: { name: Special Smart Other }
     tautulli_popular:
       list_days: 31
       list_size: 200
@@ -95,7 +100,7 @@ collections:
     smart_label: viewed.desc
 
   Random: # Random movies with a rating above 4 from IMDb
-    template: { name: Special Other }
+    template: { name: Special Smart }
     file_poster: config/posters/Random.png
     summary: Random movies.
     visible_shared: monthly(5)
@@ -107,7 +112,7 @@ collections:
         audience_rating.gte: 4.0
 
   Shortest: # Shortest movies on plex
-    template: { name: Special Smart }
+    template: { name: Special Smart Other }
     visible_library: true
     summary: The shortest movies on Plex with a max duration of 85 minutes and under.
     file_poster: config/posters/Shortest.png
@@ -119,7 +124,7 @@ collections:
         genre.not: Animation
 
   Watched: # Fetched information from Tautulli
-    template: { name: Special Smart }
+    template: { name: Special Smart Other }
     tautulli_watched:
       list_days: 9999
       list_size: 9999
@@ -130,7 +135,7 @@ collections:
     smart_label: viewed.desc
 
   Worst: # Movies with a rating of less than 4 from IMDb
-    template: { name: Special Smart }
+    template: { name: Special Smart Other }
     summary: Worst movies on Plex rated 4.0 or lower.
     file_poster: config/posters/Worst.png
     smart_filter:

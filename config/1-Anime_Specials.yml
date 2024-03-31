@@ -104,6 +104,7 @@ collections:
       list_buffer: 20
       list_minimum: 1
     file_poster: config/posters/Played.png
+    smart_label: viewed.desc
     summary: Most played animes on Plex the past 2 months.
 
   Random: # Random animes with a rating above 4 from mal

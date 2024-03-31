@@ -112,7 +112,7 @@ collections:
         audience_rating.gte: 4.0
 
   Shortest: # Shortest movies on plex
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     visible_library: true
     summary: The shortest movies on Plex with a max duration of 85 minutes and under.
     file_poster: config/posters/Shortest.png

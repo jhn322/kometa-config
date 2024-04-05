@@ -26,8 +26,8 @@ collections:
 
   Easter 🐣:
     template: { name: Holiday }
-    visible_home: range(03/22-04/25)
-    visible_shared: range(03/22-04/25)
+    visible_home: range(03/31-04/15)
+    visible_shared: range(03/31-04/15)
     summary: The Easter bunny is here!
     file_poster: config/posters/Easter.png
     trakt_list:

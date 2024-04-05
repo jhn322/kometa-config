@@ -210,6 +210,14 @@ collections:
           - bad batch
           - star wars
 
+  Teenage Mutant Ninja Turtles:
+    template: { name: Franchise }
+    summary: Teenage Mutant Ninja Turtles, commonly abbreviated as TMNT, is a media franchise created by the comic book artists Kevin Eastman and Peter Laird. It follows Leonardo, Donatello, Raphael and Michelangelo, four anthropomorphic turtle brothers trained in ninjutsu who fight evil in New York City.
+    file_poster: config/posters/Teenage Mutant Ninja Turtles TV.jpeg
+    plex_search:
+      all:
+        title: teenage mutant ninja
+
   Tom and Jerry:
     template: { name: Franchise }
     summary: Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry.

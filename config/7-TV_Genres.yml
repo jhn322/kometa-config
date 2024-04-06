@@ -57,7 +57,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.5
         genre: biography
 
   Cartoon:
@@ -134,7 +134,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.6
         genre: family
 
   Fantasy:
@@ -160,7 +160,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.8
         genre: history
 
   Horror:
@@ -173,7 +173,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.5
         genre: horror
 
   K-Drama:
@@ -222,7 +222,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.6
         genre: romance
 
   Sci-Fi:
@@ -248,7 +248,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.2
         genre: sport
 
   Thriller:
@@ -274,7 +274,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.5
         genre:
           - war
           - war & politics
@@ -289,7 +289,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.2
         genre: western
 
   ############################################
@@ -439,7 +439,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.4
         genre: music
 
   Outer Space:
@@ -537,7 +537,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.4
         genre:
           - romance
           - comedy
@@ -552,7 +552,7 @@ collections:
       limit: 200
       validate: false
       all:
-        audience_rating.gte: 7.0
+        audience_rating.gte: 6.5
         genre:
           - romance
           - drama

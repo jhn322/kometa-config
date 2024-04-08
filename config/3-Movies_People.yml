@@ -1032,7 +1032,7 @@ collections:
         actor: Will Smith
 
   #############################################################
-  #                     Directors 5.3                         #
+  #                     Directors 5.5                         #
   #############################################################
 
   # Collections for prominent Directors
@@ -1112,6 +1112,16 @@ collections:
         director: Danny Boyle
         producer: Danny Boyle
         writer: Danny Boyle
+
+  David Fincher:
+    template: { name: Director }
+    file_poster: config/posters/David Fincher.png
+    visible_shared: range(05/16-05/23)
+    plex_search:
+      any:
+        director: David Fincher
+        producer: David Fincher
+        writer: David Fincher
 
   David Lynch:
     template: { name: Director }
@@ -1196,7 +1206,7 @@ collections:
   J.J. Abrams:
     template: { name: Director }
     file_poster: config/posters/J.J. Abrams.png
-    visible_shared: range(05/10-05/19)
+    visible_shared: range(05/10-05/15)
     plex_search:
       any:
         director: J.J. Abrams
@@ -1206,7 +1216,7 @@ collections:
   James Cameron:
     template: { name: Director }
     file_poster: config/posters/James Cameron.png
-    visible_shared: range(05/20-05/31)
+    visible_shared: range(05/24-05/31)
     plex_search:
       any:
         director: James Cameron

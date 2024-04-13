@@ -80,9 +80,7 @@ collections:
     template: { name: Franchise }
     summary: 300 is a 2006 American epic historical action film based on the 1998 comic series of the same name by Frank Miller and Lynn Varley.
     file_poster: config/posters/300.png
-    plex_search:
-      all:
-        title: three hundred
+    tmdb_collection: 125570
 
   Alien.:
     template: { name: Franchise }
@@ -1036,9 +1034,7 @@ collections:
     template: { name: Franchise }
     summary: The fictional superhero team Fantastic Four featured in Marvel Comics publication has appeared in four live-action films since its inception. The plots deal with four main characters, known formally as Reed Richards, Susan Storm, Ben Grimm and Johnny Storm, and how they adapt to the superpowers they attain.
     file_poster: config/posters/Fantastic Four.png
-    plex_search:
-      all:
-        title: fantastic four 4
+    tmdb_collection: 9744
 
   Father Knows Best:
     template: { name: Franchise }
@@ -2299,9 +2295,7 @@ collections:
     template: { name: Franchise }
     summary: Persona 3 The Movie is a Japanese animated film series based on the Persona 3 video game by Atlus.
     file_poster: config/posters/Persona 3.png
-    plex_search:
-      all:
-        title: persona 3
+    tmdb_collection: 340890
 
   Poltergeist:
     template: { name: Franchise }

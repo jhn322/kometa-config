@@ -1,5 +1,5 @@
 ######################################################
-#                   FRANCHISES 13.0                  #
+#                   FRANCHISES 14.0                  #
 ######################################################
 templates:
   Franchise:
@@ -208,12 +208,7 @@ collections:
     template: { name: Franchise }
     summary: The Army of the Dead franchise consists of American zombie-action horror installments, which serve as spiritual sequels to the 2004 re-imagining of Dawn of the Dead (1978).
     file_poster: config/posters/Army of the Dead.png
-    plex_search:
-      all:
-        title: army of
-        title.not:
-          - darkness
-          - shadows
+    tmdb_collection: 809185
 
   The Apu Trilogy:
     template: { name: Franchise }
@@ -441,11 +436,7 @@ collections:
     template: { name: Franchise }
     summary: The Before trilogy consists of three films directed by Richard Linklater and starring Ethan Hawke and Julie Delpy as lovers Jesse and Céline at three different parts of their lives.
     file_poster: config/posters/The Before Trilogy.jpg
-    plex_search:
-      all:
-        title: before
-        actor: ethan hawke
-        genre: romance
+    tmdb_collection: 123800
 
   Beverly Hills Cop:
     template: { name: Franchise }
@@ -743,11 +734,7 @@ collections:
     template: { name: Franchise }
     summary: Warner Bros. hired Christopher Nolan and David S. Goyer to script The Dark Knight Trilogy. The duo aimed for a darker and more realistic tone, with humanity and realism being the basis of the film. Christian Bale starred as Batman.
     file_poster: config/posters/The Dark Knight.png
-    plex_search:
-      all:
-        genre: crime
-        actor: christian bale
-        director: christopher nolan
+    tmdb_collection: 263
 
   Death Wish:
     template: { name: Franchise }
@@ -769,11 +756,7 @@ collections:
     template: { name: Franchise }
     summary: Department Q is a film series based on the novel by Jussi Adler-Olsen. The series follows detectives Carl Mørck, Hafez el-Assad and secretary Rose Knudsen whom try to solve old cases in a distant department in Köpenhamn called Q.
     file_poster: config/posters/Department Q.jpg
-    plex_search:
-      all:
-        actor: nikolaj lie kaas
-        genre: crime
-        writer: nikolaj arcel
+    tmdb_collection: 319850
 
   Die Hard:
     template: { name: Franchise }
@@ -798,15 +781,11 @@ collections:
     file_poster: config/posters/Dirty Harry.jpeg
     tmdb_collection: 10456
 
-  The Divergent:
+  Divergent:
     template: { name: Franchise }
     summary: The Divergent is a feature film trilogy based on the Divergent novels. The series consists of three science fiction action films set in a dystopian society Divergent, Insurgent, and Allegiant.
     file_poster: config/posters/Divergent.jpg
-    plex_search:
-      all:
-        actor:
-          - theo james
-          - shailene woodley
+    tmdb_collection: 283579
 
   Deadpool:
     template: { name: Franchise }
@@ -961,16 +940,7 @@ collections:
     template: { name: Franchise }
     summary: Escape from New York is a 1981 American science fiction action film co-written, co-scored and directed by John Carpenter. It stars Kurt Russell, Lee Van Cleef, Donald Pleasence, Ernest Borgnine, Isaac Hayes, Adrienne Barbeau, and Harry Dean Stanton.
     file_poster: config/posters/Escape From.png
-    plex_search:
-      all:
-        title: escape from
-        title.not:
-          - alcatraz
-          - pretoria
-          - planet
-          - willy
-          - harold
-          - sobibor
+    tmdb_collection: 115838
 
   Escape Room:
     template: { name: Franchise }
@@ -1023,12 +993,7 @@ collections:
     template: { name: Franchise }
     summary: The Fast and the Furious is an American media franchise based on a series of action films that is largely concerned with illegal street racing, heists and espionage, and includes material in various other media that depicts characters and situations from the films.
     file_poster: config/posters/Fast & Furious.jpeg
-    plex_search:
-      all:
-        title.not: faster
-        genre: action
-        genre.not: animation
-        title: fast
+    tmdb_collection: 9485
 
   Fantastic Four:
     template: { name: Franchise }
@@ -1146,11 +1111,7 @@ collections:
     template: { name: Franchise }
     summary: G.I. Joe is a military science fiction action film series, based on Hasbro's G.I. Joe toy, comic, and media franchises. Development for the first film began in 2003, but when the United States launched the invasion of Iraq in March 2003, Hasbro suggested adapting the Transformers instead. In 2009, the first film was released.
     file_poster: config/posters/G.I. Joe.jpg
-    plex_search:
-      any:
-        title:
-          - g.i.
-          - snake eyes
+    trakt_list: https://trakt.tv/users/kubik0258/lists/g-i-joe?sort=released,desc
 
   Ghostbusters:
     template: { name: Franchise }
@@ -1252,13 +1213,7 @@ collections:
     template: { name: Franchise }
     summary: Halloween is an American slasher franchise that consists of eleven films with more on the way. The films primarily focus on Michael Myers who was committed to a sanitarium as a child for the murder of his sister, Judith Myers. Michael's killings occur on the holiday of Halloween, on which all of the films primarily take place.
     file_poster: config/posters/Halloween.png
-    plex_search:
-      all:
-        actor.not:
-          - jeremy ray taylor
-          - adam sandler
-        genre.not: animation
-        title: halloween
+    tmdb_collection: 91361
 
   The Hangover:
     template: { name: Franchise }
@@ -1272,13 +1227,7 @@ collections:
     template: { name: Franchise }
     summary: The Hannibal Lecter franchise is based around the titular character, Hannibal Lecter, a brilliant, cannibalistic serial killer whose assistance is routinely sought out by law enforcement personnel to aid in the capture of other criminals.
     file_poster: config/posters/Hannibal Lecter.png
-    plex_search:
-      all:
-        genre:
-          - horror
-          - crime
-          - thriller
-        actor: anthony hopkins
+    tmdb_collection: 9743
 
   Harry Potter:
     template: { name: Franchise }
@@ -1502,13 +1451,7 @@ collections:
     template: { name: Franchise }
     summary: It is a series of American horror films. The series consists of two films and is the second adaptation of the original novel by Stephen King, after Tommy Lee Wallace's 1990 miniseries.
     file_poster: config/posters/IT.jpeg
-    plex_search:
-      all:
-        title: it
-        title.not: sharknado
-        genre:
-          - horror
-          - fantasy
+    tmdb_collection: 477962
 
   Insidious:
     template: { name: Franchise }
@@ -1670,25 +1613,14 @@ collections:
   Knives Out:
     template: { name: Franchise }
     summary: Knives Out is a 2019 American mystery film written and directed by Rian Johnson and produced by Johnson and Ram Bergman. It follows a master detective, Benoit Blanc, investigating the death of the patriarch of a wealthy, dysfunctional family.
-    file_poster: config/posters/Knives Out.png
-    plex_search:
-      any:
-        title:
-          - knives out
-          - glass onion
+    file_poster: config/posters/Knives Out.jpg
+    tmdb_collection: 722971
 
   Kingsman:
     template: { name: Franchise }
     summary: Kingsman is a British film franchise, consisting of action-comedy films, that follow the missions of the Kingsman, a fictional secret service organization. Based on the comic book series of the same name created by Mark Millar and Dave Gibbons, a 2012 Marvel Comics release, the film franchise debut has garnered success both financially and critically.
     file_poster: config/posters/Kingsman.png
-    plex_search:
-      all:
-        title: king
-        genre:
-          - thriller
-          - adventure
-          - action
-        title.not: jurassic
+    tmdb_collection: 391860
 
   Kickboxer:
     template: { name: Franchise }
@@ -1881,11 +1813,7 @@ collections:
     template: { name: Franchise }
     summary: Meet the Parents is a film series following the character Greg Focker as he interacts with his family and in-laws. The series primarily stars Stiller, Robert De Niro, Blythe Danner, Dustin Hoffman, Barbra Streisand, Owen Wilson, and Teri Polo.
     file_poster: config/posters/Meet the Parents.jpg
-    plex_search:
-      all:
-        actor:
-          - robert de niro
-          - ben stiller
+    tmdb_collection: 51509
 
   Men in Black:
     template: { name: Franchise }
@@ -1915,11 +1843,7 @@ collections:
     template: { name: Franchise }
     summary: The Meg is a science fiction action film series directed by Jon Turteltaub with screenplay by Dean Georgaris, Jon Hoeber, and Erich Hoeber, loosely based on the 1997 book Meg A Novel of Deep Terror by Steve Alten. The film stars Jason Statham, Li Bingbing, Rainn Wilson, Ruby Rose, Winston Chao, and Cliff Curtis. A group of scientists encounters a 23 m megalodon shark while on a rescue mission on the floor of the Pacific Ocean.
     file_poster: config/posters/The Meg.jpg
-    plex_search:
-      any:
-        title:
-          - the meg
-          - meg 2
+    tmdb_collection: 742536
 
   Mesrine:
     template: { name: Franchise }
@@ -1974,17 +1898,7 @@ collections:
     template: { name: Franchise }
     summary: The Girl with the Dragon Tattoo is an american-swedish thriller based on author Stieg Larssons book Män som hatar kvinnor. The main characthers Mikael Blomkvist and Lisbeth Salander are played by Daniel Craig and Rooney Mara.
     file_poster: config/posters/The Millennium.jpeg
-    plex_search:
-      all:
-        title: the girl
-        genre:
-          - thriller
-          - crime
-        title.not:
-          - train
-          - door
-          - kiss
-          - unknown
+    tmdb_collection: 24761
 
   Mission Impossible:
     template: { name: Franchise }
@@ -2032,10 +1946,7 @@ collections:
     template: { name: Franchise }
     summary: The film tells a fictional story in which a duty team sent from a troop to repair a field antenna suddenly falls into an ambush. One short and one long term soldier, the only ones to survive, finally put an end to the war between themselves and join hands for the struggle against the real enemy, carrying only two rifles, four magazines, a broken antenna and their survival instincts. The mountain is a heroic tale of two young soldiers who discover brotherhood and fortitude.
     file_poster: config/posters/The Mountain.png
-    plex_search:
-      all:
-        title: the mountain
-        title.not: between us
+    tmdb_collection: 474026
 
   Nymphomaniac:
     template: { name: Franchise }
@@ -2349,16 +2260,7 @@ collections:
     template: { name: Franchise }
     summary: Psycho is an American horror franchise consisting of six films loosely based on the Psycho novels by Robert Bloch, namely Psycho, Psycho II, Psycho III, Bates Motel, Psycho IV The Beginning, the 1998 remake of the original film.
     file_poster: config/posters/Psycho.jpg
-    plex_search:
-      all:
-        title: psycho
-        year.not:
-          - 2020
-          - 2012
-          - 2000
-        genre:
-          - horror
-          - thriller
+    tmdb_collection: 119674
 
   The Purge:
     template: { name: Franchise }
@@ -2576,12 +2478,7 @@ collections:
     template: { name: Franchise }
     summary: Scream is an American slasher film franchise created by Kevin Williamson and Wes Craven. Starring Neve Campbell, Courteney Cox, and David Arquette, the film series grossed over $604 million in worldwide box-office receipts and consists of four motion pictures directed by Craven.
     file_poster: config/posters/Scream.jpeg
-    plex_search:
-      all:
-        title: scream
-        genre:
-          - mystery
-          - horror
+    tmdb_collection: 2602
 
   Scanners:
     template: { name: Franchise }
@@ -2595,12 +2492,7 @@ collections:
     template: { name: Franchise }
     summary: Searching from 2018 is a film series thriller directed by Aneesh Chaganty and starring John Cho, Debra Messing, and Michelle La. The movie is unique in that it takes place entirely on computer screens and smartphones, and follows the story of a father named David Kim (John Cho) who searches for his missing daughter, Margot (Michelle La), using her digital footprint.
     file_poster: config/posters/Searching.png
-    plex_search:
-      all:
-        title.not: run
-        writer:
-          - aneesh chaganty
-          - sev ohanian
+    tmdb_collection: 1145924
 
   Sharknado:
     template: { name: Franchise }
@@ -2624,15 +2516,6 @@ collections:
       all:
         title: sinbad
 
-  Sinbad (Anime):
-    template: { name: Franchise }
-    summary: Sinbad is a series of Japanese animated family adventure films inspired by One Thousand and One Nights and produced by Nippon Animation and Shirogumi.
-    file_poster: config/posters/Sinbad Anime.png
-    plex_search:
-      all:
-        title: sinbad
-        country: japan
-
   The Street Fighter:
     template: { name: Franchise }
     file_poster: config/posters/The Street Fighter.png
@@ -2653,12 +2536,7 @@ collections:
     template: { name: Franchise }
     summary: The Speed movie franchise consists of two films, Speed and Speed 2 Cruise Control. The first movie, released in 1994, starred Keanu Reeves as LAPD officer Jack Traven and Sandra Bullock as Annie Porter, a passenger on a bus rigged with a bomb that will explode if the bus goes below 50 miles per hour. The film was a critical and commercial success, known for its intense action sequences and tense suspense.
     file_poster: config/posters/Speed.jpeg
-    plex_search:
-      all:
-        title: speed
-        genre:
-          - action
-          - adventure
+    tmdb_collection: 43064
 
   Sleepaway Camp:
     template: { name: Franchise }
@@ -2700,20 +2578,11 @@ collections:
       all:
         title: shaft
 
-  Shanghai Knights:
+  Shanghai:
     template: { name: Franchise }
     summary: Shanghai is a series of martial arts action comedy films based on the characters written by Alfred Gough and Miles Millar.
-    file_poster: config/posters/Shanghai Knights.png
-    plex_search:
-      all:
-        title: shanghai
-        title.not:
-          - the lady
-          - express
-        actor: jackie chan
-        year.not:
-          - 1947
-          - 1932
+    file_poster: config/posters/Shanghai.jpeg
+    tmdb_collection: 59567
 
   Sherlock Holmes:
     template: { name: Franchise }
@@ -2728,11 +2597,7 @@ collections:
     template: { name: Franchise }
     summary: The Shining is an American supernatural horror media franchise centered on the 1977 novel by Stephen King of the same name.
     file_poster: config/posters/The Shining.png
-    plex_search:
-      any:
-        title:
-          - shining
-          - doctor sleep
+    tmdb_collection: 530064
 
   Sicario:
     template: { name: Franchise }
@@ -2787,10 +2652,7 @@ collections:
     template: { name: Franchise }
     summary: Space Jam is a 1996 American live-action/animated sports comedy film directed by Joe Pytka, with animation sequences directed by Bruce W. Smith and Tony Cervone, and written by Leo Benvenuti, Steve Rudnick, Timothy Harris and Herschel Weingrod.
     file_poster: config/posters/Space Jam.jpg
-    plex_search:
-      all:
-        title: space jam
-        title.not: teen titan
+    tmdb_collection: 722961
 
   SPL Killzone:
     template: { name: Franchise }
@@ -2876,12 +2738,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Taxi.png
     summary: Taxi is a 1998 French action-comedy film directed by Gérard Pirès and starring Samy Naceri and Frédéric Diefenthal. The film follows the story of Daniel Morales (Naceri), a streetwise pizza delivery boy who teams up with a bumbling police officer named Émilien Coutant-Kerbalec (Diefenthal) to catch a gang of bank robbers.
-    plex_search:
-      all:
-        title: taxi
-        genre:
-          - action
-          - comedy
+    tmdb_collection: 211721
 
   Terrifier:
     template: { name: Franchise }
@@ -2991,13 +2848,7 @@ collections:
     template: { name: Franchise }
     summary: The Thing is a 1982 American science fiction horror film directed by John Carpenter from a screenplay by Bill Lancaster.
     file_poster: config/posters/The Thing.jpeg
-    plex_search:
-      all:
-        title: the thing
-        title.not:
-          - another world
-          - wild
-        genre: horror
+    tmdb_collection: 479888
 
   Titans:
     template: { name: Franchise }
@@ -3278,11 +3129,7 @@ collections:
     template: { name: Franchise }
     summary: X is a slasher film series written, directed, produced and edited by Ti West. It stars Mia Goth, Jenna Ortega, Martin Henderson, Brittany Snow, Owen Campbell, Stephen Ure and Scott Mescudi. The film's plot follows a cast and crew who gather to make a pornographic film on an elderly couple's rural Texas property, but find themselves threatened by an unlikely killer.
     file_poster: config/posters/X.png
-    plex_search:
-      all:
-        director: ti west
-        genre: horror
-        actor: mia goth
+    tmdb_collection: 950289
 
   Zombieland:
     template: { name: Franchise }

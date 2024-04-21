@@ -2,6 +2,20 @@
 
 Feel free removing any unwanted collections/overlays by simply deleting the file path from your config file or by deleting them individually inside each yml file. It goes without saying any collection can be tweaked to your liking, though I would refrain from editing anything unless you know what you're doing, PMM is very sensitive.
 
+What does the star icon next to the rating overlay on posters mean you might ask? well, they represent each service like Trakt, IMDb top rated lists:
+
+- Yellow star = **IMDb Top 250**
+
+- Red Star = **Trakt Top Rated**
+
+- Green Star = **Letterboxd Top 250**
+
+- Turquoise Star = **TMDb Top Rated**
+
+- Blue Star = **MyAnimeList Top Rated**
+
+- Grey Star = **AniDB Top Rated**
+
 ## Collection categories
 
 **Collections** are created for each library for different purposes and categories while also showing up on your home screen dynamically. From Movie series, trending, top rated, genres and much more.

@@ -276,7 +276,11 @@ collections:
         title: Nausicaä
 
   Sony Pictures:
-    template: { name: Plex, studio: "Sony Pictures, Sony Pictures Classics, Sony Pictures Home Entertainment" }
+    template:
+      {
+        name: Plex,
+        studio: "Sony Pictures, Sony Pictures Classics, Sony Pictures Home Entertainment",
+      }
     summary: Sony Pictures Entertainment is an American diversified multinational mass media and entertainment studio conglomerate that produces, acquires, and distributes filmed entertainment (theatrical motion pictures, television programs, and recorded videos) through multiple platforms. Through an intermediate holding company called Sony Film Holding Inc.
     file_poster: config/posters/Sony Pictures.png
 
@@ -365,7 +369,7 @@ collections:
     file_poster: config/posters/WWE Studios.png
 
   ##########################################################
-  #                 STREAMING SERVICES 3.0                 #
+  #                 STREAMING SERVICES 4.0                 #
   ##########################################################
 
   # Original movies from the most popular streaming services
@@ -376,7 +380,7 @@ collections:
       - monthly(1)
       - monthly(2)
     file_poster: config/posters/Apple TV+.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/appletv-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/appletv-originals?sort=rank,asc
 
   Disney+:
     template: { name: Streaming }
@@ -385,7 +389,7 @@ collections:
       - monthly(7)
       - monthly(8)
     file_poster: config/posters/Disney+.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/disney-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/disney-originals?sort=rank,asc
 
   Max:
     template: { name: Streaming }
@@ -395,17 +399,16 @@ collections:
       - monthly(14)
     file_poster: config/posters/Max.png
     trakt_list:
-      - https://trakt.tv/users/plexmetamanager/lists/hbo-max-originals?sort=rank,asc
+      - https://trakt.tv/users/plexmetamanager/lists/max-originals?sort=rank,asc
       - https://trakt.tv/users/weealdo/lists/hbo-max-original-movies-copy?sort=released,asc
       - https://trakt.tv/users/crossoverdeseries/lists/max-originals-part-of-max?sort=released,asc
-      - https://trakt.tv/users/plexmetamanager/lists/max-originals?sort=rank,asc
 
   HULU:
     template: { name: Streaming }
     summary: HULU Original movies.
     visible_shared: monthly(30)
     file_poster: config/posters/HULU.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/hulu-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/hulu-originals?sort=rank,asc
 
   Netflix:
     template: { name: Streaming }
@@ -414,7 +417,7 @@ collections:
       - monthly(25)
       - monthly(26)
     file_poster: config/posters/Netflix.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/netflix-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/netflix-originals?sort=rank,asc
 
   Paramount+:
     template: { name: Streaming }
@@ -428,7 +431,7 @@ collections:
     template: { name: Streaming }
     visible_library: true
     file_poster: config/posters/Peacock.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/peacock-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/peacock-originals?sort=rank,asc
 
   Prime Video:
     template: { name: Streaming }
@@ -437,4 +440,4 @@ collections:
       - monthly(19)
       - monthly(20)
     file_poster: config/posters/Prime Video.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/amazon-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/plexmetamanager/lists/amazon-originals?sort=rank,asc

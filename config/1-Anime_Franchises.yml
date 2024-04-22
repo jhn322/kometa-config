@@ -48,7 +48,7 @@ collections:
 
   Beyblade:
     template: { name: Franchise }
-    file_poster: config/posters/Beyblade.jpg
+    file_poster: config/posters/Beyblade.png
     plex_search:
       all:
         title: beyblade

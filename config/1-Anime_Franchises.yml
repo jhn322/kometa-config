@@ -1,5 +1,5 @@
 ######################################################
-#                 FRANCHISES 6.0                     #
+#                 FRANCHISES 7.0                     #
 ######################################################
 
 templates:
@@ -83,7 +83,7 @@ collections:
 
   Cutie Honey:
     template: { name: Franchise }
-    file_poster: config/posters/Cutie Honey.jpeg
+    file_poster: config/posters/Cutie Honey.png
     plex_search:
       all:
         title: cutie honey
@@ -233,14 +233,14 @@ collections:
 
   Mobile Suit Gundam:
     template: { name: Franchise }
-    file_poster: config/posters/Mobile Suit Gundam.jpeg
+    file_poster: config/posters/Mobile Suit Gundam.png
     plex_search:
       all:
         title: gundam
 
   Naruto:
     template: { name: Franchise }
-    file_poster: config/posters/Naruto.jpg
+    file_poster: config/posters/Naruto.png
     plex_search:
       all:
         title: naruto
@@ -297,7 +297,7 @@ collections:
 
   Super Dimension:
     template: { name: Franchise }
-    file_poster: config/posters/Super Dimension.jpg
+    file_poster: config/posters/Super Dimension.png
     plex_search:
       all:
         title: super dimension

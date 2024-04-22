@@ -1,5 +1,5 @@
 ######################################################
-#                  FRANCHISES 7.0                    #
+#                  FRANCHISES 8.0                    #
 ######################################################
 
 templates:
@@ -13,7 +13,7 @@ collections:
   Avatar Universe:
     template: { name: Franchise }
     summary: Avatar is an animated television series set in a world where certain people are born with the ability to manipulate one of the four classical elements water, earth, fire, and air. The series follows the story of Aang, the last surviving Airbender and the Avatar, a person capable of bending all four elements and tasked with maintaining balance in the world.
-    file_poster: config/posters/Avatar Universe.jpeg
+    file_poster: config/posters/Avatar Universe.png
     trakt_list: https://trakt.tv/users/abhikbhatia/lists/avatar-studios?sort=released,desc
     plex_search:
       any:
@@ -32,7 +32,7 @@ collections:
   CSI:
     template: { name: Franchise }
     summary: The CSI (Crime Scene Investigation) TV franchise is a highly successful and influential series of crime procedural dramas that has captivated audiences worldwide. It was created by Anthony E. Zuiker and originally premiered in 2000.
-    file_poster: config/posters/CSI.jpg
+    file_poster: config/posters/CSI.png
     plex_search:
       all:
         title: CSI
@@ -40,7 +40,7 @@ collections:
   DC Television:
     template: { name: Franchise }
     summary: DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner being published in 1937.
-    file_poster: config/posters/DC Television.jpeg
+    file_poster: config/posters/DC Television.png
     trakt_list:
       - https://trakt.tv/users/caspian024/lists/dc-tv?sort=released,asc
       - https://trakt.tv/users/asif79/lists/dc-tv?sort=rank,asc
@@ -110,7 +110,7 @@ collections:
   Marvel Cinematic Universe:
     template: { name: Franchise }
     summary: A collection of all Marvel Cinmatic Universe TV shows.
-    file_poster: config/posters/Marvel Cinematic Universe.jpeg
+    file_poster: config/posters/Marvel Cinematic Universe.png
     trakt_list: https://trakt.tv/users/neohexane/lists/mcu-tv?sort=released,asc
     plex_search:
       all:
@@ -123,15 +123,18 @@ collections:
   Money Heist:
     template: { name: Franchise }
     summary: Money Heist, also known as La Casa de Papel, is a Spanish television crime drama series. The show follows a group of criminals, led by a mastermind known as "The Professor," who plan and execute the biggest heist in history robbing the Royal Mint of Spain.
-    file_poster: config/posters/Money Heist.jpeg
+    file_poster: config/posters/Money Heist.png
     plex_search:
-      all:
-        title: money heist
+      any:
+        title:
+          - money heist
+          - berlin
+        title.not: babylon
 
   NCIS:
     template: { name: Franchise }
     summary: The NCIS (Naval Criminal Investigative Service) TV franchise is a highly successful and enduring series of crime procedural dramas that focus on the investigations conducted by the fictional NCIS agency, which is responsible for solving crimes involving members of the United States Navy and Marine Corps.
-    file_poster: config/posters/NCIS.jpg
+    file_poster: config/posters/NCIS.png
     plex_search:
       all:
         title: NCIS
@@ -139,7 +142,7 @@ collections:
   Peanuts:
     template: { name: Franchise }
     summary: Charlie Brown is the central protagonist of the long-running comic strip Peanuts, syndicated in daily and Sunday newspapers in numerous countries all over the world.
-    file_poster: config/posters/Peanuts.jpg
+    file_poster: config/posters/Peanuts.png
     plex_search:
       any:
         title:
@@ -154,6 +157,7 @@ collections:
       all:
         title: planet
         title.not: sheen
+        genre.not: animtaion
 
   Power Universe:
     template: { name: Franchise }
@@ -168,7 +172,7 @@ collections:
   Scooby-Doo:
     template: { name: Franchise }
     summary: Scooby-Doo is an American animated media franchise comprising many animated television series produced from 1969 to the present, as well as their derivative media.
-    file_poster: config/posters/Scooby-Doo!.jpg
+    file_poster: config/posters/Scooby-Doo!.png
     plex_search:
       any:
         title:
@@ -178,7 +182,7 @@ collections:
   Sonic the Hedgehog:
     template: { name: Franchise }
     summary: Sonic the Hedgehog is a Japanese video game series and media franchise created by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
-    file_poster: config/posters/Sonic TV.jpeg
+    file_poster: config/posters/Sonic TV.png
     plex_search:
       all:
         title: sonic
@@ -194,7 +198,7 @@ collections:
   Star Trek:
     template: { name: Franchise }
     summary: Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series and quickly became a worldwide pop-culture phenomenon.
-    file_poster: config/posters/Star Trek TV.jpg
+    file_poster: config/posters/Star Trek TV.png
     plex_search:
       all:
         title: star trek
@@ -202,7 +206,7 @@ collections:
   Star Wars:
     template: { name: Franchise }
     summary: Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
-    file_poster: config/posters/Star Wars TV.jpeg
+    file_poster: config/posters/Star Wars TV.png
     trakt_list: https://trakt.tv/users/arachn0id/lists/star-wars-tv-series?sort=released,desc
     plex_search:
       any:
@@ -213,7 +217,7 @@ collections:
   Teenage Mutant Ninja Turtles:
     template: { name: Franchise }
     summary: Teenage Mutant Ninja Turtles, commonly abbreviated as TMNT, is a media franchise created by the comic book artists Kevin Eastman and Peter Laird. It follows Leonardo, Donatello, Raphael and Michelangelo, four anthropomorphic turtle brothers trained in ninjutsu who fight evil in New York City.
-    file_poster: config/posters/Teenage Mutant Ninja Turtles TV.jpeg
+    file_poster: config/posters/Teenage Mutant Ninja Turtles TV.png
     plex_search:
       all:
         title: teenage mutant ninja
@@ -221,7 +225,7 @@ collections:
   Tom and Jerry:
     template: { name: Franchise }
     summary: Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry.
-    file_poster: config/posters/Tom and Jerry.jpg
+    file_poster: config/posters/Tom and Jerry TV.png
     plex_search:
       all:
         title: tom jerry
@@ -229,7 +233,7 @@ collections:
   Transformers:
     template: { name: Franchise }
     summary: Transformers is a media franchise produced by American toy company Hasbro and Japanese toy company Takara Tomy. It primarily follows the Autobots and the Decepticons, two alien robot factions at war that can transform into other forms, such as vehicles and animals.
-    file_poster: config/posters/Transformers TV.jpeg
+    file_poster: config/posters/Transformers TV.png
     plex_search:
       all:
         title: transformers
@@ -253,7 +257,7 @@ collections:
   The Witcher:
     template: { name: Franchise }
     summary: The Witcher is a dark fantasy series, originally a series of books written by Polish author Andrzej Sapkowski, which has been adapted into various media, including a popular Netflix television series. The story follows Geralt of Rivia, a skilled monster hunter known as a "Witcher", as he navigates a world filled with danger, magic, and political intrigue.
-    file_poster: config/posters/The Witcher.jpg
+    file_poster: config/posters/The Witcher.png
     plex_search:
       all:
         title: witcher

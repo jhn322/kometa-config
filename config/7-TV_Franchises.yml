@@ -156,7 +156,7 @@ collections:
       all:
         title: planet
         title.not: sheen
-        genre.not: animtaion
+        genre.not: animation
 
   Power Universe:
     template: { name: Franchise }

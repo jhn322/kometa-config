@@ -129,7 +129,6 @@ collections:
         title:
           - money heist
           - berlin
-        title.not: babylon
 
   NCIS:
     template: { name: Franchise }

@@ -1,8 +1,8 @@
 version: "2.1"
 services:
-  plex-meta-manager-operations:
-    image: lscr.io/linuxserver/plex-meta-manager:develop
-    container_name: plex-meta-manager-operations
+  kometa-operations:
+    image: kometateam/kometa:develop
+    container_name: kometa-operations
     environment:
       - PUID=1000
       - PGID=1000
@@ -17,9 +17,9 @@ services:
       - ./config:/config
     restart: unless-stopped
 
-  plex-meta-manager-overlays:
-    image: lscr.io/linuxserver/plex-meta-manager:develop
-    container_name: plex-meta-manager-overlays
+  kometa-overlays:
+    image: kometateam/kometa:develop
+    container_name: kometa-overlays
     environment:
       - PUID=1000
       - PGID=1000
@@ -34,9 +34,9 @@ services:
       - ./config:/config
     restart: unless-stopped
 
-  plex-meta-manager-collections:
-    image: lscr.io/linuxserver/plex-meta-manager:develop
-    container_name: plex-meta-manager-collections
+  kometa-collections:
+    image: kometateam/kometa:develop
+    container_name: kometa-collections
     environment:
       - PUID=1000
       - PGID=1000
@@ -54,5 +54,5 @@ services:
 #cd /your/file/path/to/Plex-meta-manager
 #sudo docker-compose up -d
 
-#docker pull meisnate12/plex-meta-manager
+#docker pull kometateam/kometa
 #sudo docker-compose up -d

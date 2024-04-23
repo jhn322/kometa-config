@@ -1,12 +1,12 @@
-# Plex Meta Manager Config (v1.20 and later)
+# Kometa Config (Formerly Plex Meta Manager)
 
-My Plex Meta Manager config for automatically creating collections and overlays for Plex. These files were originally created using templates and has since then been rewritten/edited completely and updated regularly by me since 2021. As far as overlays go I have put an emphasis on providing useful info at a glance without going over the top, while having a very comprehensive yet not too overwhelming amount of collections.
+My Kometa config for automatically creating collections and overlays for Plex. These files were originally created using templates and has since then been rewritten/edited completely and updated regularly by me since 2021. As far as overlays go I have put an emphasis on providing useful info at a glance without going over the top, while having a very comprehensive yet not too overwhelming amount of collections.
 
 For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb and more in your config.yml file.
 
 ## Install (Docker Compose)
 
-This will install Plex meta manager using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
+This will install Kometa using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
 
 1. Download this repository.
 2. Add **your** Plex IP-adress and token to config.yml.
@@ -15,9 +15,9 @@ This will install Plex meta manager using docker compose with a daily run schedu
 5. Open terminal and navigate to your path:
 
 ```powershell
-Windows: "cd C:\path\to\PMM-folder"
+Windows: "cd C:\path\to\Kometa-folder"
 
-Linux: "cd /path/to/PMM-folder"
+Linux: "cd /path/to/Kometa-folder"
 ```
 
 6. Now paste this in the terminal to create the containers:
@@ -42,12 +42,12 @@ Linux: "sudo docker run -it -v "/path/to/PMM-folder/config:/config:rw" meisnate1
 
 ## Update PMM
 
-This will update Plex meta manager to the latest branch version.
+This will update Kometa to the latest branch version.
 
 ```powershell
-Stable: docker pull meisnate12/plex-meta-manager
-Develop: docker pull meisnate12/plex-meta-manager:develop
-Nightly: docker pull meisnate12/plex-meta-manager:nightly
+Stable: docker pull kometateam/kometa
+Develop: docker pull kometateam/kometa:develop
+Nightly: docker pull kometateam/kometa:nightly
 ```
 
 ## Targeted library types:

@@ -1,57 +1,57 @@
 version: "2.1"
 services:
   kometa-operations:
-    image: kometateam/kometa:develop
+    image: lscr.io/linuxserver/kometa:develop
     container_name: kometa-operations
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Stockholm
-      - PMM_OPERATIONS_ONLY=true
-      - PMM_CONFIG=/config/config.yml #optional
-      - PMM_TIME=08:00 #optional
-      - PMM_RUN=False #optional
-      - PMM_TEST=False #optional
-      - PMM_NO_MISSING=False #optional
+      - KOMETA_OPERATIONS_ONLY=true
+      - KOMETA_CONFIG=/config/config.yml #optional
+      - KOMETA_TIME=08:00 #optional
+      - KOMETA_RUN=False #optional
+      - KOMETA_TEST=False #optional
+      - KOMETA_NO_MISSING=False #optional
     volumes:
       - ./config:/config
     restart: unless-stopped
 
   kometa-overlays:
-    image: kometateam/kometa:develop
+    image: lscr.io/linuxserver/kometa:develop
     container_name: kometa-overlays
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Stockholm
-      - PMM_OVERLAYS_ONLY=true
-      - PMM_CONFIG=/config/config.yml #optional
-      - PMM_TIME=08:20 #optional
-      - PMM_RUN=False #optional
-      - PMM_TEST=False #optional
-      - PMM_NO_MISSING=False #optional
+      - KOMETA_OVERLAYS_ONLY=true
+      - KOMETA_CONFIG=/config/config.yml #optional
+      - KOMETA_TIME=08:20 #optional
+      - KOMETA_RUN=False #optional
+      - KOMETA_TEST=False #optional
+      - KOMETA_NO_MISSING=False #optional
     volumes:
       - ./config:/config
     restart: unless-stopped
 
   kometa-collections:
-    image: kometateam/kometa:develop
+    image: lscr.io/linuxserver/kometa:develop
     container_name: kometa-collections
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Stockholm
-      - PMM_COLLECTIONS_ONLY=true
-      - PMM_CONFIG=/config/config.yml #optional
-      - PMM_TIME=09:10 #optional
-      - PMM_RUN=False #optional
-      - PMM_TEST=False #optional
-      - PMM_NO_MISSING=False #optional
+      - KOMETA_COLLECTIONS_ONLY=true
+      - KOMETA_CONFIG=/config/config.yml #optional
+      - KOMETA_TIME=09:10 #optional
+      - KOMETA_RUN=False #optional
+      - KOMETA_TEST=False #optional
+      - KOMETA_NO_MISSING=False #optional
     volumes:
       - ./config:/config
     restart: unless-stopped
 
-#cd /your/file/path/to/Plex-meta-manager
+#cd /your/file/path/to/Kometa
 #sudo docker-compose up -d
 
 #docker pull kometateam/kometa

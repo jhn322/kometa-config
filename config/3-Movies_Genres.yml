@@ -386,7 +386,7 @@ collections:
     visible_shared: weekly(saturday)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/plexmetamanager/lists/movies-based-on-true-stories?sort=rank,asc
+      - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories?sort=rank,asc
       - https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
 
   Bollywood:
@@ -403,7 +403,7 @@ collections:
     visible_shared: monthly(23)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/plexmetamanager/lists/movies-based-on-books?sort=rank,asc
+      - https://trakt.tv/users/k0meta/lists/movies-based-on-books?sort=rank,asc
       - https://trakt.tv/users/trilled-meow/lists/book-adaptations?sort=popularity,asc
       - https://trakt.tv/users/me-l/lists/book-adaptations?sort=released,asc
       - https://trakt.tv/users/lilybeexo/lists/book-adaptions?sort=rank,asc

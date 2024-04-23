@@ -19,7 +19,7 @@ collections:
     file_poster: config/posters/Christmas.png
     trakt_list:
       - https://trakt.tv/users/ad76/lists/hallmark-christmas?sort=released,asc
-      - https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie?sort=released,asc
+      - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/questdvd/lists/absolute-hayes-christmas-classics
       - https://trakt.tv/users/littlestella3/lists/christmas

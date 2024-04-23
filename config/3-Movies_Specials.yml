@@ -56,7 +56,7 @@ collections:
     summary: Family Friendly recognizes outstanding entertainment with an official seal for quality and impact. Age Approved Selections include age-appropriate media with the potential to spark family conversations.
     visible_shared: monthly(25)
     file_poster: config/posters/Family Friendly.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/common-sense-selection-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-movies
 
   Longest: # Longest movies on plex
     template: { name: Special Smart Other }

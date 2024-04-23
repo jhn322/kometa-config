@@ -369,7 +369,7 @@ collections:
     file_poster: config/posters/WWE Studios.png
 
   ##########################################################
-  #                 STREAMING SERVICES 4.0                 #
+  #                 STREAMING SERVICES 5.0                 #
   ##########################################################
 
   # Original movies from the most popular streaming services
@@ -380,7 +380,7 @@ collections:
       - monthly(1)
       - monthly(2)
     file_poster: config/posters/Apple TV+.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/appletv-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/appletv-originals
 
   Disney+:
     template: { name: Streaming }
@@ -389,7 +389,7 @@ collections:
       - monthly(7)
       - monthly(8)
     file_poster: config/posters/Disney+.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/disney-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/disney-originals?sort=rank,asc
 
   Max:
     template: { name: Streaming }
@@ -399,7 +399,8 @@ collections:
       - monthly(14)
     file_poster: config/posters/Max.png
     trakt_list:
-      - https://trakt.tv/users/plexmetamanager/lists/max-originals?sort=rank,asc
+      - https://trakt.tv/users/k0meta/lists/max-originals?sort=rank,asc
+      - https://trakt.tv/users/k0meta/lists/hbo-max-originals?sort=rank,asc
       - https://trakt.tv/users/weealdo/lists/hbo-max-original-movies-copy?sort=released,asc
       - https://trakt.tv/users/crossoverdeseries/lists/max-originals-part-of-max?sort=released,asc
 
@@ -408,7 +409,7 @@ collections:
     summary: HULU Original movies.
     visible_shared: monthly(30)
     file_poster: config/posters/HULU.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/hulu-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/hulu-originals?sort=rank,asc
 
   Netflix:
     template: { name: Streaming }
@@ -417,7 +418,7 @@ collections:
       - monthly(25)
       - monthly(26)
     file_poster: config/posters/Netflix.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/netflix-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/netflix-originals?sort=rank,asc
 
   Paramount+:
     template: { name: Streaming }
@@ -425,13 +426,13 @@ collections:
     visible_shared: monthly(31)
     visible_library: true
     file_poster: config/posters/Paramount+.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/paramount-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/paramount-originals?sort=rank,asc
 
   Peacock:
     template: { name: Streaming }
     visible_library: true
     file_poster: config/posters/Peacock.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/peacock-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/peacock-originals?sort=rank,asc
 
   Prime Video:
     template: { name: Streaming }
@@ -440,4 +441,4 @@ collections:
       - monthly(19)
       - monthly(20)
     file_poster: config/posters/Prime Video.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/amazon-originals?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/amazon-originals?sort=rank,asc

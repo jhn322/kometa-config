@@ -320,14 +320,14 @@ collections:
     visible_shared: monthly(8)
     summary: Shows based on true events.
     file_poster: config/posters/Based on a True Story TV.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-true-stories?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-true-stories?sort=rank,asc
 
   Book Adaption:
     template: { name: Genre Other }
     summary: Shows based on book novels.
     visible_shared: monthly(11)
     file_poster: config/posters/Book Adaption TV.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-books?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-books
 
   British Detective:
     template: { name: Genre Other }
@@ -353,7 +353,7 @@ collections:
     summary: Shows based on comic books.
     file_poster: config/posters/Comic Book TV.png
     visible_shared: monthly(14)
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-comics?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-comics
 
   Courtroom:
     template: { name: Genre Other }
@@ -608,7 +608,7 @@ collections:
     summary: Shows lightly or stritcly based of different types of video games.
     file_poster: config/posters/Video Game TV.png
     visible_shared: monthly(18)
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/shows-based-on-video-games?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-video-games?sort=rank,asc
 
   Zombie:
     template: { name: Genre Other }

@@ -32,15 +32,15 @@ Linux: "sudo docker-compose up -d"
 
 ## Docker run
 
-This will run through the entire config one time, It will **not** keep PMM updated on a schedule.
+This will run through the entire config one time, It will **not** keep Kometa updated on a schedule.
 
 ```powershell
-Windows: "docker run -it -v "C:\path\to\PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
+Windows: "docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run"
 
-Linux: "sudo docker run -it -v "/path/to/PMM-folder/config:/config:rw" meisnate12/plex-meta-manager --run"
+Linux: "sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run"
 ```
 
-## Update PMM
+## Update Kometa
 
 This will update Kometa to the latest branch version.
 

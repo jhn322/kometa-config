@@ -171,7 +171,7 @@ collections:
   Scooby-Doo:
     template: { name: Franchise }
     summary: Scooby-Doo is an American animated media franchise comprising many animated television series produced from 1969 to the present, as well as their derivative media.
-    file_poster: config/posters/Scooby-Doo!.png
+    file_poster: config/posters/Scooby-Doo! TV.png
     plex_search:
       any:
         title:

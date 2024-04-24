@@ -2451,7 +2451,7 @@ collections:
   Scooby-Doo!:
     template: { name: Franchise }
     summary: The animated series Scooby-Doo has been adapted and appeared in several feature-length films since its debut in 1969, including the series of animated direct-to-video films that have been in production since 1998.
-    file_poster: config/posters/Scooby-Doo!.jpg
+    file_poster: config/posters/Scooby-Doo!.png
     plex_search:
       all:
         title: Scoob

@@ -787,14 +787,6 @@ collections:
     file_poster: config/posters/Divergent.jpg
     tmdb_collection: 283579
 
-  Deadpool:
-    template: { name: Franchise }
-    summary: Deadpool is a 2016 American superhero film based on the Marvel Comics character of the same name. Distributed by 20th Century Fox, it is a spin-off in the X-Men film series and the eighth installment overall.
-    file_poster: config/posters/Deadpool.jpeg
-    plex_search:
-      all:
-        title: deadpool
-
   Death Race:
     template: { name: Franchise }
     file_poster: config/posters/Death Race.png
@@ -2553,14 +2545,6 @@ collections:
     plex_search:
       all:
         title: slumber party massacre
-
-  Spider-Verse:
-    template: { name: Franchise }
-    summary: Spider-Man Into the Spider-Verse is a 2018 American computer-animated superhero film featuring the Marvel Comics character Miles Morales Spider-Man, produced by Columbia Pictures and Sony Pictures Animation in association with Marvel Entertainment.
-    file_poster: config/posters/Spider-Verse.png
-    plex_search:
-      all:
-        title: spider-verse
 
   The Secret Garden:
     template: { name: Franchise }

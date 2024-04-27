@@ -216,9 +216,9 @@ collections:
     summary: The Apu is a trilogy consisting of three Bengali films directed by Satyajit Ray Pather Panchali (Song of the Little Road), Aparajito (The Unvanquished) and Apur Sansar (The World of Apu). The films completed 1955-1959 were based on two Bengali novels written by Bibhutibhushan Bandopadhyay Pather Panchali (1929) and Aparajito (1932). They are frequently listed among the greatest films of all time and are often cited as the greatest films in the history of Indian cinema. The original music for the films was composed by Ravi Shankar.
     trakt_list: https://trakt.tv/lists/official/the-apu-trilogy?sort=rank,asc
 
-  Arthur Trilogy:
+  Arthur and the Invisible:
     template: { name: Franchise }
-    file_poster: config/posters/Arthur Trilogy.png
+    file_poster: config/posters/Arthur and the Invisible.png
     summary: Arthur and the Invisibles.
     tmdb_collection: 85817
 
@@ -822,7 +822,7 @@ collections:
   Drunken Master:
     template: { name: Franchise }
     summary: The Drunken Master movie series is a of martial arts films that showcase the talents of actor Jackie Chan. The movies are known for their dynamic fight choreography and Jackie Chan's comedic style.
-    file_poster: config/posters/Drunken Master.jpeg
+    file_poster: config/posters/Drunken Master.png
     plex_search:
       all:
         title: Drunken Master
@@ -870,7 +870,7 @@ collections:
   Dune:
     template: { name: Franchise }
     summary: Dune, also known as the Dune Chronicles, is an American science fiction media franchise that originated with the 1965 novel Dune by Frank Herbert and has continued to add new publications.
-    file_poster: config/posters/Dune.jpg
+    file_poster: config/posters/Dune.png
     plex_search:
       all:
         title: dune
@@ -3020,16 +3020,16 @@ collections:
       all:
         title: v/h/s
 
-  Vengeance Trilogy:
+  Vengeance:
     template: { name: Franchise }
     summary: The Vengeance Trilogy is a series of three films, Each deals with the themes of revenge, violence, and salvation.
-    file_poster: config/posters/Vengeance Trilogy.jpg
+    file_poster: config/posters/Vengeance.png
     trakt_list: https://trakt.tv/users/dinkysniff/lists/collection-the-vengeance-trilogy?sort=released,desc
 
   The Visitors:
     template: { name: Franchise }
     summary: The franchise consists of several movies that blend historical and comedic elements.
-    file_poster: config/posters/The Visitors.jpeg
+    file_poster: config/posters/The Visitors.png
     plex_search:
       all:
         title: the visitors

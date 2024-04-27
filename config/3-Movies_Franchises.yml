@@ -216,9 +216,9 @@ collections:
     summary: The Apu is a trilogy consisting of three Bengali films directed by Satyajit Ray Pather Panchali (Song of the Little Road), Aparajito (The Unvanquished) and Apur Sansar (The World of Apu). The films completed 1955-1959 were based on two Bengali novels written by Bibhutibhushan Bandopadhyay Pather Panchali (1929) and Aparajito (1932). They are frequently listed among the greatest films of all time and are often cited as the greatest films in the history of Indian cinema. The original music for the films was composed by Ravi Shankar.
     trakt_list: https://trakt.tv/lists/official/the-apu-trilogy?sort=rank,asc
 
-  Arthur and the Invisible:
+  Arthur and the Invisibles:
     template: { name: Franchise }
-    file_poster: config/posters/Arthur and the Invisible.png
+    file_poster: config/posters/Arthur and the Invisibles.png
     summary: Arthur and the Invisibles.
     tmdb_collection: 85817
 

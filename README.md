@@ -39,14 +39,28 @@ Linux: "sudo docker-compose up -d"
 
 **Done!**
 
-## Docker run
+## Docker run (Optional/Testing)
 
-This will run through the entire config one time, It will **not** keep Kometa updated on a schedule.
+If you for some reason don't want to use Docker compose you can utilize run on a schedule:
 
 ```powershell
-Windows: "docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run"
+Linux:
+sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
+sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
+sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
 
-Linux: "sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run"
+Windows:
+docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
+docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
+docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
+```
+
+For testing purposes (single run):
+
+```powershell
+Windows: docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run
+
+Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
 ```
 
 ## Update Kometa

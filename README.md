@@ -10,7 +10,7 @@ This will install Kometa using docker compose with a daily run schedule for coll
 
 1. Download this repository.
 2. Add **your** Plex IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) to config.yml.
-3. Many collections in this config require a unique API key/token/id for a specific service like Trakt, MdbList etc. Below is a list of the ones I use and would highly **highly recommend** you to set up to have everthing working as expected:
+3. Many collections in this config require a unique API key/token/id for a specific service like Trakt, MdbList etc. Below is a list of the ones I use and would **highly recommend** you to set up to have everthing working as expected:
 
 - [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
 - [TMDb](https://metamanager.wiki/en/latest/config/tmdb/)

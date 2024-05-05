@@ -1103,7 +1103,7 @@ collections:
     template: { name: Franchise }
     summary: G.I. Joe is a military science fiction action film series, based on Hasbro's G.I. Joe toy, comic, and media franchises. Development for the first film began in 2003, but when the United States launched the invasion of Iraq in March 2003, Hasbro suggested adapting the Transformers instead. In 2009, the first film was released.
     file_poster: config/posters/G.I. Joe.jpg
-    trakt_list: https://trakt.tv/users/kubik0258/lists/g-i-joe?sort=released,desc
+    trakt_list: https://trakt.tv/users/yoru14/lists/g-i-joe?sort=rank,asc
 
   Ghostbusters:
     template: { name: Franchise }

@@ -80,7 +80,7 @@ collections:
         audience_rating.gte: 7.8
 
   #######################################################
-  #                    DECADES 9.5                      #
+  #                    DECADES 9.0                      #
   #######################################################
 
   # Best movies from 2000 and forward according to IMDb with a rating of 7.8 and up

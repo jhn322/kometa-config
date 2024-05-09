@@ -44,7 +44,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/caspian024/lists/dc-tv?sort=released,asc
       - https://trakt.tv/users/asif79/lists/dc-tv?sort=rank,asc
-      - https://trakt.tv/users/tropicsbear/lists/dc-tv?sort=released,desc
     plex_search:
       any:
         title:

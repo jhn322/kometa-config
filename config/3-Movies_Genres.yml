@@ -412,9 +412,9 @@ collections:
     template: { name: Genre Other }
     summary: In entomology, the term "bug" is often used to refer to a specific order of insects known as Hemiptera, which are characterized by having piercing and sucking mouthparts, a triangular-shaped thorax, and a distinctive set of front wings that are thickened at the base and membranous at the tip.
     file_poster: config/posters/Bug.png
-    imdb_list:
-      - https://www.imdb.com/list/ls000042333/
-      - https://www.imdb.com/list/ls059403838/
+    letterboxd_list:
+      - https://letterboxd.com/kerry/list/bugs/
+      - https://letterboxd.com/strongboy/list/bugs-bugs-bugs/
 
   Chick Flick:
     template: { name: Genre Other }
@@ -680,7 +680,7 @@ collections:
     summary: LGBTQ+ film is a genre of films where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
     file_poster: config/posters/LGBTQ+.png
     visible_shared: monthly(30)
-    imdb_list: https://www.imdb.com/list/ls062688328/
+    trakt_list: https://trakt.tv/users/thisisjonny/lists/lgbtqia
 
   Member Berries:
     template: { name: Genre Other }
@@ -752,7 +752,6 @@ collections:
     visible_shared: monthly(26)
     limit: 300
     imdb_list:
-      - https://www.imdb.com/list/ls026529469/
       - https://www.imdb.com/list/ls003065981/
       - https://www.imdb.com/list/ls052696439/
       - https://www.imdb.com/list/ls002784827/
@@ -1081,7 +1080,10 @@ collections:
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
     file_poster: config/posters/Sword & Sorcery.png
     visible_shared: weekly(sunday)
-    imdb_list: https://www.imdb.com/list/ls022909805
+    trakt_list:
+      - https://trakt.tv/users/hirkiti/lists/sword-sorcery?sort=rank,desc
+      - https://trakt.tv/users/rizreflects/lists/sword-sorcery?sort=rank,asc
+      - https://trakt.tv/users/siskourso/lists/sword-sorcery-movies?sort=released,desc
 
   Time Travel:
     template: { name: Genre Other }

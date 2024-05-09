@@ -26,18 +26,18 @@ templates:
 collections:
   IMDb - Best Recent: # IMDb specific chart lists
     template: { name: Movie Top }
-    sort_title: ++++_IMDb Best Rated
+    sort_title: ++++_IMDb Best Recent
     visible_shared:
       - monthly(19)
       - monthly(20)
-    summary: Movies rated 6.8 or higher on IMDb, released in the past 6 months.
+    summary: Movies rated 6.8 or higher on IMDb, released in the past 3 months.
     file_poster: config/posters/IMDb Best Recent.png
     smart_filter:
       sort_by: audience_rating.desc
       validate: false
       all:
         audience_rating.gte: 7.0
-        release: 180
+        release: 90
 
   IMDb - Top 250:
     template: { name: Movie Basic }
@@ -60,9 +60,9 @@ collections:
     template: { name: Movie }
     summary: Movies with over a million views on Letterboxd.
     file_poster: config/posters/Letterboxd Million Watched.png
-    imdb_list:
-      - https://www.imdb.com/list/ls527628941/
-      - https://www.imdb.com/list/ls564252143/
+    letterboxd_list:
+      - https://letterboxd.com/jabison/list/letterboxd-two-million-watched-club/
+      - https://letterboxd.com/alexanderh/list/letterboxd-one-million-watched-club/
 
   Letterboxd - Most Fans:
     template: { name: Movie }
@@ -104,7 +104,7 @@ collections:
     visible_shared: monthly(31)
     summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
     file_poster: config/posters/Metacritic Must See.png
-    trakt_list: https://trakt.tv/users/plexmetamanager/lists/metacritic-must-see-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/k0meta/lists/metacritic-must-see-movies?sort=rank,asc
 
   Popular: # Popular list from IMDb, Trakt and TMDb
     template: { name: Movie }

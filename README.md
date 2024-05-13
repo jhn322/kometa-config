@@ -9,7 +9,7 @@ For all lists and overlays to work you'll need to configure API tokens from Trak
 This will install Kometa using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
 
 1. Download this repository.
-2. Add **your** Plex IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) to config.yml.
+2. Add **your** Plex IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change to your Plex library names in the config.yml.
 3. Many collections in this config require a unique API key/token/id for a specific service like Trakt, MdbList etc. Below is a list of the ones I use and would **highly recommend** you to set up as well:
 
 - [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
@@ -32,9 +32,9 @@ Linux: "cd /path/to/Kometa-folder"
 6. Now paste this in the terminal to create the containers:
 
 ```powershell
-Windows: "docker-compose up -d"
+Windows: "docker compose up -d"
 
-Linux: "sudo docker-compose up -d"
+Linux: "sudo docker compose up -d"
 ```
 
 **Done!**

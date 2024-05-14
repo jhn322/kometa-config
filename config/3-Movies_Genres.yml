@@ -751,11 +751,10 @@ collections:
     file_poster: config/posters/Naval.png
     visible_shared: monthly(26)
     limit: 300
-    imdb_list:
-      - https://www.imdb.com/list/ls003065981/
-      - https://www.imdb.com/list/ls052696439/
-      - https://www.imdb.com/list/ls002784827/
-      - https://www.imdb.com/list/ls021449523/
+    letterboxd_list:
+      - https://letterboxd.com/quarkdpn/list/naval/
+      - https://letterboxd.com/maginott/list/top-naval-themed-movies/
+      - https://letterboxd.com/ediblehedgehog/list/theme-naval/
 
   Nostalgia:
     template: { name: Genre Other }

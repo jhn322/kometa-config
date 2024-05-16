@@ -1521,12 +1521,11 @@ collections:
     template: { name: Franchise }
     summary: Ju-On The Grudge is a Japanese-American horror franchise created by Takashi Shimizu. The Ju-On films revolve around a curse created in a house in Nerima, Tokyo (or Suginami in the American films) when Takeo Saeki, convinced that his wife Kayako was having an affair with another man, murdered her, their son Toshio and Toshio's pet cat in a jealous rage.
     file_poster: config/posters/Ju-On The Grudge.jpeg
-    trakt_list: https://trakt.tv/users/lelmuertol/lists/ju-on-the-ringu?sort=rank,asc
+    trakt_list: https://trakt.tv/users/jarvis-13245338/lists/ju-on?sort=rank,asc
     plex_search:
       any:
         title:
           - the grudge
-          - sadako
           - ju-on
 
   Johnny English:

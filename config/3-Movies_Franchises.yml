@@ -496,7 +496,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Cabin Fever.png
     summary: Cabin Fever is a 2002 horror film directed by Eli Roth and starring Rider Strong, Jordan Ladd, and James DeBello. The movie follows a group of college students who rent a cabin in the woods for a vacation, only to become infected with a flesh-eating virus that causes horrific symptoms.
-    trakt_list: https://trakt.tv/users/hottentott/lists/cabin-fever-collection
+    letterboxd_list: https://letterboxd.com/lady_voorhees/list/cabin-fever/
 
   Childs Play:
     template: { name: Franchise }

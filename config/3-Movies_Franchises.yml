@@ -1,5 +1,5 @@
 ######################################################
-#                   FRANCHISES 14.0                  #
+#                   FRANCHISES 15.0                  #
 ######################################################
 templates:
   Franchise:
@@ -24,17 +24,13 @@ collections:
     file_poster: config/posters/310 to Yuma.png
     plex_search:
       all:
-        title: yuma
+        title: 3:10 yuma
 
   3 Men:
     template: { name: Franchise }
     file_poster: config/posters/3 Men.png
     summary: The 3 Men and a Baby movie series is a comedy franchise that consists of two movies.
-    plex_search:
-      any:
-        title:
-          - 3 men
-          - three men
+    tmdb_collection: 107688
 
   28 Days Later:
     template: { name: Franchise }
@@ -134,15 +130,13 @@ collections:
     file_poster: config/posters/All Dogs Go to Heaven.png
     plex_search:
       all:
-        title: all dogs
+        title: all dogs go
 
   Almighty:
     template: { name: Franchise }
     file_poster: config/posters/Almighty.png
     summary: Bruce Almighty is a 2003 comedy fantasy film directed by Tom Shadyac and starring Jim Carrey, Jennifer Aniston, and Morgan Freeman.
-    plex_search:
-      all:
-        title: all dogs go to heaven
+    tmdb_collection: 124949
 
   American Psycho:
     template: { name: Franchise }
@@ -372,9 +366,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Black Water.png
     summary: The Black Water movies were directed by Pasha Patriki and were known for their action-packed sequences and the reunion of Van Damme and Lundgren, who had previously starred together in several 1990s action movies. The sequel, Black Water Abyss, shifted from the original's spy thriller plot to a horror/survival story, and was praised for its tense atmosphere and effective scares.
-    plex_search:
-      all:
-        title: black water
+    tmdb_collection: 730166
 
   Blade Runner:
     template: { name: Franchise }
@@ -420,9 +412,7 @@ collections:
     template: { name: Franchise }
     summary: Bad Boys is a series of American action comedy films created by George Gallo. It stars Will Smith and Martin Lawrence as two detectives in the Miami Police Department, Michael Mike Lowrey and Marcus Burnett.
     file_poster: config/posters/Bad Boys.jpeg
-    plex_search:
-      all:
-        title: bad boys
+    tmdb_collection: 14890
 
   A Better Tomorrow:
     template: { name: Franchise }
@@ -492,9 +482,7 @@ collections:
     template: { name: Franchise }
     summary: The Boogeyman movie series consists of three horror films that revolve around the concept of the Boogeyman, a malevolent entity that preys on people's fears.
     file_poster: config/posters/Boogeyman.jpg
-    plex_search:
-      all:
-        title: boogeyman
+    tmdb_collection: 96937
 
   Candyman:
     template: { name: Franchise }
@@ -508,7 +496,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Cabin Fever.png
     summary: Cabin Fever is a 2002 horror film directed by Eli Roth and starring Rider Strong, Jordan Ladd, and James DeBello. The movie follows a group of college students who rent a cabin in the woods for a vacation, only to become infected with a flesh-eating virus that causes horrific symptoms.
-    letterboxd_list: https://letterboxd.com/lady_voorhees/list/cabin-fever/
+    trakt_list: https://trakt.tv/users/hottentott/lists/cabin-fever-collection
 
   Childs Play:
     template: { name: Franchise }
@@ -627,11 +615,7 @@ collections:
     template: { name: Franchise }
     summary: The Collector is a 2009 American horror film written by Patrick Melton and Marcus Dunstan, and directed by Dunstan.
     file_poster: config/posters/The Collector.jpeg
-    plex_search:
-      any:
-        title:
-          -
-          - collected
+    tmdb_collection: 165369
 
   Charlies Angels:
     template: { name: Franchise }
@@ -1134,9 +1118,7 @@ collections:
     template: { name: Franchise }
     summary: The Great Escape is a classic war film released in 1963, directed by John Sturges. It tells the true story of a group of Allied prisoners of war during World War II who plan an elaborate escape from a German POW camp. The film features a star-studded cast and is known for its thrilling escape sequences.
     file_poster: config/posters/The Great Escape.jpg
-    plex_search:
-      all:
-        title: the great escape
+    tmdb_collection: 990446
 
   Goal!:
     template: { name: Franchise }
@@ -1211,9 +1193,7 @@ collections:
     template: { name: Franchise }
     summary: The Hangover is a series of three American comedy films created by Todd Phillips. All three films follows the misadventures of a quartet of friends who go on their road trip to attend a bachelor party. The first two films focus on the events following a night of debauchery before a party in Las Vegas and Bangkok; the third film involves a road trip and a kidnapping in lieu of a bachelor party.
     file_poster: config/posters/The Hangover.jpeg
-    plex_search:
-      all:
-        title: hangover
+    tmdb_collection: 86119
 
   Hannibal Lecter:
     template: { name: Franchise }
@@ -1239,11 +1219,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Hitman.png
     summary: The movie series Hitman is based on the video game franchise of the same name. The films follow the story of Agent 47, a highly skilled and lethal assassin who works for a secret organization called the International Contract Agency (ICA).
-    plex_search:
-      all:
-        title: hitman
-        title.not: bodyguard
-        genre: thriller
+    tmdb_collection: 737031
 
   The Howling:
     template: { name: Franchise }
@@ -1419,9 +1395,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Inside Man.png
     summary: Inside Man is a 2006 heist thriller directed by Spike Lee. The film follows a group of robbers who attempt to carry out the perfect bank robbery in New York City. The robbery quickly spirals out of control, leading to a tense hostage situation with a police detective trying to negotiate the release of the hostages. The film stars Denzel Washington as the detective, Clive Owen as the lead robber, and Jodie Foster as a mysterious woman with connections to the bank's owner. The movie is known for its twist ending and clever plot twists.
-    plex_search:
-      all:
-        title: inside man
+    tmdb_collection: 631194
 
   Independence Day.:
     template: { name: Franchise }
@@ -1641,9 +1615,7 @@ collections:
     template: { name: Franchise }
     summary: An American comedic horror film series centered around a malevolent and murderous leprechaun, who, when his gold is taken from him, resorts to any means necessary to reclaim it.
     file_poster: config/posters/Leprechaun.jpg
-    plex_search:
-      all:
-        title: leprechaun
+    tmdb_collection: 19285
 
   Legally Blonde:
     template: { name: Franchise }
@@ -1873,11 +1845,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Monsters.png
     summary: Monsters is a 2010 science fiction film directed by Gareth Edwards. The movie takes place in a world where a NASA probe, sent to collect samples of extraterrestrial life, crashes in Mexico, leading to the emergence of giant alien creatures known as Monsters.
-    plex_search:
-      all:
-        title: monsters
-        genre: drama
-        genre.not: animation
+    tmdb_collection: 306926
 
   Murder Mystery:
     template: { name: Franchise }
@@ -2300,10 +2268,7 @@ collections:
     template: { name: Franchise }
     summary: Red is a series of American action comedy films inspired by the limited comic-book series of the same name created by Warren Ellis and Cully Hamner, and published by the DC Comics imprint Homage.
     file_poster: config/posters/RED.jpeg
-    plex_search:
-      all:
-        title: red
-        actor: bruce willis
+    tmdb_collection: 163902
 
   Ride Along:
     template: { name: Franchise }
@@ -2948,9 +2913,7 @@ collections:
     template: { name: Franchise }
     summary: Underworld is a series of action horror films created by Len Wiseman, Kevin Grevioux and Danny McBride. The first film, Underworld, was released in 2003. It tells the story of Selene (Kate Beckinsale), a vampire who works as a Death Dealer, killing the lycans who allegedly slaughtered her family.
     file_poster: config/posters/Underworld.png
-    plex_search:
-      all:
-        title: underworld
+    tmdb_collection: 2326
 
   Untold:
     template: { name: Franchise }
@@ -2981,11 +2944,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Vacancy.png
     summary: Vacancy is a 2007 horror-thriller film directed by Nimród Antal and starring Kate Beckinsale and Luke Wilson. The story follows a couple, David and Amy Fox, who get stranded at a remote motel in the middle of nowhere after their car breaks down. They soon realize that the motel is the site of a snuff film operation and that they are the next victims. The couple desperately tries to escape before they meet the same fate as the previous occupants of their room. The film received mixed reviews but was a moderate box office success, grossing over $35 million worldwide on a budget of $19 million.
-    plex_search:
-      any:
-        title:
-          - vacancy
-          - terror trap
+    tmdb_collection: 86112
 
   Van Wilder:
     template: { name: Franchise }
@@ -3090,9 +3049,7 @@ collections:
     template: { name: Franchise }
     summary: Wrong Turn is a series of six American slasher horror films created by Alan B. McElroy. All six films focus on various families of deformed cannibals who hunt a group of people in West Virginia by killing them all for food in horrific ways by using a mixture of traps and weaponry.
     file_poster: config/posters/Wrong Turn.jpeg
-    plex_search:
-      all:
-        title: wrong turn
+    tmdb_collection: 52985
 
   X-Men:
     template: { name: Franchise }

@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 16.5                    #
+#                   SPECIALS 17.0                    #
 ######################################################
 
 templates:
@@ -21,6 +21,11 @@ templates:
   Special Smart:
     sync_mode: sync
     visible_library: true
+
+  Special Smart False:
+    sync_mode: sync
+    sort_title: zz__<<collection_name>>
+    visible_library: false
 
   Special Smart Other:
     sync_mode: sync
@@ -95,17 +100,17 @@ collections:
       all:
         release: 61
 
-  Played: # Fetched information from Tautulli
-    template: { name: Special }
-    visible_library: false
+  Popular: # Fetched information from Tautulli
+    template: { name: Special Smart False }
     tautulli_popular:
-      list_days: 61
-      list_size: 50
-      list_buffer: 20
-      list_minimum: 1
-    file_poster: config/posters/Played.png
+      list_days: 62
+      list_size: 20
+    tautulli_watched:
+      list_days: 62
+      list_size: 20
     smart_label: viewed.desc
-    summary: Most played animes on Plex the past 2 months.
+    file_poster: config/posters/Popular Tautulli.png
+    summary: The most popular Animes on Plex the past 2 months.
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }
@@ -124,7 +129,6 @@ collections:
     tautulli_watched:
       list_days: 9999
       list_size: 9999
-      list_buffer: 20
       list_minimum: 1
     file_poster: config/posters/Watched.png
     summary: Animes watched on Plex by all users.

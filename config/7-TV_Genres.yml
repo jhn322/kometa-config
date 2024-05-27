@@ -313,7 +313,7 @@ collections:
     file_poster: config/posters/Anthology TV.png
     trakt_list:
       - https://trakt.tv/users/tyler-schmaltz/lists/anthology?sort=rank,asc
-      - https://trakt.tv/users/kainsir/lists/anthology-series?sort=popularity,asc
+      - https://trakt.tv/users/drkain/lists/anthology-series?sort=popularity,asc
 
   Based on a True Story:
     template: { name: Genre Other }

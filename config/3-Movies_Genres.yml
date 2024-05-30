@@ -693,8 +693,10 @@ collections:
     summary: A mindfuck movie plays with your mind, confuses you, and leads you on. It’s not just a movie with a twist ending. Mindfucks are borderline-incoherent, dreamlike, and surreal.
     file_poster: config/posters/Mindfuck.png
     visible_shared: weekly(thursday)
-    limit: 300
-    trakt_list: https://trakt.tv/users/lish408/lists/mindfuck?sort=popularity,asc
+    trakt_list:
+      - https://trakt.tv/users/shana71/lists/mindfucks?sort=title,asc
+      - https://trakt.tv/users/ximphrambugle/lists/mindfucks?sort=rank,asc
+      - https://trakt.tv/users/kageshii/lists/mindfuckfest?sort=popularity,asc
 
   Medieval:
     template: { name: Genre Other }

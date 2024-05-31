@@ -878,9 +878,11 @@ collections:
 
   Evil Dead:
     template: { name: Franchise }
-    trakt_list: https://trakt.tv/users/nukeproof1333/lists/evil-dead-universe?sort=rank,asc
     summary: Evil Dead is an American horror film franchise created by Sam Raimi consisting of four feature films and a television series. The series revolves around the Necronomicon Ex-Mortis, an ancient Sumerian text which wreaks havoc upon a group of cabin inhabitants in a wooded area in Tennessee (later confirmed to be Elk Rapids in Michigan).
     file_poster: config/posters/Evil Dead.jpeg
+    trakt_list:
+      - https://trakt.tv/users/behead974/lists/evil-dead?sort=rank,asc
+      - https://trakt.tv/users/strangerer/lists/evil-dead?sort=rank,asc
 
   Elite Squad:
     template: { name: Franchise }

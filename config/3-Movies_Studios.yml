@@ -247,16 +247,6 @@ collections:
     summary: Fox Searchlight Pictures. is an American film studio that is a division of 20th Century Studios, a subsidiary of Walt Disney Studios, which is part of The Walt Disney Company. A sister studio of 20th Century Studios (previously 20th Century Fox), Searchlight was founded in February 20, 1980 as Searchlight, Inc.
     file_poster: config/posters/Searchlight Pictures.png
 
-  Shaft Animation:
-    template: { name: Studio, company: 6689 }
-    summary: Shaft, also known as Shaft Animation Studio, is a Japanese animation studio headquartered in Suginami, Tokyo, and founded in 1975.
-    file_poster: config/posters/Shaft Animation.png
-
-  Studio Deen:
-    template: { name: Studio, company: 6075 }
-    summary: Studio Deen Co. Ltd. is a Japanese animation studio founded in 1975 by Sunrise producer Hiroshi Hasegawa and ex-Sunrise animators.
-    file_poster: config/posters/Studio Deen.png
-
   Scott Free Productions:
     template: { name: Studio, company: 1645 }
     summary: Scott Free Productions is a British-American independent film and television production company founded in 1970 by filmmakers and brothers Ridley Scott and Tony Scott. They formed the feature film development company Percy Main Productions in 1980, naming the company after the English village Percy Main, where their father grew up. The company was renamed to Scott Free Productions in 1995. Scott Free has produced films ranging from the 2000 Hollywood blockbuster Gladiator to "smaller pictures" like Cracks. Between productions of White Squall and G.I. Jane, Ridley Scott reorganised the company.

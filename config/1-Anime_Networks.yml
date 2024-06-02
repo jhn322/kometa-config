@@ -168,7 +168,7 @@ collections:
     file_poster: config/posters/Kyoto Animation.png
 
   iQiyi:
-    template: { name: network, network: "iQiyi, iQiyi Motion Pictures" }
+    template: { name: network, network: "iQiyi" }
     summary: iQIYI is a Chinese online video platform based in Beijing and Shanghai.
     file_poster: config/posters/iQiyi.png
     studio:

@@ -1256,7 +1256,7 @@ collections:
     summary: Some of the best movies made in Japan.
     visible_shared: range(09/14-09/22)
     file_poster: config/posters/Japan.png
-    trakt_list: https://trakt.tv/users/respectme/lists/japanese-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/a-homrany-hotmail-com/lists/japanese-movies
     plex_search:
       any:
         audio_language: ja

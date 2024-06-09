@@ -1365,9 +1365,7 @@ collections:
     template: { name: Franchise }
     summary: Ice Age is an American media franchise centering on a group of mammals surviving the Paleolithic ice age. It consists of computer-animated films. The first five films were produced by Blue Sky Studios.
     file_poster: config/posters/Indiana Jones.jpg
-    plex_search:
-      all:
-        title: indiana jones
+    tmdb_collection: 84
 
   Infernal Affairs:
     template: { name: Franchise }

@@ -571,7 +571,6 @@ collections:
       - https://trakt.tv/users/martachilegge/lists/drugs?sort=rank,asc
       - https://trakt.tv/users/g0g0/lists/drugs?sort=rank,asc
       - https://trakt.tv/users/ximphrambugle/lists/drug-movies?sort=rank,asc
-      - https://trakt.tv/users/r_u-d_i/lists/r_u-d_i-s-drug-movies?sort=rank,asc
 
   Dystopian:
     template: { name: Genre Other }

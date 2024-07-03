@@ -336,7 +336,7 @@ collections:
     summary: Detective dramas from Great Britian.
     trakt_list:
       - https://trakt.tv/users/guy1307/lists/detective-uk
-      - https://trakt.tv/users/wsquaredtoronto/lists/tv-british-police-procedurals
+      - https://trakt.tv/users/woodrowsocialmedia-gmail-com/lists/tv-british-police-procedurals?sort=rank,asc
       - https://trakt.tv/users/rudiecantfail/lists/uk-detective-crime-series
 
   Classic:
@@ -489,7 +489,7 @@ collections:
     file_poster: config/posters/Police TV.png
     visible_shared: monthly(20)
     trakt_list:
-      - https://trakt.tv/users/wsquaredtoronto/lists/tv-american-police-procedurals?sort=rank,asc
+      - https://trakt.tv/users/woodrowsocialmedia-gmail-com/lists/tv-american-police-procedurals?sort=rank,asc
       - https://trakt.tv/users/nowitmom/lists/now-s-crime-tv?sort=title,asc
 
   Political:
@@ -571,7 +571,8 @@ collections:
     file_poster: config/posters/Spy TV.png
     visible_shared: monthly(4)
     trakt_list:
-      - https://trakt.tv/users/wsquaredtoronto/lists/tv-spy-and-espionage?sort=rank,asc
+      - https://trakt.tv/users/thiatles/lists/spy-movies-tv?sort=random,asc
+      - https://trakt.tv/users/woodrowsocialmedia-gmail-com/lists/tv-spy-and-espionage?sort=rank,asc
       - https://trakt.tv/users/jimmccaskill/lists/spy-shows?sort=rank,asc
 
   Sword & Sorcery:

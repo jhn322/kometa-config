@@ -442,6 +442,15 @@ collections:
         audience_rating.gte: 6.4
         genre: music
 
+  Nature Documentary:
+    template: { name: Genre Other }
+    file_poster: config/posters/Nature Documentary TV.png
+    visible_shared: monthly(14)
+    summary: Nature documentaries showcase the beauty and complexity of the natural world through stunning visuals and expert narration, aiming to educate and raise awareness about wildlife, ecosystems, and environmental conservation.
+    trakt_list:
+      - https://trakt.tv/users/david_pytlik1/lists/documentary-naturel?sort=rank,asc
+      - https://trakt.tv/users/bhand35/lists/documentary-nature-d4731c77-49b6-44a5-a8e8-4cd74a258a7b?sort=popularity,asc
+
   Outer Space:
     template: { name: Genre Other }
     summary: Shows That Take Place in Outer Space

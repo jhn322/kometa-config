@@ -58,6 +58,20 @@ collections:
     file_poster: config/posters/Family Friendly.png
     trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-movies
 
+  Favored: # Fetched information from Tautulli
+    template: { name: Special Smart Other }
+    tautulli_popular:
+      list_days: 31
+      list_size: 20
+      list_minimum: 1
+    tautulli_watched:
+      list_days: 31
+      list_size: 20
+      list_minimum: 1
+    smart_label: viewed.desc
+    file_poster: config/posters/Favored.png
+    summary: The most favored Movies on Plex by users the past month.
+
   Longest: # Longest movies on plex
     template: { name: Special Smart Other }
     file_poster: config/posters/Longest.png
@@ -78,29 +92,15 @@ collections:
       all:
         release: 30
 
-  # No Swedish Subtitles:
-  #   sync_mode: sync
-  #   sort_title: zzzzzzzzzzz_No Swedish Subtitles
-  #   file_poster: config/posters/No Swedish Subtitles.png
-  #   summary: Movies yet to recieve swedish subtitles.
-  #   smart_filter:
-  #     sort_by: added.desc
-  #     all:
-  #       subtitle_language.not: sv
-
-  Popular: # Fetched information from Tautulli
-    template: { name: Special Smart Other }
-    tautulli_popular:
-      list_days: 31
-      list_size: 20
-      list_minimum: 1
-    tautulli_watched:
-      list_days: 31
-      list_size: 20
-      list_minimum: 1
-    smart_label: viewed.desc
-    file_poster: config/posters/Popular Tautulli.png
-    summary: The most popular movies on Plex the past month.
+  No Swedish Subtitles:
+    sync_mode: sync
+    sort_title: zzzzzzzzzzz_No Swedish Subtitles
+    file_poster: config/posters/No Swedish Subtitles.png
+    summary: Movies yet to recieve swedish subtitles.
+    smart_filter:
+      sort_by: added.desc
+      all:
+        subtitle_language.not: sv
 
   Random: # Random movies with a rating above 4 from IMDb
     template: { name: Special Smart }

@@ -90,6 +90,18 @@ collections:
     summary: Titles which have won prestigious or professional awards in Japan. Examples include the Tokyo Anime Award or Japan Media Arts Festival awards.
     file_poster: config/posters/Award Winning.png
 
+  Favored: # Fetched information from Tautulli
+    template: { name: Special Smart False }
+    tautulli_popular:
+      list_days: 62
+      list_size: 20
+    tautulli_watched:
+      list_days: 62
+      list_size: 20
+    smart_label: viewed.desc
+    file_poster: config/posters/Favored.png
+    summary: The most favored Animes on Plex by users the past 2 months.
+
   Newly Released:
     template: { name: Special Smart Other }
     file_poster: config/posters/Newly Released.png
@@ -99,18 +111,6 @@ collections:
       validate: false
       all:
         release: 61
-
-  Popular: # Fetched information from Tautulli
-    template: { name: Special Smart False }
-    tautulli_popular:
-      list_days: 62
-      list_size: 20
-    tautulli_watched:
-      list_days: 62
-      list_size: 20
-    smart_label: viewed.desc
-    file_poster: config/posters/Popular Tautulli.png
-    summary: The most popular Animes on Plex the past 2 months.
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }
@@ -148,7 +148,7 @@ collections:
   #############################################################################
   #               WATCHED AIMES WITH USER SPECIFIC RATINGS 2.0                #
   #                                                                           #
-  # Create 5 lists on Trakt and sort animes you've watched by your preference.#                #
+  # Create 5 lists on Trakt and sort animes you've watched by your preference.#
   #      For example: "Kill la Kill" 8/10. Then uncomment everything and      #
   #               simply add each corresponding list down below.              #
   #############################################################################

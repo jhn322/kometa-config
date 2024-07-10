@@ -97,6 +97,20 @@ collections:
     visible_shared: monthly(10)
     trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-shows
 
+  Favored: # Fetched information from Tautulli
+    template: { name: Special Smart Other }
+    tautulli_popular:
+      list_days: 62
+      list_size: 20
+      list_minimum: 1
+    tautulli_watched:
+      list_days: 62
+      list_size: 20
+      list_minimum: 1
+    smart_label: viewed.desc
+    file_poster: config/posters/Favored.png
+    summary: The most favored TV shows on Plex by users the past 2 months.
+
   Longest: # Longest TV shows on plex
     template: { name: Special Plus }
     summary: The lengthiest shows on Plex.
@@ -115,20 +129,6 @@ collections:
       validate: false
       all:
         release: 61
-
-  Popular: # Fetched information from Tautulli
-    template: { name: Special Smart Other }
-    tautulli_popular:
-      list_days: 62
-      list_size: 20
-      list_minimum: 1
-    tautulli_watched:
-      list_days: 62
-      list_size: 20
-      list_minimum: 1
-    smart_label: viewed.desc
-    file_poster: config/posters/Popular Tautulli.png
-    summary: The most popular TV shows on Plex the past 2 months.
 
   Random: # Random TV shows with a rating above 4 from IMDb
     template: { name: Special Smart }
@@ -162,42 +162,44 @@ collections:
       all:
         audience_rating.lte: 5.5
 
-  #############################################################
-  #                       RATINGS 1.0                         #
-  #############################################################
+  #############################################################################
+  #               WATCHED TV SHOWS WITH USER SPECIFIC RATINGS 2.0             #
+  #                                                                           #
+  # Create 5 lists on Trakt and sort shows you've watched by your preference. #
+  #      For example: "Breaking Bad" 10/10. Then uncomment everything and     #
+  #               simply add each corresponding list down below.              #
+  #############################################################################
+  # 10/10:
+  #   template: { name: Rating }
+  #   summary: TV Shows with a user rating of 10/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzzzzz_10/10
+  #   file_poster: config/posters/10.png
+  #   trakt_list:
 
-  ##################Add your own trakt lists##################
-  10/10:
-    template: { name: Rating }
-    summary: TV Shows with a user rating of 10/10 (sorted from best to worst).
-    sort_title: zzzzzzzzzzz_10/10
-    file_poster: config/posters/10.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/10-10-tv-show-anime?sort=rank,asc
+  # 9/10:
+  #   template: { name: Rating }
+  #   summary: TV Shows with a user rating of 9/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzzzz_9/10
+  #   file_poster: config/posters/9.png
+  #   trakt_list:
 
-  9/10:
-    template: { name: Rating }
-    summary: TV Shows with a user rating of 9/10 (sorted from best to worst).
-    sort_title: zzzzzzzzzz_9/10
-    file_poster: config/posters/9.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/9-10-tv-show-anime?sort=rank,asc
+  # 8/10:
+  #   template: { name: Rating }
+  #   summary: TV Shows with a user rating of 8/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzzz_8/10
+  #   file_poster: config/posters/8.png
+  #   trakt_list:
 
-  8/10:
-    template: { name: Rating }
-    summary: TV Shows with a user rating of 8/10 (sorted from best to worst).
-    sort_title: zzzzzzzzz_8/10
-    file_poster: config/posters/8.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/8-10-tv-show-anime?sort=rank,asc
+  # 7/10:
+  #   template: { name: Rating }
+  #   summary: TV Shows with a user rating of 7/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzz_7/10
+  #   file_poster: config/posters/7.png
+  #   trakt_list:
 
-  7/10:
-    template: { name: Rating }
-    summary: TV Shows with a user rating of 7/10 (sorted from best to worst).
-    sort_title: zzzzzzzz_7/10
-    file_poster: config/posters/7.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/7-10-tv-show-anime?sort=rank,asc
-
-  6/10:
-    template: { name: Rating }
-    summary: TV Shows with a user rating of 6/10 (sorted from best to worst).
-    sort_title: zzzzzzzz_6/10
-    file_poster: config/posters/6.png
-    trakt_list: https://trakt.tv/users/jhn322/lists/6-10-tv-show-anime?sort=rank,asc
+  # 6/10:
+  #   template: { name: Rating }
+  #   summary: TV Shows with a user rating of 6/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzz_6/10
+  #   file_poster: config/posters/6.png
+  #   trakt_list:

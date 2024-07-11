@@ -95,9 +95,11 @@ collections:
     tautulli_popular:
       list_days: 62
       list_size: 20
+      list_minimum: 1
     tautulli_watched:
       list_days: 62
       list_size: 20
+      list_minimum: 1
     smart_label: viewed.desc
     file_poster: config/posters/Favored.png
     summary: The most favored Animes on Plex by users the past 2 months.

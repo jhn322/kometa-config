@@ -1107,6 +1107,12 @@ collections:
       all:
         title: ginger snaps
 
+  Gladiator:
+    template: { name: Franchise }
+    file_poster: config/posters/Gladiator.png
+    summary: Beginning with the 2000 film, follows Roman general Maximus Decimus Meridius as he seeks revenge against the treacherous Commodus, culminating in an epic showdown in the Colosseum. The upcoming sequel, directed by Ridley Scott and featuring Paul Mescal, will focus on Lucius, the nephew of Commodus.
+    tmdb_collection: 1069584
+
   Goon:
     template: { name: Franchise }
     summary: The Goon movie series is a Canadian sports comedy franchise centered around the character of Doug The Thug Glatt, a bouncer turned ice hockey enforcer. The films showcase Glatt's journey as he navigates the world of professional hockey while facing various challenges and comedic situations.
@@ -2884,6 +2890,12 @@ collections:
     plex_search:
       all:
         title: transporter
+
+  Twister:
+    template: { name: Franchise }
+    summary: Begins with the 1996 film "Twister," which follows storm chasers Jo and Bill Harding as they track deadly tornadoes to advance weather prediction technology. The upcoming sequel, "Twisters," will focus on a new generation of storm chasers, continuing the legacy of the original characters.
+    file_poster: config/posters/Twister.png
+    tmdb_collection: 1062948
 
   Unbreakable:
     template: { name: Franchise }

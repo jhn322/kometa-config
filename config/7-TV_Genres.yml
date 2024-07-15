@@ -573,7 +573,8 @@ collections:
     visible_shared: weekly(friday)
     trakt_list:
       - https://trakt.tv/users/norman05/lists/sitcoms?sort=title,asc
-      - https://trakt.tv/users/jason316/lists/sitcoms?sort=rank,asc
+      - https://trakt.tv/users/jhall-316-hotmail-com/lists/sitcoms
+      - https://trakt.tv/users/caira34/lists/sitcoms?sort=title,asc
   Spy:
     template: { name: Genre Other }
     summary: The spy genre, also known sometimes as an espionage, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.

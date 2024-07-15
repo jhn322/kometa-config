@@ -103,7 +103,10 @@ collections:
       - monthly(15)
     file_poster: config/posters/Top Rated.png
     summary: Top Rated Shows on Trakt and TMDb.
-    trakt_list: https://trakt.tv/users/jason316/lists/trakt-yearly-top-tv?sort=released,asc
+    trakt_list:
+      - https://trakt.tv/users/diimaan/lists/top-rated-tv-shows?sort=rank,asc
+      - https://trakt.tv/users/paddy880/lists/top-rated-tv?sort=rank,asc
+      - https://trakt.tv/users/saltydude/lists/top-rated-tv-shows?sort=rank,asc
 
   Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: TV }

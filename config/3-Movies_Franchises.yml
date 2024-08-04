@@ -176,12 +176,6 @@ collections:
       all:
         title: Analyze
 
-  Animerama:
-    template: { name: Franchise }
-    file_poster: config/posters/Animerama.png
-    summary: Erotic Animation Trilogy, which happens to include the first adult animated film in Japanese history. Initiated and produced by Osamu TEZUKA, it is directed by Eiichi YAMAMOTO.
-    tmdb_collection: 716923
-
   Anchorman:
     template: { name: Franchise }
     summary: The Anchorman series is a media franchise initially consisting of three American comedy films Anchorman The Legend of Ron Burgundy, Wake Up, Ron Burgundy The Lost Movie (both 2004), and Anchorman 2 The Legend Continues (2013).

@@ -620,9 +620,9 @@ collections:
     file_poster: config/posters/Goth.png
     visible_shared: monthly(13)
     trakt_list:
-      - https://trakt.tv/users/josieuna/lists/goth-to-watch?sort=rank,asc
       - https://trakt.tv/users/anyriver/lists/southern-gothic?sort=rank,asc
       - https://trakt.tv/users/majeed_pk/lists/classic-british-gothic-horror?sort=rank,asc
+      - https://trakt.tv/users/hriday-80ce1824-23e8-4fee-99e5-8edc661aed32/lists/gothic?sort=random,asc
 
   Gore:
     template: { name: Genre Other }

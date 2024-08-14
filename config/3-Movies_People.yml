@@ -259,6 +259,14 @@ collections:
       all:
         actor: Charles Dance
 
+  Charlie Hunnam:
+    template: { name: Actor }
+    file_poster: config/posters/Charlie Hunnam.png
+    visible_shared: monthly(13)
+    plex_search:
+      all:
+        actor: Charlie Hunnam
+
   Drew Barrymore:
     template: { name: Actor }
     file_poster: config/posters/Drew Barrymore.png

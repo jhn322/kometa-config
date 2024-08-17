@@ -2244,6 +2244,14 @@ collections:
       all:
         title: re-Animator
 
+  Rebel Moon:
+    template: { name: Franchise }
+    summary: Rebel Moon is an epic sci-fi film series directed by Zack Snyder, known for his visually striking and action-packed storytelling. Set in a distant galaxy, the series follows a peaceful colony that is threatened by a tyrannical ruler, forcing them to recruit warriors from across the cosmos to mount a defense. Blending space opera with classic samurai and western influences, offers a unique, high-stakes adventure with a rich ensemble of characters and grand, visually stunning battles.
+    file_poster: config/posters/Rebel Moon.png
+    plex_search:
+      all:
+        title: rebel moon
+
   The Raid:
     template: { name: Franchise }
     summary: The Raid is a 2011 Indonesian action thriller film written, directed and edited by the Welsh filmmaker Gareth Evans.

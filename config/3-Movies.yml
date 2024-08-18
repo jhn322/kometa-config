@@ -168,6 +168,16 @@ collections:
     visible_shared: monthly(13)
     summary: Movies most watched online of all time.
 
+  Trakt - Most Watched (Monthly):
+    template: { name: Movie }
+    trakt_chart:
+      chart: watched
+      limit: 100
+      time_period: monthly
+    file_poster: config/posters/Trakt Most Watched Monthly.png
+    summary: Most watched movies across the internet this month.
+    visible_shared: monthly(10)
+
   Trakt - Most Watched (Yearly):
     template: { name: Movie }
     trakt_chart:

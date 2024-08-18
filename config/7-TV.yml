@@ -130,6 +130,16 @@ collections:
     summary: Most watched shows across the internet this year.
     visible_shared: monthly(23)
 
+  Trakt - Most Watched (Monthly):
+    template: { name: TV }
+    trakt_chart:
+      chart: watched
+      limit: 60
+      time_period: monthly
+    file_poster: config/posters/Trakt Most Watched Monthly.png
+    summary: Most watched shows across the internet this month.
+    visible_shared: monthly(14)
+
   Trakt - Recommended:
     template: { name: TV }
     trakt_recommendations: 30

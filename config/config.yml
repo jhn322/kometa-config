@@ -1,7 +1,6 @@
 # Change the library names below to your exact(!) plex library names.
 libraries:
   Anime:
-    remove_overlays: false
     collection_files:
       - file: config/1-Anime.yml
       - file: config/1-Anime_Genres.yml
@@ -21,7 +20,6 @@ libraries:
   # collection_files:
   # - file: config/2-Audiobooks_Genres.yml
   Movies:
-    remove_overlays: false
     collection_files:
       - file: config/3-Movies.yml
       - file: config/3-Movies_Awards.yml
@@ -46,7 +44,6 @@ libraries:
       - file: config/4-Music_Genres.yml
       - file: config/4-Music_Separators.yml
   Remux:
-    remove_overlays: false
     collection_files:
       - file: config/5-Remux.yml
     overlay_files:
@@ -60,7 +57,6 @@ libraries:
   # - file: config/6-Soundtracks_Genres.yml
   # - file: config/6-Soundtracks_Separators.yml
   TV:
-    remove_overlays: false
     collection_files:
       - file: config/7-TV.yml
       - file: config/7-TV_Awards.yml

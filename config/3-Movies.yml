@@ -1,5 +1,5 @@
 ######################################################
-#                   MOVIES 16.0                      #
+#                   MOVIES 17.0                      #
 ######################################################
 templates:
   Movie:
@@ -26,7 +26,7 @@ templates:
 collections:
   IMDb - Best Recent: # IMDb specific chart lists
     template: { name: Movie Top }
-    sort_title: ++++_IMDb Best Recent
+    sort_title: ++_IMDb Best Recent
     visible_shared:
       - monthly(19)
       - monthly(20)
@@ -41,7 +41,7 @@ collections:
 
   IMDb - Top 250:
     template: { name: Movie Basic }
-    sort_title: ++++_IMDb top 250
+    sort_title: ++_IMDb top 250
     smart_label: audience_rating.desc
     summary: 250 highest rated movies on IMDb.
     visible_shared:
@@ -112,7 +112,7 @@ collections:
     trakt_chart:
       chart: popular
       limit: 50
-    sort_title: +++++_XPopular
+    sort_title: +_XPopular
     visible_shared:
       - monthly(1)
       - monthly(7)
@@ -140,7 +140,7 @@ collections:
   Top Rated: # Top rated list from Trakt and TMdb
     template: { name: Movie }
     tmdb_top_rated: 350
-    sort_title: ++++++_Top Rated
+    sort_title: +_Top Rated
     visible_shared:
       - monthly(2)
       - monthly(14)
@@ -191,7 +191,7 @@ collections:
   Trakt - Recommended:
     template: { name: Movie }
     trakt_recommendations: 60
-    sort_title: ++++_Trakt - Recommended
+    sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     visible_shared: monthly(19)
     file_poster: config/posters/Trakt Recommended.png
@@ -202,7 +202,7 @@ collections:
     trakt_chart:
       chart: trending
       limit: 30
-    sort_title: +++++_ZTrending
+    sort_title: +_ZTrending
     visible_shared:
       - monthly(29)
       - monthly(30)

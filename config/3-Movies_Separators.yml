@@ -1,5 +1,5 @@
 ######################################################
-#                SEPARATORS 4.0                      #
+#                SEPARATORS 5.0                      #
 ######################################################
 
 templates:
@@ -32,7 +32,7 @@ collections:
 
   Chart Collections:
     template: { name: Separator }
-    sort_title: ++++_ZZZ
+    sort_title: ++_ZZZ
     summary: Chart collections up next.
     file_poster: config/posters/Chart Collections.png
 
@@ -56,7 +56,7 @@ collections:
 
   Genre Collections:
     template: { name: Separator }
-    sort_title: +_AAA
+    sort_title: +++++_AAA
     summary: Genre collections up next.
     file_poster: config/posters/Genre Collections.png
 
@@ -74,7 +74,7 @@ collections:
 
   Streaming Collections:
     template: { name: Separator }
-    sort_title: ++_AAA
+    sort_title: ++++_AAA
     summary: Streaming collections up next.
     file_poster: config/posters/Streaming Collections.png
 
@@ -86,7 +86,7 @@ collections:
 
   Subgenre Collections:
     template: { name: Separator }
-    sort_title: +_ZZZ
+    sort_title: ++++++_ZZZ
     summary: Subgenre collections up next.
     file_poster: config/posters/Subgenre Collections.png
 

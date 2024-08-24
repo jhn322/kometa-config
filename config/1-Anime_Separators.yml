@@ -13,7 +13,7 @@ templates:
 collections:
   Chart Collections:
     template: { name: Separator }
-    sort_title: +++++++_ZZZ
+    sort_title: +++_ZZZ
     summary: Chart collections up next.
     file_poster: config//posters/Chart Collections.png
 

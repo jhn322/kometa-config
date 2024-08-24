@@ -1,18 +1,12 @@
 ######################################################
-#                   ANIME 15.0                       #
+#                   ANIME 16.0                       #
 ######################################################
 
 templates:
   Anime:
     smart_label: random
     sync_mode: sync
-    sort_title: ++++++_<<collection_name>>
-    visible_library: true
-
-  Anime Other:
-    smart_label: random
-    sync_mode: sync
-    sort_title: +++_<<collection_name>>
+    sort_title: ++++_<<collection_name>>
     visible_library: true
 
   Anime Top:
@@ -25,22 +19,33 @@ collections:
     template: { name: Anime Top }
     mal_favorite: 30
     summary: Most favorited animes on MyAnimeList.
-    sort_title: +++++++_MyAnimeList Most Favorited
+    sort_title: ++_MAL Most Favorited
     smart_label: random
     file_poster: config/posters/MAL Most Favorited.png
+
+  MAL - Season: # Tracking every anime season
+    template: { name: Anime }
+    mal_season:
+      season: current
+      limit: 100
+      sort_by: members
+      starting_only: false
+    sort_title: ++_MAL Season
+    summary: Animes streaming in the current season according to MyAnimeList.
+    file_poster: config/posters/Season.png
+
+  MAL - Suggested:
+    template: { name: Anime }
+    mal_suggested: 30
+    sort_title: ++_MAL Suggested
+    summary: Animes suggested by MyAnimeList API.
+    file_poster: config/posters/MAL Suggested.png
 
   MAL - Top Upcoming:
     template: { name: Anime }
     mal_upcoming: 50
     summary: The most anticipated new anime series according to MyAnimeList.
     file_poster: config/posters/MAL Top Upcoming.png
-
-  MAL - Suggested:
-    template: { name: Anime }
-    mal_suggested: 30
-    sort_title: +++++++_MAL Suggested
-    summary: Animes suggested by MyAnimeList API.
-    file_poster: config/posters/MAL Suggested.png
 
   MAL - Top Airing:
     template: { name: Anime }
@@ -66,26 +71,15 @@ collections:
     anilist_popular: 50
     anidb_popular: 30
     summary: Popular animes this week according to MyAnimeList, Anilist and AniDB.
-    sort_title: ++++++++_XPopular
+    sort_title: +_XPopular
     file_poster: config/posters/Popular.png
-
-  Season: # Tracking every anime season
-    template: { name: Anime }
-    mal_season:
-      season: current
-      limit: 100
-      sort_by: members
-      starting_only: false
-    sort_title: +++++++_Season
-    summary: Animes streaming in the current season according to MyAnimeList.
-    file_poster: config/posters/Season.png
 
   Top Rated: # Top rated list from MyAnimeList and Anilist
     template: { name: Anime Top }
     mal_tv: 350
     anilist_top_rated: 300
     summary: The highest rated animes ever on MyAnimeList and Anilist.
-    sort_title: ++++++++_Top Rated
+    sort_title: +_Top Rated
     smart_label: audience_rating.desc
     file_poster: config/posters/Top Rated.png
 
@@ -93,5 +87,5 @@ collections:
     template: { name: Anime Top }
     anilist_trending: 30
     summary: Trending animes this week according to Anilist.
-    sort_title: ++++++++_ZTrending
+    sort_title: +_ZTrending
     file_poster: config/posters/Trending.png

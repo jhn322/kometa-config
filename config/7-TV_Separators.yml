@@ -1,5 +1,5 @@
 ######################################################
-#                SEPARATORS 3.0                      #
+#                SEPARATORS 4.0                      #
 ######################################################
 templates:
   Separator:
@@ -19,7 +19,7 @@ collections:
 
   Chart Collections:
     template: { name: Separator }
-    sort_title: ++++++_ZZZ
+    sort_title: ++_ZZZ
     summary: Chart collections up next.
     file_poster: config/posters/Chart Collections.png
 
@@ -61,7 +61,7 @@ collections:
 
   Streaming Collections:
     template: { name: Separator }
-    sort_title: ++_AAA
+    sort_title: ++++_AAA
     summary: Streaming collections up next.
     file_poster: config/posters/Streaming Collections.png
 

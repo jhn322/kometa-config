@@ -1,18 +1,18 @@
 ######################################################
-#                    TV 17.5                         #
+#                    TV 18.0                        #
 ######################################################
 
 templates:
   TV:
     smart_label: random
     sync_mode: sync
-    sort_title: +++++_<<collection_name>>
+    sort_title: +++_<<collection_name>>
     visible_library: true
 
   TV Release:
     smart_label: release.desc
     sync_mode: sync
-    sort_title: +++++_<<collection_name>>
+    sort_title: +++_<<collection_name>>
     visible_library: true
 
   TV Top:
@@ -23,7 +23,7 @@ collections:
   IMDb - Best Recent: # IMDb specific chart lists
     template: { name: TV Top }
     summary: TV shows rated 7.5 or higher on IMDb, released in the past 3 months.
-    sort_title: +++++++_ZIMDb Best Recent
+    sort_title: ++_IMDb Best Recent
     visible_shared:
       - monthly(11)
       - monthly(12)
@@ -38,7 +38,7 @@ collections:
   IMDb - Top 250:
     template: { name: TV Top }
     smart_label: audience_rating.desc
-    sort_title: +++++++_IMDB top 250
+    sort_title: ++_IMDB top 250
     file_poster: config/posters/IMDb Top 250 Gold.png
     visible_shared:
       - monthly(4)
@@ -57,7 +57,7 @@ collections:
   Popular: # Popular list from Trakt and TMDb
     template: { name: TV }
     tmdb_popular: 150
-    sort_title: ++++++++_XPopular
+    sort_title: +_XPopular
     visible_shared:
       - monthly(10)
       - monthly(12)
@@ -93,7 +93,7 @@ collections:
   Top Rated: # Top rated list from Trakt and TMDb
     template: { name: TV }
     tmdb_top_rated: 300
-    sort_title: ++++++++_Top Rated
+    sort_title: +_Top Rated
     visible_shared:
       - monthly(17)
       - monthly(18)
@@ -120,16 +120,6 @@ collections:
       - monthly(25)
     summary: Movies most watched online of all time.
 
-  Trakt - Most Watched (Yearly):
-    template: { name: TV }
-    trakt_chart:
-      chart: watched
-      limit: 60
-      time_period: yearly
-    file_poster: config/posters/Trakt Most Watched Yearly.png
-    summary: Most watched shows across the internet this year.
-    visible_shared: monthly(23)
-
   Trakt - Most Watched (Monthly):
     template: { name: TV }
     trakt_chart:
@@ -140,10 +130,20 @@ collections:
     summary: Most watched shows across the internet this month.
     visible_shared: monthly(14)
 
+  Trakt - Most Watched (Yearly):
+    template: { name: TV }
+    trakt_chart:
+      chart: watched
+      limit: 60
+      time_period: yearly
+    file_poster: config/posters/Trakt Most Watched Yearly.png
+    summary: Most watched shows across the internet this year.
+    visible_shared: monthly(23)
+
   Trakt - Recommended:
     template: { name: TV }
     trakt_recommendations: 30
-    sort_title: ++++++_Trakt - Recommended
+    sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     file_poster: config/posters/Trakt Recommended.png
     visible_shared:
@@ -156,7 +156,7 @@ collections:
     trakt_chart:
       chart: trending
       limit: 30
-    sort_title: ++++++++_ZTrending
+    sort_title: +_ZTrending
     visible_shared:
       - monthly(26)
       - monthly(24)

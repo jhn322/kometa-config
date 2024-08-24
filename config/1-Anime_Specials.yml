@@ -188,3 +188,10 @@ collections:
   #   sort_title: zzzzzz_6/10
   #   file_poster: config/posters/6.png
   #   trakt_list:
+
+  # 1-5/10:
+  #   template: { name: Rating }
+  #   summary: Animes with a user rating of 1-5/10 (sorted from best to worst).
+  #   sort_title: zzzzzzzz_1-5/10
+  #   file_poster: config/posters/1-5.png
+  #   trakt_list:

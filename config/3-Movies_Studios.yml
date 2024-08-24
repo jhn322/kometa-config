@@ -20,7 +20,7 @@ templates:
     smart_label: release.desc
 
   Streaming:
-    sort_title: ++_<<collection_name>>
+    sort_title: ++++_<<collection_name>>
     sync_mode: sync
     smart_label: originally_available.desc
     visible_library: true
@@ -102,6 +102,11 @@ collections:
     summary: Castle Rock Entertainment is an American film and television production company founded in 1987 by Martin Shafer, director Rob Reiner, Andrew Scheinman, Glenn Padnick and Alan Horn. It is a subsidiary of Warner Bros., a division of AT&T's WarnerMedia.
     file_poster: config/posters/Castle Rock Entertainment.png
 
+  Cloverworks:
+    template: { name: Studio, company: 121589 }
+    summary: CloverWorks, Inc. is a Japanese animation studio that was rebranded from A-1 Pictures' Koenji Studio. It is a subsidiary of Sony Music Entertainment Japan's anime production firm Aniplex.
+    file_poster: config/posters/Cloverworks.png
+
   Dreamworks Pictures:
     template: { name: Studio, company: 7 }
     summary: DreamWorks Pictures is an American film distribution label of Amblin Partners, It was founded on October 12, 1994 as an original live-action film studio by Steven Spielberg, Jeffrey Katzenberg, and David Geffen (together, SKG), of which they owned 72%. The studio formerly distributed its own and third-party films. It has produced or distributed more than ten films with box-office grosses of more than $100 million each.
@@ -131,6 +136,16 @@ collections:
     template: { name: Studio, company: 6704 }
     summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
     file_poster: config/posters/Illumination Entertainment.png
+
+  J.C. Staff:
+    template: { name: Studio, company: 11884 }
+    summary: J.C.Staff Co., Ltd. is a Japanese animation studio founded in January 1986 by Tomoyuki Miyata, who previously worked at Tatsunoko Production. The studio's first release was Yotoden in 1987.
+    file_poster: config/posters/J.C. Staff.png
+
+  Kyoto Animation:
+    template: { name: Studio, company: 5438 }
+    summary: Kyoto Animation was co-founded in 1985 by married couple Yoko and Hideaki Hatta; it became a limited company in 1985 and a corporation in 1999.[5] Yoko Hatta, who serves as the company's vice president, had worked as a painter at Mushi Production until she moved to Kyoto after marrying her husband, who serves as president.
+    file_poster: config/posters/Kyoto Animation.png
 
   Legendary Pictures:
     template: { name: Studio, company: 923 }
@@ -162,6 +177,11 @@ collections:
     summary: Madhouse Inc. (Kabushiki-gaisha Maddohausu, stylized as MADHOUSE) is a Japanese animation studio founded in 1972 by ex–Mushi Pro animators, including Masao Maruyama, Osamu Dezaki, Rintaro and Yoshiaki Kawajiri.
     file_poster: config/posters/Madhouse.png
 
+  MAPPA:
+    template: { name: Studio, company: 21444 }
+    summary: MAPPA Co., Ltd. is a Japanese animation studio headquartered in Suginami, Tokyo. Founded in 2011 by Madhouse co-founder and producer Masao Maruyama, it has produced anime works including Kids on the Slope, Terror in Resonance, Yuri!!! on Ice, In This Corner of the World, Zombieland Saga, Dororo, Jujutsu Kaisen, and Attack on Titan The Final Season.
+    file_poster: config/posters/MAPPA.png
+
   Monkeypaw Productions:
     template: { name: Studio, company: 88934 }
     summary: Monkeypaw Productions is an American production company founded by director and producer Jordan Peele in 2012. The company is known for producing the horror films Get Out and Us. The company is named after the 1902 horror short story "The Monkey's Paw".
@@ -191,6 +211,16 @@ collections:
     template: { name: Studio, company: 2481 }
     summary: Platinum Dunes is an American production company created in November 2001 by filmmakers Michael Bay, Brad Fuller, and Andrew Form. The company produces horror films, such as The Texas Chainsaw Massacre, The Purge, Friday the 13th, A Nightmare on Elm Street, Ouija, A Quiet Place, and A Quiet Place Part II.
     file_poster: config/posters/Platinum Dunes.png
+
+  P.A. Works:
+    template: { name: Studio, company: 20867 }
+    summary: P.A. Works, Inc. is a Japanese animation studio founded on November 10, 2000 in Nanto, Toyama. The company's president and founder Kenji Horikawa once worked for Tatsunoko Production, Production I.G and Bee Train Production, before forming P.A. Works Corporation.
+    file_poster: config/posters/P.A. Works.png
+
+  Pierrot:
+    template: { name: Studio, company: 3234 }
+    summary: Pierrot Co., Ltd. is a Japanese animation studio established in May 1979 by former employees of both Tatsunoko Production and Mushi Production. Its headquarters are located in Mitaka, Tokyo. Pierrot is renowned for several worldwide popular anime series, such as Naruto, Bleach, Yu Yu Hakusho, Black Clover, Boruto Naruto Next Generations, Tokyo Ghoul, and Great Teacher Onizuka.
+    file_poster: config/posters/Pierrot.png
 
   Production I.G:
     template: { name: Studio, company: 529 }
@@ -249,6 +279,11 @@ collections:
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
     file_poster: config/posters/Sony Pictures Animation.png
 
+  Trigger:
+    template: { name: Studio, company: 50908 }
+    summary: Trigger Inc. also known as Studio Trigger, is a Japanese animation studio founded by former Gainax employees Hiroyuki Imaishi and Masahiko Otsuka on August 22, 2011.
+    file_poster: config/posters/Trigger.png
+
   Touchstone Pictures:
     template: { name: Plex, studio: "Touchstone Pictures" }
     summary: Touchstone Pictures was an American film distribution label of Walt Disney Studios Motion Pictures, created and owned by The Walt Disney Company. Feature films released under the Touchstone label were produced and financed by The Walt Disney Studios, and featured more mature themes targeted towards adult audiences than typical Disney releases. As such, Touchstone was merely a brand of the studio and did not exist as a distinct business operation.
@@ -273,6 +308,11 @@ collections:
     template: { name: Studio, company: 60 }
     summary: United Artists Corporation (UA), currently doing business as United Artists Digital Studios, is an American digital production company. Founded in 1919 by D. W. Griffith, Charlie Chaplin, Mary Pickford, and Douglas Fairbanks, the studio was premised on allowing actors to control their own interests, rather than being dependent upon commercial studios. UA was repeatedly bought, sold, and restructured over the ensuing century. Metro-Goldwyn-Mayer acquired the studio in 1981 for a reported $350 million
     file_poster: config/posters/United Artist.png
+
+  Ufotable:
+    template: { name: Studio, company: 5887 }
+    summary: Ufotable, Inc. is a Japanese animation studio founded in October 2000 by former staff of the TMS Entertainment subsidiary Telecom Animation Film and located in Suginami, Tokyo.
+    file_poster: config/posters/Ufotable.png
 
   Village Roadshow Pictures:
     template: { name: Studio, company: 79 }

@@ -17,7 +17,7 @@ templates:
       validate: false
       any:
         network: <<network>>
-    sort_title: ++_<<collection_name>>
+    sort_title: ++++_<<collection_name>>
 
 # Fetched from TMDb using the studio id and/or name
 collections:

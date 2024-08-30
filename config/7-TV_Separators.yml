@@ -55,7 +55,7 @@ collections:
 
   Special Collections:
     template: { name: Separator }
-    sort_title: zz_000
+    sort_title: zz__000
     summary: Special collections up next.
     file_poster: config/posters/Special Collections.png
 

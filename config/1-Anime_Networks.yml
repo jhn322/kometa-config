@@ -233,10 +233,6 @@ collections:
     summary: Pierrot Co., Ltd. is a Japanese animation studio established in May 1979 by former employees of both Tatsunoko Production and Mushi Production. Its headquarters are located in Mitaka, Tokyo. Pierrot is renowned for several worldwide popular anime series, such as Naruto, Bleach, Yu Yu Hakusho, Black Clover, Boruto Naruto Next Generations, Tokyo Ghoul, and Great Teacher Onizuka.
     file_poster: config/posters/Pierrot.png
 
-  Prime Video:
-    template: { name: network, network: "Amazon" }
-    file_poster: config/posters/Prime Video.png
-
   Production I.G:
     template: { name: studio, company: 529 }
     summary: Production I.G, Inc. is a Japanese animation studio and production enterprise, founded on December 15, 1987, by Mitsuhisa Ishikawa and headquartered in Musashino, Tokyo, Japan. The letters I and G derive from the names of the company founders producer Mitsuhisa Ishikawa and character designer Takayuki Goto.

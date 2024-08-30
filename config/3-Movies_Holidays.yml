@@ -11,7 +11,7 @@ templates:
 
 # Holiday collections that will show up when the holiday has started and disappear when it has ended
 collections:
-  Christmas 🎄:
+  Christmas 🎅:
     template: { name: Holiday }
     visible_home: range(12/01-12/26)
     visible_shared: range(12/01-12/26)
@@ -44,7 +44,7 @@ collections:
       - https://trakt.tv/users/fcisco13/lists/dad-movies?sort=rank,asc
       - https://trakt.tv/users/segfaulted/lists/movies-for-dad?sort=rank,asc
 
-  Halloween 🎃:
+  Halloween 👻:
     template: { name: Holiday }
     visible_home: range(10/01-10/31)
     visible_shared: range(10/01-10/31)

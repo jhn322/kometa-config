@@ -266,7 +266,11 @@ collections:
       - monthly(18)
 
   Paramount+:
-    template: { name: streaming, network: "Paramount+, Paramount Network" }
+    template:
+      {
+        name: streaming,
+        network: "Paramount+, Paramount Network, Paramount Global, Paramount+ with Showtime",
+      }
     file_poster: config/posters/Paramount+.png
     visible_shared:
       - monthly(4)
@@ -283,7 +287,7 @@ collections:
       - monthly(15)
 
   Prime Video:
-    template: { name: streaming, network: "Amazon" }
+    template: { name: streaming, network: "Amazon, Prime Video" }
     file_poster: config/posters/Prime Video.png
     visible_library: true
     studio: Amazon Prime Video

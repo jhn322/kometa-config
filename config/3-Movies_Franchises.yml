@@ -1353,6 +1353,14 @@ collections:
       all:
         title: hot shots
 
+  The Human Centipede:
+    template: { name: Franchise }
+    file_poster: config/posters/The Human Centipede.png
+    summary: The Human Centipede is a body horror film series created by Dutch filmmaker Tom Six. The series consists of three films, the first of which premiered in 2009 and the last of which premiered in 2015. The films focus on people being connected against their will to form one single digestive tract.
+    plex_search:
+      all:
+        title: human centipede
+
   The Hunger Games:
     template: { name: Franchise }
     summary: The Hunger Games film series consists of four science fiction dystopian adventure films based on The Hunger Games trilogy of novels, by the American author Suzanne Collins.

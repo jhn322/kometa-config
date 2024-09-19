@@ -335,9 +335,9 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/kayaaron13/lists/ranker-top-alien-movies?sort=rank,asc
-      - https://trakt.tv/users/42069bbq/lists/ultimate-aliens-movie-list?sort=rank,asc
       - https://trakt.tv/users/29zombies/lists/aliens?sort=title,asc
       - https://trakt.tv/users/roswellgeek/lists/aliens?sort=title,asc
+      - https://trakt.tv/users/breez22/lists/alien-movies
 
   Anxiety:
     template: { name: Genre Other }
@@ -468,7 +468,9 @@ collections:
     summary: For when youre feeling like everything is a bit too much.
     file_poster: config/posters/Comfort.png
     visible_shared: monthly(20)
-    letterboxd_list: https://letterboxd.com/ventunopiloti/list/comfort-movies/
+    letterboxd_list:
+      - https://letterboxd.com/cinemaparadisa/list/comfort-movies/
+      - https://letterboxd.com/maiders/list/comfort-movies/
 
   Coming of Age:
     template: { name: Genre Other }

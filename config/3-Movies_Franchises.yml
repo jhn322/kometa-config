@@ -430,6 +430,12 @@ collections:
       all:
         title: beverly hills cop
 
+  Beetlejuice:
+    template: { name: Franchise }
+    summary: A series of fantasy comedy films featuring the whacky character of Betelgeuse, a bio-exorcist who assists a family in scaring away a family that moved into their home.
+    file_poster: config/posters/Beetlejuice.png
+    tmdb_collection: 945475
+
   Bill & Ted:
     template: { name: Franchise }
     summary: Bill & Ted is an American buddy comedy sci-fi film series created by Chris Matheson and Ed Solomon. It features Bill S. Preston Esq. and Ted, two metalhead slacker friends who travel through time.

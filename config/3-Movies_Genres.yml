@@ -1,5 +1,5 @@
 ######################################################
-#                  GENRES 18.0                       #
+#                  GENRES 19.0                       #
 ######################################################
 
 templates:
@@ -363,14 +363,16 @@ collections:
     summary: An anti-hero is a fictional character who lacks the traditional heroic qualities, such as idealism, courage, and morality, and may possess traits that are typically associated with villains, such as selfishness, cynicism, and moral ambiguity.
     file_poster: config/posters/Anti-Hero.png
     visible_shared: monthly(4)
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-anti-hero/
+    letterboxd_list:
+      - https://letterboxd.com/praetrion/list/anti-hero/
+      - https://letterboxd.com/ak_hmoney/list/anti-hero/
 
   Alternate History:
     template: { name: Genre Other }
     summary: Alternate history, also known as alternative history or AH, is a genre of fiction that explores the consequences of historical events if they had happened differently.
     file_poster: config/posters/Alternate History.png
     letterboxd_list:
-      - https://letterboxd.com/ediblehedgehog/list/theme-alternate-history/
+      - https://letterboxd.com/lethe/list/alternate-history-without-time-travel-or/
       - https://letterboxd.com/natmavila/list/alternate-history/
 
   Bad Sequel:
@@ -441,7 +443,7 @@ collections:
     file_poster: config/posters/Con-Artist.png
     visible_shared: monthly(7)
     limit: 300
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-con-artists/
+    letterboxd_list: https://letterboxd.com/shrill_falsetto/list/con-artistry-films-to-watch-or-rewatch/
 
   Classic:
     template: { name: Genre Other }
@@ -527,7 +529,9 @@ collections:
     summary: The genre of dark fantasy is a type of speculative fiction that combines elements of horror and fantasy. Dark fantasy stories typically feature a dark or ominous tone and explore themes of death, evil, and the supernatural.
     file_poster: config/posters/Dark Fantasy.png
     visible_shared: monthly(8)
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-dark-fantasy/
+    letterboxd_list:
+      - https://letterboxd.com/abbyfrancesca/list/dark-fantasy/
+      - https://letterboxd.com/newarchive/list/dark-fantasy/
 
   Deep Sea:
     template: { name: Genre Other }
@@ -631,14 +635,18 @@ collections:
     summary: The gore genre is a type of horror entertainment that focuses on graphic and explicit depictions of violence, bloodshed, and bodily mutilation. It often features extreme and disturbing imagery, such as dismemberment, torture, and mutilation, with the intent of shocking and repulsing the audience.
     file_poster: config/posters/Gore.png
     visible_shared: monthly(14)
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-splatter/
+    letterboxd_list:
+      - https://letterboxd.com/hyeluv/list/gore/
+      - https://letterboxd.com/m_salander/list/gore/
 
   Ghost:
     template: { name: Genre Other }
     summary: A ghost is a supernatural entity that is believed to be the spirit or soul of a deceased person. Ghosts are often depicted as apparitions or images of the deceased, and they are said to haunt specific locations or objects.
     file_poster: config/posters/Ghost.png
     visible_shared: monthly(16)
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-ghosts/
+    letterboxd_list:
+      - https://letterboxd.com/soledreams/list/ghost/
+      - https://letterboxd.com/pac28/list/ghost/
 
   Hacking:
     template: { name: Genre Other }
@@ -757,7 +765,6 @@ collections:
     letterboxd_list:
       - https://letterboxd.com/quarkdpn/list/naval/
       - https://letterboxd.com/maginott/list/top-naval-themed-movies/
-      - https://letterboxd.com/ediblehedgehog/list/theme-naval/
 
   Nostalgia:
     template: { name: Genre Other }
@@ -831,7 +838,7 @@ collections:
     summary: Psychedelic refers to a style of art, music, and culture that emerged in the 1960s, characterized by vivid colors, surreal imagery, and a sense of exploration and experimentation. Psychedelic art often incorporates distorted shapes and patterns, optical illusions, and imagery inspired by hallucinations or altered states of consciousness.
     file_poster: config/posters/Psychedelic.png
     visible_shared: monthly(21)
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-psychedelic/
+    letterboxd_list: https://letterboxd.com/6kinds_of_light/list/psychedelic/
 
   Prehistoric:
     template: { name: Genre Other }
@@ -982,7 +989,7 @@ collections:
     file_poster: config/posters/Samurai.png
     visible_shared: monthly(30)
     letterboxd_list:
-      - https://letterboxd.com/ediblehedgehog/list/theme-samurai/
+      - https://letterboxd.com/jschergen/list/samurai/
       - https://letterboxd.com/jhcrotinger/list/samurai/
 
   Silent Era:
@@ -999,14 +1006,18 @@ collections:
     file_poster: config/posters/Survival.png
     visible_shared: monthly(23)
     limit: 300
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-survival/
+    letterboxd_list:
+      - https://letterboxd.com/tanyaechelon/list/survival/
+      - https://letterboxd.com/bitterdagger/list/survival/
 
   Surrealism:
     template: { name: Genre Other }
     summary: Surrealism is an artistic and literary movement that emerged in the early 20th century, characterized by a focus on the subconscious mind and the exploration of the imagination. Surrealism sought to break free from traditional art and literary forms, emphasizing the irrational, the dreamlike, and the bizarre.
     file_poster: config/posters/Surrealism.png
     visible_shared: monthly(31)
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-surrealism/
+    letterboxd_list:
+      - https://letterboxd.com/anniw/list/surrealism/
+      - https://letterboxd.com/ciaocabiria/list/surrealism/
 
   Supernatural:
     template: { name: Genre Other }
@@ -1014,7 +1025,9 @@ collections:
     file_poster: config/posters/Supernatural.png
     visible_shared: monthly(29)
     limit: 300
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-supernatural/
+    letterboxd_list:
+      - https://letterboxd.com/nurseratchet/list/supernatural/
+      - https://letterboxd.com/lelle70/list/supernatural/
 
   Serial Killer:
     template: { name: Genre Other }
@@ -1034,7 +1047,9 @@ collections:
     file_poster: config/posters/Satire.png
     visible_shared: monthly(28)
     limit: 300
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-satire/
+    letterboxd_list:
+      - https://letterboxd.com/danielfie/list/satire/
+      - https://letterboxd.com/calathea_os/list/satire/
 
   Slasher:
     template: { name: Genre Other }
@@ -1164,7 +1179,9 @@ collections:
     template: { name: Genre Other }
     summary: Werewolf films is a sub-genre of horror film typically involving a shapeshifting human at full moon.
     file_poster: config/posters/Werewolf.png
-    letterboxd_list: https://letterboxd.com/ediblehedgehog/list/theme-werewolves/
+    letterboxd_list:
+      - https://letterboxd.com/fieldmouse/list/werewolf/
+      - https://letterboxd.com/dsuter8/list/werewolf/
 
   Wizardry & Witchcraft:
     template: { name: Genre Other }

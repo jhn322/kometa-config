@@ -1,5 +1,5 @@
 ############################################
-#               GENRES 14.0                #
+#               GENRES 15.0                #
 ############################################
 
 templates:
@@ -415,7 +415,6 @@ collections:
     visible_shared: monthly(19)
     trakt_list:
       - https://trakt.tv/users/thegeerson/lists/lgbtq-shows?sort=rank,asc
-      - https://trakt.tv/users/kalesreg/lists/lgbtq-characters?sort=my_rating,asc
       - https://trakt.tv/users/freemynd78/lists/lgbtq-movies-and-tv-shows?sort=percentage,asc
       - https://trakt.tv/users/apollocat/lists/shows-with-an-lgbtq-connection?sort=rank,asc
 
@@ -458,7 +457,6 @@ collections:
     visible_shared: monthly(6)
     trakt_list:
       - https://trakt.tv/users/captaincarrot/lists/space-tv-shows-non-animated?sort=rank,asc
-      - https://trakt.tv/users/kylesheila/lists/space-ca?sort=title,asc
       - https://trakt.tv/users/elicx/lists/space-movies-shows?sort=released,asc
       - https://trakt.tv/users/arclight/lists/space-fiction?sort=rank,asc
 
@@ -600,9 +598,8 @@ collections:
     file_poster: config/posters/Time Travel TV.png
     visible_shared: weekly(saturday)
     trakt_list:
-      - https://trakt.tv/users/vagnerr/lists/time-travel
       - https://trakt.tv/users/julia1998invisible/lists/time-travel-tv-shows?sort=my_rating,asc
-      - https://trakt.tv/users/mic-madalena/lists/time-travel-tv?sort=rank,asc
+      - https://trakt.tv/users/zambucca/lists/time-travel
 
   Vampire:
     template: { name: Genre Other }
@@ -627,5 +624,5 @@ collections:
     file_poster: config/posters/Zombie TV.png
     visible_shared: weekly(wednesday)
     trakt_list:
-      - https://trakt.tv/users/theobscureking/lists/all-zombie-series-or-similiar?sort=rank,asc
+      - https://trakt.tv/users/kuratchikingu/lists/zombie-movies-shows?sort=rank,asc
       - https://trakt.tv/users/skavau/lists/zombie-live-action-series?sort=popularity,asc

@@ -585,7 +585,7 @@ collections:
     visible_shared: weekly(friday)
     trakt_list:
       - https://trakt.tv/users/mezuror/lists/dystopian
-      - https://trakt.tv/users/remontant/lists/dystopian-movies
+      - https://trakt.tv/users/maxtrontv/lists/dystopian-movies
 
   Fairytale:
     template: { name: Genre Other }

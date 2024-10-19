@@ -88,15 +88,15 @@ Nightly: docker pull kometateam/kometa:nightly
 
 **Movies**
 
-![image search api](https://i.imgur.com/uZZfGZ7.png)
+![image search api](https://i.imgur.com/5Ot6ziT.png)
 
 **TV**
 
-![image search api](https://i.imgur.com/oDYGbHf.png)
+![image search api](https://i.imgur.com/4Z28s9A.png)
 
 **Anime**
 
-![image search api](https://i.imgur.com/1n2wDih.png)
+![image search api](https://i.imgur.com/kTwTjW8.png)
 
 ### Overlays examples
 

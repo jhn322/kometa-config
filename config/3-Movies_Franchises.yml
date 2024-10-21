@@ -2775,9 +2775,7 @@ collections:
     template: { name: Franchise }
     summary: The Twilight saga is a popular movie series based on the vampire-themed romance novels written by Stephenie Meyer.
     file_poster: config/posters/The Twilight Saga.jpeg
-    plex_search:
-      all:
-        title: twilight saga
+    tmdb_collection: 33514
 
   To All the Boys:
     template: { name: Franchise }

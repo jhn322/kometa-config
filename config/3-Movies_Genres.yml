@@ -595,8 +595,8 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/raluca-303/lists/fairytale?sort=released,asc
-      - https://trakt.tv/users/mrfinesse/lists/fairytale?sort=title,asc
       - https://trakt.tv/users/pterisaur/lists/fairytales?sort=random,asc
+      - https://trakt.tv/users/urban-legend/lists/fairytales?sort=rank,asc
 
   Film Noir:
     template: { name: Genre Smart }

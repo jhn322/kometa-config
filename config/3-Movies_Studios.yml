@@ -352,7 +352,6 @@ collections:
       - https://trakt.tv/users/k0meta/lists/max-originals?sort=rank,asc
       - https://trakt.tv/users/k0meta/lists/hbo-max-originals?sort=rank,asc
       - https://trakt.tv/users/weealdo/lists/hbo-max-original-movies-copy?sort=released,asc
-      - https://trakt.tv/users/crossoverdeseries/lists/max-originals-part-of-max?sort=released,asc
 
   HULU:
     template: { name: Streaming }

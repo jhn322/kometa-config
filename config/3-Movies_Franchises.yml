@@ -1142,14 +1142,13 @@ collections:
       all:
         title: goosebumps
 
-  Godzilla (Anime):
+  Godzilla:
     template: { name: Franchise }
-    summary: Godzilla Planet of the Monsters is a 2017 Japanese computer-animated kaiju film directed by Kōbun Shizuno and Hiroyuki Seshita, written by Gen Urobuchi, and produced by Toho Animation and Polygon Pictures, in association with Netflix.
-    file_poster: config/posters/Godzilla Anime.png
+    summary: The Godzilla film series, originating from Japan's Toho Studios in 1954, is one of the longest-running film franchises in history. It centers around Godzilla, a giant prehistoric sea monster awakened and empowered by nuclear radiation.
+    file_poster: config/posters/Godzilla.png
     plex_search:
       all:
         title: godzilla
-        genre: animation
 
   Gremlins:
     template: { name: Franchise }

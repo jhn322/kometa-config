@@ -3008,6 +3008,12 @@ collections:
         title: venom
         actor: tom hardy
 
+  Waynes World:
+    template: { name: Franchise }
+    summary: Wayne Campbell and Garth Algar are the hosts of Wayne's World, a local Friday late-night cable access program based in Aurora, Illinois, where they ogle pictures of beautiful celebrity women, play air guitar and drums, and interview local people, indirectly making fun of them over the course of the interview.
+    file_poster: config/posters/Waynes World.png
+    tmdb_collection: 8979
+
   The Wog Boys:
     template: { name: Franchise }
     summary: The Wog Boy is a Australian comedy film series directed by Aleksi Vellis and starring Nick Giannopoulos, Vince Colosimo, Lucy Bell, Abi Tucker, Stephen Curry, Tony Nikolakopoulos and Derryn Hinch.

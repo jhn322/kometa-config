@@ -353,7 +353,7 @@ collections:
     summary: Shows based on comic books.
     file_poster: config/posters/Comic Book TV.png
     visible_shared: monthly(14)
-    trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-comics
+    trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-comics?sort=rank,asc
 
   Courtroom:
     template: { name: Genre Other }

@@ -633,6 +633,13 @@ collections:
       all:
         actor: Leonardo DiCaprio
 
+  Leslie Nielsen:
+    template: { name: Actor }
+    file_poster: config/posters/Leslie Nielsen.png
+    plex_search:
+      all:
+        actor: Leslie Nielsen
+
   Lupita Nyongo:
     template: { name: Actor }
     file_poster: config/posters/Lupita Nyong'o.png

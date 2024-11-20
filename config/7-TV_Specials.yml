@@ -116,7 +116,7 @@ collections:
     summary: The lengthiest shows on Plex.
     file_poster: config/posters/Longest.png
     trakt_list:
-      - https://trakt.tv/users/belamarlua/lists/long-shows-i-watched-more-then-one-time?sort=rank,asc
+      - https://trakt.tv/users/andrewh4352/lists/top-shows-long-running?sort=rank,asc
       - https://trakt.tv/users/copeland1994/lists/all-time-series-rankings-long-running-shows-only?sort=rank,asc
 
   Newly Released: # Released within last 2 months

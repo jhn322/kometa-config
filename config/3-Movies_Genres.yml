@@ -434,7 +434,6 @@ collections:
     file_poster: config/posters/Cyberpunk.png
     visible_shared: monthly(5)
     trakt_list:
-      - https://trakt.tv/users/chatterer/lists/cyberpunk?sort=released,asc
       - https://trakt.tv/users/oya-kesh/lists/cyberpunk?sort=rank,asc
 
   Con-Artist:

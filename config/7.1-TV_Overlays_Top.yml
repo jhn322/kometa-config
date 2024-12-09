@@ -16,7 +16,7 @@ templates:
     default:
       overlay: <<overlay_name>>
     collection_level: <<overlay_level>>
-    trakt_list: https://trakt.tv/users/argonut/lists/trakt-yearly-top-tv?sort=released,asc
+    trakt_list: https://trakt.tv/users/dnkta/lists/highly-rated-shows-trakt?sort=rank,asc
     overlay:
       name: <<overlay_name>>
 

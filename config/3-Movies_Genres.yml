@@ -1018,7 +1018,7 @@ collections:
     visible_shared: monthly(31)
     letterboxd_list:
       - https://letterboxd.com/anniw/list/surrealism/
-      - https://letterboxd.com/ciaocabiria/list/surrealism/
+      - https://letterboxd.com/delshannononion/list/surrealism/
 
   Supernatural:
     template: { name: Genre Other }

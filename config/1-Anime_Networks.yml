@@ -33,7 +33,7 @@ collections:
     file_poster: config/posters/ABC.png
 
   Abema TV:
-    template: { name: network, network: "ABEMA, ABEMA Video" }
+    template: { name: network, network: "ABEMA, ABEMA Anime" }
     summary: Abema TV is a Japanese live TV streaming website for anime.
     file_poster: config/posters/AbemaTV.png
 
@@ -124,8 +124,7 @@ collections:
     file_poster: config/posters/Eightbit.png
 
   Fuji TV:
-    template:
-      { name: network, network: "Fuji TV, Fuji TV NEXT, Fuji News Network" }
+    template: { name: network, network: "Fuji TV, Fuji News Network" }
     summary: Branded as Fuji TV and colloquially known as CX, is a Japanese television station based in Odaiba, Minato, Tokyo, Japan. Owned and operated by the Fuji Television Network, Inc. it is the key station of the Fuji News Network (FNN) and the Fuji Network System. It is also known for its long-time slogan, "If it's not fun, it's not TV!"
     file_poster: config/posters/Fuji TV.png
 

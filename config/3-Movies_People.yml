@@ -1468,5 +1468,5 @@ collections:
     file_poster: config/posters/Stephen King.png
     trakt_list:
       - https://trakt.tv/users/sketche1/lists/stephen-king?sort=popularity,asc
-      - https://trakt.tv/users/missluna/lists/stephen-king?sort=rank,asc
+      - https://trakt.tv/users/hawque/lists/stephen-king?sort=released,asc
       - https://trakt.tv/users/drakula1000/lists/stephen-king?sort=rank,asc

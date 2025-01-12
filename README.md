@@ -6,11 +6,11 @@ For all lists and overlays to work you'll need to configure API tokens from Trak
 
 ## Install (Docker Compose)
 
-This will install Kometa using docker compose with a daily run schedule for collections, overlays and operations as three seperate containers.
+This is how to install Kometa using docker compose with a daily run schedule for collections, overlays and operations as a stack containing three containers.
 
-1. Download this repository.
-2. Add **your** Plex IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change to your Plex library names in the config.yml.
-3. Many collections in this config require a unique API key/token/id for a specific service like Trakt, MdbList etc. Below is a list of the ones I use and would **highly recommend** you to set up as well:
+1. Clone/download this repository.
+2. Add **your** local Plex server IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change each library title to the exact(!) name your Plex libraries are named in the config.yml.
+3. Many collections in this config require a unique API key/token/id for a service such as Trakt, MdbList and more. Below is a list of the ones in this repo and I would **highly recommend** you set them up for the best possible experience:
 
 - [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
 - [TMDb](https://metamanager.wiki/en/latest/config/tmdb/)
@@ -20,28 +20,30 @@ This will install Kometa using docker compose with a daily run schedule for coll
 - [MyAnimeList](https://metamanager.wiki/en/latest/config/myanimelist/)
 - [Tautulli](https://metamanager.wiki/en/latest/config/tautulli/)
 
-4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows (if you haven't already).
+4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki] (https://metamanager.wiki/en/latest/kometa/install/local/).
 5. Open terminal and navigate to your path:
 
 ```powershell
+Linux: "cd /path/to/Kometa-folder"
+
 Windows: "cd C:\path\to\Kometa-folder"
 
-Linux: "cd /path/to/Kometa-folder"
+Mac: "cd ~/path/to/Kometa-folder"
 ```
 
 6. Now paste this in the terminal to create the containers:
 
 ```powershell
-Windows: "docker compose up -d"
+Linux: "sudo docker-compose up -d"
 
-Linux: "sudo docker compose up -d"
+Windows/Mac: "docker-compose up -d"
 ```
 
 **Done!**
 
 ## Docker run (Optional/Testing)
 
-If you for some reason don't want to use Docker compose you can utilize run on a schedule:
+If you for some reason don't want to use Docker compose, you can simply utilize the run commands to achieve the same result:
 
 ```powershell
 Linux:
@@ -53,14 +55,21 @@ Windows:
 docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
 docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
 docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
+
+Mac:
+docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
+docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
+docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
 ```
 
 For testing purposes (single run):
 
 ```powershell
+Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
+
 Windows: docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run
 
-Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
+Mac: docker run -it -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
 ```
 
 ## Update Kometa

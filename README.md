@@ -20,7 +20,7 @@ This is how to install Kometa using docker compose with a daily run schedule for
 - [MyAnimeList](https://metamanager.wiki/en/latest/config/myanimelist/)
 - [Tautulli](https://metamanager.wiki/en/latest/config/tautulli/)
 
-4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki] (https://metamanager.wiki/en/latest/kometa/install/local/).
+4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki](https://metamanager.wiki/en/latest/kometa/install/local/).
 5. Open terminal and navigate to your path:
 
 ```powershell

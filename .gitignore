@@ -143,3 +143,6 @@ dmypy.json
 # Mac
 DS_Store
 ._
+
+# Gitconfig
+.gitconfig

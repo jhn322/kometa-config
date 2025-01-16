@@ -2140,6 +2140,14 @@ collections:
       all:
         title: Pet Sematary
 
+  Poohniverse:
+    template: { name: Franchise }
+    file_poster: config/posters/Poohniverse.jpg
+    summary: The Twisted Childhood Cinematic Universe features Winnie-the-Pooh, Peter Pan, Tinkerbell, Bambi, Pinocchio and more.
+    letterboxd_list:
+      - https://letterboxd.com/mook/list/poohniverse-the-twisted-childhood-cinematic/
+      - https://letterboxd.com/cathal164/list/poohniverse/
+
   Piranha 3D:
     template: { name: Franchise }
     summary: Piranha is a horror comedy film series that consists of five films. The original film is a parody of the 1975 film Jaws.
@@ -2819,9 +2827,7 @@ collections:
     template: { name: Franchise }
     summary: The Titans is an action fantasy film series and remake of the 1981 film of the same name produced by Metro Goldwyn Mayer. The story is very loosely based on the Greek myth of Perseus.
     file_poster: config/posters/Titans.jpeg
-    plex_search:
-      all:
-        title: of the titans
+    tmdb_collection: 86780
 
   Total Recall:
     template: { name: Franchise }

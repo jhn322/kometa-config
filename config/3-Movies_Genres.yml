@@ -690,6 +690,17 @@ collections:
     visible_shared: monthly(30)
     trakt_list: https://trakt.tv/users/thisisjonny/lists/lgbtqia
 
+  Lynchian:
+    template: { name: Genre Other }
+    summary: Characterized by the surreal, unsettling, and often dreamlike qualities found in the works of filmmaker David Lynch. Lynchian films typically feature bizarre and disturbing imagery, nonlinear narratives, and a blending of the mundane with the macabre, creating a unique and disorienting viewing experience. Rest in peace, David Lynch 1946-2025.
+    file_poster: config/posters/Lynchian.png
+    visible_shared: monthly(20)
+    letterboxd_list:
+      - https://letterboxd.com/gavincmb/list/lynchian/
+      - https://letterboxd.com/co_punk/list/lynchian/
+      - https://letterboxd.com/xdchahat/list/lynchian/
+      - https://letterboxd.com/travis_k/list/lynchian/
+
   Member Berries:
     template: { name: Genre Other }
     summary: Member Berry movies are movies that contain a lot of call backs or easter eggs to previous movies in the franchise or related franchises. Often franchise reboots.

@@ -1192,7 +1192,7 @@ collections:
     summary: Werewolf films is a sub-genre of horror film typically involving a shapeshifting human at full moon.
     file_poster: config/posters/Werewolf.png
     letterboxd_list:
-      - https://letterboxd.com/fieldmouse/list/werewolf/
+      - https://letterboxd.com/7thwolf/list/werewolf/
       - https://letterboxd.com/dsuter8/list/werewolf/
 
   Wizardry & Witchcraft:

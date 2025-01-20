@@ -1212,7 +1212,7 @@ collections:
     visible_shared: monthly(6)
     trakt_list:
       - https://trakt.tv/users/urban-legend/lists/winter?sort=rank,asc
-      - https://trakt.tv/users/acoucalancha/lists/winter?sort=rank,asc
+      - https://trakt.tv/users/houpsonfire/lists/winter-movies
 
   Zombie:
     template: { name: Genre Other }

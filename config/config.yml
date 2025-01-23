@@ -199,3 +199,36 @@ mal:
     token_type:
     expires_in:
     refresh_token:
+radarr:                              # Can be individually specified per library as well
+  url: http://192.168.1.1:7878
+  token: ################################
+  add_missing: false
+  add_existing: false
+  upgrade_existing: false
+  monitor_existing: false
+  root_folder_path: "/Movies"
+  monitor: true
+  availability: announced
+  quality_profile: HD-1080p
+  tag:
+  search: false
+  radarr_path:
+  plex_path:
+sonarr:                              # Can be individually specified per library as well
+  url: http://192.168.1.1:8989
+  token: ################################
+  add_missing: false
+  add_existing: false
+  upgrade_existing: false
+  monitor_existing: false
+  root_folder_path: "/TV Shows"
+  monitor: all
+  quality_profile: HD-1080p
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  sonarr_path:
+  plex_path:

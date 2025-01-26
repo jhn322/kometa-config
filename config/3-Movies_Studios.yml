@@ -373,13 +373,11 @@ collections:
     template: { name: Streaming }
     summary: Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake subsidiary of Paramount Global. It is the fifth oldest film studio in the world, the second oldest film studio in the United States (behind Universal Pictures), and the sole member of the "Big Five" film studios still located in the city limits of Los Angeles.
     visible_shared: monthly(31)
-    visible_library: true
     file_poster: config/posters/Paramount+.png
     trakt_list: https://trakt.tv/users/k0meta/lists/paramount-originals?sort=rank,asc
 
   Peacock:
     template: { name: Streaming }
-    visible_library: true
     file_poster: config/posters/Peacock.png
     trakt_list: https://trakt.tv/users/k0meta/lists/peacock-originals?sort=rank,asc
 

@@ -20,6 +20,7 @@ collections:
   ####################################################
   Best of 1940-1970s:
     template: { name: Decade }
+    visible_library: false
     file_poster: config/posters/Best of 1940-1970s.png
     plex_search:
       all:
@@ -29,6 +30,7 @@ collections:
 
   Best of 1980s:
     template: { name: Decade }
+    visible_library: false
     file_poster: config/posters/Best of 1980s.png
     plex_search:
       all:
@@ -73,7 +75,7 @@ collections:
         audience_rating.gte: 7.8
 
   #####################################################
-  #                    YEARS 3.5                      #
+  #                    YEARS 4.0                      #
   #####################################################
 
   # Best animes from 2000 and forward according to mal

@@ -6,6 +6,7 @@ templates:
     smart_label: random
     sync_mode: sync
     sort_title: zz-<<collection_name>>
+    visible_library: false
 
   Special Smart:
     sync_mode: sync

@@ -1,5 +1,5 @@
 ############################################
-#               GENRES 15.0                #
+#               GENRES 16.0                #
 ############################################
 
 templates:
@@ -8,13 +8,19 @@ templates:
     visible_library: true
     sync_mode: sync
 
-  Genre Other:
+  Subgenre:
     sort_title: <<collection_name>>
     smart_label: random
     visible_library: true
     sync_mode: sync
 
-  Genre Smart:
+  Subgenre False:
+    sort_title: <<collection_name>>
+    smart_label: random
+    visible_library: false
+    sync_mode: sync
+
+  Subgenre Other:
     visible_library: true
     sort_title: <<collection_name>>
     sync_mode: sync
@@ -298,7 +304,7 @@ collections:
 
   # Creates more unique genre collections based on certain themes from Trakt lists
   Alien:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows containing aliens in some form.
     file_poster: config/posters/Alien TV.png
     visible_shared: weekly(monday)
@@ -307,7 +313,7 @@ collections:
       - https://trakt.tv/users/angel1online/lists/tv-14a-tv-aliens?sort=my_rating,asc
 
   Anthology:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     visible_shared: monthly(31)
     summary: An anthology series is a television, or film series that presents a different story and a different set of characters in each episode, season, segment or short.
     file_poster: config/posters/Anthology TV.png
@@ -316,21 +322,21 @@ collections:
       - https://trakt.tv/users/drkain/lists/anthology-series?sort=popularity,asc
 
   Based on a True Story:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     visible_shared: monthly(8)
     summary: Shows based on true events.
     file_poster: config/posters/Based on a True Story TV.png
     trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-true-stories?sort=rank,asc
 
   Book Adaption:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows based on book novels.
     visible_shared: monthly(11)
     file_poster: config/posters/Book Adaption TV.png
     trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-books
 
   British Detective:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     file_poster: config/posters/British Detective TV.png
     visible_shared: weekly(sunday)
     summary: Detective dramas from Great Britian.
@@ -340,7 +346,7 @@ collections:
       - https://trakt.tv/users/rudiecantfail/lists/uk-detective-crime-series
 
   Classic:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: TV shows made back in the good old days.
     file_poster: config/posters/Classic TV.png
     visible_shared: monthly(5)
@@ -349,14 +355,14 @@ collections:
       - https://trakt.tv/users/blankrandom/lists/classic-tv?sort=rank,asc
 
   Comic Book:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows based on comic books.
     file_poster: config/posters/Comic Book TV.png
     visible_shared: monthly(14)
     trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-comics?sort=rank,asc
 
   Courtroom:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: Showcasing brainy lawyers, gripping cases, and complex plotlines, these are the best legal dramas to watch
     file_poster: config/posters/Courtroom TV.png
     visible_shared: monthly(7)
@@ -365,7 +371,7 @@ collections:
       - https://trakt.tv/users/psychonoob/lists/courtroom-drama-tv-shows?sort=rank,asc
 
   Dark Comedy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Dark comedy is a style of comedy that makes light of subject matter that is generally considered taboo, particularly subjects that are normally considered serious or painful to discuss.
     file_poster: config/posters/Dark Comedy TV.png
     visible_shared: monthly(31)
@@ -374,7 +380,7 @@ collections:
       - https://trakt.tv/users/hitman860/lists/tv-shows-dark-comedy?sort=rank,asc
 
   Drug:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     file_poster: config/posters/Drug TV.png
     visible_shared: monthly(13)
     trakt_list:
@@ -383,7 +389,7 @@ collections:
       - https://trakt.tv/users/dr-rieux/lists/drugs-in-tv-shows?sort=added,asc
 
   Dystopian:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: A dystopia, or cacotopia, is a speculated ideal society with minimal crime, violence and poverty that is undesirable or frightening.
     file_poster: config/posters/Dystopian TV.png
     visible_shared: monthly(1)
@@ -392,14 +398,14 @@ collections:
       - https://trakt.tv/users/getsmartt/lists/dystopian-utopian?sort=rank,asc
 
   Gangster:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Gangster show is a sub-genre of crime shows that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
     file_poster: config/posters/Gangster TV.png
     visible_shared: monthly(27)
     trakt_list: https://trakt.tv/users/majeed_pk/lists/best-mafia-gangsters-tv-shows?sort=rank,asc
 
   Hacking:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: Hacker, a computer expert with advanced technical knowledge. Hacker culture, activity within the computer programmer subculture.
     file_poster: config/posters/Hacking TV.png
     visible_shared: monthly(23)
@@ -409,7 +415,7 @@ collections:
       - https://trakt.tv/users/sanojjonas/lists/hacking-corruption-technology-enviroment?sort=added,asc
 
   LGBTQ+:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: LGBTQ+ show is a genre of shows where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
     file_poster: config/posters/LGBTQ+ TV.png
     visible_shared: monthly(19)
@@ -419,7 +425,7 @@ collections:
       - https://trakt.tv/users/apollocat/lists/shows-with-an-lgbtq-connection?sort=rank,asc
 
   Monster:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows where the main protagonist is a monster of some form.
     file_poster: config/posters/Monster TV.png
     visible_shared: monthly(9)
@@ -429,7 +435,7 @@ collections:
       - https://trakt.tv/users/catscratch/lists/monsters-magic-and-supernatural?sort=watched,asc
 
   Music:
-    template: { name: Genre Smart }
+    template: { name: Subgenre Other }
     visible_shared: monthly(24)
     summary: Music series is genre that revolves around music being an integral part of the characters lives.
     file_poster: config/posters/Music TV.png
@@ -442,7 +448,7 @@ collections:
         genre: music
 
   Nature Documentary:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     file_poster: config/posters/Nature Documentary TV.png
     visible_shared: monthly(14)
     summary: Nature documentaries showcase the beauty and complexity of the natural world through stunning visuals and expert narration, aiming to educate and raise awareness about wildlife, ecosystems, and environmental conservation.
@@ -451,7 +457,7 @@ collections:
       - https://trakt.tv/users/ejhand/lists/nature-documentaries?sort=rank,asc
 
   Outer Space:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows That Take Place in Outer Space
     file_poster: config/posters/Outer Space TV.png
     visible_shared: monthly(6)
@@ -461,7 +467,7 @@ collections:
       - https://trakt.tv/users/arclight/lists/space-fiction?sort=rank,asc
 
   Pandemic:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: A Pandemic show resolves around widespread viruses, plagues, and diseases.
     file_poster: config/posters/Pandemic TV.png
     visible_shared: monthly(31)
@@ -470,7 +476,7 @@ collections:
       - https://trakt.tv/users/skavau/lists/pandemic-live-action-series?sort=popularity,asc
 
   Paranormal:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: Shows containing something supernatural like ghosts or spirits.
     file_poster: config/posters/Paranormal TV.png
     visible_shared: monthly(28)
@@ -479,7 +485,7 @@ collections:
       - https://trakt.tv/users/msmerlinsmagic/lists/paranormal-shows-and-or-series?sort=released,asc
 
   Period Piece:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows in the period piece fiction genre are made up of stories that feature historical places, people, or events that are crucial to the story.
     file_poster: config/posters/Period Piece TV.png
     visible_shared: weekly(sunday)
@@ -491,7 +497,7 @@ collections:
       - https://trakt.tv/users/alimcc62/lists/period-pieces?sort=rank,asc
 
   Police:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows in the perspective of a policeman or a policeman being present in any capacity.
     file_poster: config/posters/Police TV.png
     visible_shared: monthly(20)
@@ -500,7 +506,7 @@ collections:
       - https://trakt.tv/users/nowitmom/lists/now-s-crime-tv?sort=title,asc
 
   Political:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: Political refers to shows that do not hide their political stance. In this sense, they differ from other films not because they are political, but because of the way in which their politics is presented.
     file_poster: config/posters/Political TV.png
     visible_shared: monthly(16)
@@ -509,7 +515,7 @@ collections:
       - https://trakt.tv/users/alyson88/lists/politics-collection?sort=popularity,asc
 
   Post Apocalyptic:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
     file_poster: config/posters/Post Apocalyptic TV.png
     visible_shared: monthly(12)
@@ -519,14 +525,14 @@ collections:
       - https://trakt.tv/users/kdlb/lists/post-apocalyptic-tv?sort=rank,asc
 
   Prison:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: Shows taking place inside a prison.
     file_poster: config/posters/Prison TV.png
     visible_shared: monthly(12)
     trakt_list: https://trakt.tv/users/aliasrogue/lists/crime-punishment?sort=rank,asc
 
   Robot:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: Shows containing robots in many forms, often set in the future.
     file_poster: config/posters/Robot TV.png
     visible_shared: monthly(20)
@@ -535,7 +541,7 @@ collections:
       - https://trakt.tv/users/cinematicthrowbacks/lists/sci-fi-hi-tech-robotics-cyborgs-bionics?sort=rank,asc
 
   Romantic Comedy:
-    template: { name: Genre Smart }
+    template: { name: Subgenre Other }
     visible_shared: weekly(tuesday)
     file_poster: config/posters/Romantic Comedy TV.png
     summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy series revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
@@ -550,7 +556,7 @@ collections:
           - comedy
 
   Romantic Drama:
-    template: { name: Genre Smart }
+    template: { name: Subgenre Other }
     visible_shared: monthly(31)
     file_poster: config/posters/Romantic Drama TV.png
     summary: Romantic Drama series is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama series can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
@@ -565,7 +571,7 @@ collections:
           - drama
 
   Sitcom:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: A Sitcom is a serialized comedic program where each episode revolves around a different situation. In each different situation, however, there is the same cast of characters who return from episode to episode.
     file_poster: config/posters/Sitcom TV.png
     visible_shared: weekly(friday)
@@ -574,7 +580,7 @@ collections:
       - https://trakt.tv/users/omar-comin/lists/sitcoms?sort=title,asc
       - https://trakt.tv/users/caira34/lists/sitcoms?sort=title,asc
   Spy:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: The spy genre, also known sometimes as an espionage, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.
     file_poster: config/posters/Spy TV.png
     visible_shared: monthly(4)
@@ -584,7 +590,7 @@ collections:
       - https://trakt.tv/users/jimmccaskill/lists/spy-shows?sort=rank,asc
 
   Sword & Sorcery:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Sword and Sorcery shows is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
     file_poster: config/posters/Sword & Sorcery TV.png
     visible_shared:
@@ -593,7 +599,7 @@ collections:
     trakt_list: https://trakt.tv/users/cinematicthrowbacks/lists/monsters-titans-occult-medieval-medieval-dragons?sort=added,asc
 
   Time Travel:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: A show  that contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
     file_poster: config/posters/Time Travel TV.png
     visible_shared: weekly(saturday)
@@ -602,7 +608,7 @@ collections:
       - https://trakt.tv/users/zambucca/lists/time-travel
 
   Vampire:
-    template: { name: Genre Other }
+    template: { name: Subgenre False }
     summary: A vampire is a creature from folklore that subsists by feeding on the vital essence (generally in the form of blood) of the living.
     file_poster: config/posters/Vampire TV.png
     visible_shared: monthly(25)
@@ -612,14 +618,14 @@ collections:
       - https://trakt.tv/users/racketpoint6789/lists/english-vampire-tv-shows?sort=rank,asc
 
   Video Game:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: Shows lightly or stritcly based of different types of video games.
     file_poster: config/posters/Video Game TV.png
     visible_shared: monthly(18)
     trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-video-games?sort=rank,asc
 
   Zombie:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     summary: A zombie is a mythological undead corporeal revenant created through the reanimation of a corpse.
     file_poster: config/posters/Zombie TV.png
     visible_shared: weekly(wednesday)

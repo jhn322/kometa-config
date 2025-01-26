@@ -1,5 +1,5 @@
 ######################################################
-#                   MOVIES 17.0                      #
+#                   MOVIES 17.5                      #
 ######################################################
 templates:
   Movie:
@@ -134,6 +134,7 @@ collections:
     template: { name: Movie Release }
     tmdb_now_playing: 50
     file_poster: config/posters/TMDb Now Playing.png
+    visible_library: false
     visible_shared: monthly(3)
     summary: Recentley released movies on TMDb.
 
@@ -154,6 +155,7 @@ collections:
   TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
     template: { name: Movie Basic }
     summary: Most pirated movies of the week according TorrentFreak.
+    visible_library: false
     collection_order: custom
     file_poster: config/posters/TorrentFreak Most Pirated.png
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com

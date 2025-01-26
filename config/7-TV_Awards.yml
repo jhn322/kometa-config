@@ -1,20 +1,20 @@
 #############################################################
-#                       AWARDS 9.5                          #
+#                       AWARDS 10.0                         #
 #############################################################
 
 templates:
-  imdb:
+  Awards:
     optional:
       - trakt_list
     sort_title: "zzz_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
-    visible_library: true
+    visible_library: false
     delete_not_scheduled: false
     trakt_list:
       - <<trakt_list>>
 
-  letterboxd:
+  Letterboxd:
     optional:
       - letterboxd_extra_1
       - letterboxd_extra_2
@@ -29,7 +29,7 @@ templates:
       url: https://letterboxd.com/<<user>>/list/<<list>>/by/<<sort>>
       limit: 9999
 
-  custom:
+  Custom:
     optional:
       - trakt_list
     sort_title: "zzz_<<collection_name>>"
@@ -43,9 +43,8 @@ templates:
 # TV shows who has won some the most prestigious awards
 collections:
   BAFTA - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of BAFTA Nominees"
-    visible_library: false
     file_poster: config/posters/BAFTA Nominees.png
     imdb_award:
       event_id: "ev0000123"
@@ -57,10 +56,9 @@ collections:
       limit: 9999
 
   BAFTA - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of BAFTA Winners"
     visible_shared: monthly(10)
-    visible_library: false
     file_poster: config/posters/BAFTA Winners.png
     imdb_award:
       event_id: "ev0000123"
@@ -72,10 +70,9 @@ collections:
       limit: 9999
 
   Critics Choice Awards - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of Critics Choice Award Nominees"
     visible_shared: monthly(30)
-    visible_library: false
     file_poster: config/posters/Critics Choice Awards Nominees.png
     imdb_award:
       event_id: "ev0000133"
@@ -87,10 +84,9 @@ collections:
       limit: 9999
 
   Critics Choice Awards - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of Critics Choice Award Winners"
     visible_shared: monthly(5)
-    visible_library: false
     file_poster: config/posters/Critics Choice Awards Winners.png
     imdb_award:
       event_id: "ev0000133"
@@ -102,9 +98,10 @@ collections:
       limit: 9999
 
   Emmy - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of Emmy Award Winners"
     visible_shared: monthly(20)
+    visible_library: true
     file_poster: config/posters/Emmy Winners.png
     imdb_award:
       event_id: "ev0000223"
@@ -116,9 +113,10 @@ collections:
       limit: 9999
 
   Emmy - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of Emmy Award Nominees"
-    visible_shared: monthly(25)
+    visible_shared: monthly(25)¨
+    visible_library: true
     file_poster: config/posters/Emmy Nominees.png
     imdb_award:
       event_id: "ev0000223"
@@ -130,9 +128,8 @@ collections:
       limit: 9999
 
   Golden Globe - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of Golden Globes Nominees"
-    visible_library: false
     file_poster: config/posters/Golden Globe Nominees.png
     imdb_award:
       event_id: "ev0000292"
@@ -144,9 +141,10 @@ collections:
       limit: 9999
 
   Golden Globe - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: "A collection of Golden Globes Winners"
     visible_shared: monthly(15)
+    visible_library: true
     file_poster: config/posters/Golden Globe Winners.png
     imdb_award:
       event_id: "ev0000292"

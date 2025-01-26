@@ -13,7 +13,7 @@ templates:
     sort_title: zz__<<collection_name>>
     visible_library: true
 
-  Special Plus:
+  Special Other:
     smart_label: random
     sync_mode: sync
     sort_title: zz__<<collection_name>>
@@ -44,7 +44,7 @@ collections:
         content_rating: TV-MA
 
   480P+: # 480p and 576p TV Shows
-    template: { name: Special Plus }
+    template: { name: Special Other }
     summary: A collection of TV Shows in SD, 480p and 576p quality.
     sort_title: zz__1480P+
     file_poster: config/posters/480P+.png
@@ -56,7 +56,7 @@ collections:
           - 576p
 
   720P:
-    template: { name: Special Plus }
+    template: { name: Special Other }
     summary: A collection of TV Shows in 720p quality.
     sort_title: zz__1720P
     file_poster: config/posters/720P.png
@@ -65,7 +65,7 @@ collections:
         resolution: 720p
 
   1080P:
-    template: { name: Special Plus }
+    template: { name: Special Other }
     summary: A collection of TV Shows in 1080p quality.
     sort_title: zz__31080P
     file_poster: config/posters/1080P.png
@@ -112,7 +112,7 @@ collections:
     summary: The most favored TV shows on Plex by users the past 2 months.
 
   Longest: # Longest TV shows on plex
-    template: { name: Special Plus }
+    template: { name: Special Other }
     summary: The lengthiest shows on Plex.
     file_poster: config/posters/Longest.png
     trakt_list:

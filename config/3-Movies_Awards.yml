@@ -1,9 +1,9 @@
 ######################################################
-#                  AWARDS 9.5                        #
+#                  AWARDS 10.0                       #
 ######################################################
 
 templates:
-  imdb:
+  Awards:
     optional:
       - trakt_list
     sort_title: zz_<<collection_name>>
@@ -17,6 +17,7 @@ templates:
   Award:
     smart_label: release.desc
     sync_mode: sync
+    visible_library: false
     sort_title: zz_<<collection_name>>
 
   Award Other:
@@ -28,7 +29,7 @@ templates:
 # Movies who has won some the most prestigious awards
 collections:
   BAFTA - Best Film:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     file_poster: config/posters/BAFTA Best Film.png
     visible_shared: monthly(27)
@@ -43,9 +44,10 @@ collections:
       limit: 9999
 
   BAFTA - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     file_poster: config/posters/BAFTA Nominees.png
+    visible_library: false
     imdb_award:
       event_id: "ev0000123"
       event_year: "1949-current"
@@ -56,7 +58,7 @@ collections:
       limit: 9999
 
   BAFTA - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     visible_shared: monthly(3)
     file_poster: config/posters/BAFTA Winners.png
@@ -76,9 +78,10 @@ collections:
     letterboxd_list: https://letterboxd.com/koyoti/list/berlinale-golden-bear-winners/
 
   Cannes - Palme d'Or:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The Cannes Film Festival until 2003 called the International Film Festival (Festival international du film) and known in English as the Cannes Film Festival, is an annual film festival held in Cannes, France, which previews new films of all genres, including documentaries, from all around the world. Founded in 1946, the invitation-only festival is held annually at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.
     visible_shared: monthly(17)
+    visible_library: false
     file_poster: config/posters/Cannes Palme d'or.png
     imdb_award:
       event_id: "ev0000147"
@@ -91,9 +94,10 @@ collections:
       limit: 9999
 
   Critics Choice Awards - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The Critics' Choice Movie Awards (formerly known as the Broadcast Film Critics Association Award) is an awards show presented annually by the American-Canadian Critics Choice Association to honor the finest in cinematic achievement.
     visible_shared: monthly(14)
+    visible_library: false
     file_poster: config/posters/Critics Choice Awards Winners.png
     imdb_award:
       event_id: "ev0000133"
@@ -111,7 +115,7 @@ collections:
     letterboxd_list: https://letterboxd.com/ra_pha/list/european-film-awards/
 
   Golden Globe - Best Picture:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_shared:
       - monthly(23)
@@ -133,12 +137,13 @@ collections:
       limit: 9999
 
   Golden Globe - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_shared:
       - monthly(23)
       - monthly(24)
     file_poster: config/posters/Golden Globe Nominees.png
+    visible_library: false
     imdb_award:
       event_id: "ev0000292"
       event_year: "1944-current"
@@ -149,7 +154,7 @@ collections:
       limit: 9999
 
   Golden Globe - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_shared:
       - monthly(17)
@@ -165,7 +170,7 @@ collections:
       limit: 9999
 
   Oscars - Best Picture:
-    template: { name: imdb }
+    template: { name: Awards }
     visible_shared:
       - monthly(21)
       - monthly(22)
@@ -184,7 +189,7 @@ collections:
       limit: 9999
 
   Oscars - Nominees:
-    template: { name: imdb }
+    template: { name: Awards }
     file_poster: config/posters/Oscars Nominees.png
     summary: Oscar Category Winning Movies.
     imdb_award:
@@ -197,7 +202,7 @@ collections:
       limit: 9999
 
   Oscars - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     visible_shared:
       - monthly(30)
       - monthly(31)
@@ -212,7 +217,7 @@ collections:
       limit: 9999
 
   Razzies - Worst Picture:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: Worst movies of the year award.
     visible_library: false
     file_poster: config/posters/Razzie Worst Picture.png
@@ -226,7 +231,7 @@ collections:
       limit: 9999
 
   Sundance - Winners:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: A list of all (with exceptions of short movies) films that won awards at the American Sundance Film Festival.
     visible_shared: monthly(11)
     file_poster: config/posters/Sundance Winners.png
@@ -240,9 +245,10 @@ collections:
       limit: 9999
 
   Venice - Best Film:
-    template: { name: imdb }
+    template: { name: Awards }
     summary: The Venice Film Festival or Venice International Film Festival is an annual film festival held in Venice, Italy. It is the world's oldest film festival and one of the big six International film festivals worldwide, which include the Big Three European Film Festivals, alongside the Toronto Film Festival in Canada the Sundance Film Festival in the United States and the Melbourne International Film Festival in Australia.
     visible_shared: monthly(9)
+    visible_library: false
     file_poster: config/posters/Venice Best Film.png
     imdb_award:
       event_id: "ev0000681"

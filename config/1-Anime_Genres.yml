@@ -1,5 +1,5 @@
 ######################################################
-#                    GENRES 10.0                     #
+#                    GENRES 11.0                     #
 ######################################################
 
 templates:
@@ -9,7 +9,13 @@ templates:
     visible_library: true
     sync_mode: sync
 
-  Genre Other:
+  Subgenre:
+    sort_title: <<collection_name>>
+    smart_label: random
+    visible_library: false
+    sync_mode: sync
+
+  Subgenre True:
     sort_title: <<collection_name>>
     smart_label: random
     visible_library: true
@@ -176,7 +182,7 @@ collections:
 
   # Created using tags from Anilist with a limit of 500 per collection
   Acting:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: acting
       sort_by: score
@@ -185,7 +191,7 @@ collections:
     summary: Centers around characthers in the acting industry.
 
   Afterlife:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: afterlife
       sort_by: score
@@ -194,7 +200,7 @@ collections:
     summary: Partly or completely set in the afterlife.
 
   Age Regression:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: age regression
       sort_by: score
@@ -203,7 +209,7 @@ collections:
     summary: Characther returning to a younger stage.
 
   Agriculture:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: agriculture
       sort_by: score
@@ -212,7 +218,7 @@ collections:
     summary: Nature is in focus.
 
   Anthology:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: anthology
       sort_by: score
@@ -221,7 +227,7 @@ collections:
     summary: Seperate stories each episode.
 
   Augmented Reality:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: augmented reality
       sort_by: score
@@ -230,7 +236,7 @@ collections:
     summary: Inside an alternative reality.
 
   Alien:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Aliens
       sort_by: score
@@ -239,7 +245,7 @@ collections:
     summary: Animes with aliens in them.
 
   Alternate Universe:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: alternate universe
       sort_by: score
@@ -248,7 +254,7 @@ collections:
     summary: A parallel universe, also known as a parallel dimension, alternate universe, or alternate reality, is a hypothetical self-contained plane of existence, co-existing with one's own. The sum of all potential parallel universes that constitute reality is often called a multiverse.
 
   Amnesia:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: amnesia
       sort_by: score
@@ -257,7 +263,7 @@ collections:
     summary: One or many forget who they are.
 
   Animal:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: animals
       sort_by: score
@@ -266,7 +272,7 @@ collections:
     summary: Centers around animal characthers in a leading role.
 
   Anti-Hero:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Anti-Hero
       sort_by: score
@@ -275,16 +281,17 @@ collections:
     summary: An anti-hero is a protagonist or notable figure who is conspicuously lacking in heroic qualities.
 
   Anthropomorphism:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: anthropomorphism
       sort_by: score
       limit: 500
     file_poster: config/posters/Anthropomorphism Anime.png
+
     summary: Contains a non-human characther that acts like a human.
 
   Angel:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Angels
       sort_by: score
@@ -293,7 +300,7 @@ collections:
     summary: Animes with angels in them.
 
   Aviation:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: aviation
       sort_by: score
@@ -302,7 +309,7 @@ collections:
     summary: Centers around aeroplanes and aircrafts.
 
   Archery:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: archery
       sort_by: score
@@ -311,7 +318,7 @@ collections:
     summary: Centers around bows and arrows.
 
   Artificial Intelligence:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Artificial Intelligence
       sort_by: score
@@ -320,7 +327,7 @@ collections:
     summary: Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment.
 
   Assassin:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: assassins
       sort_by: score
@@ -329,7 +336,7 @@ collections:
     summary: Centers around the characters who murder people as a profession.
 
   Band:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: band
       sort_by: score
@@ -338,7 +345,7 @@ collections:
     summary: Centers around a group playing music.
 
   Basketball:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: basketball
       sort_by: score
@@ -347,7 +354,7 @@ collections:
     summary: Centers around the sport basket ball
 
   Battle Royale:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: battle royale
       sort_by: score
@@ -356,7 +363,7 @@ collections:
     summary: Centers around a fierce group competition, often violent and with only one winner.
 
   Body Swapping:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: body swapping
       sort_by: score
@@ -365,7 +372,7 @@ collections:
     summary: Centers around individuals swapping bodies with one another.
 
   Boxing:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: boxing
       sort_by: score
@@ -374,7 +381,7 @@ collections:
     summary: Characters practicing the sport boxing.
 
   Butler:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: butler
       sort_by: score
@@ -383,7 +390,7 @@ collections:
     summary: Centers around a butler of some kind.
 
   Car:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: cars
       sort_by: score
@@ -392,7 +399,7 @@ collections:
     summary: Centers around the use of automotive vehicles.
 
   Card Battle:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: card battle
       sort_by: score
@@ -401,7 +408,7 @@ collections:
     summary: Centers around individuals competing in card games.
 
   CGI:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: cgi
       sort_by: score
@@ -410,7 +417,7 @@ collections:
     summary: The anime is made with CGI in any capacity.
 
   Chuunibyou:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: chuunibyou
       sort_by: score
@@ -419,7 +426,7 @@ collections:
     summary: Centers around a know-it-all arrogant person.
 
   Coming Of Age.:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: coming of age
       sort_by: score
@@ -428,7 +435,7 @@ collections:
     summary: Centers around a character's transition from childhood to adulthood.
 
   CGDCT:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     mal_search:
       genre: 52
       limit: 500
@@ -436,7 +443,7 @@ collections:
     file_poster: config/posters/CGDCT Anime.png
 
   Crossdressing:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     mal_search:
       genre: 81
       limit: 500
@@ -444,7 +451,7 @@ collections:
     file_poster: config/posters/Crossdressing Anime.png
 
   Conspiracy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: conspiracy
       sort_by: score
@@ -453,7 +460,7 @@ collections:
     summary: Contains one or more factions controlling or attempting to control the world from the shadows.
 
   Chibi:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: chibi
       sort_by: score
@@ -462,7 +469,7 @@ collections:
     summary: Features deformed character designs with smaller, rounder porportions and a cute look.
 
   Chimera:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: chimera
       sort_by: score
@@ -471,7 +478,7 @@ collections:
     summary: Features a beast, usually combining with a human.
 
   Clone:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: clone
       sort_by: score
@@ -480,7 +487,7 @@ collections:
     summary: Features a character who is an artifical exact copy of another organism.
 
   Cosplay:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: cosplay
       sort_by: score
@@ -489,7 +496,7 @@ collections:
     summary: Characthers making their own outfits and dresses up.
 
   College:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: college
       sort_by: score
@@ -498,7 +505,7 @@ collections:
     summary: Young adults entering late stage school.
 
   Cult:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: cult
       sort_by: score
@@ -507,7 +514,7 @@ collections:
     summary: Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.
 
   Cyberpunk:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: cyberpunk
       sort_by: score
@@ -516,7 +523,7 @@ collections:
     summary: Set in a future of advanced technological and scientific achievements that have resulted in a social disorder.
 
   Cyborg:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Cyborg
       sort_by: score
@@ -525,7 +532,7 @@ collections:
     summary: Animes with cyborgs in them.
 
   Dancing:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: dancing
       sort_by: score
@@ -534,7 +541,7 @@ collections:
     summary: Centers around of the art of dance.
 
   Demon:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Demons
       sort_by: score
@@ -543,7 +550,7 @@ collections:
     summary: Animes with demons in them.
 
   Denpa:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: denpa
       sort_by: score
@@ -552,7 +559,7 @@ collections:
     summary: Centers around delusions, suicides, bullying, paranoia and the like.
 
   Detective:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Detective
       sort_by: score
@@ -561,7 +568,7 @@ collections:
     summary: Animes with typically a murder mystery or related.
 
   Death Game:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: death game
       sort_by: score
@@ -570,7 +577,7 @@ collections:
     summary: Centers around games that might have deadly consequences.
 
   Delinquent:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: delinquents
       sort_by: score
@@ -579,7 +586,7 @@ collections:
     summary: Centers around a characther with a very destinct nature.
 
   Dissociative Identity:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: dissociative identities
       sort_by: score
@@ -588,7 +595,7 @@ collections:
     summary: One or more people share the same body.
 
   Dinosaur:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: dinosaurs
       sort_by: score
@@ -597,7 +604,7 @@ collections:
     summary: Features dinosaurs, prehistoric reptiles that went extinct millons of years ago.
 
   Donghua (Chinese Anime):
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     file_poster: config/posters/Donghua.png
     summary: Chinese animation refers to animation made in China. In China and in Chinese, donghua describes all animated works, regardless of style or origin. However, outside of China and in English, donghua is colloquial for Chinese animation and refers specifically to animation produced in China.
     plex_search:
@@ -622,7 +629,7 @@ collections:
           - funimation global group
 
   Dragon:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Dragons
       sort_by: score
@@ -631,7 +638,7 @@ collections:
     summary: Animes with dragons in them.
 
   Drug:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: drugs
       sort_by: score
@@ -640,7 +647,7 @@ collections:
     summary: Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.
 
   Dungeon:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: dungeon
       sort_by: score
@@ -649,7 +656,7 @@ collections:
     summary: Characthers exploring dungeons.
 
   Dystopian:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Dystopian
       sort_by: score
@@ -658,7 +665,7 @@ collections:
     summary: A dystopia, or cacotopia, is a speculated ideal society with minimal crime, violence and poverty that is undesirable or frightening.
 
   Ecchi:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       genre: ecchi
       sort_by: score
@@ -667,7 +674,7 @@ collections:
     summary: Animes with a more sexual theme.
 
   Educational:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: educational
       sort_by: score
@@ -676,7 +683,7 @@ collections:
     summary: A focus on learning.
 
   Elf:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Elf
       sort_by: score
@@ -685,7 +692,7 @@ collections:
     summary: Animes with elfs in them.
 
   Ensemble Cast:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: ensemble cast
       sort_by: score
@@ -694,7 +701,7 @@ collections:
     summary: In a dramatic production, an ensemble cast is one which is composed of multiple principal actors and performers who are typically assigned roughly equal amounts of screen time.
 
   Episodic:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: episodic
       sort_by: score
@@ -703,7 +710,7 @@ collections:
     summary: These animes does not have a continues story, much like The Simpsons.
 
   E-Sport:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: e-sports
       sort_by: score
@@ -712,7 +719,7 @@ collections:
     summary: Centers around characters competing in video games.
 
   Fairy Tale:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: fairy tale
       sort_by: score
@@ -721,7 +728,7 @@ collections:
     summary: This work tells a fairy tale, centers around fairy tales, or is based on a classic fairy tale.
 
   Fashion:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: fashion
       sort_by: score
@@ -730,7 +737,7 @@ collections:
     summary: Centers around clothing attire.
 
   Female Protagonist:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Female Protagonist
       sort_by: score
@@ -739,7 +746,7 @@ collections:
     summary: Animes with a female character in the spotlight.
 
   Fishing:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: fishing
       sort_by: score
@@ -748,7 +755,7 @@ collections:
     summary: Out and about fishing.
 
   Food:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: food
       sort_by: score
@@ -757,7 +764,7 @@ collections:
     summary: Prominently set around making food.
 
   Football:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: football
       sort_by: score
@@ -766,7 +773,7 @@ collections:
     summary: Running around kicking a ball.
 
   Gang:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: gangs
       sort_by: score
@@ -775,7 +782,7 @@ collections:
     summary: A group of people living dangerous lives.
 
   Gambling:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: gambling
       sort_by: score
@@ -784,7 +791,7 @@ collections:
     summary: A game of chance.
 
   Ghost:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Ghost
       sort_by: score
@@ -793,7 +800,7 @@ collections:
     summary: Animes with ghosts in them.
 
   Goblin:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: goblin
       sort_by: score
@@ -802,7 +809,7 @@ collections:
     summary: Goblins were now commonly seen as their own distinct race of humanoid creatures. Typical features of goblins in modern fantasy includes a shorter-than-human stature, either a flat or long and hooked nose, bat-like ears, and either a mischievous or malevolent demeanor.
 
   God:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: gods
       sort_by: score
@@ -811,7 +818,7 @@ collections:
     summary: Features a character of divine or religious nature.
 
   Gore:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: gore
       sort_by: score
@@ -820,7 +827,7 @@ collections:
     summary: Prominently features graphic bloodshed and violence.
 
   Gun:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: guns
       sort_by: score
@@ -829,7 +836,7 @@ collections:
     summary: Prominently features the use of guns.
 
   Gyaru:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: gyaru
       sort_by: score
@@ -838,7 +845,7 @@ collections:
     summary: Featuring a girl with an american style, tanned skin, bleached hair and a lot of makeup.
 
   Harem:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     mal_search:
       genre: 35
       limit: 500
@@ -846,7 +853,7 @@ collections:
     file_poster: config/posters/Harem Anime.png
 
   Henshin:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: henshin
       sort_by: score
@@ -855,7 +862,7 @@ collections:
     summary: Transformation that often gives some sort of power.
 
   Hikikomori:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: hikikomori
       sort_by: score
@@ -864,7 +871,7 @@ collections:
     summary: A person distant from others.
 
   Isekai:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: isekai
       sort_by: score
@@ -873,7 +880,7 @@ collections:
     summary: A person transported into a alternative world having to adapt to their new surroundings.
 
   Idol:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: idol
       sort_by: score
@@ -882,7 +889,7 @@ collections:
     summary: Following an idol's life.
 
   Iyashikei:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     mal_search:
       genre: 63
       limit: 500
@@ -890,7 +897,7 @@ collections:
     file_poster: config/posters/Iyashikei Anime.png
 
   Kaiju:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: kaiju
       sort_by: score
@@ -899,7 +906,7 @@ collections:
     summary: Prominently features giant monsters.
 
   Kemonomimi:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: kemonomimi
       sort_by: score
@@ -908,7 +915,7 @@ collections:
     summary: Features humanoid characthers with animal ears.
 
   Kuudere:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: kuudere
       sort_by: score
@@ -917,7 +924,7 @@ collections:
     summary: Follows a characther with a cynical world view.
 
   LGBTQ+:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: lgbtq+ Themes
       sort_by: score
@@ -926,7 +933,7 @@ collections:
     summary: Wide representation of more genders.
 
   Maid:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Maids
       sort_by: score
@@ -935,7 +942,7 @@ collections:
     summary: Animes with maids in them.
 
   Mafia:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Mafia
       sort_by: score
@@ -944,7 +951,7 @@ collections:
     summary: Mafia often the plot revolves around the rise and fall of an organized crime leader. Many Gangster animes explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
 
   Magic:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: magic
       sort_by: score
@@ -953,7 +960,7 @@ collections:
     summary: Features magical elements or the use of magic.
 
   Mahou Shoujo:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       genre: mahou shoujo
       sort_by: score
@@ -962,7 +969,7 @@ collections:
     summary: Animes centered around magical girls.
 
   Male Protagonist:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Male Protagonist
       sort_by: score
@@ -971,7 +978,7 @@ collections:
     summary: Animes with a male character in the spotlight.
 
   Mecha:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       genre: mecha
       sort_by: score
@@ -980,7 +987,7 @@ collections:
     summary: Animes with people controlling robots.
 
   Mermaid:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: mermaid
       sort_by: score
@@ -989,7 +996,7 @@ collections:
     summary: Centers around a mermaid character.
 
   Military:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: military
       sort_by: score
@@ -998,7 +1005,7 @@ collections:
     summary: Lots of bullets and war.
 
   Monster Boy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: monster boy
       sort_by: score
@@ -1007,7 +1014,7 @@ collections:
     summary: Features a male character who is part monster.
 
   Monster Girl:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Monster Girl
       sort_by: score
@@ -1016,7 +1023,7 @@ collections:
     summary: Animes with monster girls of some kind in them.
 
   Mythology:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: mythology
       sort_by: score
@@ -1025,7 +1032,7 @@ collections:
     summary: Prominently features mythological elements, especially those from religious or cultural tradition.
 
   Music:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       genre: music
       sort_by: score
@@ -1034,7 +1041,7 @@ collections:
     summary: Music series is genre that revolves around music being an integral part of the characters lives.
 
   Necromancy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: necromancy
       sort_by: score
@@ -1043,7 +1050,7 @@ collections:
     summary: When the dead are summoned as spirits, skeletons, or the undead, usually for the purpose of gaining information or to be used as a weapon.
 
   Nekomimi:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Nekomimi
       sort_by: score
@@ -1052,7 +1059,7 @@ collections:
     summary: Animes with cat girls in them.
 
   Ninja:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Ninja
       sort_by: score
@@ -1061,7 +1068,7 @@ collections:
     summary: Animes with ninjas in them.
 
   Noir:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: noir
       sort_by: score
@@ -1070,7 +1077,7 @@ collections:
     summary: Cynical crime drama with a special style.
 
   Nudity:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Nudity
       sort_by: score
@@ -1079,7 +1086,7 @@ collections:
     summary: Animes with some level of nudity in them.
 
   Nun:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: nun
       sort_by: score
@@ -1088,7 +1095,7 @@ collections:
     summary: Centers around a religious female character.
 
   Office Lady:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: office lady
       sort_by: score
@@ -1097,7 +1104,7 @@ collections:
     summary: Prominently features a female office worker.
 
   Ojou-Sama.:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: ojou-sama
       sort_by: score
@@ -1106,7 +1113,7 @@ collections:
     summary: Features a wealthy, annyoing female character.
 
   Orphan:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: orphan
       sort_by: score
@@ -1115,7 +1122,7 @@ collections:
     summary: Centers around someone without parents.
 
   Outdoor:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: outdoor
       sort_by: score
@@ -1124,7 +1131,7 @@ collections:
     summary: Set outside in nature.
 
   Pandemic:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: pandemic
       sort_by: score
@@ -1133,7 +1140,7 @@ collections:
     summary: Features a disease prevalent over a whole country or the world.
 
   Parody:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: parody
       sort_by: score
@@ -1142,7 +1149,7 @@ collections:
     summary: Making fun of themselves or others.
 
   Pirate:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Pirates
       sort_by: score
@@ -1151,7 +1158,7 @@ collections:
     summary: Animes with pirates in them.
 
   Photography:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: photography
       sort_by: score
@@ -1160,7 +1167,7 @@ collections:
     summary: A focus on photo and fashion.
 
   Political:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: politics
       sort_by: score
@@ -1169,7 +1176,7 @@ collections:
     summary: Centers around politics, politicians, or government activities.
 
   Police:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: police
       sort_by: score
@@ -1178,7 +1185,7 @@ collections:
     summary: Centers around the lives of police.
 
   Post-Apocalyptic:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Post-Apocalyptic
       sort_by: score
@@ -1187,7 +1194,7 @@ collections:
     summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
 
   Psychological:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       genre: psychological
       sort_by: score
@@ -1196,7 +1203,7 @@ collections:
     summary: Psychological series often incorporate elements of mystery and include themes of crime, morality, mental illness, substance abuse, multiple realities or a dissolving sense of reality, and unreliable narrators.
 
   Reincarnation:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: reincarnation
       sort_by: score
@@ -1205,7 +1212,7 @@ collections:
     summary: These characters have died and come back to life.
 
   Rehabilitation:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: rehabilitation
       sort_by: score
@@ -1214,7 +1221,7 @@ collections:
     summary: Prominently features a character who became incapable of social life or work.
 
   Revenge:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: revenge
       sort_by: score
@@ -1223,7 +1230,7 @@ collections:
     summary: Prominently features a character who aims to exact punishment in a resentful or vindictive manner.
 
   Robot:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Robots
       sort_by: score
@@ -1232,7 +1239,7 @@ collections:
     summary: Animes with robots in them.
 
   Romantic Drama:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     limit: 199
     file_poster: config/posters/Romantic Drama Anime.png
     summary: Romantic Drama series is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama series can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
@@ -1243,7 +1250,7 @@ collections:
           - Drama
 
   Romantic Comedy:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     limit: 199
     file_poster: config/posters/Romantic Comedy Anime.png
     summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy series revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
@@ -1254,7 +1261,7 @@ collections:
           - Comedy
 
   Samurai:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Samurai
       sort_by: score
@@ -1263,7 +1270,7 @@ collections:
     summary: Animes with samurais in them.
 
   School:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: School
       sort_by: score
@@ -1272,7 +1279,7 @@ collections:
     summary: Animes taking place at a school.
 
   Slapstick:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: slapstick
       sort_by: score
@@ -1280,8 +1287,17 @@ collections:
     file_poster: config/posters/Slapstick Anime.png
     summary: Comedy based on deliberately clumsy actions or embarrassing.
 
+  Slice of Life:
+    template: { name: Subgenre True }
+    anilist_search:
+      genre: slice of life
+      sort_by: score
+      limit: 400
+    file_poster: config/posters/Slice of Life Anime.png
+    summary: Slice of life is a genre explored in film, television, and literary works centering around normal people and the real drama that arises from everyday life. Slice of life films and television shows sometimes overlap with the comedy and/or coming-of-age genres.
+
   Shapeshifting:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: shapeshifting
       sort_by: score
@@ -1290,7 +1306,7 @@ collections:
     summary: In mythology, folklore and speculative fiction, shapeshifting is the ability to physically transform oneself through an inherently superhuman ability, divine intervention, demonic manipulation, sorcery, spells or having inherited the ability.
 
   Shrine Maiden:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: shrine maiden
       sort_by: score
@@ -1299,7 +1315,7 @@ collections:
     summary: Features a character who is a shield maiden.
 
   Skeleton:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: skeleton
       sort_by: score
@@ -1307,17 +1323,8 @@ collections:
     file_poster: config/posters/Skeleton Anime.png
     summary: Prominently features skeletons.
 
-  Slice of Life:
-    template: { name: Genre Other }
-    anilist_search:
-      genre: slice of life
-      sort_by: score
-      limit: 400
-    file_poster: config/posters/Slice of Life Anime.png
-    summary: Slice of life is a genre explored in film, television, and literary works centering around normal people and the real drama that arises from everyday life. Slice of life films and television shows sometimes overlap with the comedy and/or coming-of-age genres.
-
   Space:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: space
       sort_by: score
@@ -1326,7 +1333,7 @@ collections:
     summary: Prominently set in outer space.
 
   Spy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Espionage
       sort_by: score
@@ -1335,7 +1342,7 @@ collections:
     summary: Animes with spies in them.
 
   Supernatural:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       genre: supernatural
       sort_by: score
@@ -1344,7 +1351,7 @@ collections:
     summary: Supernatural occurrences in such films often include ghosts and demons, and many supernatural horror films have elements of religion. Common themes in the genre are the afterlife, the Devil, and demonic possession.
 
   Steampunk:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: steampunk
       sort_by: score
@@ -1353,7 +1360,7 @@ collections:
     summary: A subgenre of science fiction that incorporates retrofuturistic technology and aesthetics inspired by 19th-century industrial steam-powered machinery.
 
   Super Power:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: super power
       sort_by: score
@@ -1362,7 +1369,7 @@ collections:
     summary: Prominently features characthers with special abilities that allow them to do what would normally be physically or logically impossible.
 
   Superhero:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: superhero
       sort_by: score
@@ -1371,7 +1378,7 @@ collections:
     summary: A person with supernatural abilites fighting against evil.
 
   Survival:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: survival
       sort_by: score
@@ -1380,7 +1387,7 @@ collections:
     summary: Survival fiction genre are made up of stories where the main character or characters are trying to survive with little or nothing, often when society collapses, crumples, or fails them.
 
   Succubus:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: succubus
       sort_by: score
@@ -1389,7 +1396,7 @@ collections:
     summary: Features a character from the medieval folklore that typically uses their sexual power to seduce others to feed of their energy.
 
   Suspense:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     mal_search:
       genre: 41
       limit: 500
@@ -1397,7 +1404,7 @@ collections:
     file_poster: config/posters/Suspense Anime.png
 
   Strategy Game:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     mal_search:
       genre: 11
       limit: 500
@@ -1405,7 +1412,7 @@ collections:
     file_poster: config/posters/Strategy Game Anime.png
 
   Swimming:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: swimming
       sort_by: score
@@ -1414,7 +1421,7 @@ collections:
     summary: One or many characters competing in swimming.
 
   Swordplay:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: swordplay
       sort_by: score
@@ -1423,7 +1430,7 @@ collections:
     summary: Prominently features the use of swords in combat.
 
   Teacher:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: teacher
       sort_by: score
@@ -1432,7 +1439,7 @@ collections:
     summary: Protagonist is an educator, usually in a school setting.
 
   Tomboy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: tomboy
       sort_by: score
@@ -1441,7 +1448,7 @@ collections:
     summary: Features a girl who exhibits behavior considered by many to be typical of a boy.
 
   Time Travel:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Time Manipulation
       sort_by: score
@@ -1450,7 +1457,7 @@ collections:
     summary: animes containing time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer.
 
   Tragedy:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Tragedy
       sort_by: score
@@ -1459,7 +1466,7 @@ collections:
     summary: Centers around tragic events and unhappy endings.
 
   Travel:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Travel
       sort_by: score
@@ -1468,7 +1475,7 @@ collections:
     summary: Animes on the road.
 
   Tsundere:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: tsundere
       sort_by: score
@@ -1477,7 +1484,7 @@ collections:
     summary: A characters who acts cold in order to hide their warm emotions.
 
   Twin:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: twins
       sort_by: score
@@ -1486,7 +1493,7 @@ collections:
     summary: Features two or more siblings that were born at one birth
 
   Urban:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: urban
       sort_by: score
@@ -1495,7 +1502,7 @@ collections:
     summary: Prominently set in a city.
 
   Urban Fantasy:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: urban fantasy
       sort_by: score
@@ -1504,7 +1511,7 @@ collections:
     summary: Set in a world similar to the real world, but with the existence of magic or other supernatural elements.
 
   Vampire:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Vampire
       sort_by: score
@@ -1513,7 +1520,7 @@ collections:
     summary: Animes with vampires in them.
 
   Video Game:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: Video Games
       sort_by: score
@@ -1522,7 +1529,7 @@ collections:
     summary: Animes based on video games.
 
   Villainess:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: villainess
       sort_by: score
@@ -1531,7 +1538,7 @@ collections:
     summary: A noble female villan.
 
   Virtual World:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: virtual world
       sort_by: score
@@ -1540,7 +1547,7 @@ collections:
     summary: A made up world often much like the real one but with a twist.
 
   Werewolf:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Werewolf
       sort_by: score
@@ -1549,7 +1556,7 @@ collections:
     summary: Animes with werewolves in them.
 
   Witch:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Witch
       sort_by: score
@@ -1558,7 +1565,7 @@ collections:
     summary: Animes with witches in them.
 
   Work:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: work
       sort_by: score
@@ -1567,7 +1574,7 @@ collections:
     summary: Centers around the activities of a certain occupation.
 
   Yandere:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: yandere
       sort_by: score
@@ -1576,7 +1583,7 @@ collections:
     summary: A yandere is a character, most often female and in anime, who become violently possessive of a love interest.
 
   Youkai:
-    template: { name: Genre Other }
+    template: { name: Subgenre True }
     anilist_search:
       tag: youkai
       sort_by: score
@@ -1585,7 +1592,7 @@ collections:
     summary: Features supernatural creatures from japanese folklore.
 
   Zombie:
-    template: { name: Genre Other }
+    template: { name: Subgenre }
     anilist_search:
       tag: Zombie
       sort_by: score

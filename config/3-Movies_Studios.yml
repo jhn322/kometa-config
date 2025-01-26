@@ -23,7 +23,7 @@ templates:
     sort_title: ++++_<<collection_name>>
     sync_mode: sync
     smart_label: originally_available.desc
-    visible_library: true
+    visible_library: false
 
 # Fetched from TMDb using the studio id and/or name
 collections:

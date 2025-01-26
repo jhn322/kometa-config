@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 17.0                    #
+#                   SPECIALS 18.0                    #
 ######################################################
 
 templates:
@@ -16,21 +16,16 @@ templates:
   Special Other:
     smart_label: random
     sync_mode: sync
-    visible_library: true
+    visible_library: false
 
   Special Smart:
     sync_mode: sync
     visible_library: true
 
-  Special Smart False:
-    sync_mode: sync
-    sort_title: zz__<<collection_name>>
-    visible_library: false
-
   Special Smart Other:
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
+    visible_library: false
 
   Season:
     collection_order: custom
@@ -53,7 +48,6 @@ collections:
   480P+: # Animes with a quality of 240p to 576p
     template: { name: Special Other }
     summary: Animes in SD, 480p and 576p quality.
-    visible_library: false
     sort_title: zz___21_480P+
     file_poster: config/posters/480P+.png
     plex_search:
@@ -66,7 +60,6 @@ collections:
   720P:
     template: { name: Special Other }
     summary: Animes in 720p quality.
-    visible_library: false
     sort_title: zz___22_720P
     file_poster: config/posters/720P.png
     plex_search:
@@ -91,7 +84,7 @@ collections:
     file_poster: config/posters/Award Winning.png
 
   Favored: # Fetched information from Tautulli
-    template: { name: Special Smart False }
+    template: { name: Special Smart Other }
     tautulli_popular:
       list_days: 62
       list_size: 20
@@ -106,6 +99,7 @@ collections:
 
   Newly Released:
     template: { name: Special Smart Other }
+    visible_library: true
     file_poster: config/posters/Newly Released.png
     summary: Animes recently released in the past 2 months.
     smart_filter:

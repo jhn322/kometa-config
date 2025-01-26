@@ -15,7 +15,7 @@ templates:
     smart_label: random
 
   Subgenre False:
-    visible_library: true
+    visible_library: false
     sort_title: <<collection_name>>
     sync_mode: sync
     smart_label: random

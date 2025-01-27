@@ -1,5 +1,5 @@
 ######################################################
-#                   MOVIES 17.5                      #
+#                   MOVIES 18.0                      #
 ######################################################
 templates:
   Movie:
@@ -82,12 +82,14 @@ collections:
   MAL - Most Favorited: # MyAnimeList specific chart lists
     template: { name: Movie }
     mal_favorite: 500
+    visible_library: false
     summary: Most favorited animes on MyAnimeList.
     file_poster: config/posters/MAL Most Favorited.png
 
   MAL - Popular:
     template: { name: Movie }
     mal_popular: 500
+    visible_library: false
     summary: Anime movies popular this season according to MyAnimeList and Anilist.
     file_poster: config/posters/MAL Popular.png
 

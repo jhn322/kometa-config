@@ -324,7 +324,7 @@ collections:
 
   # Creates more unique genre collections based on certain themes mostly from Trakt and IMDb lists
   Assassin:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: An assassin is a person who is hired to kill someone, usually for political, religious, or monetary reasons. The term "assassin" is derived from the word "hashshashin," which was used to describe a secretive and deadly group of Islamic militants who operated in the Middle East during the 11th century.
     file_poster: config/posters/Assassin.png
     limit: 300
@@ -346,7 +346,7 @@ collections:
       - https://trakt.tv/users/breez22/lists/alien-movies
 
   Anxiety:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: Movies that leave you visibly shaken. Masterclasses in building tension that make you feel truly anxious for whatever is happening on screen.
     file_poster: config/posters/Anxiety.png
     visible_shared: monthly(2)
@@ -443,7 +443,7 @@ collections:
       - https://trakt.tv/users/oya-kesh/lists/cyberpunk?sort=rank,asc
 
   Con-Artist:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: A con artist is someone who uses deception and manipulation to gain the trust of others and then exploit them for personal gain. Con artists often have a charming and charismatic personality, which allows them to convince their victims to trust them.
     file_poster: config/posters/Con-Artist.png
     visible_shared: monthly(7)
@@ -549,7 +549,7 @@ collections:
       - https://trakt.tv/users/beernbugs/lists/under-the-sea?sort=rank,asc
 
   Disaster:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: A disaster film or disaster movie is a film genre that has an impending or ongoing disaster as its subject and primary plot device. Such disasters may include natural disasters, accidents, military/terrorist attacks or global catastrophes.
     file_poster: config/posters/Disaster.png
     visible_shared: weekly(thursday)
@@ -646,7 +646,7 @@ collections:
       - https://letterboxd.com/m_salander/list/gore/
 
   Ghost:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: A ghost is a supernatural entity that is believed to be the spirit or soul of a deceased person. Ghosts are often depicted as apparitions or images of the deceased, and they are said to haunt specific locations or objects.
     file_poster: config/posters/Ghost.png
     visible_shared: monthly(16)
@@ -725,7 +725,7 @@ collections:
       - https://trakt.tv/users/kageshii/lists/mindfuckfest?sort=popularity,asc
 
   Medieval:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: Middle Ages, Period in European history traditionally dated from the fall of the Roman Empire to the dawn of the Renaissance.
     file_poster: config/posters/Medieval.png
     visible_shared: monthly(17)
@@ -867,7 +867,7 @@ collections:
       - https://trakt.tv/users/cptarius/lists/films-set-in-the-prehistoric-era?sort=rank,asc
 
   Philosophical:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: Philosophical refers to a genre of literature, art, and other forms of media that explore fundamental questions about existence, knowledge, values, ethics, and the nature of reality. Philosophical works often challenge conventional wisdom and encourage readers to think deeply about complex ideas.
     file_poster: config/posters/Philosophical.png
     visible_shared: monthly(22)
@@ -1112,7 +1112,7 @@ collections:
       - https://trakt.tv/users/urban-legend/lists/summer?sort=rank,asc
 
   Sword & Sorcery:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
     file_poster: config/posters/Sword & Sorcery.png
     visible_shared: weekly(sunday)
@@ -1122,7 +1122,7 @@ collections:
       - https://trakt.tv/users/siskourso/lists/sword-sorcery-movies?sort=released,desc
 
   Time Travel:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
     summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
     file_poster: config/posters/Time Travel.png
     visible_shared: monthly(4)

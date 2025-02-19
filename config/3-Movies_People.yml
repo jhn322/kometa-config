@@ -309,9 +309,20 @@ collections:
   Daniel Radcliffe:
     template: { name: Actor }
     file_poster: config/posters/Daniel Radcliffe.jpg
+    visible_shared:
+      - monthly(15)
     plex_search:
       all:
         actor: Daniel Radcliffe
+
+  Dustin Hoffman:
+    template: { name: Actor }
+    file_poster: config/posters/Dustin Hoffman.png
+    visible_shared:
+      - monthly(20)
+    plex_search:
+      all:
+        actor: Dustin Hoffman
 
   Elijah Wood:
     template: { name: Actor }
@@ -945,6 +956,15 @@ collections:
     plex_search:
       all:
         actor: Steve Carell
+
+  Steve McQueen:
+    template: { name: Actor }
+    file_poster: config/posters/Steve McQueen.png
+    visible_shared:
+      - monthly(23)
+    plex_search:
+      all:
+        actor: Steve McQueen
 
   Sylvester Stallone:
     template: { name: Actor }

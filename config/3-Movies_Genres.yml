@@ -330,7 +330,7 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/pprojecttv/lists/assassin?sort=my_rating,asc
-      - https://trakt.tv/users/markelston/lists/female-assassins?sort=popularity,asc
+      - https://trakt.tv/users/archervert/lists/female-assassins?sort=rank,asc
       - https://trakt.tv/users/29zombies/lists/assassin-hitman-spy?sort=title,asc
 
   Alien:

@@ -577,7 +577,7 @@ collections:
     visible_shared: weekly(friday)
     trakt_list:
       - https://trakt.tv/users/norman05/lists/sitcoms?sort=title,asc
-      - https://trakt.tv/users/omar-comin/lists/sitcoms?sort=title,asc
+      - https://trakt.tv/users/jhall-316-hotmail-com/lists/sitcoms?sort=rank,asc
       - https://trakt.tv/users/caira34/lists/sitcoms?sort=title,asc
   Spy:
     template: { name: Subgenre False }

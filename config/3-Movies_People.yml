@@ -814,6 +814,14 @@ collections:
       all:
         actor: Patrick Stewart
 
+  Ralph Fiennes:
+    template: { name: Actor }
+    file_poster: config/posters/Ralph Fiennes.png
+    visible_shared: range(09/12-09/15)
+    plex_search:
+      all:
+        actor: Ralph Fiennes
+
   Robert Pattinson:
     template: { name: Actor }
     file_poster: config/posters/Robert Pattinson.jpg

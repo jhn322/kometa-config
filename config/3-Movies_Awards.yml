@@ -229,6 +229,14 @@ collections:
       sort_by: release.desc
       limit: 9999
 
+  Screen Actors Guild Awards - Winners:
+    template: { name: Award }
+    summary: Screen Actors Guild Awards are accolades given by the Screen Actors Guild-American Federation of Television and Radio Artists. The award was founded in 1995 to recognize outstanding performances in movie and prime time television. SAG Awards have been one of the major awards events in the Hollywood film industry since then, along with the Golden Globe Awards and the Oscars. SAG awards focus both on individual performances and on the work of the entire ensemble of a drama series and comedy series, and the cast of a motion picture.
+    file_poster: config/posters/Screen Actors Guild Awards Winners.png
+    letterboxd_list:
+      - https://letterboxd.com/keithbarber/list/sag-awards/
+      - https://letterboxd.com/jonny5244/list/sag-awards/
+
   Sundance - Winners:
     template: { name: Awards }
     summary: A list of all (with exceptions of short movies) films that won awards at the American Sundance Film Festival.

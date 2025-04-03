@@ -706,7 +706,6 @@ collections:
       - https://letterboxd.com/gavincmb/list/lynchian/
       - https://letterboxd.com/co_punk/list/lynchian/
       - https://letterboxd.com/xdchahat/list/lynchian/
-      - https://letterboxd.com/travis_k/list/lynchian/
 
   Member Berries:
     template: { name: Subgenre False }
@@ -823,7 +822,6 @@ collections:
     visible_shared: monthly(14)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/willowwwendy/lists/paranormal?sort=title,asc
       - https://trakt.tv/users/codedone/lists/paranormal?sort=released,asc
       - https://trakt.tv/users/dough13/lists/paranormal-ghost-spirits?sort=added,asc
       - https://trakt.tv/users/philrivers/lists/the-50-best-ghost-movies-of-all-time-paste-magazine?sort=rank,asc

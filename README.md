@@ -39,7 +39,7 @@ Linux: "sudo docker-compose up -d"
 Windows/Mac: "docker-compose up -d"
 ```
 
-### Optional combined container
+### Combined containers (Optional #1)
 
 > [!TIP]
 > An alternative approach is to use a single container that runs all 3 different library operations continuously. To use this:
@@ -53,7 +53,7 @@ Windows/Mac: "docker-compose up -d"
 
 **Done!**
 
-## Docker run (Optional/Testing)
+## Docker run (Optional #2)
 
 If for some reason you don't want to use Docker compose, simply utilize the run commands to achieve the same result:
 

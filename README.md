@@ -39,30 +39,42 @@ Linux: "sudo docker-compose up -d"
 Windows/Mac: "docker-compose up -d"
 ```
 
+### Optional combined container
+
+> [!TIP]
+> An alternative approach is to use a single container that runs all 3 different library operations continuously. To use this:
+>
+> 1. Rename the original `docker-compose.yml` to `docker-compose-original.yml`
+> 2. Rename `docker-compose COMBINED.yml` to `docker-compose.yml`
+> 3. Run the combined container using the same method as in previous step.
+
+> [!WARNING]
+> While simpler and faster to set up, the combined approach is generally not recommended for Plex servers with larger libraries. I've found running all operations continuously in order according to the config.yml can potentially cause Plex to become unresponsive and/or crash. The separated container approach above is more stable and recommended but takes longer to complete.
+
 **Done!**
 
 ## Docker run (Optional/Testing)
 
-If you for some reason don't want to use Docker compose, you can simply utilize the run commands to achieve the same result:
+If for some reason you don't want to use Docker compose, simply utilize the run commands to achieve the same result:
 
 ```powershell
 Linux:
-sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
-sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
-sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
+sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 06:00
+sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 06:30
+sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 08:00
 
 Windows:
-docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
-docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
-docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
+docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 06:00
+docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 06:30
+docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 08:00
 
 Mac:
-docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 06:00
-docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 08:00
-docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 09:00
+docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -op --time 06:00
+docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -ov --time 06:30
+docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa:develop -co --time 08:00
 ```
 
-For testing purposes (single run):
+For testing purposes (One time run):
 
 ```powershell
 Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
@@ -74,7 +86,7 @@ Mac: docker run -it -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/ko
 
 ## Update Kometa
 
-This will update Kometa to the latest branch version.
+This will update Kometa to the latest version for the specific branch.
 
 ```powershell
 Stable: docker pull kometateam/kometa
@@ -85,13 +97,13 @@ Nightly: docker pull kometateam/kometa:nightly
 ## Targeted library types:
 
 - Anime
-- Audiobooks
+- Audiobooks (Off by default)
 - Movies
 - Music
 - Remux
-- Soundtracks
+- Soundtracks (Off by default)
 - TV
-- Videos
+- Videos (Off by default)
 
 ### Collections examples
 

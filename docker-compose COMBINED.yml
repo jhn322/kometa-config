@@ -1,0 +1,27 @@
+version: "2.1"
+services:
+  plex-meta-manager:
+    image: lscr.io/linuxserver/kometa:develop
+    container_name: kometa
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+      - KOMETA_TIME=08:00 #optional
+      - KOMETA_RUN=False #optional
+      - KOMETA_CONFIG=/config/config.yml #optional
+      - KOMETA_TEST=False #optional
+      - KOMETA_NO_MISSING=False #optional
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
+
+# This is the new docker-compose.yml file for Kometa. It combines the previous three services into one.
+#Rename this file to just docker-compose.yml and rename the original docker-compos.yml to something else, like docker-compose-old.yml
+
+
+#cd /your/file/path/to/Kometa
+#sudo docker-compose up -d
+
+#docker pull kometateam/kometa
+#sudo docker-compose up -d

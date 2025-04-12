@@ -110,6 +110,7 @@ settings:
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
+  overlay_artwork_quality: 90
   playlist_sync_to_user: all
   playlist_exclude_users:
   playlist_report: false

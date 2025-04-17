@@ -1,16 +1,15 @@
-# Kometa Config (Formerly Plex Meta Manager)
+# 🚀 Kometa Config (Formerly Plex Meta Manager)
 
 My Kometa config for automatically creating collections and overlays for Plex. These files were originally created using templates and has since then been rewritten/edited completely and updated regularly by me since 2021. As far as overlays go I have put an emphasis on providing useful info at a glance without going over the top, while having a very comprehensive yet not too overwhelming amount of collections.
 
-For all lists and overlays to work you'll need to configure API tokens from Trakt, MyAnimeList, AniDB, TMDb and more in your config.yml file.
+## ⚙️ Installation Guide (Docker Compose)
 
-## Install (Docker Compose)
+> [!NOTE]
+> How to install Kometa using docker compose with a daily run schedule for collections, overlays and operations as a stack of three containers.
 
-This is how to install Kometa using docker compose with a daily run schedule for collections, overlays and operations as a stack containing three containers.
+### Prerequisites
 
-1. Clone/download this repository.
-2. Add **your** local Plex server IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change each library title to the exact(!) name your Plex libraries are named in the config.yml.
-3. Many collections in this config require a unique API key/token/id for a service such as Trakt, MdbList and more. Below is a list of the ones in this repo and I would **highly recommend** you set them up for the best possible experience:
+Before installation, you'll need API keys from these services for full functionality for the majority of lists and overlays:
 
 - [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
 - [TMDb](https://metamanager.wiki/en/latest/config/tmdb/)
@@ -20,8 +19,12 @@ This is how to install Kometa using docker compose with a daily run schedule for
 - [MyAnimeList](https://metamanager.wiki/en/latest/config/myanimelist/)
 - [Tautulli](https://metamanager.wiki/en/latest/config/tautulli/)
 
-4. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki](https://metamanager.wiki/en/latest/kometa/install/local/).
-5. Open terminal and navigate to your path:
+### Option 1: Docker Compose (Recommended)
+
+1. Clone/download this repository.
+2. Add **your** local Plex server IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change each library title to the exact(!) name your Plex libraries are named in the config.yml.
+3. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki](https://metamanager.wiki/en/latest/kometa/install/local/).
+4. Open terminal and navigate to your path:
 
 ```powershell
 Linux: "cd /path/to/Kometa-folder"
@@ -31,7 +34,7 @@ Windows: "cd C:\path\to\Kometa-folder"
 Mac: "cd ~/path/to/Kometa-folder"
 ```
 
-6. Now paste this in the terminal to create the containers:
+5. Now paste this in the terminal to create the containers:
 
 ```powershell
 Linux: "sudo docker-compose up -d"
@@ -39,7 +42,9 @@ Linux: "sudo docker-compose up -d"
 Windows/Mac: "docker-compose up -d"
 ```
 
-### Combined containers (Optional #1)
+**Done!**
+
+### Option 2: Combined Container
 
 > [!TIP]
 > An alternative approach is to use a single container that runs all 3 different library operations continuously. To use this:
@@ -49,11 +54,9 @@ Windows/Mac: "docker-compose up -d"
 > 3. Run the combined container using the same method as in previous step.
 
 > [!WARNING]
-> While simpler and faster to set up, the combined approach is generally not recommended for Plex servers with larger libraries. I've found running all operations continuously in order according to the config.yml can potentially cause Plex to become unresponsive and/or crash. The separated container approach above is more stable and recommended but takes longer to complete.
+> While simpler and faster to finish its run, the combined approach is generally not recommended for Plex servers with larger libraries. I've found running all operations continuously, in order according to the config.yml can potentially cause Plex to become unresponsive and/or crash. The separated container approach is more stable and recommended, but takes longer to complete.
 
-**Done!**
-
-## Docker run (Optional #2)
+### Option 3: Docker Run Commands
 
 If for some reason you don't want to use Docker compose, simply utilize the run commands to achieve the same result:
 
@@ -74,7 +77,7 @@ docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/confi
 docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
 ```
 
-For testing purposes (One time run):
+#### For Testing (One-time run):
 
 ```powershell
 Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
@@ -84,9 +87,7 @@ Windows: docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometate
 Mac: docker run -it -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
 ```
 
-## Update Kometa
-
-This will update Kometa to the latest version for the specific branch.
+## 🔄 Updating Kometa
 
 ```powershell
 Stable: docker pull kometateam/kometa
@@ -94,18 +95,20 @@ Develop: docker pull kometateam/kometa:develop
 Nightly: docker pull kometateam/kometa:nightly
 ```
 
-## Targeted library types:
+## 📋 Supported Libraries
 
-- Anime
-- Audiobooks (Off by default)
-- Movies
-- Music
-- Remux
-- Soundtracks (Off by default)
-- TV
-- Videos (Off by default)
+| Library Type   | Status              |
+| -------------- | ------------------- |
+| 🎬 Movies      | Active              |
+| 📺 TV Shows    | Active              |
+| 🏮 Anime       | Active              |
+| 🎵 Music       | Active              |
+| 🎞️ Remux       | Active              |
+| 📚 Audiobooks  | Disabled by default |
+| 🎼 Soundtracks | Disabled by default |
+| 🎥 Videos      | Disabled by default |
 
-### Collections examples
+### 💾 Collections examples
 
 **Movies**
 
@@ -133,4 +136,6 @@ Nightly: docker pull kometateam/kometa:nightly
 
 ![image search api](https://i.imgur.com/lcFOxiG.png)
 
-### For more help go to the wiki: https://metamanager.wiki/en/latest/
+## 📚 Documentation
+
+For more detailed information, visit the [official Kometa wiki](https://metamanager.wiki/en/latest/).

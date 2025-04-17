@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   kometa-operations:
-    image: lscr.io/linuxserver/kometa:develop
+    image: lscr.io/linuxserver/kometa
     container_name: kometa-operations
     environment:
       - PUID=1000
@@ -18,7 +18,7 @@ services:
     restart: unless-stopped
 
   kometa-overlays:
-    image: lscr.io/linuxserver/kometa:develop
+    image: lscr.io/linuxserver/kometa
     container_name: kometa-overlays
     environment:
       - PUID=1000
@@ -35,7 +35,7 @@ services:
     restart: unless-stopped
 
   kometa-collections:
-    image: lscr.io/linuxserver/kometa:develop
+    image: lscr.io/linuxserver/kometa
     container_name: kometa-collections
     environment:
       - PUID=1000
@@ -56,3 +56,5 @@ services:
 
 #docker pull kometateam/kometa
 #sudo docker-compose up -d
+
+#add :develop to the image if you want to use the develop branch

@@ -44,9 +44,12 @@ Windows/Mac: "docker-compose up -d"
 
 **Done!**
 
+> [!TIP]
+> External lists (like Trakt or Letterboxd) can sometimes lead to errors if the list owner deletes the list or changes its URL. To proactively find and identify these dead links in your Kometa YAML files, consider using my [Dead Link Checker](https://github.com/jhn322/dead-link-checker) script. It can scan your configuration and report any inaccessible list URLs from the provided .yml files, helping you maintain a clean and error-free Kometa setup.
+
 ### Option 2: Combined Container
 
-> [!TIP]
+> [!NOTE]
 > An alternative approach is to use a single container that runs all 3 different library operations continuously. To use this:
 >
 > 1. Rename the original `docker-compose.yml` to `docker-compose-original.yml`

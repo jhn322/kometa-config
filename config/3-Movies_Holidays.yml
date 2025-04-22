@@ -22,7 +22,6 @@ collections:
       - https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/questdvd/lists/absolute-hayes-christmas-classics
-      - https://trakt.tv/users/littlestella3/lists/christmas
 
   Easter 🐣:
     template: { name: Holiday }
@@ -42,7 +41,7 @@ collections:
     file_poster: config/posters/Fathers Day.png
     trakt_list:
       - https://trakt.tv/users/fcisco13/lists/dad-movies?sort=rank,asc
-      - https://trakt.tv/users/segfaulted/lists/movies-for-dad?sort=rank,asc
+      - https://trakt.tv/users/marko8426/lists/dad-s-best-action-movies?sort=rank,asc
 
   Halloween 👻:
     template: { name: Holiday }
@@ -54,7 +53,6 @@ collections:
       - https://trakt.tv/users/29zombies/lists/halloween
       - https://trakt.tv/users/membball84/lists/halloween-halloween-halloween?sort=title,asc
       - https://trakt.tv/users/kairbear08/lists/halloween
-      - https://trakt.tv/users/mybicycle/lists/halloween
 
   Mothers Day 👩‍👧:
     template: { name: Holiday }

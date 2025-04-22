@@ -1,5 +1,5 @@
 ######################################################
-#                  GENRES 20.0                       #
+#                  GENRES 20.5                       #
 ######################################################
 
 templates:
@@ -414,7 +414,6 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-books?sort=rank,asc
       - https://trakt.tv/users/trilled-meow/lists/book-adaptations?sort=popularity,asc
       - https://trakt.tv/users/me-l/lists/book-adaptations?sort=released,asc
-      - https://trakt.tv/users/lilybeexo/lists/book-adaptions?sort=rank,asc
 
   Bug:
     template: { name: Subgenre False }
@@ -623,8 +622,8 @@ collections:
     visible_shared: weekly(sunday)
     trakt_list:
       - https://trakt.tv/users/urban-legend/lists/gangster?sort=rank,asc
-      - https://trakt.tv/users/ondrisel/lists/gangster?sort=rank,asc
-      - https://trakt.tv/users/urban-legend/lists/gangster
+      - https://trakt.tv/users/fameshook/lists/gangster-movies?sort=rank,asc
+      - https://trakt.tv/users/rizreflects/lists/gangster-movies?sort=rank,asc
 
   Goth:
     template: { name: Subgenre }
@@ -822,7 +821,7 @@ collections:
     visible_shared: monthly(14)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/codedone/lists/paranormal?sort=released,asc
+      - https://trakt.tv/users/maxtrontv/lists/paranormal-movies?sort=added,asc
       - https://trakt.tv/users/dough13/lists/paranormal-ghost-spirits?sort=added,asc
       - https://trakt.tv/users/philrivers/lists/the-50-best-ghost-movies-of-all-time-paste-magazine?sort=rank,asc
 
@@ -845,8 +844,8 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/mccaffe/lists/psychological?sort=rank,asc
-      - https://trakt.tv/users/littlehorrorgirl/lists/psychological?sort=rank,asc
       - https://trakt.tv/users/sirheo/lists/psychology?sort=rank,asc
+      - https://trakt.tv/users/pato22/lists/psychological-thrillers-or-thought-provoking-movies?sort=popularity,asc
 
   Psychedelic:
     template: { name: Subgenre False }
@@ -928,7 +927,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/maxtrontv/lists/apocalyptic-post-apocalyptic-movies
       - https://trakt.tv/users/rooktherhymer/lists/post-apocalyptic-hellscapes
-      - https://trakt.tv/users/ryanlouisk/lists/post-apocalyptic-movies?sort=released,asc
+      - https://trakt.tv/users/rontraub/lists/apocalyptic-and-post-apocalyptic-movies?sort=rank,asc
 
   Prison:
     template: { name: Subgenre False }
@@ -936,7 +935,7 @@ collections:
     file_poster: config/posters/Prison.png
     visible_shared: monthly(12)
     trakt_list:
-      - https://trakt.tv/users/rwn_98/lists/prison-movies?sort=rank,asc
+      - https://trakt.tv/users/187rocky/lists/prison-movies?sort=rank,asc
       - https://trakt.tv/users/rizreflects/lists/prison-movies?sort=random,asc
 
   Revenge:
@@ -1083,7 +1082,6 @@ collections:
     file_poster: config/posters/Spy.png
     visible_shared: monthly(8)
     trakt_list:
-      - https://trakt.tv/users/dpsxcii/lists/spy?sort=rank,asc
       - https://trakt.tv/users/vdimaio/lists/spys?sort=released,desc
       - https://trakt.tv/users/pprojecttv/lists/spy?sort=my_rating,asc
       - https://trakt.tv/users/mattgriff/lists/spy-vs-spy?sort=rank,asc
@@ -1094,8 +1092,9 @@ collections:
     summary: Stop motion is a filmmaking technique that involves animating physical objects by moving them incrementally and taking individual photographs of each movement. This technique has been used in many different genres of film, from animation to horror to comedy.
     file_poster: config/posters/Stop Motion.png
     trakt_list:
-      - https://trakt.tv/users/kimhern/lists/stop-motion?sort=rank,asc
+      - https://trakt.tv/users/neil3011/lists/stop-motion?sort=rank,asc
       - https://trakt.tv/users/d-sync/lists/stop-motion?sort=rank,asc
+      - https://trakt.tv/users/yoru14/lists/stop-motion-animation?sort=rank,asc
 
   Summer:
     template: { name: Subgenre }
@@ -1142,7 +1141,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/hulkhorgen/lists/most-underrated-movies-of-the-last-20-years?sort=rank,asc
       - https://trakt.tv/users/blazer380/lists/underrated-movies?sort=rank,asc
-      - https://trakt.tv/users/ryanlouisk/lists/underrated-movies?sort=rank,asc
+      - https://trakt.tv/users/td127/lists/underrated-movies?sort=rank,asc
 
   Vacation & Road Trip:
     template: { name: Subgenre False }
@@ -1240,7 +1239,7 @@ collections:
     visible_shared: range(09/04-09/12)
     trakt_list:
       - https://trakt.tv/users/c858/lists/chinese-movies?sort=rank,asc
-      - https://trakt.tv/users/hmaurin/lists/chinese-movies?sort=released,asc
+      - https://trakt.tv/users/thedeterminist8/lists/chinese-movies?sort=rank,asc
     plex_search:
       any:
         audio_language: zh
@@ -1250,7 +1249,7 @@ collections:
     summary: Some of the best movies made in France.
     file_poster: config/posters/France.png
     visible_shared: range(04/14-04/22)
-    trakt_list: https://trakt.tv/users/elementmedia/lists/french-movies
+    trakt_list: https://trakt.tv/users/gwenvador/lists/french-movies?sort=rank,asc
     plex_search:
       any:
         audio_language: fr
@@ -1300,7 +1299,9 @@ collections:
     file_poster: config/posters/South Korea.png
     visible_shared: range(07/14-07/22)
     summary: Some of the best movies made in South Korea.
-    trakt_list: https://trakt.tv/users/bwf2/lists/south-korean-movies-2018-2022?sort=rank,asc
+    trakt_list:
+      - https://trakt.tv/users/gsmolo/lists/best-south-korean-movies-amp?sort=rank,asc
+      - https://trakt.tv/users/dennis_k_g/lists/south-korean-thrillers-mystery-films-1990-to-present?sort=rank,asc
     plex_search:
       any:
         audio_language: ko

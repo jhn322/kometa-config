@@ -31,7 +31,8 @@ collections:
     file_poster: config/posters/Easter.png
     trakt_list:
       - https://trakt.tv/users/smwixted/lists/easter?sort=votes,asc
-      - https://trakt.tv/users/tarzanislav/lists/easter?sort=added,asc
+      - https://trakt.tv/users/galacticboy/lists/easter-movies?sort=rank,asc
+      - https://trakt.tv/users/brandnu76/lists/easter-movies-shows?sort=votes,asc
 
   Fathers Day 👨‍👦:
     template: { name: Holiday }

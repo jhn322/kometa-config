@@ -1005,7 +1005,7 @@ collections:
     visible_shared: monthly(30)
     letterboxd_list:
       - https://letterboxd.com/jschergen/list/samurai/
-      - https://letterboxd.com/jhcrotinger/list/samurai/
+      - https://trakt.tv/users/inkspression/lists/samurai?sort=rank,asc
 
   Silent Era:
     template: { name: Subgenre False }

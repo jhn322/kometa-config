@@ -431,7 +431,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/sroyalty/lists/monster-and-scary-shows?sort=title,asc
       - https://trakt.tv/users/megamelfina/lists/favorite-monster-films-shows?sort=rank,asc
-      - https://trakt.tv/users/catscratch/lists/monsters-magic-and-supernatural?sort=watched,asc
 
   Music:
     template: { name: Subgenre Other }

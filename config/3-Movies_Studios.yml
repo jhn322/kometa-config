@@ -341,13 +341,13 @@ collections:
     file_poster: config/posters/Disney+.png
     trakt_list: https://trakt.tv/users/k0meta/lists/disney-originals?sort=rank,asc
 
-  Max:
+  HBO Max:
     template: { name: Streaming }
-    summary: HBO & Max original movies.
+    summary: HBO Max original movies.
     visible_shared:
       - monthly(13)
       - monthly(14)
-    file_poster: config/posters/Max.png
+    file_poster: config/posters/HBO Max.png
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/max-originals?sort=rank,asc
       - https://trakt.tv/users/k0meta/lists/hbo-max-originals?sort=rank,asc

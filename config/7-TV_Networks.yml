@@ -235,9 +235,9 @@ collections:
       - monthly(23)
       - monthly(24)
 
-  Max:
+  HBO Max:
     template: { name: streaming, network: "HBO, HBO Max, Max" }
-    file_poster: config/posters/Max.png
+    file_poster: config/posters/HBO Max.png
     studio: HBO, HBO Entertainment, HBO Films, Home Box Office (HBO)
     visible_shared:
       - monthly(13)

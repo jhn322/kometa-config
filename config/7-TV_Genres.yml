@@ -342,7 +342,7 @@ collections:
     summary: Detective dramas from Great Britian.
     trakt_list:
       - https://trakt.tv/users/guy1307/lists/detective-uk
-      - https://trakt.tv/users/woodrowsocialmedia-gmail-com/lists/tv-british-police-procedurals?sort=rank,asc
+      - https://trakt.tv/users/majeed_pk/lists/british-detective-tv-series?sort=rank,asc
 
   Classic:
     template: { name: Subgenre False }
@@ -499,8 +499,10 @@ collections:
     file_poster: config/posters/Police TV.png
     visible_shared: monthly(20)
     trakt_list:
-      - https://trakt.tv/users/woodrowsocialmedia-gmail-com/lists/tv-american-police-procedurals?sort=rank,asc
+      - https://trakt.tv/users/conepuff/lists/police?sort=rank,asc
+      - https://trakt.tv/users/bongaholic/lists/great-police-tv?sort=released,desc
       - https://trakt.tv/users/nowitmom/lists/now-s-crime-tv?sort=title,asc
+      - https://trakt.tv/users/wsquared_72/lists/tv-american-police-procedurals?sort=rank,asc
 
   Political:
     template: { name: Subgenre False }
@@ -583,8 +585,8 @@ collections:
     visible_shared: monthly(4)
     trakt_list:
       - https://trakt.tv/users/thiatles/lists/spy-movies-tv?sort=random,asc
-      - https://trakt.tv/users/woodrowsocialmedia-gmail-com/lists/tv-spy-and-espionage?sort=rank,asc
       - https://trakt.tv/users/jimmccaskill/lists/spy-shows?sort=rank,asc
+      - https://trakt.tv/users/majeed_pk/lists/spy-espionage-tv-shows?sort=rank,asc
 
   Sword & Sorcery:
     template: { name: Subgenre }

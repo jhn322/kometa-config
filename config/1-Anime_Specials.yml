@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 18.0                    #
+#                   SPECIALS 18.5                    #
 ######################################################
 
 templates:
@@ -102,11 +102,11 @@ collections:
     visible_library: true
     file_poster: config/posters/Newly Released.png
     summary: Animes recently released in the past 2 months.
-    smart_filter:
-      sort_by: release.desc
-      validate: false
-      all:
-        release: 61
+    sonarr_add_missing: true
+    sonarr_add_existing: true
+    sonarr_monitor_existing: true
+    sonarr_quality: x265 1080p
+    trakt_list: https://trakt.tv/users/jhn322/lists/upcoming-anime?sort=rank,asc
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }

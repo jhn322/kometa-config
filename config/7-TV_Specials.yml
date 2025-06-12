@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 17.0                    #
+#                   SPECIALS 17.5                    #
 ######################################################
 
 templates:
@@ -124,11 +124,12 @@ collections:
     file_poster: config/posters/Newly Released.png
     summary: Shows recently released in the past 2 months.
     visible_shared: monthly(27)
-    smart_filter:
-      sort_by: release.desc
-      validate: false
-      all:
-        release: 61
+    sonarr_add_missing: true
+    sonarr_add_existing: true
+    sonarr_monitor_existing: true
+    trakt_list:
+      - https://trakt.tv/users/jhn322/lists/upcoming-tv?sort=rank,asc
+      - https://trakt.tv/users/jhn322/lists/upcoming-documentary?sort=rank,asc
 
   Random: # Random TV shows with a rating above 4 from IMDb
     template: { name: Special Smart }

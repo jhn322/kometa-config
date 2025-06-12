@@ -105,7 +105,6 @@ collections:
     sonarr_add_missing: true
     sonarr_add_existing: true
     sonarr_monitor_existing: true
-    sonarr_quality: x265 1080p
     trakt_list: https://trakt.tv/users/jhn322/lists/upcoming-anime?sort=rank,asc
 
   Random: # Random animes with a rating above 4 from mal

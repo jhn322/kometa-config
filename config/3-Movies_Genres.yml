@@ -889,7 +889,6 @@ collections:
     visible_shared: weekly(friday)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/mattgriff/lists/period-pieces?sort=popularity,asc
       - https://trakt.tv/users/kingkearney/lists/period-pieces?sort=rank,asc
       - https://trakt.tv/users/kingkearney/lists/20th-century-period-pieces?sort=random,asc
       - https://trakt.tv/users/majeed_pk/lists/the-best-costume-dramas?sort=rank,asc
@@ -1085,7 +1084,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/vdimaio/lists/spys?sort=released,desc
       - https://trakt.tv/users/pprojecttv/lists/spy?sort=my_rating,asc
-      - https://trakt.tv/users/mattgriff/lists/spy-vs-spy?sort=rank,asc
       - https://trakt.tv/users/marcelocastanheira/lists/spy-vs-spy?sort=released,asc
 
   Stop Motion:

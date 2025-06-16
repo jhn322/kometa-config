@@ -1007,6 +1007,18 @@ collections:
       - https://letterboxd.com/_jacobhayden_/list/samurai/
       - https://letterboxd.com/dsuter8/list/samurai/
 
+  Shark:
+    template: { name: Subgenre False }
+    summary: Movies featuring sharks take many forms, usually set in the ocean, and often blend suspense, action, and survival as humans face off against these powerful predators.
+    file_poster: config/posters/Shark.png
+    visible_shared: monthly(20)
+    trakt_list:
+      - https://trakt.tv/users/warren-befbf124-1c71-4d68-a603-2edfbc6e04c4/lists/killer-sharks?sort=rank,asc
+      - https://trakt.tv/users/bwittgen/lists/shark-movies?sort=rank,asc
+      - https://trakt.tv/users/ziggy73701/lists/shark-movies?sort=title,asc
+      - https://trakt.tv/users/mgm202020/lists/shark-movies?sort=rank,asc
+      - https://trakt.tv/users/mrspacegoose/lists/shark-week?sort=added,asc
+
   Silent Era:
     template: { name: Subgenre False }
     summary: A silent film is a film with no synchronized recorded sound (or more generally, no audible dialogue). Though silent films convey narrative and emotion visually, various plot elements (such as a setting or era) or key lines of dialogue may, when necessary, be conveyed by the use of title cards.

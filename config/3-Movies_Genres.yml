@@ -329,7 +329,7 @@ collections:
     file_poster: config/posters/Assassin.png
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/pprojecttv/lists/assassin?sort=my_rating,asc
+      - https://trakt.tv/users/majeed_pk/lists/hitmen-assassins-killers-for-hire?sort=rank,asc
       - https://trakt.tv/users/archervert/lists/female-assassins?sort=rank,asc
       - https://trakt.tv/users/29zombies/lists/assassin-hitman-spy?sort=title,asc
 
@@ -1095,7 +1095,7 @@ collections:
     visible_shared: monthly(8)
     trakt_list:
       - https://trakt.tv/users/vdimaio/lists/spys?sort=released,desc
-      - https://trakt.tv/users/pprojecttv/lists/spy?sort=my_rating,asc
+      - https://trakt.tv/users/siskourso/lists/spy-movies?sort=rank,asc
       - https://trakt.tv/users/marcelocastanheira/lists/spy-vs-spy?sort=released,asc
 
   Stop Motion:

@@ -1277,14 +1277,6 @@ collections:
         title: highlander
         genre.not: animation
 
-  The Hobbit:
-    template: { name: Franchise }
-    summary: The Hobbit is a film series consisting of three high fantasy adventure films directed by Peter Jackson. They are based on the 1937 novel The Hobbit by J. R. R. Tolkien, with large portions of the trilogy inspired by the appendices to The Return of the King, which expand on the story told in The Hobbit, as well as new material and characters written especially for the films.
-    file_poster: config/posters/The Hobbit.jpg
-    plex_search:
-      all:
-        title: the hobbit
-
   Hostel:
     template: { name: Franchise }
     summary: Hostel is a 2005 American slasher film written and directed by Eli Roth. It stars Jay Hernandez, Derek Richardson, Eyþór Guðjónsson, and Barbara Nedeljáková. It was produced by Eli Roth, Mike Fleiss, and Chris Briggs. It is the first installment of the Hostel trilogy, followed by Hostel Part 2 and Hostel Part III.
@@ -1672,14 +1664,6 @@ collections:
       all:
         title: lego
 
-  The Lord of the Rings:
-    template: { name: Franchise }
-    summary: The Lord of the Rings is a film series consisting of three epic fantasy adventure films directed by Peter Jackson. They are based on the novel The Lord of the Rings by J. R. R. Tolkien. The films are subtitled The Fellowship of the Ring (2001), The Two Towers (2002) and The Return of the King (2003).
-    file_poster: config/posters/The Lord of the Rings.jpg
-    plex_search:
-      all:
-        title: the lord of the rings
-
   The Lost Boys:
     template: { name: Franchise }
     summary: The Lost Boys is an American film series that began with the 1987 Warner Bros. film The Lost Boys, written by Janice Fischer, James Jeremias, and Jeffrey Boam. The story revolves around two brothers who move to a new town and end up fighting a gang of young vampires.
@@ -1842,6 +1826,18 @@ collections:
     plex_search:
       all:
         title: mimic
+
+  Middle-earth:
+    template: { name: Franchise }
+    file_poster: config/posters/Middle-earth.png
+    summary: The Middle-earth movie series includes The Lord of the Rings and The Hobbit trilogies and more, epic fantasy adventures based on the works of J.R.R. Tolkien. Set in a richly detailed world of elves, dwarves, wizards, and dark forces, the films follow heroic quests to destroy a powerful ring and reclaim a lost kingdom.
+    trakt_list: https://trakt.tv/users/ziggy111/lists/middle-earth-collection?sort=rank,asc
+    plex_search:
+      any:
+        title:
+          - lord of the rings
+          - hobbit
+          - golum
 
   Mortal Kombat Legends:
     template: { name: Franchise }

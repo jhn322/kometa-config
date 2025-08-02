@@ -77,7 +77,7 @@ collections:
     visible_shared: monthly(26)
     summary: 250 best movies according to Letterboxd.
     file_poster: config/posters/Letterboxd Top 250 Gold.png
-    trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/barneyk/list/letterboxd-top-250/
 
   MAL - Most Favorited: # MyAnimeList specific chart lists
     template: { name: Movie }

@@ -61,7 +61,7 @@ collections:
     summary: Movies with over a million views on Letterboxd.
     file_poster: config/posters/Letterboxd Million Watched.png
     letterboxd_list:
-      - https://letterboxd.com/jabison/list/letterboxd-two-million-watched-club/
+      - https://letterboxd.com/clipping3/list/letterboxd-two-million-watched-club-9/
       - https://letterboxd.com/alexanderh/list/letterboxd-one-million-watched-club/
 
   Letterboxd - Most Fans:

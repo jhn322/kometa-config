@@ -52,8 +52,8 @@ collections:
     file_poster: config/posters/Halloween..png
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/halloween
-      - https://trakt.tv/users/membball84/lists/halloween-halloween-halloween?sort=title,asc
       - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/pterisaur/lists/halloween?sort=popularity,asc
 
   Mothers Day 👩‍👧:
     template: { name: Holiday }

@@ -767,7 +767,6 @@ collections:
     file_poster: config/posters/Mythology.png
     visible_shared: monthly(17)
     trakt_list:
-      - https://trakt.tv/users/johnnysp4rkles/lists/greek-roman-mythology?sort=title,asc
       - https://trakt.tv/users/jagster101/lists/mythological?sort=rank,asc
       - https://trakt.tv/users/187rocky/lists/greek-mythology?sort=rank,asc
 

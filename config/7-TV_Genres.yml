@@ -350,7 +350,6 @@ collections:
     file_poster: config/posters/Classic TV.png
     visible_shared: monthly(5)
     trakt_list:
-      - https://trakt.tv/users/joepescisballs/lists/classic-shows?sort=title,asc
       - https://trakt.tv/users/cheezzhead/lists/tv-shows-evergreen-classics?sort=rank,asc
 
   Comic Book:

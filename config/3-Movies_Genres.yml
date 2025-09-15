@@ -870,7 +870,6 @@ collections:
     limit: 300
     trakt_list:
       - https://trakt.tv/users/rizreflects/lists/philosophical?sort=rank,asc
-      - https://trakt.tv/users/naziman/lists/best-philosophical-films?sort=released,asc
       - https://trakt.tv/users/steveach/lists/philosophical?sort=votes,asc
       - https://trakt.tv/users/majeed_pk/lists/best-philosophical-films
 

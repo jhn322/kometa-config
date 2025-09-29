@@ -26,7 +26,7 @@ templates:
     default:
       overlay: <<overlay_name>>
     collection_level: <<overlay_level>>
-    trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/pixars/list/letterboxd-top-250/
     overlay:
       name: <<overlay_name>>
 

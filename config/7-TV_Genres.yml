@@ -583,7 +583,6 @@ collections:
     file_poster: config/posters/Spy TV.png
     visible_shared: monthly(4)
     trakt_list:
-      - https://trakt.tv/users/thiatles/lists/spy-movies-tv?sort=random,asc
       - https://trakt.tv/users/jimmccaskill/lists/spy-shows?sort=rank,asc
       - https://trakt.tv/users/majeed_pk/lists/spy-espionage-tv-shows?sort=rank,asc
 

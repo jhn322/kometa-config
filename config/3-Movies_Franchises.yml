@@ -3140,6 +3140,9 @@ collections:
     trakt_list:
       - https://trakt.tv/users/haiderales/lists/conjuring-universe?sort=rank,asc
       - https://trakt.tv/users/ximphrambugle/lists/conjuring-universe?sort=rank,asc
+    plex_search:
+      all:
+        title: the conjuring
 
   DC Animated Universe:
     template: { name: Franchise }

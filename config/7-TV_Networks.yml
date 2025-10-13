@@ -219,7 +219,7 @@ collections:
   # Original TV shows from the most popular streaming services
   Apple TV:
     template: { name: streaming, network: "Apple TV+" }
-    file_poster: config/posters/Apple TV+.png
+    file_poster: config/posters/Apple TV.png
     studio: Apple Studios
     visible_shared:
       - monthly(1)

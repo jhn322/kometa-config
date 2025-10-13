@@ -323,13 +323,13 @@ collections:
   ##########################################################
 
   # Original movies from the most popular streaming services
-  Apple TV+:
+  Apple TV:
     template: { name: Streaming }
-    summary: Apple TV+ Original movies.
+    summary: Apple TV Original movies.
     visible_shared:
       - monthly(1)
       - monthly(2)
-    file_poster: config/posters/Apple TV+.png
+    file_poster: config/posters/Apple TV.png
     trakt_list: https://trakt.tv/users/k0meta/lists/appletv-originals
 
   Disney+:

@@ -544,7 +544,6 @@ collections:
     visible_shared: monthly(25)
     trakt_list:
       - https://trakt.tv/users/g3orgios/lists/sea-sail?sort=rank,asc
-      - https://trakt.tv/users/y0dase/lists/at-sea?sort=collected,asc
       - https://trakt.tv/users/beernbugs/lists/under-the-sea?sort=rank,asc
 
   Disaster:
@@ -1021,9 +1020,7 @@ collections:
     template: { name: Subgenre False }
     summary: A silent film is a film with no synchronized recorded sound (or more generally, no audible dialogue). Though silent films convey narrative and emotion visually, various plot elements (such as a setting or era) or key lines of dialogue may, when necessary, be conveyed by the use of title cards.
     file_poster: config/posters/Silent Era.png
-    trakt_list:
-      - https://trakt.tv/users/i-really-am-maxwell-gmail-com/lists/silent-era-s-the-top-300-silent-era-films?sort=rank,asc
-      - https://trakt.tv/users/kingkearney/lists/silent-films-22573340?sort=random,asc
+    trakt_list: https://trakt.tv/users/i-really-am-maxwell-gmail-com/lists/silent-era-s-the-top-300-silent-era-films?sort=rank,asc
 
   Survival:
     template: { name: Subgenre False }
@@ -1288,7 +1285,7 @@ collections:
     summary: Some of the best movies made in Italy.
     file_poster: config/posters/Italy.png
     visible_shared: range(11/14-11/22)
-    trakt_list: https://trakt.tv/users/fulvio91/lists/italian-movies
+    trakt_list: https://trakt.tv/users/alexnoah/lists/italian-movies?sort=rank,asc
     plex_search:
       any:
         audio_language: it

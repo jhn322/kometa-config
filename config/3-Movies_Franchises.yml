@@ -81,7 +81,7 @@ collections:
   Alien.:
     template: { name: Franchise }
     summary: Alien is a 1979 science fiction horror film directed by Ridley Scott and written by Dan O'Bannon. Based on a story by O'Bannon and Ronald Shusett, it follows the crew of the commercial space tug Nostromo who encounter the eponymous Alien, a deadly and aggressive extraterrestrial set loose on the ship.
-    file_poster: config/posters/Alien..jpg
+    file_poster: config/posters/Alien.png
     trakt_list: https://trakt.tv/users/barffy194/lists/aliens?sort=released,asc
 
   Ace Ventura:

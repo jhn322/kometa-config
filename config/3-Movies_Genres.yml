@@ -465,7 +465,6 @@ collections:
     visible_shared: monthly(12)
     limit: 300
     trakt_list:
-      - https://trakt.tv/users/aidansmyth/lists/comedy-horror?sort=rank,asc
       - https://trakt.tv/users/rizreflects/lists/comedy-horrors?sort=rank,asc
       - https://trakt.tv/users/ravynloony/lists/comedy-horror?sort=votes,asc
 

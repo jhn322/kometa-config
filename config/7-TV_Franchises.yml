@@ -154,7 +154,7 @@ collections:
     plex_search:
       all:
         title: planet
-        title.not: sheen
+        network: BBC One
         genre.not: animation
 
   Power Universe:

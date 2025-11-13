@@ -90,16 +90,6 @@ collections:
       all:
         album_genre: crime fiction
 
-  Drama:
-    template: { name: Genre }
-    file_poster: config/posters/Drama Audiobooks.png
-    summary: Audiobooks with Drama influence.
-    smart_filter:
-      sort_by: random
-      validate: false
-      all:
-        album_genre: drama & plays
-
   Dystopian:
     template: { name: Genre }
     file_poster: config/posters/Dystopian Audiobooks.png

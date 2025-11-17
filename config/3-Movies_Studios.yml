@@ -292,7 +292,7 @@ collections:
   Walt Disney Animation:
     template: { name: Studio, company: 3475 }
     trakt_list:
-      - https://trakt.tv/users/asmobarki/lists/disney-animated?sort=released,asc
+      - https://trakt.tv/users/maufrutas0143474/lists/disney-animated-classics-copy?sort=released,asc
       - https://trakt.tv/users/carlwitt87/lists/disney-animation?sort=rank,asc
     summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
     file_poster: config/posters/Walt Disney Animation.png

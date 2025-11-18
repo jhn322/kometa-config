@@ -60,6 +60,15 @@ collections:
           - batman
           - joker
 
+    Dexter:
+    template: { name: Franchise }
+    summary: Dexter follows a Miami forensic blood-spatter analyst who secretly lives as a vigilante serial killer, targeting criminals who evade justice. The series explores his struggle to balance a normal life with his dark urge to kill, guided by a strict moral code.
+    file_poster: config/posters/Dexter.png
+    plex_search:
+      all:
+        title: dexter
+        genre.not: animation
+
   Game of Thrones:
     template: { name: Franchise }
     summary: Game of Thrones is an epic fantasy television series that aired on HBO. The show is based on the "A Song of Ice and Fire" novels by George R.R. Martin and is set in the fictional world of Westeros, where different noble families fight for control of the Iron Throne, which represents the ultimate power in the Seven Kingdoms.

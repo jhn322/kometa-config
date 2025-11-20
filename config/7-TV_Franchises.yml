@@ -60,7 +60,7 @@ collections:
           - batman
           - joker
 
-    Dexter:
+  Dexter:
     template: { name: Franchise }
     summary: Dexter follows a Miami forensic blood-spatter analyst who secretly lives as a vigilante serial killer, targeting criminals who evade justice. The series explores his struggle to balance a normal life with his dark urge to kill, guided by a strict moral code.
     file_poster: config/posters/Dexter.png

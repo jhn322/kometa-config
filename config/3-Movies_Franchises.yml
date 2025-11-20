@@ -2435,7 +2435,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Scooby-Doo! Live-Action.png
     summary: Scooby-Doo is a 2002 American fantasy adventure-comedy film series based on the long-running animated franchise of the same name. The first installment in the Scooby-Doo live-action film series, the film was directed by Raja Gosnell from a screenplay by James Gunn, and stars Freddie Prinze Jr., Sarah Michelle Gellar, Matthew Lillard, Linda Cardellini and Rowan Atkinson.
-    trakt_list: https://trakt.tv/users/rholman99/lists/scooby-doo-live-action?sort=released,asc
+    letterboxd_list: https://letterboxd.com/eduardo712/list/scooby-doo-live-action/
 
   The Scorpion King:
     template: { name: Franchise }
@@ -2723,7 +2723,7 @@ collections:
     template: { name: Franchise }
     summary: The Texas Chainsaw Massacre is an American horror franchise consisting of eight slasher films. The franchise focuses on serial killer Leatherface and his psychotic family, who terrorize unsuspecting visitors to their territories in the desolate Texas countryside, typically killing and cannibalizing them.
     file_poster: config/posters/The Texas Chainsaw Massacre.jpg
-    trakt_list: https://trakt.tv/users/ximphrambugle/lists/texas-chainsaw-massacre?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/fantic/list/the-texas-chainsaw-massacre/
 
   Three Colours Trilogy:
     template: { name: Franchise }

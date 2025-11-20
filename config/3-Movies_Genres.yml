@@ -1233,7 +1233,7 @@ collections:
       - https://trakt.tv/users/simiansays/lists/zombies
 
   ######################################################
-  #                  COUNTRIES 7.0                     #
+  #                  COUNTRIES 8.0                     #
   ######################################################
 
   # Collections based on movies from a certain country
@@ -1242,9 +1242,7 @@ collections:
     summary: Some of the best movies made in China.
     file_poster: config/posters/China.png
     visible_shared: range(09/04-09/12)
-    trakt_list:
-      - https://trakt.tv/users/c858/lists/chinese-movies?sort=rank,asc
-      - https://trakt.tv/users/thedeterminist8/lists/chinese-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/antoniefish/list/china/
     plex_search:
       any:
         audio_language: zh
@@ -1254,7 +1252,7 @@ collections:
     summary: Some of the best movies made in France.
     file_poster: config/posters/France.png
     visible_shared: range(04/14-04/22)
-    trakt_list: https://trakt.tv/users/gwenvador/lists/french-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/screeningnotes/list/france/
     plex_search:
       any:
         audio_language: fr
@@ -1264,7 +1262,7 @@ collections:
     summary: Some of the best movies made in Germany.
     file_poster: config/posters/Germany.png
     visible_shared: range(10/14-10/22)
-    trakt_list: https://trakt.tv/users/jason-postrel/lists/top-rated-german-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/timonist/list/germany/
     plex_search:
       any:
         audio_language: de
@@ -1274,7 +1272,7 @@ collections:
     summary: Some of the best movies made in India.
     file_poster: config/posters/India.png
     visible_shared: range(06/14-06/22)
-    trakt_list: https://trakt.tv/users/satzisa/lists/indian-movies
+    letterboxd_list: https://letterboxd.com/purecinema1/list/india/
     plex_search:
       any:
         audio_language: hi
@@ -1284,7 +1282,7 @@ collections:
     summary: Some of the best movies made in Italy.
     file_poster: config/posters/Italy.png
     visible_shared: range(11/14-11/22)
-    trakt_list: https://trakt.tv/users/alexnoah/lists/italian-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/screeningnotes/list/italy/
     plex_search:
       any:
         audio_language: it
@@ -1294,7 +1292,7 @@ collections:
     summary: Some of the best movies made in Japan.
     visible_shared: range(09/14-09/22)
     file_poster: config/posters/Japan.png
-    trakt_list: https://trakt.tv/users/a-homrany-hotmail-com/lists/japanese-movies
+    letterboxd_list: https://letterboxd.com/purecinema1/list/japan/
     plex_search:
       any:
         audio_language: ja
@@ -1304,9 +1302,7 @@ collections:
     file_poster: config/posters/South Korea.png
     visible_shared: range(07/14-07/22)
     summary: Some of the best movies made in South Korea.
-    trakt_list:
-      - https://trakt.tv/users/gsmolo/lists/best-south-korean-movies-amp?sort=rank,asc
-      - https://trakt.tv/users/dennis_k_g/lists/south-korean-thrillers-mystery-films-1990-to-present?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/mrjago/list/south-korea/
     plex_search:
       any:
         audio_language: ko
@@ -1316,7 +1312,7 @@ collections:
     summary: Some of the best movies made in Sweden.
     visible_shared: range(03/14-03/22)
     file_poster: config/posters/Sweden.png
-    trakt_list: https://trakt.tv/users/a925sw/lists/swedish-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/purecinema1/list/sweden/
     plex_search:
       any:
         audio_language: sv
@@ -1326,7 +1322,7 @@ collections:
     summary: Some of the best movies made in Spain.
     file_poster: config/posters/Spain.png
     visible_shared: range(05/14-05/22)
-    trakt_list: https://trakt.tv/users/ocr893sa/lists/spanish-movies
+    letterboxd_list: https://letterboxd.com/purecinema1/list/spain/
     plex_search:
       any:
         audio_language: es

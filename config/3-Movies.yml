@@ -48,7 +48,9 @@ collections:
       - monthly(10)
       - monthly(11)
     file_poster: config/posters/IMDb Top 250 Gold.png
-    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/dave/list/imdb-top-250/
+      - https://letterboxd.com/greenhouse09/list/imdb-top-250-1/
 
   Letterboxd - Best Picture: # Letterboxd specific chart lists
     template: { name: Movie Release }
@@ -106,7 +108,7 @@ collections:
     visible_shared: monthly(31)
     summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
     file_poster: config/posters/Metacritic Must See.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/metacritic-must-see-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/richatthepics/list/metacritic-must-see-movies-of-all-time-metascore/
 
   Popular: # Popular list from IMDb, Trakt and TMDb
     template: { name: Movie }
@@ -122,7 +124,7 @@ collections:
     visible_library: true
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
-    trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-movies?sort=rank,asc
+    trakt_list: https://trakt.tv/users/courthouz/lists/imdb-popular?sort=added,asc
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: Movie }
@@ -130,7 +132,7 @@ collections:
     visible_shared: monthly(14)
     summary: Certified fresh A special distinction awarded to the best reviewed movies.
     file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
-    trakt_list: https://trakt.tv/users/linaspurinis/lists/certified-fresh?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/astroturd/list/certified-fresh-tomatoes/
 
   TMDb - Now Playing: # TMDb specific chart lists
     template: { name: Movie Release }
@@ -152,7 +154,7 @@ collections:
       - monthly(27)
     file_poster: config/posters/Top Rated.png
     summary: Top Rated Movies on Trakt and TMDb.
-    trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
+    trakt_list: https://trakt.tv/users/kingoftheseas643/lists/trakt-top-100-movies?sort=added,asc
 
   TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
     template: { name: Movie Basic }
@@ -160,7 +162,7 @@ collections:
     visible_library: false
     collection_order: custom
     file_poster: config/posters/TorrentFreak Most Pirated.png
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+    trakt_list: https://trakt.tv/users/nicoontrakt/lists/mdblist-top-10-trakt-box-office-tf-most-pirated?sort=rank,asc
 
   Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: Movie }

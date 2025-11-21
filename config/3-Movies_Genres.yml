@@ -1019,7 +1019,7 @@ collections:
     template: { name: Subgenre False }
     summary: A silent film is a film with no synchronized recorded sound (or more generally, no audible dialogue). Though silent films convey narrative and emotion visually, various plot elements (such as a setting or era) or key lines of dialogue may, when necessary, be conveyed by the use of title cards.
     file_poster: config/posters/Silent Era.png
-    trakt_list: https://trakt.tv/users/i-really-am-maxwell-gmail-com/lists/silent-era-s-the-top-300-silent-era-films?sort=rank,asc
+    trakt_list: https://trakt.tv/users/torgo/lists/silent-era-s-the-top-300-silent-era-films-copy?sort=released,desc
 
   Survival:
     template: { name: Subgenre False }

@@ -319,19 +319,18 @@ collections:
         genre: western
 
   ######################################################
-  #                  SUBGENRES 14.0                    #
+  #                  SUBGENRES 15.0                    #
   ######################################################
 
-  # Creates more unique genre collections based on certain themes mostly from Trakt and IMDb lists
+  # Creates more unique genre collections based on certain themes mostly from Letterboxd
   Assassin:
     template: { name: Subgenre }
     summary: An assassin is a person who is hired to kill someone, usually for political, religious, or monetary reasons. The term "assassin" is derived from the word "hashshashin," which was used to describe a secretive and deadly group of Islamic militants who operated in the Middle East during the 11th century.
     file_poster: config/posters/Assassin.png
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/hitmen-assassins-killers-for-hire?sort=rank,asc
-      - https://trakt.tv/users/archervert/lists/female-assassins?sort=rank,asc
-      - https://trakt.tv/users/29zombies/lists/assassin-hitman-spy?sort=title,asc
+    letterboxd_list:
+      - https://letterboxd.com/tototats16/list/assassin/
+      - https://letterboxd.com/quarkdpn/list/assassin/
 
   Alien:
     template: { name: Subgenre }
@@ -339,11 +338,10 @@ collections:
     file_poster: config/posters/Alien.png
     visible_shared: monthly(22)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/kayaaron13/lists/ranker-top-alien-movies?sort=rank,asc
-      - https://trakt.tv/users/29zombies/lists/aliens?sort=title,asc
-      - https://trakt.tv/users/roswellgeek/lists/aliens?sort=title,asc
-      - https://trakt.tv/users/breez22/lists/alien-movies
+    letterboxd_list:
+      - https://letterboxd.com/pablum/list/movies-with-aliens-im-going-to-force-my-alien/
+      - https://letterboxd.com/pandemic/list/movies-with-aliens/
+      - https://letterboxd.com/zaragwen/list/movies-with-aliens-in-them/
 
   Anxiety:
     template: { name: Subgenre }
@@ -359,10 +357,9 @@ collections:
     file_poster: config/posters/Artificial Intelligence.png
     visible_shared: monthly(2)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/thoughton/lists/cogito-artificialis-ergo-sum?sort=rank,asc
-      - https://trakt.tv/users/y0dase/lists/artificial-intelligence?sort=rank,asc
-      - https://trakt.tv/users/urban-legend/lists/artificial-intelligence?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/carbar123/list/artificial-intelligence/
+      - https://letterboxd.com/eunyx/list/artificial-intelligence/
 
   Anti-Hero:
     template: { name: Subgenre False }
@@ -385,7 +382,7 @@ collections:
     template: { name: Subgenre False }
     summary: A number of poorly made, bad follow up movies to a movie franchise.
     file_poster: config/posters/Bad Sequel.png
-    trakt_list: https://trakt.tv/users/maskedrider29/lists/bad-sequels?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/potterhead7/list/bad-sequels-prequels-spinoffs-remakes-reboots/
 
   Based on a True Story:
     template: { name: Subgenre }
@@ -393,16 +390,16 @@ collections:
     file_poster: config/posters/Based on a True Story.png
     visible_shared: weekly(saturday)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories?sort=rank,asc
-      - https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    letterboxd_list:
+      - https://letterboxd.com/joshhartnett/list/based-on-a-true-story/
+      - https://letterboxd.com/hallofjeremy/list/based-on-a-true-story/
 
   Bollywood:
     template: { name: Subgenre False }
     summary: Hindi cinema, popularly known as Bollywood and formerly as Bombay cinema, refers to the film industry based in Mumbai, engaged in production of motion pictures in Hindi language.
     file_poster: config/posters/Bollywood.png
     visible_shared: monthly(18)
-    trakt_list: https://trakt.tv/users/darkave/lists/bollywood?sort=added,asc
+    letterboxd_list: https://letterboxd.com/moviemavengal/list/bollywood/
 
   Book Adaption:
     template: { name: Subgenre }
@@ -410,10 +407,10 @@ collections:
     file_poster: config/posters/Book Adaption.png
     visible_shared: monthly(23)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/movies-based-on-books?sort=rank,asc
-      - https://trakt.tv/users/trilled-meow/lists/book-adaptations?sort=popularity,asc
-      - https://trakt.tv/users/me-l/lists/book-adaptations?sort=released,asc
+    letterboxd_list:
+      - https://letterboxd.com/fatima55/list/book-adaptions/
+      - https://letterboxd.com/chackerton/list/book-adaptions/
+      - https://letterboxd.com/clara_atlanta/list/book-adaptions-all/
 
   Bug:
     template: { name: Subgenre False }
@@ -429,17 +426,18 @@ collections:
     file_poster: config/posters/Chick Flick.png
     visible_shared: monthly(15)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/29zombies/lists/romantic-comedies
-      - https://trakt.tv/users/yirmaster/lists/chick-flicks
+    letterboxd_list:
+      - https://letterboxd.com/patriciacc/list/chick-lit/
+      - https://letterboxd.com/ucavia/list/chick-flick/
 
   Cyberpunk:
     template: { name: Subgenre }
     summary: Cyberpunk is a subgenre of science fiction that emerged in the 1980s. It typically features a dystopian future society that is heavily influenced by advanced technology, particularly in the areas of cybernetics, virtual reality, and artificial intelligence. The stories often explore themes such as corporate greed, government corruption, social decay, and the blurring of lines between humans and machines.
     file_poster: config/posters/Cyberpunk.png
     visible_shared: monthly(5)
-    trakt_list:
-      - https://trakt.tv/users/oya-kesh/lists/cyberpunk?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/raccoonarchives/list/cyberpunk/
+      - https://letterboxd.com/youseekyoda/list/cyberpunk/
 
   Con-Artist:
     template: { name: Subgenre }
@@ -454,9 +452,9 @@ collections:
     summary: Movies made back in the good old days.
     file_poster: config/posters/Classic.png
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/movie-maestro/lists/classics?sort=popularity,asc
-      - https://trakt.tv/users/jtucci/lists/classics?sort=title,asc
+    letterboxd_list:
+      - https://letterboxd.com/tokenhippygirl/list/classic/
+      - https://letterboxd.com/portley/list/classic/
 
   Comedy Horror:
     template: { name: Subgenre }
@@ -464,9 +462,9 @@ collections:
     file_poster: config/posters/Comedy Horror.png
     visible_shared: monthly(12)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/rizreflects/lists/comedy-horrors?sort=rank,asc
-      - https://trakt.tv/users/ravynloony/lists/comedy-horror?sort=votes,asc
+    letterboxd_list:
+      - https://letterboxd.com/kez70/list/comedy-horror/
+      - https://letterboxd.com/gymnopedie/list/comedy-horror/
 
   Comfort:
     template: { name: Subgenre }
@@ -482,7 +480,7 @@ collections:
     summary: Coming-of-age films focus on the psychological and moral growth or transition of a protagonist from youth to adulthood.
     file_poster: config/posters/Coming of Age.png
     visible_shared: monthly(24)
-    trakt_list: https://trakt.tv/users/canadutchy/lists/coming-of-age-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/morganlightle/list/coming-of-age/
 
   Comic Book:
     template: { name: Subgenre }
@@ -490,24 +488,27 @@ collections:
     file_poster: config/posters/Comic Book.png
     visible_shared: monthly(9)
     limit: 300
-    trakt_list: https://trakt.tv/users/b15hb05h/lists/comics?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/psun22/list/comic-book/
+      - https://letterboxd.com/str8fe/list/comic-book/
 
   Conspiracy:
     template: { name: Subgenre }
     summary: The protagonists of conspiracy movies are often journalists or amateur investigators who find themselves (often inadvertently) pulling on a small thread which unravels a vast conspiracy that ultimately goes "all the way to the top".
     file_poster: config/posters/Conspiracy.png
     visible_shared: weekly(wednesday)
-    trakt_list: https://trakt.tv/users/kayaaron13/lists/conspiracy-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/ghigotrieste/list/conspiracy/
+      - https://letterboxd.com/rybrow/list/conspiracy/
 
   Courtroom:
     template: { name: Subgenre False }
     summary: Showcasing brainy lawyers, gripping cases, and complex plotlines, these are the best legal dramas to watch
     file_poster: config/posters/Courtroom.png
     visible_shared: weekly(wednesday)
-    trakt_list:
-      - https://trakt.tv/users/lollipopp/lists/lawyer-court
-      - https://trakt.tv/users/kayaaron13/lists/top-courtroom-dramas
-      - https://trakt.tv/users/additup/lists/legal-drama_judiciaire
+    letterboxd_list:
+      - https://letterboxd.com/josobel/list/courtroom/
+      - https://letterboxd.com/tiailds/list/courtroom/
 
   Cult Classic:
     template: { name: Subgenre False }
@@ -515,9 +516,10 @@ collections:
     file_poster: config/posters/Cult Classic.png
     visible_shared: monthly(6)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/kayaaron13/lists/cult-classics?sort=rank,asc
-      - https://trakt.tv/users/mr-mc86/lists/cult-classics?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/jupiterzz/list/cult-classic/
+      - https://letterboxd.com/reginaphalange_/list/cult-classic/
+      - https://letterboxd.com/evienoryarevalo/list/cult-classic/
 
   Dark Comedy:
     template: { name: Subgenre }
@@ -525,7 +527,7 @@ collections:
     file_poster: config/posters/Dark Comedy.png
     visible_shared: weekly(tuesday)
     limit: 300
-    trakt_list: https://trakt.tv/users/marko8426/lists/dark-comedy?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/zynys/list/dark-comedy/
 
   Dark Fantasy:
     template: { name: Subgenre False }
@@ -541,18 +543,19 @@ collections:
     summary: Deep out at sea or below sea.
     file_poster: config/posters/Deep Sea.png
     visible_shared: monthly(25)
-    trakt_list:
-      - https://trakt.tv/users/g3orgios/lists/sea-sail?sort=rank,asc
-      - https://trakt.tv/users/beernbugs/lists/under-the-sea?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/sharkeyflor/list/the-deep-sea/
+      - https://letterboxd.com/amiee_c/list/deep-sea-horrors-the-ocean-willies-thalassophobia/
+      - https://letterboxd.com/iznogoud/list/nautical-nightmares-and-deep-sea-dread/
 
   Disaster:
     template: { name: Subgenre }
     summary: A disaster film or disaster movie is a film genre that has an impending or ongoing disaster as its subject and primary plot device. Such disasters may include natural disasters, accidents, military/terrorist attacks or global catastrophes.
     file_poster: config/posters/Disaster.png
     visible_shared: weekly(thursday)
-    trakt_list:
-      - https://trakt.tv/users/29zombies/lists/disaster?sort=title,asc
-      - https://trakt.tv/users/urban-legend/lists/disaster
+    letterboxd_list:
+      - https://letterboxd.com/hbarletto242/list/disaster/
+      - https://letterboxd.com/josstyk/list/disaster/
 
   Donghua:
     template: { name: Subgenre Other }
@@ -576,19 +579,19 @@ collections:
     summary: Movies involving drugs in any capacity.
     file_poster: config/posters/Drug.png
     visible_shared: weekly(sunday)
-    trakt_list:
-      - https://trakt.tv/users/martachilegge/lists/drugs?sort=rank,asc
-      - https://trakt.tv/users/g0g0/lists/drugs?sort=rank,asc
-      - https://trakt.tv/users/ximphrambugle/lists/drug-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/just_vibin/list/drug/
+      - https://letterboxd.com/jcs_ginger/list/favorite-drug-movies/
 
   Dystopian:
     template: { name: Subgenre False }
     summary: A dystopia, or cacotopia, is a speculated ideal society with minimal crime, violence and poverty that is undesirable or frightening.
     file_poster: config/posters/Dystopian.png
     visible_shared: weekly(friday)
-    trakt_list:
-      - https://trakt.tv/users/mezuror/lists/dystopian
-      - https://trakt.tv/users/maxtrontv/lists/dystopian-movies
+    letterboxd_list:
+      - https://letterboxd.com/vahidd/list/dystopia/
+      - https://letterboxd.com/nickb1/list/dystopian/
+      - https://letterboxd.com/horrorgoer/list/dystopian/
 
   Fairytale:
     template: { name: Subgenre }
@@ -596,10 +599,10 @@ collections:
     file_poster: config/posters/Fairytale.png
     visible_shared: monthly(11)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/raluca-303/lists/fairytale?sort=released,asc
-      - https://trakt.tv/users/pterisaur/lists/fairytales?sort=random,asc
-      - https://trakt.tv/users/urban-legend/lists/fairytales?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/dreamybunny/list/fairytale/
+      - https://letterboxd.com/starlightdrinke/list/fairytale/
+      - https://letterboxd.com/snownotsowhite/list/fairytale/
 
   Film Noir:
     template: { name: Subgenre Other }
@@ -618,20 +621,18 @@ collections:
     summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
     file_poster: config/posters/Gangster.png
     visible_shared: weekly(sunday)
-    trakt_list:
-      - https://trakt.tv/users/urban-legend/lists/gangster?sort=rank,asc
-      - https://trakt.tv/users/fameshook/lists/gangster-movies?sort=rank,asc
-      - https://trakt.tv/users/rizreflects/lists/gangster-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/quarkdpn/list/gangster/
+      - https://letterboxd.com/taylorsapphire/list/gangster/
 
   Goth:
     template: { name: Subgenre }
     summary: The goth genre is a cultural movement that emerged in the late 1970s and early 1980s in the United Kingdom. It is characterized by its dark and melancholic aesthetic, which includes black clothing, heavy makeup, and an interest in themes related to death, decay, and the macabre.
     file_poster: config/posters/Goth.png
     visible_shared: monthly(13)
-    trakt_list:
-      - https://trakt.tv/users/anyriver/lists/southern-gothic?sort=rank,asc
-      - https://trakt.tv/users/majeed_pk/lists/classic-british-gothic-horror?sort=rank,asc
-      - https://trakt.tv/users/hriday-80ce1824-23e8-4fee-99e5-8edc661aed32/lists/gothic?sort=random,asc
+    letterboxd_list:
+      - https://letterboxd.com/7o9/list/goth/
+      - https://letterboxd.com/mayaramry/list/goth/
 
   Gore:
     template: { name: Subgenre False }
@@ -656,19 +657,18 @@ collections:
     summary: Hacker, a computer expert with advanced technical knowledge. Hacker culture, activity within the computer programmer subculture.
     file_poster: config/posters/Hacking.png
     visible_shared: monthly(3)
-    trakt_list:
-      - https://trakt.tv/users/vagnerr/lists/hacking-computing?sort=rank,asc
-      - https://trakt.tv/users/rendom/lists/hack-the-planet-compilation?sort=released,asc
-      - https://trakt.tv/users/sanojjonas/lists/hacking-corruption-technology-enviroment?sort=added,asc
+    letterboxd_list:
+      - https://letterboxd.com/geoff_jenkins/list/films-about-hacking/
+      - https://letterboxd.com/boris90/list/movies-based-on-hacking-computer-technology/
 
   Heist:
     template: { name: Subgenre }
     summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
     file_poster: config/posters/Heist.png
     visible_shared: weekly(friday)
-    trakt_list:
-      - https://trakt.tv/users/flekz22/lists/heists?sort=rank,asc
-      - https://trakt.tv/users/urban-legend/lists/heist?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/slimesiren/list/heist/
+      - https://letterboxd.com/wahrhaftig/list/heist/
 
   Impactful:
     template: { name: Subgenre }
@@ -682,17 +682,16 @@ collections:
     summary: An independent film or indie movie is a feature film or short film that is produced outside the major film studio system, in addition to being produced and distributed by independent entertainment companies.
     file_poster: config/posters/Indie.png
     visible_shared: monthly(21)
-    trakt_list:
-      - https://trakt.tv/users/enragedbeauty/lists/indie-movies-i-loved?sort=percentage,asc
-      - https://trakt.tv/users/prrrolina/lists/indie-movies?sort=released,asc
-      - https://trakt.tv/users/jdublife/lists/indie-movies?sort=title,asc
+    letterboxd_list:
+      - https://letterboxd.com/gloriap/list/indie/
+      - https://letterboxd.com/ghostface/list/indie/
 
   LGBTQ+:
     template: { name: Subgenre False }
     summary: LGBTQ+ film is a genre of films where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
     file_poster: config/posters/LGBTQ+.png
     visible_shared: monthly(30)
-    trakt_list: https://trakt.tv/users/thisisjonny/lists/lgbtqia
+    letterboxd_list: https://letterboxd.com/taielg/list/lgtbq/
 
   Lynchian:
     template: { name: Subgenre }
@@ -708,35 +707,34 @@ collections:
     template: { name: Subgenre False }
     summary: Member Berry movies are movies that contain a lot of call backs or easter eggs to previous movies in the franchise or related franchises. Often franchise reboots.
     file_poster: config/posters/Member Berries.png
-    trakt_list: https://trakt.tv/users/netplexflix/lists/member-berries
+    letterboxd_list:
+      - https://letterboxd.com/codmac/list/member-berries-film-club/
+      - https://letterboxd.com/robbob01/list/member-berries/
 
   Mindfuck:
     template: { name: Subgenre }
     summary: A mindfuck movie plays with your mind, confuses you, and leads you on. It’s not just a movie with a twist ending. Mindfucks are borderline-incoherent, dreamlike, and surreal.
     file_poster: config/posters/Mindfuck.png
     visible_shared: weekly(thursday)
-    trakt_list:
-      - https://trakt.tv/users/shana71/lists/mindfucks?sort=title,asc
-      - https://trakt.tv/users/ximphrambugle/lists/mindfucks?sort=rank,asc
-      - https://trakt.tv/users/kageshii/lists/mindfuckfest?sort=popularity,asc
+    letterboxd_list:
+      - https://letterboxd.com/coughcoughing/list/mindfuck/
+      - https://letterboxd.com/furkancelikturk/list/mindfuck/
 
   Medieval:
     template: { name: Subgenre }
     summary: Middle Ages, Period in European history traditionally dated from the fall of the Roman Empire to the dawn of the Renaissance.
     file_poster: config/posters/Medieval.png
     visible_shared: monthly(17)
-    trakt_list:
-      - https://trakt.tv/users/n4m3n07f0und/lists/medieval-movies?sort=rank,asc
-      - https://trakt.tv/users/destyl01/lists/medieval?sort=added,desc
-      - https://trakt.tv/users/kayaaron13/lists/medieval-movies?sort=rank,asc
-      - https://trakt.tv/users/n4m3n07f0und/lists/medieval-movies
+    letterboxd_list:
+      - https://letterboxd.com/newarchive/list/medieval/
+      - https://letterboxd.com/nanshe_of_nina/list/medieval/
 
   Monster:
     template: { name: Subgenre False }
     summary: Movies where the main protagonist is a monster of some form.
     file_poster: config/posters/Monster.png
     visible_shared: monthly(19)
-    trakt_list: https://trakt.tv/users/hammers-lists/lists/creature-feature-monster-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/dsuter8/list/monster/
 
   Motorsport:
     template: { name: Subgenre False }
@@ -764,9 +762,9 @@ collections:
     summary: Myths are fiction stories based on historical beliefs of ancient people. Webster's Dictionary defines myths as “an idea or story that is believed by many people but that is not true; a story that was told in an ancient culture to explain a practice, belief, or natural occurrence.
     file_poster: config/posters/Mythology.png
     visible_shared: monthly(17)
-    trakt_list:
-      - https://trakt.tv/users/jagster101/lists/mythological?sort=rank,asc
-      - https://trakt.tv/users/187rocky/lists/greek-mythology?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/vanfo/list/mythology/
+      - https://letterboxd.com/ethanyoung512/list/mythology/
 
   Naval:
     template: { name: Subgenre False }
@@ -784,16 +782,18 @@ collections:
     file_poster: config/posters/Nostalgia.png
     visible_shared: monthly(27)
     limit: 300
-    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
+    letterboxd_list:
+      - https://letterboxd.com/tsuriae/list/nostalgia/
+      - https://letterboxd.com/kyrahmk/list/nostalgia/
 
   One Location:
     template: { name: Subgenre False }
     summary: Movies set generally in one location, for example a house.
     file_poster: config/posters/One Location.png
     visible_shared: monthly(16)
-    trakt_list:
-      - https://trakt.tv/users/limbend/lists/tense-movies-in-one-location?sort=my_rating,asc
-      - https://trakt.tv/users/luisholy1/lists/one-location-movies-with-a-mystery-going-on?sort=percentage,asc
+    letterboxd_list:
+      - https://letterboxd.com/ivymeikle/list/one-location-1/
+      - https://letterboxd.com/frantz/list/one-location/
 
   One-shot:
     template: { name: Subgenre False }
@@ -809,7 +809,9 @@ collections:
     summary: Movies That Take Place in Outer Space
     file_poster: config/posters/Outer Space.png
     visible_shared: monthly(15)
-    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
+    letterboxd_list:
+      - https://letterboxd.com/evilbjork/list/outer-space/
+      - https://letterboxd.com/19oldboy91/list/outer-space/
 
   Paranormal:
     template: { name: Subgenre }
@@ -817,21 +819,18 @@ collections:
     file_poster: config/posters/Paranormal.png
     visible_shared: monthly(14)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/maxtrontv/lists/paranormal-movies?sort=added,asc
-      - https://trakt.tv/users/dough13/lists/paranormal-ghost-spirits?sort=added,asc
-      - https://trakt.tv/users/philrivers/lists/the-50-best-ghost-movies-of-all-time-paste-magazine?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/14inches/list/paranormal/
+      - https://letterboxd.com/turtleking967/list/paranormal/
 
   Pandemic:
     template: { name: Subgenre False }
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
     file_poster: config/posters/Pandemic.png
     visible_shared: weekly(tuesday)
-    trakt_list:
-      - https://trakt.tv/users/scotttrakt/lists/outbreak-epidemic?sort=rank,asc
-      - https://trakt.tv/users/scotttrakt/lists/outbreak-epidemic?sort=rank,asc
-      - https://trakt.tv/users/caspian024/lists/virus-epidemic?sort=popularity,asc
-      - https://trakt.tv/users/maxtrontv/lists/virus-epidemics-movies?sort=released,asc
+    letterboxd_list:
+      - https://letterboxd.com/nicomarxen/list/quarantine/
+      - https://letterboxd.com/rathmandu/list/pandemic/
 
   Psychological:
     template: { name: Subgenre }
@@ -839,10 +838,9 @@ collections:
     file_poster: config/posters/Psychological.png
     visible_shared: monthly(19)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/mccaffe/lists/psychological?sort=rank,asc
-      - https://trakt.tv/users/sirheo/lists/psychology?sort=rank,asc
-      - https://trakt.tv/users/pato22/lists/psychological-thrillers-or-thought-provoking-movies?sort=popularity,asc
+    letterboxd_list:
+      - https://letterboxd.com/siouxsiesioux/list/psychological/
+      - https://letterboxd.com/jdoan/list/psychological/
 
   Psychedelic:
     template: { name: Subgenre False }
@@ -855,10 +853,9 @@ collections:
     template: { name: Subgenre }
     summary: Prehistoric refers to the period of time before written history, when human beings lived without written records or recorded history. This period is generally divided into the Stone Age, the Bronze Age, and the Iron Age, and it is characterized by the development of tools and technology, the emergence of agriculture and animal domestication, and the evolution of human societies.
     file_poster: config/posters/Prehistoric.png
-    trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/300-historical-movies-in-chronological-order?sort=rank,asc
-      - https://trakt.tv/users/televisionmouth/lists/prehistory-early-history?sort=title,asc
-      - https://trakt.tv/users/cptarius/lists/films-set-in-the-prehistoric-era?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/bartsorianol/list/prehistoric/
+      - https://letterboxd.com/mikkelhh/list/before-civilization-prehistoric-films/
 
   Philosophical:
     template: { name: Subgenre }
@@ -866,17 +863,18 @@ collections:
     file_poster: config/posters/Philosophical.png
     visible_shared: monthly(22)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/rizreflects/lists/philosophical?sort=rank,asc
-      - https://trakt.tv/users/steveach/lists/philosophical?sort=votes,asc
-      - https://trakt.tv/users/majeed_pk/lists/best-philosophical-films
+    letterboxd_list:
+      - https://letterboxd.com/gymnopedie/list/philosophical/
+      - https://letterboxd.com/wahrhaftig/list/philosophical/
 
   Parody:
     template: { name: Subgenre False }
     summary: Top 50 Parody Movies of All Time
     visible_shared: monthly(28)
     file_poster: config/posters/Parody.png
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
+    letterboxd_list:
+      - https://letterboxd.com/astaris/list/parody/
+      - https://letterboxd.com/alexxmacd/list/parody/
 
   Period Piece:
     template: { name: Subgenre }
@@ -884,54 +882,54 @@ collections:
     file_poster: config/posters/Period Piece.png
     visible_shared: weekly(friday)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/kingkearney/lists/period-pieces?sort=rank,asc
-      - https://trakt.tv/users/kingkearney/lists/20th-century-period-pieces?sort=random,asc
-      - https://trakt.tv/users/majeed_pk/lists/the-best-costume-dramas?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/ellephont22/list/period-piece/
+      - https://letterboxd.com/kendallrmnp/list/period-piece/
 
   Plot Twist:
     template: { name: Subgenre }
     summary: A plot twist is a story development that readers do not expect in which either something shocking happens or something shocking is revealed. Generally, the storyteller will set up expectations and then "twist" those expectations by revealing new information through subsequent plot points.
     file_poster: config/posters/Plot Twist.png
     visible_shared: weekly(wednesday)
-    trakt_list:
-      - https://trakt.tv/users/hdlists/lists/crazy-plot-twists?sort=released,asc
-      - https://trakt.tv/users/d-sync/lists/best-plot-twist?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/enzogussi/list/plot-twist/
+      - https://letterboxd.com/addams_/list/plot-twist/
 
   Police:
     template: { name: Subgenre }
     summary: Movies in the perspective of a policeman or a policeman being present in any capacity.
     file_poster: config/posters/Police.png
     visible_shared: weekly(saturday)
-    trakt_list: https://trakt.tv/users/hammers-lists/lists/cop-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/paulsheerismine/list/police/
+      - https://letterboxd.com/nislav2001/list/police/
 
   Political:
     template: { name: Subgenre False }
     summary: Political cinema refers to films that do not hide their political stance. In this sense, they differ from other films not because they are political, but because of the way in which their politics is presented.
     file_poster: config/posters/Political.png
     visible_shared: weekly(friday)
-    trakt_list:
-      - https://trakt.tv/users/acrylamid/lists/political?sort=popularity,asc
-      - https://trakt.tv/users/kayaaron13/lists/political-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/alphonseelric/list/political/
+      - https://letterboxd.com/sakimasu/list/political/
 
   Post Apocalyptic:
     template: { name: Subgenre }
     summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
     file_poster: config/posters/Post Apocalyptic.png
     visible_shared: monthly(13)
-    trakt_list:
-      - https://trakt.tv/users/maxtrontv/lists/apocalyptic-post-apocalyptic-movies
-      - https://trakt.tv/users/rooktherhymer/lists/post-apocalyptic-hellscapes
-      - https://trakt.tv/users/rontraub/lists/apocalyptic-and-post-apocalyptic-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/electra/list/post-apocalyptic/
+      - https://letterboxd.com/caroline/list/post-apocalyptic/
 
   Prison:
     template: { name: Subgenre False }
     summary: Movies taking place inside a prison.
     file_poster: config/posters/Prison.png
     visible_shared: monthly(12)
-    trakt_list:
-      - https://trakt.tv/users/187rocky/lists/prison-movies?sort=rank,asc
-      - https://trakt.tv/users/rizreflects/lists/prison-movies?sort=random,asc
+    letterboxd_list:
+      - https://letterboxd.com/mkouten/list/prison/
+      - https://letterboxd.com/johngrimm/list/prison/
 
   Revenge:
     template: { name: Subgenre }
@@ -939,10 +937,9 @@ collections:
     file_poster: config/posters/Revenge.png
     visible_shared: monthly(11)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/jtucci/lists/revenge?sort=rank,asc
-      - https://trakt.tv/users/kayaaron13/lists/revenge-movies?sort=rank,asc
-      - https://trakt.tv/users/niklcc/lists/revenge?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/henrycovert/list/revenge/
+      - https://letterboxd.com/rthornhill/list/revenge/
 
   Remake:
     template: { name: Subgenre False }
@@ -959,11 +956,9 @@ collections:
     summary: Movies containing robots in many forms, often set in the future.
     file_poster: config/posters/Robot.png
     visible_shared: monthly(10)
-    trakt_list:
-      - https://trakt.tv/users/alhanouf40/lists/robot?sort=rank,asc
-      - https://trakt.tv/users/pterisaur/lists/robots-24253737?sort=popularity,asc
-      - https://trakt.tv/users/cinematicthrowbacks/lists/sci-fi-hi-tech-robotics-cyborgs-bionics?sort=rank,asc
-      - https://trakt.tv/users/kodiscrobble666/lists/killer-robot-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/kalgi13/list/robot/
+      - https://letterboxd.com/atlas80101/list/robot/
 
   Romantic Comedy:
     template: { name: Subgenre Other }
@@ -1008,18 +1003,15 @@ collections:
     summary: Movies featuring sharks take many forms, usually set in the ocean, and often blend suspense, action, and survival as humans face off against these powerful predators.
     file_poster: config/posters/Shark.png
     visible_shared: monthly(20)
-    trakt_list:
-      - https://trakt.tv/users/warren-befbf124-1c71-4d68-a603-2edfbc6e04c4/lists/killer-sharks?sort=rank,asc
-      - https://trakt.tv/users/bwittgen/lists/shark-movies?sort=rank,asc
-      - https://trakt.tv/users/ziggy73701/lists/shark-movies?sort=title,asc
-      - https://trakt.tv/users/mgm202020/lists/shark-movies?sort=rank,asc
-      - https://trakt.tv/users/mrspacegoose/lists/shark-week?sort=added,asc
+    letterboxd_list:
+      - https://letterboxd.com/lordxavi/list/shark/
+      - https://letterboxd.com/claramar/list/shark/
 
   Silent Era:
     template: { name: Subgenre False }
     summary: A silent film is a film with no synchronized recorded sound (or more generally, no audible dialogue). Though silent films convey narrative and emotion visually, various plot elements (such as a setting or era) or key lines of dialogue may, when necessary, be conveyed by the use of title cards.
     file_poster: config/posters/Silent Era.png
-    trakt_list: https://trakt.tv/users/torgo/lists/silent-era-s-the-top-300-silent-era-films-copy?sort=released,desc
+    letterboxd_list: https://letterboxd.com/locnarpdx/list/silent-era/
 
   Survival:
     template: { name: Subgenre False }
@@ -1056,11 +1048,10 @@ collections:
     file_poster: config/posters/Serial Killer.png
     visible_shared: monthly(27)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/kingkearney/lists/serial-killers?sort=random,asc
-      - https://trakt.tv/users/rizreflects/lists/serial-killers?sort=rank,asc
-      - https://trakt.tv/users/slark1984/lists/serial-killers?sort=rank,asc
-      - https://trakt.tv/users/gojirasaurr/lists/serial-killers?sort=watched,asc
+    letterboxd_list:
+      - https://letterboxd.com/jakherrm/list/serial-killer/
+      - https://letterboxd.com/fuchsiadyke/list/serial-killer/
+      - https://letterboxd.com/iamcoffeeboy0/list/serial-killer/
 
   Satire:
     template: { name: Subgenre False }
@@ -1078,28 +1069,25 @@ collections:
     file_poster: config/posters/Slasher.png
     visible_shared: monthly(9)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/hdlists/lists/80s-slasher-movies
-      - https://trakt.tv/users/dough13/lists/slashers?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/kevinluisr/list/slasher/
+      - https://letterboxd.com/va24mar/list/slasher/
 
   Spy:
     template: { name: Subgenre }
     summary: The spy film genre, also known sometimes as an espionage film, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.
     file_poster: config/posters/Spy.png
     visible_shared: monthly(8)
-    trakt_list:
-      - https://trakt.tv/users/vdimaio/lists/spys?sort=released,desc
-      - https://trakt.tv/users/siskourso/lists/spy-movies?sort=rank,asc
-      - https://trakt.tv/users/marcelocastanheira/lists/spy-vs-spy?sort=released,asc
+    letterboxd_list:
+      - https://letterboxd.com/arcade_machine/list/spy/
+      - https://letterboxd.com/yvetteyang/list/spy/
+      - https://letterboxd.com/easterpink/list/spy/
 
   Stop Motion:
     template: { name: Subgenre False }
     summary: Stop motion is a filmmaking technique that involves animating physical objects by moving them incrementally and taking individual photographs of each movement. This technique has been used in many different genres of film, from animation to horror to comedy.
     file_poster: config/posters/Stop Motion.png
-    trakt_list:
-      - https://trakt.tv/users/neil3011/lists/stop-motion?sort=rank,asc
-      - https://trakt.tv/users/d-sync/lists/stop-motion?sort=rank,asc
-      - https://trakt.tv/users/yoru14/lists/stop-motion-animation?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/savage_/list/stop-motion/
 
   Summer:
     template: { name: Subgenre }
@@ -1107,46 +1095,42 @@ collections:
     file_poster: config/posters/Summer.png
     visible_shared: monthly(20)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/lyssierose/lists/summer-movies?sort=rank,asc
-      - https://trakt.tv/users/momogl/lists/summer?sort=rank,asc
-      - https://trakt.tv/users/urban-legend/lists/summer?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/teenageriots/list/summer/
+      - https://letterboxd.com/rutviin/list/summer/
 
   Sword & Sorcery:
     template: { name: Subgenre }
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
     file_poster: config/posters/Sword & Sorcery.png
     visible_shared: weekly(sunday)
-    trakt_list:
-      - https://trakt.tv/users/hirkiti/lists/sword-sorcery?sort=rank,desc
-      - https://trakt.tv/users/rizreflects/lists/sword-sorcery?sort=rank,asc
-      - https://trakt.tv/users/siskourso/lists/sword-sorcery-movies?sort=released,desc
+    letterboxd_list: https://letterboxd.com/tobiasandersen2/list/sword-and-sorcery-medieval-swords-and-sandals/
 
   Time Travel:
     template: { name: Subgenre }
     summary: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
     file_poster: config/posters/Time Travel.png
     visible_shared: monthly(4)
-    trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
+    letterboxd_list:
+      - https://letterboxd.com/robotcat/list/time-travel/
+      - https://letterboxd.com/martinrj/list/time-travel/
 
   Trapped Inside:
     template: { name: Subgenre False }
     summary: The main characther(s) are trapped in some sort of place and has to get out to survive.
     file_poster: config/posters/Trapped Inside.png
     visible_shared: monthly(7)
-    trakt_list:
-      - https://trakt.tv/users/nyrodo/lists/trapped-escape-horror-movies?sort=rank,asc
-      - https://trakt.tv/users/noahbolanowski/lists/trapped-environment-thrillers?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/themoviearchive/list/trapped-inside-the-game-or-tv/
+      - https://letterboxd.com/celinesy/list/where-the-characters-are-trapped-inside-a/
+      - https://letterboxd.com/bgibson1983/list/trapped-inside/
 
   Underrated:
     template: { name: Subgenre }
     summary: Movies that are better than what it is given credit for.
     file_poster: config/posters/Underrated.png
     visible_shared: monthly(6)
-    trakt_list:
-      - https://trakt.tv/users/hulkhorgen/lists/most-underrated-movies-of-the-last-20-years?sort=rank,asc
-      - https://trakt.tv/users/blazer380/lists/underrated-movies?sort=rank,asc
-      - https://trakt.tv/users/td127/lists/underrated-movies?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/randomk1ng/list/underrated/
 
   Vacation & Road Trip:
     template: { name: Subgenre False }
@@ -1154,39 +1138,35 @@ collections:
     file_poster: config/posters/Vacation & Road Trip.png
     visible_shared: weekly(saturday)
     limit: 300
-    trakt_list:
-      - https://trakt.tv/users/istoit/lists/movies-to-make-you-cancel-that-vacation?sort=rank,asc
-      - https://trakt.tv/users/kayaaron13/lists/vacations-gone-wrong?sort=rank,asc
-      - https://trakt.tv/users/mrtheta/lists/travel?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/mhwoof/list/vacation/
+      - https://letterboxd.com/ykg/list/vacation/
+      - https://letterboxd.com/shawn_stubbs/list/road-trip/
 
   Vampire:
     template: { name: Subgenre False }
     summary: A vampire is a creature from folklore that subsists by feeding on the vital essence (generally in the form of blood) of the living.
     file_poster: config/posters/Vampire.png
     visible_shared: monthly(15)
-    trakt_list:
-      - https://trakt.tv/users/amarantha/lists/vampires?sort=rank,asc
-      - https://trakt.tv/users/kingkearney/lists/vampires?sort=rank,asc
-      - https://trakt.tv/users/scubapilot/lists/vampire?sort=released,desc
+    letterboxd_list: https://letterboxd.com/ashleyosborn/list/vampire/
 
   Video Game:
     template: { name: Subgenre }
     summary: Movies lightly or stritcly based of different types of video games.
     file_poster: config/posters/Video Game.png
     visible_shared: monthly(10)
-    trakt_list:
-      - https://trakt.tv/users/29zombies/lists/video-game?sort=rank,asc
-      - https://trakt.tv/users/pterisaur/lists/video-games-24271757?sort=popularity,asc
-      - https://trakt.tv/users/idelo/lists/video-game-movies
+    letterboxd_list:
+      - https://letterboxd.com/quarkdpn/list/video-game/
+      - https://letterboxd.com/neonmovie/list/video-game/
 
   Villain:
     template: { name: Subgenre }
     summary: Movies where the bad guy is more likely to come out on top.
     file_poster: config/posters/Villain.png
     visible_shared: monthly(5)
-    trakt_list:
-      - https://trakt.tv/users/29zombies/lists/bad-guy-wins?sort=title,asc
-      - https://trakt.tv/users/majeed_pk/lists/may-favorite-villains
+    letterboxd_list:
+      - https://letterboxd.com/gavinfatha/list/villain/
+      - https://letterboxd.com/siegel/list/im-the-villain/
 
   Visually Insane:
     template: { name: Subgenre }
@@ -1208,29 +1188,28 @@ collections:
     summary: Wizardry and witchcraft are terms used to describe the practice of magic and the supernatural. While the terms are often used interchangeably, there are some differences between the two.
     file_poster: config/posters/Wizardry & Witchcraft.png
     visible_shared: monthly(24)
-    trakt_list:
-      - https://trakt.tv/users/bubbles-prior/lists/wizarding-world?sort=rank,asc
-      - https://trakt.tv/users/pterisaur/lists/witchcraft?sort=random,asc
-      - https://trakt.tv/users/ravynloony/lists/witchcraft?sort=votes,asc
+    letterboxd_list:
+      - https://letterboxd.com/chazlarson/list/theme-wizardry-witchcraft/
+      - https://letterboxd.com/blood_countess/list/witchcraft-wizardry-sorcery/
 
   Winter:
     template: { name: Subgenre }
     summary: Movies set in the winter season.
     file_poster: config/posters/Winter.png
     visible_shared: monthly(6)
-    trakt_list:
-      - https://trakt.tv/users/urban-legend/lists/winter?sort=rank,asc
-      - https://trakt.tv/users/houpsonfire/lists/winter-movies
+    letterboxd_list:
+      - https://letterboxd.com/shroudedbyleafs/list/winter/
+      - https://letterboxd.com/japanesemovay/list/winter/
 
   Zombie:
     template: { name: Subgenre }
     summary: A zombie is a mythological undead corporeal revenant created through the reanimation of a corpse.
     file_poster: config/posters/Zombie.png
     visible_shared: monthly(1)
-    trakt_list:
-      - https://trakt.tv/users/mraniki/lists/zombie
-      - https://trakt.tv/users/29zombies/lists/zombies?sort=title,asc
-      - https://trakt.tv/users/simiansays/lists/zombies
+    letterboxd_list:
+      - https://letterboxd.com/brunov/list/zombie/
+      - https://letterboxd.com/gymnopedie/list/zombie/
+      - https://letterboxd.com/raccoonarchives/list/zombie/
 
   ######################################################
   #                  COUNTRIES 8.0                     #

@@ -82,7 +82,7 @@ collections:
     template: { name: Franchise }
     summary: Alien is a 1979 science fiction horror film directed by Ridley Scott and written by Dan O'Bannon. Based on a story by O'Bannon and Ronald Shusett, it follows the crew of the commercial space tug Nostromo who encounter the eponymous Alien, a deadly and aggressive extraterrestrial set loose on the ship.
     file_poster: config/posters/Alien.png
-    trakt_list: https://trakt.tv/users/barffy194/lists/aliens?sort=released,asc
+    letterboxd_list: https://letterboxd.com/sebzilla/list/alien/
 
   Ace Ventura:
     template: { name: Franchise }
@@ -202,7 +202,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/The Apu Trilogy.png
     summary: The Apu is a trilogy consisting of three Bengali films directed by Satyajit Ray Pather Panchali (Song of the Little Road), Aparajito (The Unvanquished) and Apur Sansar (The World of Apu). The films completed 1955-1959 were based on two Bengali novels written by Bibhutibhushan Bandopadhyay Pather Panchali (1929) and Aparajito (1932). They are frequently listed among the greatest films of all time and are often cited as the greatest films in the history of Indian cinema. The original music for the films was composed by Ravi Shankar.
-    trakt_list: https://trakt.tv/lists/official/the-apu-trilogy?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/cinenadi/list/the-apu-trilogy/
 
   Arthur and the Invisibles:
     template: { name: Franchise }
@@ -872,9 +872,7 @@ collections:
     template: { name: Franchise }
     summary: Evil Dead is an American horror film franchise created by Sam Raimi consisting of four feature films and a television series. The series revolves around the Necronomicon Ex-Mortis, an ancient Sumerian text which wreaks havoc upon a group of cabin inhabitants in a wooded area in Tennessee (later confirmed to be Elk Rapids in Michigan).
     file_poster: config/posters/Evil Dead.jpeg
-    trakt_list:
-      - https://trakt.tv/users/behead974/lists/evil-dead?sort=rank,asc
-      - https://trakt.tv/users/strangerer/lists/evil-dead?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/fantic/list/evil-dead/
 
   Elite Squad:
     template: { name: Franchise }
@@ -1081,7 +1079,7 @@ collections:
     template: { name: Franchise }
     summary: G.I. Joe is a military science fiction action film series, based on Hasbro's G.I. Joe toy, comic, and media franchises. Development for the first film began in 2003, but when the United States launched the invasion of Iraq in March 2003, Hasbro suggested adapting the Transformers instead. In 2009, the first film was released.
     file_poster: config/posters/G.I. Joe.jpg
-    trakt_list: https://trakt.tv/users/yoru14/lists/g-i-joe?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/daredevilandrew/list/g-i-joe-ranking/
 
   Ghostbusters:
     template: { name: Franchise }
@@ -1640,7 +1638,7 @@ collections:
     template: { name: Franchise }
     summary: The Living Dead is a series of six zombie horror films created by George A. Romero beginning with the 1968 film Night of the Living Dead directed by Romero and co-written with John A. Russo. The franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
     file_poster: config/posters/Living Dead.jpg
-    trakt_list: https://trakt.tv/users/grendelcrusher/lists/franchise-living-dead?sort=released,desc
+    letterboxd_list: https://letterboxd.com/fantic/list/living-dead/
 
   Love Comes Softly:
     template: { name: Franchise }
@@ -1823,7 +1821,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Middle-earth.png
     summary: The Middle-earth movie series includes The Lord of the Rings and The Hobbit trilogies and more, epic fantasy adventures based on the works of J.R.R. Tolkien. Set in a richly detailed world of elves, dwarves, wizards, and dark forces, the films follow heroic quests to destroy a powerful ring and reclaim a lost kingdom.
-    trakt_list: https://trakt.tv/users/ziggy111/lists/middle-earth-collection?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/nickolicious/list/lord-of-the-rings/
     plex_search:
       any:
         title:
@@ -2888,7 +2886,7 @@ collections:
     template: { name: Franchise }
     summary: Transformers is a series of American science fiction action films based on the Transformers franchise which began in the 1980s.
     file_poster: config/posters/Transformers.png
-    trakt_list: https://trakt.tv/users/strangerer/lists/transformers?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/fantic/list/transformers/
 
   The Transporter:
     template: { name: Franchise }
@@ -2908,7 +2906,7 @@ collections:
     template: { name: Franchise }
     summary: The Unbreakable trilogy, also known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The series has been noted for its differences to more traditional superhero movies, with Shyamalan's work referred to as the first auteur shared superhero universe.
     file_poster: config/posters/Unbreakable.png
-    trakt_list: https://trakt.tv/users/grelipe/lists/unbreakable?sort=released,desc
+    letterboxd_list: https://letterboxd.com/youk/list/split/
 
   Universal Soldier:
     template: { name: Franchise }
@@ -2983,7 +2981,7 @@ collections:
     template: { name: Franchise }
     summary: The Vengeance Trilogy is a series of three films, Each deals with the themes of revenge, violence, and salvation.
     file_poster: config/posters/Vengeance.png
-    trakt_list: https://trakt.tv/users/dinkysniff/lists/collection-the-vengeance-trilogy?sort=released,desc
+    letterboxd_list: https://letterboxd.com/unspotlessmind/list/vengeance-trilogy/
 
   The Visitors:
     template: { name: Franchise }
@@ -3078,7 +3076,7 @@ collections:
     template: { name: Franchise }
     summary: A superhero film series about a team of mutant superheroes based on the Marvel Comics superheroes of the same name.
     file_poster: config/posters/X-Men.jpeg
-    trakt_list: https://trakt.tv/users/negricaroll/lists/xmen?sort=released,desc
+    letterboxd_list: https://letterboxd.com/fantic/list/x-men/
 
   xXx:
     template: { name: Franchise }
@@ -3119,13 +3117,13 @@ collections:
         title: zoolander
 
   ##########################################################
-  #                Universes & Movie Series                #
+  #                Universes & Movie Series 3.0            #
   ##########################################################
 
   Batman Universe:
     template: { name: Franchise }
     summary: Batman is a 1989 American superhero film based on the DC Comics character. The film stars Jack Nicholson as the Joker and Michael Keaton as Bruce Wayne / Batman. The film takes place early in the title character's war on crime, and depicts a battle with the Joker.
-    trakt_list: https://trakt.tv/users/maxtrontv/lists/batman-movies?sort=released,desc
+    letterboxd_list: https://letterboxd.com/annyanatasha/list/batman/
     file_poster: config/posters/Batman Universe.png
     plex_search:
       any:
@@ -3137,9 +3135,7 @@ collections:
     template: { name: Franchise }
     summary: A of all Conjuring Universe movies.
     file_poster: config/posters/Conjuring Universe.png
-    trakt_list:
-      - https://trakt.tv/users/haiderales/lists/conjuring-universe?sort=rank,asc
-      - https://trakt.tv/users/ximphrambugle/lists/conjuring-universe?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/kaminaari/list/conjuring-universe/
     plex_search:
       all:
         title: the conjuring
@@ -3148,54 +3144,51 @@ collections:
     template: { name: Franchise }
     summary: A of all DC Animated Universe movies.
     file_poster: config/posters/DC Animated Universe.jpg
-    trakt_list:
-      - https://trakt.tv/users/grendelcrusher/lists/filmography-dc-animated-movies?sort=rank,asc
-      - https://trakt.tv/users/santhoshpsk/lists/dc-animated-movies?sort=released,asc
-      - https://trakt.tv/users/caspian024/lists/dc-animated-movies?sort=released,asc
-      - https://trakt.tv/users/donxy/lists/dc-animated-movie-universe?sort=rank,asc
-      - https://trakt.tv/users/jinzulen/lists/dc-animated?sort=released,asc
+    letterboxd_list:
+      - https://letterboxd.com/joshuabbrown/list/dc-animated-universe/
+      - https://letterboxd.com/erdincmaximoff/list/dc-animated-universe/
+      - https://letterboxd.com/wattsjacoba/list/dc-animated-universe/
 
   DC Extended Universe:
     template: { name: Franchise }
     summary: A of all DC Extended Universe movies.
     file_poster: config/posters/DC Extended Universe.png
-    trakt_list: https://trakt.tv/users/donxy/lists/dc-extended-universe?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/grey_the_dot/list/dc-extended-universe/
 
   Hercule Poirot:
     template: { name: Franchise }
     summary: Hercule Poirot is a fictional Belgian detective created by British writer Agatha Christie. Poirot is one of Christie's most famous and long-running characters, appearing in 33 novels, two plays (Black Coffee and Alibi), and more than 50 short stories published between 1920 and 1975.
     file_poster: config/posters/Hercule Poirot.png
     tmdb_collection: 735384
-    trakt_list:
-      - https://trakt.tv/users/grelipe/lists/hercule-poirot?sort=released,desc
-      - https://trakt.tv/users/jes-wan/lists/agatha-christie-s-hercule-poirot?sort=released,desc
+    letterboxd_list:
+      - https://letterboxd.com/hotsake/list/hercule-poirot/
+      - https://letterboxd.com/lars493/list/hercule-poirot/
 
   James Bond:
     template: { name: Franchise }
     summary: A of all James Bond 007 movies.
     file_poster: config/posters/James Bond.jpg
-    trakt_list: https://trakt.tv/users/any/lists/james-bond?sort=rank,asc
+    letterboxd_list: https://letterboxd.com/fantic/list/james-bond/
 
   Marvel Cinematic Universe:
     template: { name: Franchise }
     summary: A of all Marvel Cinmatic Universe movies.
     file_poster: config/posters/Marvel Cinematic Universe.jpeg
-    trakt_list: https://trakt.tv/users/draackje/lists/marvel-cinematic-universe?sort=released,desc
+    letterboxd_list: https://letterboxd.com/seriouspain/list/marvel-cinematic-universe/
 
   MonsterVerse:
     template: { name: Franchise }
     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other Toho monster characters. The franchise is produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
     file_poster: config/posters/MonsterVerse.jpg
-    trakt_list:
-      - https://trakt.tv/users/rzepkowski/lists/monsterverse-movies?sort=rank,asc
-      - https://trakt.tv/users/genx777/lists/monsterverse?sort=rank,asc
-      - https://trakt.tv/users/tropicsbear/lists/monsterverse?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/blexinfinity/list/monsterverse/
+      - https://letterboxd.com/fantic/list/monsterverse/
 
   Monty Python:
     template: { name: Franchise }
     summary: All Monty Python movies.
     file_poster: config/posters/Monty Python.png
-    trakt_list: https://trakt.tv/users/gobberwart/lists/monty-python?sort=title,asc
+    letterboxd_list: https://letterboxd.com/pattydantes/list/monty-python/
 
   Spider-Man Universe:
     template: { name: Franchise }
@@ -3209,7 +3202,7 @@ collections:
     template: { name: Franchise }
     summary: A superhero film series based on the Marvel Comics character Spider-Man. The series is centered on Peter Parker, an academically gifted but socially inept freelance photographer who gets bitten by a genetically modified spider and gains spider-like abilities, all of which he uses to fight crime as a spider-masked vigilante learning for himself that great power comes with great responsibility.
     file_poster: config/posters/Superman Universe.png
-    trakt_list: https://trakt.tv/users/maxtrontv/lists/superman-movies?sort=released,desc
+    letterboxd_list: https://letterboxd.com/bogdansth/list/ranked-superman-universe/
     plex_search:
       all:
         title: superman

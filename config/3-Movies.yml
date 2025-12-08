@@ -48,9 +48,7 @@ collections:
       - monthly(10)
       - monthly(11)
     file_poster: config/posters/IMDb Top 250 Gold.png
-    trakt_list:
-      - https://trakt.tv/users/tlongarms/lists/imdb-top-250?sort=rank,asc
-      - https://trakt.tv/users/sacwooky/lists/imdb-top-250?sort=rank,asc
+    trakt_list: https://trakt.tv/users/sacwooky/lists/imdb-top-250?sort=rank,asc
 
   Letterboxd - Best Picture: # Letterboxd specific chart lists
     template: { name: Movie Release }

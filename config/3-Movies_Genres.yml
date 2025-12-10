@@ -536,7 +536,7 @@ collections:
     visible_shared: monthly(8)
     letterboxd_list:
       - https://letterboxd.com/abbyfrancesca/list/dark-fantasy/
-      - https://letterboxd.com/newarchive/list/dark-fantasy/
+      - https://letterboxd.com/binbats/list/dark-fantasy/
 
   Deep Sea:
     template: { name: Subgenre }

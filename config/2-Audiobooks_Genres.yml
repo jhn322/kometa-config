@@ -290,16 +290,6 @@ collections:
       all:
         album_genre: time travel
 
-  True Crime:
-    template: { name: Genre }
-    file_poster: config/posters/True Crime Audiobooks.png
-    summary: Audiobooks with True Crime influence.
-    smart_filter:
-      sort_by: random
-      validate: false
-      all:
-        album_genre: true crime
-
   Womens Fiction:
     template: { name: Genre }
     file_poster: config/posters/Womens Fiction Audiobooks.png

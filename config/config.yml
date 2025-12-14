@@ -34,8 +34,8 @@ libraries:
     operations:
       mass_audience_rating_update: imdb
     overlay_files:
-      - file: config/3.1-Movies_Overlays_4K.yml
       - file: config/3.1-Movies_Overlays_Rating.yml
+      - file: config/3.1-Movies_Overlays_Resolution.yml
       # - file: config/3.1-Movies_Overlays_Subtitle.yml
       - file: config/3.1-Movies_Overlays_Top.yml
   Music:
@@ -69,9 +69,9 @@ libraries:
     operations:
       mass_audience_rating_update: imdb
     overlay_files:
-      - file: config/7.1-TV_Overlays_4K.yml
       - file: config/7.1-TV_Overlays_Canceled.yml
       - file: config/7.1-TV_Overlays_Rating.yml
+      - file: config/7.1-TV_Overlays_Resolution.yml
       - file: config/7.1-TV_Overlays_Top.yml
   #Videos:
   #collection_files:

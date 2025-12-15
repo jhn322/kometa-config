@@ -82,64 +82,91 @@ templates:
       name: <<overlay_name>>
       file_poster: config/overlays/Dolby-Atmos.png
 
-# Sorted by priority from most to least important
+  # Dolby Non-Surround
+  Dolby TrueHD:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Dolby-TrueHD.png
+
+  Dolby Digital Plus:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Dolby-Digital-Plus.png
+
+  Dolby Digital:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Dolby-Digital.png
+
+  # Standard Codecs
+  FLAC:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/FLAC.png
+
+  PCM:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/PCM.png
+
+  AAC:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/AAC.png
+
+  MP3:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/MP3.png
+
+  Opus:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    overlay:
+      name: <<overlay_name>>
+      file_poster: config/overlays/Opus.png
+
+# Priority order: 1. Dolby Atmos → 2. DTS Surround → 3. Dolby Non-Surround → 4. Standard Codecs
 overlays:
-  # DTS Surround
-  DTS-X:
-    template:
-      - name: DTS X
-        slug: x
-    suppress_overlays:
-      - DTS-HD-MA
-      - DTS-HD-HRA
-      - DTS-ES
-      - DTS
-    plex_all: true
-    filters:
-      audio_track_title.regex: 'dts[-. ]?x(?!\d)'
-
-  DTS-HD-MA:
-    template:
-      - name: DTS HD MA
-        slug: hd
-    suppress_overlays:
-      - DTS-HD-HRA
-      - DTS-ES
-      - DTS
-    plex_all: true
-    filters:
-      audio_track_title.regex: '(?i)dts[ .-]?(ma\b|hd[ .-]?ma|hd)(?!china|r)'
-
-  DTS-HD-HRA:
-    template:
-      - name: DTS HD HRA
-        slug: hra
-    suppress_overlays:
-      - DTS-ES
-      - DTS
-    plex_all: true
-    filters:
-      audio_track_title.regex: "(?i)dts[ ._-]?(hd[. ]?)?(hr|hi)"
-
-  DTS-ES:
-    template:
-      - name: DTS ES
-        slug: es
-    suppress_overlays:
-      - DTS
-    plex_all: true
-    filters:
-      audio_track_title.regex: 'dts[-. ]?es\b'
-
-  DTS:
-    template:
-      - name: DTS
-        slug: dts
-    plex_all: true
-    filters:
-      audio_track_title.regex: '(?i)\bDTS(\b|\d)'
-
-  # Atmos Surround
+  # 1. Dolby Atmos Surround (Highest Priority)
   Dolby-TrueHD-Atmos:
     template:
       - name: Dolby TrueHD Atmos
@@ -153,6 +180,14 @@ overlays:
       - DTS-HD-HRA
       - DTS-ES
       - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
     plex_all: true
     filters:
       audio_track_title.regex: '(?i)(?=.*\b(true[ .-]?hd))(?=.*\b(atmos(\b|\d)))'
@@ -169,10 +204,18 @@ overlays:
       - DTS-HD-HRA
       - DTS-ES
       - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
     plex_all: true
     filters:
       audio_track_title.regex:
-        - '(?i)((?=.*([^-]DD[P+](?!A)|eac3))(?=.*\b(atmos(\b|\d))))|(?=.*\b(DDPA(\b|\d)))'
+        - '(?i)((?=.*(dd[p+]|eac3|e[ ._-]?ac[ ._-]?3))(?=.*\b(atmos(\b|\d))))|(?=.*\b(ddpa(\b|\d)))'
 
   Dolby-Atmos:
     template:
@@ -184,6 +227,211 @@ overlays:
       - DTS-HD-HRA
       - DTS-ES
       - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
     plex_all: true
     filters:
-      audio_track_title.regex: '(?i)^(?!.*([^-]DD[P+](?!A)|eac3|true[ .-]?hd))(?=.*\b(atmos(\b|\d))).*'
+      audio_track_title.regex: '(?i)(?=.*\batmos(\b|\d))(?!.*(dd[p+]|eac3|e[ ._-]?ac[ ._-]?3|true[ .-]?hd))'
+
+  # 2. DTS Surround (Second Priority)
+  DTS-X:
+    template:
+      - name: DTS X
+        slug: x
+    suppress_overlays:
+      - DTS-HD-MA
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: 'dts[-. ]?x(?!\d)'
+
+  DTS-HD-MA:
+    template:
+      - name: DTS HD MA
+        slug: hd
+    suppress_overlays:
+      - DTS-HD-HRA
+      - DTS-ES
+      - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)dts[ .-]?(ma\b|hd[ .-]?ma|hd)(?!china|r)'
+
+  DTS-HD-HRA:
+    template:
+      - name: DTS HD HRA
+        slug: hra
+    suppress_overlays:
+      - DTS-ES
+      - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: "(?i)dts[ ._-]?(hd[. ]?)?(hr|hi)"
+
+  DTS-ES:
+    template:
+      - name: DTS ES
+        slug: es
+    suppress_overlays:
+      - DTS
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: 'dts[-. ]?es\b'
+
+  DTS:
+    template:
+      - name: DTS
+        slug: dts
+    suppress_overlays:
+      - Dolby-TrueHD
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\bDTS(\b|\d)'
+
+  # 3. Dolby Non-Surround (Third Priority)
+  Dolby-TrueHD:
+    template:
+      - name: Dolby TrueHD
+        slug: truehd
+    suppress_overlays:
+      - Dolby-Digital-Plus
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)(?=.*\btrue[ .-]?hd(\b|\d))(?!.*atmos)'
+
+  Dolby-Digital-Plus:
+    template:
+      - name: Dolby Digital Plus
+        slug: plus
+    suppress_overlays:
+      - Dolby-Digital
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)(?=.*\b((dd[p+])|(dolby[ ._-]digital[ ._-]plus)|(eac3)|(e[ ._-]?ac[ ._-]?3))\b)(?!.*atmos)'
+
+  Dolby-Digital:
+    template:
+      - name: Dolby Digital
+        slug: digital
+    suppress_overlays:
+      - FLAC
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\b(dd(?![p+])|ac3(?!.*e)|dolby(?!.*plus))(\b|\d)'
+
+  # 4. Standard Codecs (Lowest Priority)
+  FLAC:
+    template:
+      - name: FLAC
+        slug: flac
+    suppress_overlays:
+      - PCM
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\bflac(\b|\d)'
+
+  PCM:
+    template:
+      - name: PCM
+        slug: pcm
+    suppress_overlays:
+      - AAC
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\bl?pcm(\b|\d)'
+
+  AAC:
+    template:
+      - name: AAC
+        slug: aac
+    suppress_overlays:
+      - MP3
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\b(aac|stereo|2\.0)\b'
+
+  MP3:
+    template:
+      - name: MP3
+        slug: mp3
+    suppress_overlays:
+      - Opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\bmp3(\b|\d)'
+
+  Opus:
+    template:
+      - name: Opus
+        slug: opus
+    plex_all: true
+    filters:
+      audio_track_title.regex: '(?i)\b(?<!-)OPUS(\b|\d)'

@@ -24,11 +24,8 @@ collections:
   ABC:
     template: { name: network, network: "ABC, ABC Family" }
     file_poster: config/posters/ABC.png
-    visible_shared:
-      - monthly(28)
-      - monthly(29)
-      - monthly(30)
-      - monthly(31)
+    visible_shared: monthly(28)
+
     studio: ABC, ABC (AU), ABC (US), ABC Studios, ABC1
 
   Adult Swim:
@@ -39,10 +36,7 @@ collections:
     template: { name: network, network: "AMC, AMC+" }
     file_poster: config/posters/AMC.png
     studio: AMC, AMC Networks, AMC Studios, AMC+, American Movie Classics (AMC)
-    visible_shared:
-      - monthly(25)
-      - monthly(26)
-      - monthly(27)
+    visible_shared: monthly(24)
 
   A&E:
     template: { name: network, network: "A&E" }
@@ -56,28 +50,19 @@ collections:
         network: "BBC America, BBC Four, BBC One, BBC Two, BBC Three",
       }
     file_poster: config/posters/BBC.png
-    visible_shared:
-      - monthly(25)
-      - monthly(26)
-      - monthly(27)
+    visible_shared: monthly(25)
     studio: BBC, BBC America, BBC Natural History Unit, BBC One, BBC Two, BBC Three, BBC Wales, British Brodcasting Corporation (BBC)
 
   Cartoon Network:
     template: { name: network, network: "Cartoon Network" }
     file_poster: config/posters/Cartoon Network.png
     studio: Cartoon Network Studios
-    visible_shared:
-      - monthly(19)
-      - monthly(20)
-      - monthly(21)
+    visible_shared: monthly(19)
 
   CBS:
     template: { name: network, network: "CBS, CBS All Access" }
     file_poster: config/posters/CBS.png
-    visible_shared:
-      - monthly(22)
-      - monthly(23)
-      - monthly(24)
+    visible_shared: monthly(21)
     studio: CBS, CBS Sony Group Inc., CBS Studios, CBS Television Studios
 
   Cinemax:
@@ -102,10 +87,7 @@ collections:
   FOX:
     template: { name: network, network: "FOX, Fox Kids" }
     file_poster: config/posters/Fox.png
-    visible_shared:
-      - monthly(10)
-      - monthly(11)
-      - monthly(12)
+    visible_shared: monthly(9)
     studio: 20th Century Fox Television, 30th Century Fox Television, FOX, Fox 21, Fox 21 Televsion Studios, Fox Productions, Fox Television Productions
 
   Freeform:
@@ -117,10 +99,7 @@ collections:
     template: { name: network, network: "FX, FXX" }
     file_poster: config/posters/FX.png
     studio: FX, FX Productions, FXX
-    visible_shared:
-      - monthly(16)
-      - monthly(17)
-      - monthly(18)
+    visible_shared: monthly(15)
 
   History*:
     template: { name: network, network: "History" }
@@ -145,38 +124,25 @@ collections:
   NBC:
     template: { name: network, network: "NBC" }
     file_poster: config/posters/NBC.png
-    visible_shared:
-      - monthly(10)
-      - monthly(11)
-      - monthly(12)
+    visible_shared: monthly(10)
     studio: NBC, NBCUniversal International Studios
 
   Showtime:
     template: { name: network, network: "Showtime" }
     file_poster: config/posters/Showtime.png
-    visible_shared:
-      - monthly(4)
-      - monthly(5)
-      - monthly(6)
+    visible_shared: monthly(4)
     studio: Showtime, Showtime Documentary Films, Showtime Networks
 
   Starz:
     template: { name: network, network: "Starz" }
     file_poster: config/posters/Starz.png
-    visible_shared:
-      - monthly(28)
-      - monthly(29)
-      - monthly(30)
-      - monthly(31)
+    visible_shared: monthly(26)
     studio: Starz, Starz Productions
 
   Syfy:
     template: { name: network, network: "Syfy" }
     file_poster: config/posters/Syfy.png
-    visible_shared:
-      - monthly(7)
-      - monthly(8)
-      - monthly(9)
+    visible_shared: monthly(6)
     studio: Syfy
 
   SVT:
@@ -196,10 +162,7 @@ collections:
   USA:
     template: { name: network, network: "USA Network" }
     file_poster: config/posters/USA.png
-    visible_shared:
-      - monthly(1)
-      - monthly(2)
-      - monthly(3)
+    visible_shared: monthly(11)
     studio: USA Networks
 
   TNT:
@@ -224,7 +187,6 @@ collections:
     visible_shared:
       - monthly(1)
       - monthly(2)
-      - monthly(3)
 
   Disney+:
     template: { name: streaming, network: "Disney Channel, Disney XD, Disney+" }
@@ -233,7 +195,6 @@ collections:
     visible_shared:
       - monthly(22)
       - monthly(23)
-      - monthly(24)
 
   HBO Max:
     template: { name: streaming, network: "HBO, HBO Max, Max" }
@@ -242,7 +203,6 @@ collections:
     visible_shared:
       - monthly(13)
       - monthly(14)
-      - monthly(15)
 
   Hulu:
     template: { name: streaming, network: "Hulu" }
@@ -251,7 +211,6 @@ collections:
     visible_shared:
       - monthly(7)
       - monthly(8)
-      - monthly(9)
 
   Netflix:
     template: { name: streaming, network: "Netflix" }
@@ -260,7 +219,6 @@ collections:
     visible_shared:
       - monthly(16)
       - monthly(17)
-      - monthly(18)
 
   Paramount+:
     template:
@@ -270,24 +228,21 @@ collections:
       }
     file_poster: config/posters/Paramount+.png
     visible_shared:
-      - monthly(4)
+      - monthly(12)
       - monthly(5)
-      - monthly(6)
     studio: Paramount+, Paramount Television Studios
 
   Peacock:
     template: { name: streaming, network: "Peacock" }
     file_poster: config/posters/Peacock.png
     visible_shared:
-      - monthly(13)
-      - monthly(14)
-      - monthly(15)
+      - monthly(31)
+      - monthly(30)
 
   Prime Video:
     template: { name: streaming, network: "Prime Video" }
     file_poster: config/posters/Prime Video.png
     studio: Amazon Prime Video
     visible_shared:
-      - monthly(19)
+      - monthly(18)
       - monthly(20)
-      - monthly(21)

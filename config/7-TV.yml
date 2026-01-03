@@ -160,6 +160,5 @@ collections:
     visible_shared:
       - monthly(26)
       - monthly(24)
-      - monthly(21)
     file_poster: config/posters/Trending.png
     summary: Shows trending on Trakt and TMDb this week.

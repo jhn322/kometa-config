@@ -72,7 +72,6 @@ collections:
   Critics Choice Awards - Nominees:
     template: { name: Awards }
     summary: "A collection of Critics Choice Award Nominees"
-    visible_shared: monthly(30)
     file_poster: config/posters/Critics Choice Awards Nominees.png
     imdb_award:
       event_id: "ev0000133"
@@ -86,7 +85,6 @@ collections:
   Critics Choice Awards - Winners:
     template: { name: Awards }
     summary: "A collection of Critics Choice Award Winners"
-    visible_shared: monthly(5)
     file_poster: config/posters/Critics Choice Awards Winners.png
     imdb_award:
       event_id: "ev0000133"
@@ -115,7 +113,7 @@ collections:
   Emmy - Nominees:
     template: { name: Awards }
     summary: "A collection of Emmy Award Nominees"
-    visible_shared: monthly(25)¨
+    visible_shared: monthly(25)
     visible_library: true
     file_poster: config/posters/Emmy Nominees.png
     imdb_award:

@@ -33,7 +33,6 @@ collections:
         year.lt: 1930
         audience_rating.gte: 7.0
     limit: 500
-    visible_shared: range(10/01-10/15)
     file_poster: config/posters/Best of 1920s.png
 
   Best of 1930s:
@@ -44,7 +43,6 @@ collections:
         year.lt: 1940
         audience_rating.gte: 7.0
     limit: 500
-    visible_shared: range(06/01-06/15)
     file_poster: config/posters/Best of 1930s.png
 
   Best of 1940s:
@@ -55,7 +53,6 @@ collections:
         year.lt: 1950
         audience_rating.gte: 7.0
     limit: 500
-    visible_shared: range(04/01-04/15)
     file_poster: config/posters/Best of 1940s.png
 
   Best of 1950s:
@@ -66,7 +63,6 @@ collections:
         year.lt: 1960
         audience_rating.gte: 7.0
     limit: 500
-    visible_shared: range(12/01-12/15)
     file_poster: config/posters/Best of 1950s.png
 
   Best of 1960s:
@@ -376,3 +372,57 @@ collections:
       all:
         year: 2024
         audience_rating.gte: 7.0
+
+  Best of 2025:
+    template: { name: Year }
+    file_poster: config/posters/Best of 2025.png
+    visible_shared: range(04/16-04/22)
+    plex_search:
+      all:
+        year: 2025
+        audience_rating.gte: 7.0
+
+  Best of 2026:
+    template: { name: Year }
+    file_poster: config/posters/Best of 2026.png
+    visible_shared: range(04/16-04/22)
+    plex_search:
+      all:
+        year: 2026
+        audience_rating.gte: 7.0
+# Uncomment in the future
+#Best of 2027:
+#template: { name: Year }
+# file_poster: config/posters/Best of 2027.png
+# visible_shared: range(04/16-04/22)
+# plex_search:
+#   all:
+#     year: 2027
+#     audience_rating.gte: 7.0
+
+# Best of 2028:
+# template: { name: Year }
+# file_poster: config/posters/Best of 2028.png
+# visible_shared: range(04/16-04/22)
+# plex_search:
+#   all:
+#     year: 2028
+#     audience_rating.gte: 7.0
+
+# Best of 2029:
+# template: { name: Year }
+# file_poster: config/posters/Best of 2029.png
+# visible_shared: range(04/16-04/22)
+# plex_search:
+#   all:
+#     year: 2029
+#     audience_rating.gte: 7.0
+
+# Best of 2030:
+# template: { name: Year }
+# file_poster: config/posters/Best of 2030.png
+#   visible_shared: range(04/16-04/22)
+#   plex_search:
+#     all:
+#       year: 2030
+#       audience_rating.gte: 7.0

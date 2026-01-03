@@ -1,5 +1,5 @@
 #####################################################
-#                  YEARS 9.5                        #
+#                  YEARS 10.0                       #
 #####################################################
 
 templates:
@@ -22,7 +22,6 @@ collections:
   Best of 1940-1970s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1940-1970s.png
-    visible_shared: range(03/01-03/31)
     plex_search:
       all:
         year.gt: 1939
@@ -32,7 +31,7 @@ collections:
   Best of 1980s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1980s.png
-    visible_shared: range(01/01-02/31)
+    visible_shared: monthly(1)
     plex_search:
       all:
         year.gt: 1979
@@ -42,7 +41,7 @@ collections:
   Best of 1990s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1990s.png
-    visible_shared: range(07/01-08/30)
+    visible_shared: monthly(6)
     plex_search:
       all:
         year.gt: 1989
@@ -52,7 +51,7 @@ collections:
   Best of 2000s:
     template: { name: Decade }
     file_poster: config/posters/Best of 2000s.png
-    visible_shared: range(04/01-06/30)
+    visible_shared: monthly(12)
     plex_search:
       all:
         year.gt: 1999
@@ -62,7 +61,7 @@ collections:
   Best of 2010s:
     template: { name: Decade }
     file_poster: config/posters/Best of 2010s.png
-    visible_shared: range(11/01-12/31)
+    visible_shared: monthly(18)
     plex_search:
       all:
         year.gt: 2009
@@ -72,7 +71,7 @@ collections:
   Best of 2020s:
     template: { name: Decade }
     file_poster: config/posters/Best of 2020s.png
-    visible_shared: range(09/01-10/31)
+    visible_shared: monthly(24)
     plex_search:
       all:
         year.gt: 2019
@@ -167,7 +166,7 @@ collections:
   Best of 2010:
     template: { name: Year }
     file_poster: config/posters/Best of 2010.png
-    visible_shared: range(04/16-04/30)
+    visible_shared: range(05/16-05/30)
     plex_search:
       all:
         year: 2010
@@ -185,7 +184,7 @@ collections:
   Best of 2012:
     template: { name: Year }
     file_poster: config/posters/Best of 2012.png
-    visible_shared: range(06/01-06/15)
+    visible_shared: range(07/01-07/15)
     plex_search:
       all:
         year: 2012
@@ -230,7 +229,7 @@ collections:
   Best of 2017:
     template: { name: Year }
     file_poster: config/posters/Best of 2017.png
-    visible_shared: range(10/01-10/15)
+    visible_shared: range(11/01-11/15)
     plex_search:
       all:
         year: 2017

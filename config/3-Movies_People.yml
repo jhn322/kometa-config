@@ -1,5 +1,5 @@
 ######################################################
-#                  ACTORS 14.0                       #
+#                  ACTORS 15.0                       #
 ######################################################
 
 # Collections for prominent actors
@@ -23,7 +23,6 @@ collections:
   Adam Sandler:
     template: { name: Actor }
     file_poster: config/posters/Adam Sandler.jpg
-    visible_shared: range(01/01-01/04)
     plex_search:
       all:
         actor: Adam Sandler
@@ -31,9 +30,7 @@ collections:
   Al Pacino:
     template: { name: Actor }
     file_poster: config/posters/Al Pacino.jpg
-    visible_shared:
-      - monthly(1)
-      - monthly(15)
+    visible_shared: monthly(1)
     plex_search:
       all:
         actor: Al Pacino
@@ -48,6 +45,7 @@ collections:
   Ana de Armas:
     template: { name: Actor }
     file_poster: config/posters/Ana de Armas.jpg
+    visible_shared: monthly(10)
     plex_search:
       all:
         actor: Ana de Armas
@@ -55,7 +53,7 @@ collections:
   Anne Hathaway:
     template: { name: Actor }
     file_poster: config/posters/Anne Hathaway.jpg
-    visible_shared: range(01/27-01/30)
+    visible_shared: monthly(4)
     plex_search:
       all:
         actor: Anne Hathaway
@@ -70,7 +68,7 @@ collections:
   Amy Adams:
     template: { name: Actor }
     file_poster: config/posters/Amy Adams.jpg
-    visible_shared: range(02/01-02/04)
+    visible_shared: range(01/01-01/04)
     plex_search:
       all:
         actor: Amy Adams
@@ -86,6 +84,7 @@ collections:
   Angelina Jolie:
     template: { name: Actor }
     file_poster: config/posters/Angelina Jolie.jpg
+    visible_shared: monthly(10)
     plex_search:
       all:
         actor: Angelina Jolie
@@ -93,9 +92,7 @@ collections:
   Anthony Hopkins:
     template: { name: Actor }
     file_poster: config/posters/Anthony Hopkins.jpg
-    visible_shared:
-      - monthly(2)
-      - monthly(18)
+    visible_shared: monthly(2)
     plex_search:
       all:
         actor: Anthony Hopkins
@@ -103,6 +100,7 @@ collections:
   Arnold Schwarzenegger:
     template: { name: Actor }
     file_poster: config/posters/Arnold Schwarzenegger.jpg
+    visible_shared: monthly(12)
     plex_search:
       all:
         actor: Arnold Schwarzenegger
@@ -110,9 +108,7 @@ collections:
   Ben Affleck:
     template: { name: Actor }
     file_poster: config/posters/Ben Affleck.jpg
-    visible_shared:
-      - monthly(3)
-      - monthly(20)
+    visible_shared: monthly(3)
     plex_search:
       all:
         actor: Ben Affleck
@@ -136,9 +132,7 @@ collections:
   Benedict Cumberbatch:
     template: { name: Actor }
     file_poster: config/posters/Benedict Cumberbatch.jpg
-    visible_shared:
-      - monthly(4)
-      - monthly(12)
+    visible_shared: monthly(4)
     plex_search:
       all:
         actor: Benedict Cumberbatch
@@ -153,6 +147,7 @@ collections:
   Bob Odenkirk:
     template: { name: Actor }
     file_poster: config/posters/Bob Odenkirk.png
+    visible_shared: monthly(11)
     plex_search:
       all:
         actor: Bob Odenkirk
@@ -168,9 +163,7 @@ collections:
   Brad Pitt:
     template: { name: Actor }
     file_poster: config/posters/Brad Pitt.jpg
-    visible_shared:
-      - monthly(5)
-      - monthly(25)
+    visible_shared: monthly(5)
     plex_search:
       all:
         actor: Brad Pitt
@@ -199,9 +192,7 @@ collections:
   Christian Bale:
     template: { name: Actor }
     file_poster: config/posters/Christian Bale.jpg
-    visible_shared:
-      - monthly(6)
-      - monthly(11)
+    visible_shared: monthly(6)
     plex_search:
       all:
         actor: Christian Bale
@@ -217,9 +208,7 @@ collections:
   Clint Eastwood:
     template: { name: Actor }
     file_poster: config/posters/Clint Eastwood.png
-    visible_shared:
-      - monthly(8)
-      - monthly(17)
+    visible_shared: monthly(8)
     plex_search:
       all:
         actor: Clint Eastwood
@@ -227,6 +216,7 @@ collections:
   Cate Blanchett:
     template: { name: Actor }
     file_poster: config/posters/Cate Blanchett.png
+    visible_shared: monthly(11)
     plex_search:
       all:
         actor: Cate Blanchett
@@ -248,6 +238,7 @@ collections:
   Christopher Lee:
     template: { name: Actor }
     file_poster: config/posters/Christopher Lee.jpg
+    visible_shared: monthly(7)
     plex_search:
       all:
         actor: Christopher Lee
@@ -285,6 +276,7 @@ collections:
   Daniel Day-Lewis:
     template: { name: Actor }
     file_poster: config/posters/Daniel Day-Lewis.png
+    visible_shared: monthly(8)
     plex_search:
       all:
         actor: Daniel Day-Lewis
@@ -299,9 +291,7 @@ collections:
   Denzel Washington:
     template: { name: Actor }
     file_poster: config/posters/Denzel Washington.jpg
-    visible_shared:
-      - monthly(10)
-      - monthly(3)
+    visible_shared: monthly(10)
     plex_search:
       all:
         actor: Denzel Washington
@@ -309,8 +299,7 @@ collections:
   Daniel Radcliffe:
     template: { name: Actor }
     file_poster: config/posters/Daniel Radcliffe.jpg
-    visible_shared:
-      - monthly(15)
+    visible_shared: monthly(15)
     plex_search:
       all:
         actor: Daniel Radcliffe
@@ -318,8 +307,7 @@ collections:
   Dustin Hoffman:
     template: { name: Actor }
     file_poster: config/posters/Dustin Hoffman.png
-    visible_shared:
-      - monthly(20)
+    visible_shared: monthly(20)
     plex_search:
       all:
         actor: Dustin Hoffman
@@ -327,6 +315,7 @@ collections:
   Elijah Wood:
     template: { name: Actor }
     file_poster: config/posters/Elijah Wood.jpg
+    visible_shared: monthly(12)
     plex_search:
       all:
         actor: Elijah Wood
@@ -334,9 +323,7 @@ collections:
   Ed Harris:
     template: { name: Actor }
     file_poster: config/posters/Ed Harris.png
-    visible_shared:
-      - monthly(11)
-      - monthly(27)
+    visible_shared: monthly(27)
     plex_search:
       all:
         actor: Ed Harris
@@ -352,6 +339,7 @@ collections:
   Emma Watson:
     template: { name: Actor }
     file_poster: config/posters/Emma Watson.png
+    visible_shared: monthly(8)
     plex_search:
       all:
         actor: Emma Watson
@@ -419,7 +407,7 @@ collections:
   Henry Cavill:
     template: { name: Actor }
     file_poster: config/posters/Henry Cavill.jpg
-    visible_shared: range(04/01-04/04)
+    visible_shared: range(02/01-02/04)
     plex_search:
       all:
         actor: Henry Cavill
@@ -427,7 +415,7 @@ collections:
   Hugh Jackman:
     template: { name: Actor }
     file_poster: config/posters/Hugh Jackman.jpg
-    visible_shared: monthly(27)
+    visible_shared: monthly(2)
     plex_search:
       all:
         actor: Hugh Jackman
@@ -443,9 +431,7 @@ collections:
   Jack Nicholson:
     template: { name: Actor }
     file_poster: config/posters/Jack Nicholson.jpg
-    visible_shared:
-      - monthly(12)
-      - monthly(8)
+    visible_shared: monthly(8)
     plex_search:
       all:
         actor: Jack Nicholson
@@ -468,7 +454,7 @@ collections:
   Julia Roberts:
     template: { name: Actor }
     file_poster: config/posters/Julia Roberts.png
-    visible_shared: range(05/01-05/04)
+    visible_shared: range(03/01-03/04)
     plex_search:
       all:
         actor: Julia Roberts
@@ -525,7 +511,7 @@ collections:
   John Krasinski:
     template: { name: Actor }
     file_poster: config/posters/John Krasinski.png
-    visible_shared: range(04/25-04/28)
+    visible_shared: range(04/01-04/04)
     plex_search:
       all:
         actor: John Krasinski
@@ -533,9 +519,7 @@ collections:
   Jake Gyllenhaal:
     template: { name: Actor }
     file_poster: config/posters/Jake Gyllenhaal.jpg
-    visible_shared:
-      - monthly(13)
-      - monthly(10)
+    visible_shared: monthly(10)
     plex_search:
       all:
         actor: Jake Gyllenhaal
@@ -543,7 +527,7 @@ collections:
   Jared Leto:
     template: { name: Actor }
     file_poster: config/posters/Jared Leto.jpg
-    visible_shared: range(02/25-02/28)
+    visible_shared: range(05/01-05/04)
     plex_search:
       all:
         actor: Jared Leto
@@ -629,7 +613,7 @@ collections:
   Kurt Russell:
     template: { name: Actor }
     file_poster: config/posters/Kurt Russell.jpg
-    visible_shared: range(03/27-03/30)
+    visible_shared: range(06/01-06/04)
     plex_search:
       all:
         actor: Kurt Russell
@@ -637,9 +621,7 @@ collections:
   Leonardo DiCaprio:
     template: { name: Actor }
     file_poster: config/posters/Leonardo DiCaprio.jpg
-    visible_shared:
-      - monthly(17)
-      - monthly(21)
+    visible_shared: monthly(21)
     plex_search:
       all:
         actor: Leonardo DiCaprio
@@ -701,7 +683,7 @@ collections:
   Meryl Streep:
     template: { name: Actor }
     file_poster: config/posters/Meryl Streep.jpg
-    visible_shared: range(06/27-06/30)
+    visible_shared: range(07/01-07/04)
     plex_search:
       all:
         actor: Meryl Streep
@@ -717,7 +699,7 @@ collections:
   Max von Sydow:
     template: { name: Actor }
     file_poster: config/posters/Max von Sydow.png
-    visible_shared: range(06/01-06/04)
+    visible_shared: range(08/01-08/04)
     plex_search:
       all:
         actor: Max von Sydow
@@ -754,7 +736,7 @@ collections:
   Margot Robbie:
     template: { name: Actor }
     file_poster: config/posters/Margot Robbie.jpg
-    visible_shared: range(07/01-07/04)
+    visible_shared: range(09/01-09/04)
     plex_search:
       all:
         actor: Margot Robbie
@@ -777,7 +759,7 @@ collections:
   Naomi Watts:
     template: { name: Actor }
     file_poster: config/posters/Naomi Watts.png
-    visible_shared: range(07/27-07/30)
+    visible_shared: range(10/01-10/04)
     plex_search:
       all:
         actor: Naomi Watts
@@ -785,7 +767,7 @@ collections:
   Nicole Kidman:
     template: { name: Actor }
     file_poster: config/posters/Nicole Kidman.png
-    visible_shared: range(08/01-08/04)
+    visible_shared: range(11/01-11/04)
     plex_search:
       all:
         actor: Nicole Kidman
@@ -801,7 +783,7 @@ collections:
   Oscar Isaac:
     template: { name: Actor }
     file_poster: config/posters/Oscar Isaac.jpg
-    visible_shared: range(08/27-08/30)
+    visible_shared: range(12/01-12/04)
     plex_search:
       all:
         actor: Oscar Isaac
@@ -809,7 +791,7 @@ collections:
   Patrick Stewart:
     template: { name: Actor }
     file_poster: config/posters/Patrick Stewart.jpg
-    visible_shared: range(05/27-05/30)
+    visible_shared: range(01/12-01/15)
     plex_search:
       all:
         actor: Patrick Stewart
@@ -817,7 +799,7 @@ collections:
   Ralph Fiennes:
     template: { name: Actor }
     file_poster: config/posters/Ralph Fiennes.png
-    visible_shared: range(09/12-09/15)
+    visible_shared: range(02/12-02/15)
     plex_search:
       all:
         actor: Ralph Fiennes
@@ -825,7 +807,7 @@ collections:
   Robert Pattinson:
     template: { name: Actor }
     file_poster: config/posters/Robert Pattinson.jpg
-    visible_shared: range(09/01-09/04)
+    visible_shared: range(03/12-03/15)
     plex_search:
       all:
         actor: Robert Pattinson
@@ -840,7 +822,7 @@ collections:
   Russell Crowe:
     template: { name: Actor }
     file_poster: config/posters/Russel Crowe.png
-    visible_shared: range(09/27-09/30)
+    visible_shared: range(04/12-04/15)
     plex_search:
       all:
         actor: Russell Crowe
@@ -848,9 +830,7 @@ collections:
   Robert De Niro:
     template: { name: Actor }
     file_poster: config/posters/Robert De Niro.jpg
-    visible_shared:
-      - monthly(21)
-      - monthly(26)
+    visible_shared: monthly(21)
     plex_search:
       all:
         actor: Robert De Niro
@@ -873,7 +853,7 @@ collections:
   Robin Williams:
     template: { name: Actor }
     file_poster: config/posters/Robin Williams.jpg
-    visible_shared: range(10/01-10/04)
+    visible_shared: range(05/12-05/15)
     plex_search:
       all:
         actor: Robin Williams
@@ -888,7 +868,7 @@ collections:
   Ryan Reynolds:
     template: { name: Actor }
     file_poster: config/posters/Ryan Reynolds.jpg
-    visible_shared: range(10/01-10/04)
+    visible_shared: range(06/12-06/15)
     plex_search:
       all:
         actor: Ryan Reynolds
@@ -917,7 +897,7 @@ collections:
   Stellan Skarsgård:
     template: { name: Actor }
     file_poster: config/posters/Stellan Skarsgard.png
-    visible_shared: range(10/27-10/30)
+    visible_shared: range(07/12-07/15)
     plex_search:
       all:
         actor: Stellan Skarsgård
@@ -932,7 +912,7 @@ collections:
   Samuel L. Jackson:
     template: { name: Actor }
     file_poster: config/posters/Samuel L. Jackson.jpg
-    visible_shared: range(12/27-12/30)
+    visible_shared: range(08/12-08/15)
     plex_search:
       all:
         actor: Samuel L. Jackson
@@ -968,8 +948,7 @@ collections:
   Steve McQueen:
     template: { name: Actor }
     file_poster: config/posters/Steve McQueen.png
-    visible_shared:
-      - monthly(23)
+    visible_shared: monthly(23)
     plex_search:
       all:
         actor: Steve McQueen
@@ -998,9 +977,7 @@ collections:
   Tom Cruise:
     template: { name: Actor }
     file_poster: config/posters/Tom Cruise.jpg
-    visible_shared:
-      - monthly(22)
-      - monthly(7)
+    visible_shared: monthly(7)
     plex_search:
       all:
         actor: Tom Cruise
@@ -1008,9 +985,7 @@ collections:
   Tom Hanks:
     template: { name: Actor }
     file_poster: config/posters/Tom Hanks.jpg
-    visible_shared:
-      - monthly(23)
-      - monthly(26)
+    visible_shared: monthly(26)
     plex_search:
       all:
         actor: Tom Hanks
@@ -1018,7 +993,7 @@ collections:
   Tom Hardy:
     template: { name: Actor }
     file_poster: config/posters/Tom Hardy.jpg
-    visible_shared: range(11/01-11/04)
+    visible_shared: range(09/12-09/15)
     plex_search:
       all:
         actor: Tom Hardy
@@ -1033,7 +1008,7 @@ collections:
   Viggo Mortensen:
     template: { name: Actor }
     file_poster: config/posters/Viggo Mortensen.png
-    visible_shared: range(11/27-11/30)
+    visible_shared: range(10/12-10/15)
     plex_search:
       all:
         actor: Viggo Mortensen
@@ -1069,7 +1044,7 @@ collections:
   Will Smith:
     template: { name: Actor }
     file_poster: config/posters/Will Smith.png
-    visible_shared: range(12/01-12/04)
+    visible_shared: range(11/12-11/15)
     plex_search:
       all:
         actor: Will Smith
@@ -1082,7 +1057,7 @@ collections:
   Alfred Hitchcock:
     template: { name: Director }
     file_poster: config/posters/Alfred Hitchcock.png
-    visible_shared: range(01/01-01/09)
+    visible_shared: monthly(17)
     plex_search:
       any:
         director: Alfred Hitchcock
@@ -1092,7 +1067,6 @@ collections:
   Ang Lee:
     template: { name: Director }
     file_poster: config/posters/Ang Lee.png
-    visible_shared: range(01/10-01/19)
     plex_search:
       any:
         director: Ang Lee
@@ -1102,7 +1076,7 @@ collections:
   Ari Aster:
     template: { name: Director }
     file_poster: config/posters/Ari Aster.png
-    visible_shared: range(03/10-03/19)
+    visible_shared: monthly(21)
     plex_search:
       any:
         director: Ari Aster
@@ -1112,7 +1086,7 @@ collections:
   Bong Joon-ho:
     template: { name: Director }
     file_poster: config/posters/Bong Joon-Ho.png
-    visible_shared: range(01/20-01/31)
+    visible_shared: monthly(21)
     plex_search:
       any:
         director: Bong Joon-ho
@@ -1122,7 +1096,7 @@ collections:
   Brian De Palma:
     template: { name: Director }
     file_poster: config/posters/Brian De Palma.png
-    visible_shared: range(02/01-02/09)
+    visible_shared: monthly(22)
     plex_search:
       any:
         director: Brian De Palma
@@ -1132,7 +1106,7 @@ collections:
   Christopher Nolan:
     template: { name: Director }
     file_poster: config/posters/Christopher Nolan.png
-    visible_shared: range(02/10-02/19)
+    visible_shared: monthly(17)
     plex_search:
       any:
         director: Christopher Nolan
@@ -1143,7 +1117,7 @@ collections:
     template: { name: Director }
     summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
     file_poster: config/posters/Coen Brothers.png
-    visible_shared: range(02/20-02/28)
+    visible_shared: monthly(13)
     plex_search:
       any:
         director:
@@ -1159,7 +1133,7 @@ collections:
   Danny Boyle:
     template: { name: Director }
     file_poster: config/posters/Danny Boyle.png
-    visible_shared: range(03/01-03/05)
+    visible_shared: monthly(17)
     plex_search:
       any:
         director: Danny Boyle
@@ -1169,7 +1143,7 @@ collections:
   David Fincher:
     template: { name: Director }
     file_poster: config/posters/David Fincher.png
-    visible_shared: range(05/16-05/23)
+    visible_shared: range(01/24-01/27)
     plex_search:
       any:
         director: David Fincher
@@ -1179,7 +1153,7 @@ collections:
   David Lynch:
     template: { name: Director }
     file_poster: config/posters/David Lynch.png
-    visible_shared: range(03/06-03/13)
+    visible_shared: range(02/24-02/27)
     plex_search:
       any:
         director: David Lynch
@@ -1189,7 +1163,7 @@ collections:
   Denis Villeneuve:
     template: { name: Director }
     file_poster: config/posters/Denis Villeneuve.png
-    visible_shared: range(03/14-03/19)
+    visible_shared: range(03/24-03/27)
     plex_search:
       any:
         director: Denis Villeneuve
@@ -1199,7 +1173,7 @@ collections:
   Francis Ford Coppola:
     template: { name: Director }
     file_poster: config/posters/Francis Ford Coppola.png
-    visible_shared: range(03/20-03/31)
+    visible_shared: range(04/24-04/27)
     plex_search:
       any:
         director: Francis Ford Coppola
@@ -1209,7 +1183,6 @@ collections:
   George Lucas:
     template: { name: Director }
     file_poster: config/posters/George Lucas.png
-    visible_shared: range(04/01-04/06)
     plex_search:
       any:
         director: George Lucas
@@ -1219,7 +1192,6 @@ collections:
   Greta Gerwig:
     template: { name: Director }
     file_poster: config/posters/Greta Gerwig.png
-    visible_shared: range(08/07-08/14)
     plex_search:
       any:
         director: Greta Gerwig
@@ -1229,7 +1201,7 @@ collections:
   Guy Ritchie:
     template: { name: Director }
     file_poster: config/posters/Guy Ritchie.png
-    visible_shared: range(04/07-04/12)
+    visible_shared: monthly(18)
     plex_search:
       any:
         director: Guy Ritchie
@@ -1239,7 +1211,7 @@ collections:
   Guillermo del Toro:
     template: { name: Director }
     file_poster: config/posters/Guillermo del Toro.png
-    visible_shared: range(04/13-04/19)
+    visible_shared: monthly(11)
     plex_search:
       any:
         director: Guillermo del Toro
@@ -1249,7 +1221,7 @@ collections:
   Hayao Miyazaki:
     template: { name: Director }
     file_poster: config/posters/Hayao Miyazaki.png
-    visible_shared: range(04/20-04/30)
+    visible_shared: range(05/24-05/27)
     plex_search:
       any:
         director: Hayao Miyazaki
@@ -1259,7 +1231,6 @@ collections:
   Isao Takahata:
     template: { name: Director }
     file_poster: config/posters/Isao Takahata.png
-    visible_shared: range(05/01-05/09)
     plex_search:
       any:
         director: Isao Takahata
@@ -1269,7 +1240,6 @@ collections:
   J.J. Abrams:
     template: { name: Director }
     file_poster: config/posters/J.J. Abrams.png
-    visible_shared: range(05/10-05/15)
     plex_search:
       any:
         director: J.J. Abrams
@@ -1279,7 +1249,7 @@ collections:
   James Cameron:
     template: { name: Director }
     file_poster: config/posters/James Cameron.png
-    visible_shared: range(05/24-05/31)
+    visible_shared: monthly(26)
     plex_search:
       any:
         director: James Cameron
@@ -1289,7 +1259,7 @@ collections:
   John Carpenter:
     template: { name: Director }
     file_poster: config/posters/John Carpenter.png
-    visible_shared: range(06/01-06/09)
+    visible_shared: monthly(26)
     plex_search:
       any:
         director: John Carpenter
@@ -1299,7 +1269,6 @@ collections:
   M. Night Shyamalan:
     template: { name: Director }
     file_poster: config/posters/M. Night Shyamalan.png
-    visible_shared: range(06/10-06/19)
     plex_search:
       any:
         director: M. Night Shyamalan
@@ -1309,7 +1278,7 @@ collections:
   Martin Scorsese:
     template: { name: Director }
     file_poster: config/posters/Martin Scorsese.png
-    visible_shared: range(06/20-06/30)
+    visible_shared: monthly(12)
     plex_search:
       any:
         director: Martin Scorsese
@@ -1319,7 +1288,6 @@ collections:
   Mel Brooks:
     template: { name: Director }
     file_poster: config/posters/Mel Brooks.png
-    visible_shared: range(07/01-07/09)
     plex_search:
       any:
         director: Mel Brooks
@@ -1329,7 +1297,7 @@ collections:
   Michael Mann:
     template: { name: Director }
     file_poster: config/posters/Michael Mann.png
-    visible_shared: range(07/10-07/19)
+    visible_shared: range(06/24-06/27)
     plex_search:
       any:
         director: Michael Mann
@@ -1339,7 +1307,6 @@ collections:
   Miloš Forman:
     template: { name: Director }
     file_poster: config/posters/Milos Forman.png
-    visible_shared: range(07/20-07/31)
     plex_search:
       any:
         director: Miloš Forman
@@ -1349,7 +1316,6 @@ collections:
   Oliver Stone:
     template: { name: Director }
     file_poster: config/posters/Oliver Stone.png
-    visible_shared: range(08/01-08/09)
     plex_search:
       any:
         director: Oliver Stone
@@ -1359,7 +1325,7 @@ collections:
   Paul Thomas Anderson:
     template: { name: Director }
     file_poster: config/posters/Paul Thomas Anderson.png
-    visible_shared: range(05/20-05/29)
+    visible_shared: monthly(26)
     plex_search:
       any:
         director: Paul Thomas Anderson
@@ -1369,7 +1335,7 @@ collections:
   Park Chan-wook:
     template: { name: Director }
     file_poster: config/posters/Park Chan-wook.png
-    visible_shared: range(08/10-08/19)
+    visible_shared: monthly(27)
     plex_search:
       any:
         director: Park Chan-wook
@@ -1379,7 +1345,7 @@ collections:
   Peter Jackson:
     template: { name: Director }
     file_poster: config/posters/Peter Jackson.png
-    visible_shared: range(08/20-08/31)
+    visible_shared: monthly(27)
     plex_search:
       any:
         director: Peter Jackson
@@ -1389,7 +1355,7 @@ collections:
   Quentin Tarantino:
     template: { name: Director }
     file_poster: config/posters/Quentin Tarantino.png
-    visible_shared: range(09/01-09/09)
+    visible_shared: monthly(25)
     plex_search:
       any:
         director: Quentin Tarantino
@@ -1399,7 +1365,7 @@ collections:
   Ridley Scott:
     template: { name: Director }
     file_poster: config/posters/Ridley Scott.png
-    visible_shared: range(09/10-09/19)
+    visible_shared: range(07/24-07/27)
     plex_search:
       any:
         director: Ridley Scott
@@ -1409,7 +1375,7 @@ collections:
   Robert Eggers:
     template: { name: Director }
     file_poster: config/posters/Robert Eggers.png
-    visible_shared: range(07/21-07/29)
+    visible_shared: monthly(17)
     plex_search:
       any:
         director: Robert Eggers
@@ -1419,7 +1385,6 @@ collections:
   Robert Zemeckis:
     template: { name: Director }
     file_poster: config/posters/Robert Zemeckis.png
-    visible_shared: range(09/20-09/30)
     plex_search:
       any:
         director: Robert Zemeckis
@@ -1429,7 +1394,7 @@ collections:
   Roman Polanski:
     template: { name: Director }
     file_poster: config/posters/Roman Polanski.png
-    visible_shared: range(10/01-10/09)
+    visible_shared: range(08/24-08/27)
     plex_search:
       any:
         director: Roman Polanski
@@ -1439,7 +1404,7 @@ collections:
   Sergio Leone:
     template: { name: Director }
     file_poster: config/posters/Sergio Leone.png
-    visible_shared: range(10/10-10/19)
+    visible_shared: range(09/24-09/27)
     plex_search:
       any:
         director: Sergio Leone
@@ -1449,7 +1414,7 @@ collections:
   Sidney Lumet:
     template: { name: Director }
     file_poster: config/posters/Sidney Lumet.png
-    visible_shared: range(10/20-10/31)
+    visible_shared: range(10/24-10/27)
     plex_search:
       any:
         director: Sidney Lumet
@@ -1459,7 +1424,7 @@ collections:
   Stanley Kubrick:
     template: { name: Director }
     file_poster: config/posters/Stanley Kubrick.png
-    visible_shared: range(11/01-11/09)
+    visible_shared: monthly(22)
     plex_search:
       any:
         director: Stanley Kubrick
@@ -1469,7 +1434,7 @@ collections:
   Steven Spielberg:
     template: { name: Director }
     file_poster: config/posters/Steven Spielberg.png
-    visible_shared: range(11/10-11/19)
+    visible_shared: monthly(3)
     plex_search:
       any:
         director: Steven Spielberg
@@ -1479,7 +1444,6 @@ collections:
   Taika Waititi:
     template: { name: Director }
     file_poster: config/posters/Taika Waititi.png
-    visible_shared: range(11/20-11/30)
     plex_search:
       any:
         director: Taika Waititi
@@ -1489,7 +1453,6 @@ collections:
   Terrence Malick:
     template: { name: Director }
     file_poster: config/posters/Terrence Malick.png
-    visible_shared: range(12/01-12/09)
     plex_search:
       any:
         director: Terrence Malick
@@ -1499,7 +1462,7 @@ collections:
   Tim Burton:
     template: { name: Director }
     file_poster: config/posters/Tim Burton.png
-    visible_shared: range(12/10-12/19)
+    visible_shared: range(11/24-11/27)
     plex_search:
       any:
         director: Tim Burton
@@ -1509,7 +1472,7 @@ collections:
   Wes Anderson:
     template: { name: Director }
     file_poster: config/posters/Wes Anderson.png
-    visible_shared: range(12/20-12/30)
+    visible_shared: monthly(23)
     plex_search:
       any:
         director: Wes Anderson
@@ -1519,7 +1482,7 @@ collections:
   Yorgos Lanthimos:
     template: { name: Director }
     file_poster: config/posters/Yorgos Lanthimos.png
-    visible_shared: range(11/20-11/29)
+    visible_shared: monthly(23)
     plex_search:
       any:
         director: Yorgos Lanthimos
@@ -1541,7 +1504,7 @@ collections:
 
   Stephen King:
     template: { name: Author }
-    visible_shared: range(10/01-10/31)
+    visible_shared: range(12/24-12/27)
     summary: Stephen Edwin King is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels.
     file_poster: config/posters/Stephen King.png
     trakt_list:

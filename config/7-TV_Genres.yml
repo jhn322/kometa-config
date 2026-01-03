@@ -1,5 +1,5 @@
 ############################################
-#               GENRES 16.5                #
+#               GENRES 17.0                #
 ############################################
 
 templates:
@@ -132,7 +132,7 @@ collections:
 
   Family:
     template: { name: Genre }
-    visible_shared: weekly(sunday)
+    visible_shared: monthly(21)
     file_poster: config/posters/Family TV.png
     summary: Family is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. While the storyline may appeal to a younger audience, there are components of the film that are geared towards adults- such as witty jokes and humor. This genre may fall into many other genres, including comedy, adventure, fantasy, and animated film.
     smart_filter:
@@ -246,7 +246,7 @@ collections:
 
   Sport:
     template: { name: Genre }
-    visible_shared: monthly(8)
+    visible_shared: monthly(2)
     file_poster: config/posters/Sport TV.png
     summary: A Sport revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
     smart_filter:
@@ -307,14 +307,13 @@ collections:
     template: { name: Subgenre }
     summary: Shows containing aliens in some form.
     file_poster: config/posters/Alien TV.png
-    visible_shared: weekly(monday)
     trakt_list:
       - https://trakt.tv/users/captaincarrot/lists/space-tv-shows-non-animated?sort=rank,asc
       - https://trakt.tv/users/angel1online/lists/tv-14a-tv-aliens?sort=my_rating,asc
 
   Anthology:
     template: { name: Subgenre False }
-    visible_shared: monthly(31)
+    visible_shared: monthly(29)
     summary: An anthology series is a television, or film series that presents a different story and a different set of characters in each episode, season, segment or short.
     file_poster: config/posters/Anthology TV.png
     trakt_list:
@@ -356,7 +355,7 @@ collections:
     template: { name: Subgenre }
     summary: Shows based on comic books.
     file_poster: config/posters/Comic Book TV.png
-    visible_shared: monthly(14)
+    visible_shared: monthly(10)
     trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-comics?sort=rank,asc
 
   Courtroom:
@@ -372,7 +371,7 @@ collections:
     template: { name: Subgenre }
     summary: Dark comedy is a style of comedy that makes light of subject matter that is generally considered taboo, particularly subjects that are normally considered serious or painful to discuss.
     file_poster: config/posters/Dark Comedy TV.png
-    visible_shared: monthly(31)
+    visible_shared: monthly(26)
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/dark-comedy-uk-tv-shows?sort=rank,asc
       - https://trakt.tv/users/hitman860/lists/tv-shows-dark-comedy?sort=rank,asc
@@ -485,7 +484,7 @@ collections:
     template: { name: Subgenre }
     summary: Shows in the period piece fiction genre are made up of stories that feature historical places, people, or events that are crucial to the story.
     file_poster: config/posters/Period Piece TV.png
-    visible_shared: weekly(sunday)
+    visible_shared: monthly(22)
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/period-dramas-tv?sort=rank,asc
       - https://trakt.tv/users/yuzuchan/lists/period-pieces?sort=rank,asc
@@ -496,7 +495,7 @@ collections:
     template: { name: Subgenre }
     summary: Shows in the perspective of a policeman or a policeman being present in any capacity.
     file_poster: config/posters/Police TV.png
-    visible_shared: monthly(20)
+    visible_shared: monthly(17)
     trakt_list:
       - https://trakt.tv/users/conepuff/lists/police?sort=rank,asc
       - https://trakt.tv/users/bongaholic/lists/great-police-tv?sort=released,desc
@@ -516,7 +515,7 @@ collections:
     template: { name: Subgenre }
     summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
     file_poster: config/posters/Post Apocalyptic TV.png
-    visible_shared: monthly(12)
+    visible_shared: monthly(3)
     trakt_list:
       - https://trakt.tv/users/kdlb/lists/post-apocalyptic-tv?sort=rank,asc
       - https://trakt.tv/users/shriek/lists/post-apocalyptic-tv-shows?sort=title,asc
@@ -555,7 +554,6 @@ collections:
 
   Romantic Drama:
     template: { name: Subgenre Other }
-    visible_shared: monthly(31)
     file_poster: config/posters/Romantic Drama TV.png
     summary: Romantic Drama series is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama series can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
     smart_filter:
@@ -572,7 +570,6 @@ collections:
     template: { name: Subgenre }
     summary: A Sitcom is a serialized comedic program where each episode revolves around a different situation. In each different situation, however, there is the same cast of characters who return from episode to episode.
     file_poster: config/posters/Sitcom TV.png
-    visible_shared: weekly(friday)
     trakt_list:
       - https://trakt.tv/users/norman05/lists/sitcoms?sort=title,asc
       - https://trakt.tv/users/jhall-316-hotmail-com/lists/sitcoms?sort=rank,asc
@@ -590,9 +587,7 @@ collections:
     template: { name: Subgenre }
     summary: Sword and Sorcery shows is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
     file_poster: config/posters/Sword & Sorcery TV.png
-    visible_shared:
-      - monthly(1)
-      - monthly(15)
+    visible_shared: monthly(15)
     trakt_list: https://trakt.tv/users/cinematicthrowbacks/lists/monsters-titans-occult-medieval-medieval-dragons?sort=added,asc
 
   Time Travel:
@@ -625,7 +620,6 @@ collections:
     template: { name: Subgenre }
     summary: A zombie is a mythological undead corporeal revenant created through the reanimation of a corpse.
     file_poster: config/posters/Zombie TV.png
-    visible_shared: weekly(wednesday)
     trakt_list:
       - https://trakt.tv/users/kuratchikingu/lists/zombie-movies-shows?sort=rank,asc
       - https://trakt.tv/users/skavau/lists/zombie-live-action-series?sort=popularity,asc

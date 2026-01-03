@@ -321,34 +321,28 @@ collections:
     file_poster: config/posters/WWE Studios.png
 
   ##########################################################
-  #                 STREAMING SERVICES 5.0                 #
+  #                 STREAMING SERVICES 5.5                 #
   ##########################################################
 
   # Original movies from the most popular streaming services
   Apple TV:
     template: { name: Streaming }
     summary: Apple TV Original movies.
-    visible_shared:
-      - monthly(1)
-      - monthly(2)
+    visible_shared: monthly(2)
     file_poster: config/posters/Apple TV.png
     trakt_list: https://trakt.tv/users/k0meta/lists/appletv-originals
 
   Disney+:
     template: { name: Streaming }
     summary: Disney Original movies.
-    visible_shared:
-      - monthly(7)
-      - monthly(8)
+    visible_shared: monthly(8)
     file_poster: config/posters/Disney+.png
     trakt_list: https://trakt.tv/users/k0meta/lists/disney-originals?sort=rank,asc
 
   HBO Max:
     template: { name: Streaming }
     summary: HBO Max original movies.
-    visible_shared:
-      - monthly(13)
-      - monthly(14)
+    visible_shared: monthly(12)
     file_poster: config/posters/HBO Max.png
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/max-originals?sort=rank,asc
@@ -358,23 +352,20 @@ collections:
   HULU:
     template: { name: Streaming }
     summary: HULU Original movies.
-    visible_shared: monthly(30)
+    visible_shared: monthly(16)
     file_poster: config/posters/HULU.png
     trakt_list: https://trakt.tv/users/k0meta/lists/hulu-originals?sort=rank,asc
 
   Netflix:
     template: { name: Streaming }
     summary: Netflix Original movies.
-    visible_shared:
-      - monthly(25)
-      - monthly(26)
+    visible_shared: monthly(20)
     file_poster: config/posters/Netflix.png
     trakt_list: https://trakt.tv/users/k0meta/lists/netflix-originals?sort=rank,asc
 
   Paramount+:
     template: { name: Streaming }
     summary: Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake subsidiary of Paramount Global. It is the fifth oldest film studio in the world, the second oldest film studio in the United States (behind Universal Pictures), and the sole member of the "Big Five" film studios still located in the city limits of Los Angeles.
-    visible_shared: monthly(31)
     file_poster: config/posters/Paramount+.png
     trakt_list: https://trakt.tv/users/k0meta/lists/paramount-originals?sort=rank,asc
 
@@ -386,8 +377,6 @@ collections:
   Prime Video:
     template: { name: Streaming }
     summary: Amazon Original movies.
-    visible_shared:
-      - monthly(19)
-      - monthly(20)
+    visible_shared: monthly(24)
     file_poster: config/posters/Prime Video.png
     trakt_list: https://trakt.tv/users/k0meta/lists/amazon-originals?sort=rank,asc

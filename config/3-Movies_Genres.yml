@@ -1,5 +1,5 @@
 ######################################################
-#                  GENRES 20.5                       #
+#                  GENRES 21.0                       #
 ######################################################
 
 templates:
@@ -195,7 +195,6 @@ collections:
 
   Martial Art:
     template: { name: Genre }
-    visible_shared: monthly(20)
     file_poster: config/posters/Martial Art.png
     summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
     smart_filter:
@@ -347,7 +346,6 @@ collections:
     template: { name: Subgenre }
     summary: Movies that leave you visibly shaken. Masterclasses in building tension that make you feel truly anxious for whatever is happening on screen.
     file_poster: config/posters/Anxiety.png
-    visible_shared: monthly(2)
     limit: 300
     letterboxd_list: https://letterboxd.com/juliendonkeyboi/list/anxiety-inducing-cinema/
 
@@ -398,7 +396,6 @@ collections:
     template: { name: Subgenre False }
     summary: Hindi cinema, popularly known as Bollywood and formerly as Bombay cinema, refers to the film industry based in Mumbai, engaged in production of motion pictures in Hindi language.
     file_poster: config/posters/Bollywood.png
-    visible_shared: monthly(18)
     letterboxd_list: https://letterboxd.com/moviemavengal/list/bollywood/
 
   Book Adaption:
@@ -443,7 +440,7 @@ collections:
     template: { name: Subgenre }
     summary: A con artist is someone who uses deception and manipulation to gain the trust of others and then exploit them for personal gain. Con artists often have a charming and charismatic personality, which allows them to convince their victims to trust them.
     file_poster: config/posters/Con-Artist.png
-    visible_shared: monthly(7)
+    visible_shared: monthly(31)
     limit: 300
     letterboxd_list: https://letterboxd.com/shrill_falsetto/list/con-artistry-films-to-watch-or-rewatch/
 
@@ -470,7 +467,6 @@ collections:
     template: { name: Subgenre }
     summary: For when youre feeling like everything is a bit too much.
     file_poster: config/posters/Comfort.png
-    visible_shared: monthly(20)
     letterboxd_list:
       - https://letterboxd.com/cinemaparadisa/list/comfort-movies/
       - https://letterboxd.com/maiders/list/comfort-movies/
@@ -608,7 +604,6 @@ collections:
     template: { name: Subgenre Other }
     summary: Film noir is a genre of films that emerged in the United States during the 1940s and 1950s. The term "film noir" was coined by French critics to describe a style of filmmaking that was characterized by its dark, moody atmosphere and cynical view of the world.
     file_poster: config/posters/Film Noir.png
-    visible_shared: monthly(31)
     smart_filter:
       sort_by: random
       limit: 400
@@ -674,7 +669,6 @@ collections:
     template: { name: Subgenre }
     summary: These movies is a cinematic alchemists, wielding narratives that intricately blend emotions, intellect, and visuals to induce a transformative journey for the viewer. By the final frame, these films leave an indelible mark, reshaping perspectives and imprinting a lasting impact on the audience's psyche.
     file_poster: config/posters/Impactful.png
-    visible_shared: monthly(11)
     letterboxd_list: https://letterboxd.com/andredenervaux/list/youre-not-the-same-person-once-the-film-has/
 
   Indie:
@@ -1093,7 +1087,6 @@ collections:
     template: { name: Subgenre }
     summary: Movies set in the summer season.
     file_poster: config/posters/Summer.png
-    visible_shared: monthly(20)
     limit: 300
     letterboxd_list:
       - https://letterboxd.com/teenageriots/list/summer/
@@ -1147,7 +1140,6 @@ collections:
     template: { name: Subgenre False }
     summary: A vampire is a creature from folklore that subsists by feeding on the vital essence (generally in the form of blood) of the living.
     file_poster: config/posters/Vampire.png
-    visible_shared: monthly(15)
     letterboxd_list: https://letterboxd.com/ashleyosborn/list/vampire/
 
   Video Game:
@@ -1172,7 +1164,6 @@ collections:
     template: { name: Subgenre }
     summary: Often exhibit surreal and mind-bending visuals, pushing the boundaries of conventional storytelling with hallucinatory sequences and abstract imagery. These films captivate audiences by immersing them in unpredictable and visually stunning cinematic experiences that challenge traditional norms of narrative coherence.
     file_poster: config/posters/Visually Insane.png
-    visible_shared: monthly(8)
     letterboxd_list: https://letterboxd.com/etolkin/list/filmlist:28697007/
 
   Werewolf:
@@ -1196,7 +1187,6 @@ collections:
     template: { name: Subgenre }
     summary: Movies set in the winter season.
     file_poster: config/posters/Winter.png
-    visible_shared: monthly(6)
     letterboxd_list:
       - https://letterboxd.com/shroudedbyleafs/list/winter/
       - https://letterboxd.com/japanesemovay/list/winter/

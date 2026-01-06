@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 18.5                    #
+#                   SPECIALS 19.0                    #
 ######################################################
 templates:
   Special:
@@ -11,22 +11,12 @@ templates:
   Special Smart:
     sync_mode: sync
     sort_title: zz-<<collection_name>>
-    visible_library: true
-
-  Special Other:
-    smart_label: random
-    sync_mode: sync
-    sort_title: zz-<<collection_name>>
-    visible_library: true
-
-  Special Smart Other:
-    sync_mode: sync
-    sort_title: zz-<<collection_name>>
     visible_library: false
 
 collections:
   1001+ Movies You Must See Before You Die:
-    template: { name: Special Other }
+    template: { name: Special }
+    visible_library: weekly(tuesday|friday)
     summary: 1001+ of the best movies you need to see before you die.
     visible_shared:
       - monthly(4)
@@ -38,6 +28,7 @@ collections:
 
   2160P:
     template: { name: Special }
+    visible_library: weekly(monday|wednesday)
     summary: A collection of movies in 4K.
     file_poster: config/posters/2160P.png
     plex_search:
@@ -46,6 +37,7 @@ collections:
 
   DV/HDR: # 1080p or 4K movies with HDR and or Dolby Vision
     template: { name: Special }
+    visible_library: weekly(tuesday|thursday)
     summary: A collection of movies in HDR10+ and Dolby Vision.
     file_poster: config/posters/DV-HDR.png
     plex_search:
@@ -53,14 +45,15 @@ collections:
         hdr: true
 
   Family Friendly: # Better suited movies for family watching
-    template: { name: Special Other }
+    template: { name: Special }
+    visible_library: weekly(wednesday|sunday)
     summary: Family Friendly recognizes outstanding entertainment with an official seal for quality and impact. Age Approved Selections include age-appropriate media with the potential to spark family conversations.
     visible_shared: monthly(25)
     file_poster: config/posters/Family Friendly.png
     trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-movies
 
   Favored: # Fetched information from Tautulli
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     tautulli_popular:
       list_days: 31
       list_size: 20
@@ -74,7 +67,7 @@ collections:
     summary: The most favored Movies on Plex by users the past month.
 
   Longest: # Longest movies on plex
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     file_poster: config/posters/Longest.png
     summary: The longest movies on Plex  a minimum of 150 minutes in duration.
     smart_filter:
@@ -85,6 +78,7 @@ collections:
 
   Newly Released: # Released within the month
     template: { name: Special Smart }
+    visible_library: weekly(monday|saturday)
     file_poster: config/posters/Newly Released.png
     summary: Movies recently released in the past month.
     radarr_add_missing: true
@@ -114,10 +108,10 @@ collections:
 
   Random: # Random movies with a rating above 4 from IMDb
     template: { name: Special Smart }
+    visible_library: weekly(thursday|saturday)
     file_poster: config/posters/Random.png
     summary: Random movies.
     visible_shared: monthly(5)
-    visible_library: false
     smart_filter:
       sort_by: random
       validate: false
@@ -127,8 +121,8 @@ collections:
 
   Shortest: # Shortest movies on plex
     template: { name: Special Smart }
+    visible_library: weekly(friday|sunday)
     visible_shared: monthly(8)
-    visible_library: false
     summary: The shortest movies on Plex with a max duration of 85 minutes and under.
     file_poster: config/posters/Shortest.png
     smart_filter:
@@ -139,7 +133,7 @@ collections:
         genre.not: Animation
 
   Watched: # Fetched information from Tautulli
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     tautulli_watched:
       list_days: 9999
       list_size: 9999
@@ -149,7 +143,7 @@ collections:
     smart_label: viewed.desc
 
   Worst: # Movies with a rating of less than 4 from IMDb
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     summary: Worst movies on Plex rated 4.0 or lower.
     file_poster: config/posters/Worst.png
     smart_filter:

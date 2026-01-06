@@ -1,34 +1,29 @@
 ############################################
-#               GENRES 17.0                #
+#               GENRES 18.0                #
 ############################################
 
 templates:
   Genre:
     sort_title: +01_<<collection_name>>
-    visible_library: true
+    visible_library: false
     sync_mode: sync
 
   Subgenre:
     sort_title: <<collection_name>>
-    smart_label: random
-    visible_library: true
-    sync_mode: sync
-
-  Subgenre False:
-    sort_title: <<collection_name>>
-    smart_label: random
     visible_library: false
+    smart_label: random
     sync_mode: sync
 
   Subgenre Other:
-    visible_library: true
     sort_title: <<collection_name>>
+    visible_library: false
     sync_mode: sync
 
 # Creates collections for genres with a limit of 200
 collections:
   Action:
     template: { name: Genre }
+    visible_library: weekly(monday|wednesday)
     visible_shared: weekly(wednesday)
     file_poster: config/posters/Action TV.png
     summary: Action is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
@@ -42,6 +37,7 @@ collections:
 
   Adventure:
     template: { name: Genre }
+    visible_library: weekly(tuesday|thursday)
     visible_shared: weekly(thursday)
     file_poster: config/posters/Adventure TV.png
     summary: Adventure is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
@@ -55,6 +51,7 @@ collections:
 
   Biopic:
     template: { name: Genre }
+    visible_library: weekly(monday|friday)
     visible_shared: weekly(thursday)
     file_poster: config/posters/Biopic TV.png
     summary: A biographical or biopic is a film that dramatizes the life of a non-fictional or historically-based person or people. Such films show the life of a historical person and the central character's real name is used.
@@ -68,6 +65,7 @@ collections:
 
   Cartoon:
     template: { name: Genre }
+    visible_library: weekly(thursday|saturday)
     visible_shared: weekly(tuesday)
     summary: All animated cartoon shows.
     file_poster: config/posters/Cartoon TV.png
@@ -80,6 +78,7 @@ collections:
 
   Comedy:
     template: { name: Genre }
+    visible_library: weekly(friday|sunday)
     visible_shared: weekly(friday)
     file_poster: config/posters/Comedy TV.png
     summary: Comedy is a genre that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many other genres. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
@@ -93,6 +92,7 @@ collections:
 
   Crime:
     template: { name: Genre }
+    visible_library: weekly(monday|thursday|saturday)
     visible_shared: weekly(monday)
     file_poster: config/posters/Crime TV.png
     summary: Crime is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
@@ -106,9 +106,10 @@ collections:
 
   Documentary:
     template: { name: Genre }
+    visible_library: weekly(tuesday|friday)
+    visible_shared: weekly(wednesday)
     summary: Some of the most impactful and critically acclaimed documentaries ever filmed.
     file_poster: config/posters/Documentary TV.png
-    visible_shared: weekly(wednesday)
     smart_filter:
       sort_by: random
       limit: 200
@@ -119,6 +120,7 @@ collections:
 
   Drama:
     template: { name: Genre }
+    visible_library: weekly(monday|saturday)
     visible_shared: weekly(saturday)
     file_poster: config/posters/Drama TV.png
     summary: Drama is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
@@ -132,6 +134,7 @@ collections:
 
   Family:
     template: { name: Genre }
+    visible_library: weekly(tuesday|saturday)
     visible_shared: monthly(21)
     file_poster: config/posters/Family TV.png
     summary: Family is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. While the storyline may appeal to a younger audience, there are components of the film that are geared towards adults- such as witty jokes and humor. This genre may fall into many other genres, including comedy, adventure, fantasy, and animated film.
@@ -145,6 +148,7 @@ collections:
 
   Fantasy:
     template: { name: Genre }
+    visible_library: weekly(wednesday|saturday)
     visible_shared: weekly(tuesday)
     file_poster: config/posters/Fantasy TV.png
     summary: Fantasy is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
@@ -158,6 +162,7 @@ collections:
 
   History:
     template: { name: Genre }
+    visible_library: weekly(monday|sunday)
     visible_shared: weekly(friday)
     file_poster: config/posters/History TV.png
     summary: History is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
@@ -171,6 +176,7 @@ collections:
 
   Horror:
     template: { name: Genre }
+    visible_library: weekly(tuesday|sunday)
     visible_shared: weekly(monday)
     file_poster: config/posters/Horror TV.png
     summary: Horror is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
@@ -184,6 +190,7 @@ collections:
 
   K-Drama:
     template: { name: Genre }
+    visible_library: weekly(wednesday|sunday)
     smart_label: random
     file_poster: config/posters/K-Drama TV.png
     visible_shared: weekly(tuesday)
@@ -194,6 +201,7 @@ collections:
 
   Miniseries:
     template: { name: Genre }
+    visible_library: weekly(thursday|sunday)
     visible_shared: weekly(sunday)
     file_poster: config/posters/Miniseries TV.png
     summary: Shows with only one season.
@@ -207,6 +215,7 @@ collections:
 
   Mystery:
     template: { name: Genre }
+    visible_library: weekly(monday|wednesday|friday)
     visible_shared: weekly(saturday)
     file_poster: config/posters/Mystery TV.png
     summary: A Mystery centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
@@ -220,6 +229,7 @@ collections:
 
   Romance:
     template: { name: Genre }
+    visible_library: weekly(tuesday|thursday)
     visible_shared: weekly(wednesday)
     file_poster: config/posters/Romance TV.png
     summary: Romance can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
@@ -233,6 +243,7 @@ collections:
 
   Sci-Fi:
     template: { name: Genre }
+    visible_library: weekly(wednesday|friday|sunday)
     visible_shared: weekly(monday)
     file_poster: config/posters/Sci-Fi TV.png
     summary: Science Fiction is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
@@ -246,6 +257,7 @@ collections:
 
   Sport:
     template: { name: Genre }
+    visible_library: weekly(thursday|saturday)
     visible_shared: monthly(2)
     file_poster: config/posters/Sport TV.png
     summary: A Sport revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
@@ -259,6 +271,7 @@ collections:
 
   Thriller:
     template: { name: Genre }
+    visible_library: weekly(tuesday|friday|sunday)
     visible_shared: weekly(thursday)
     file_poster: config/posters/Thriller TV.png
     summary: Thriller series is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these series is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller series falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the series and leads to a highly stressful climax.
@@ -272,6 +285,7 @@ collections:
 
   War:
     template: { name: Genre }
+    visible_library: weekly(monday|thursday)
     visible_shared: weekly(friday)
     file_poster: config/posters/War TV.png
     summary: War is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
@@ -287,6 +301,7 @@ collections:
 
   Western:
     template: { name: Genre }
+    visible_library: weekly(tuesday|friday)
     visible_shared: weekly(sunday)
     file_poster: config/posters/Western TV.png
     summary: Westerns often stress the harshness and isolation of the wilderness, and frequently set the action in an arid, desolate landscape. Western films generally have specific settings, such as isolated ranches, Native American villages, or small frontier towns with a saloon.
@@ -299,12 +314,13 @@ collections:
         genre: western
 
   ############################################
-  #               SUBGENRES 11.0             #
+  #               SUBGENRES 12.0             #
   ############################################
 
   # Creates more unique genre collections based on certain themes from Trakt lists
   Alien:
     template: { name: Subgenre }
+    visible_library: weekly(monday|saturday)
     summary: Shows containing aliens in some form.
     file_poster: config/posters/Alien TV.png
     trakt_list:
@@ -312,7 +328,8 @@ collections:
       - https://trakt.tv/users/angel1online/lists/tv-14a-tv-aliens?sort=my_rating,asc
 
   Anthology:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(tuesday|saturday)
     visible_shared: monthly(29)
     summary: An anthology series is a television, or film series that presents a different story and a different set of characters in each episode, season, segment or short.
     file_poster: config/posters/Anthology TV.png
@@ -322,6 +339,7 @@ collections:
 
   Based on a True Story:
     template: { name: Subgenre }
+    visible_library: weekly(monday|wednesday|saturday)
     visible_shared: monthly(8)
     summary: Shows based on true events.
     file_poster: config/posters/Based on a True Story TV.png
@@ -329,6 +347,7 @@ collections:
 
   Book Adaption:
     template: { name: Subgenre }
+    visible_library: weekly(monday|sunday)
     summary: Shows based on book novels.
     visible_shared: monthly(11)
     file_poster: config/posters/Book Adaption TV.png
@@ -336,6 +355,7 @@ collections:
 
   British Detective:
     template: { name: Subgenre }
+    visible_library: weekly(tuesday|sunday)
     file_poster: config/posters/British Detective TV.png
     visible_shared: weekly(sunday)
     summary: Detective dramas from Great Britian.
@@ -344,7 +364,8 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/british-detective-tv-series?sort=rank,asc
 
   Classic:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(wednesday|sunday)
     summary: TV shows made back in the good old days.
     file_poster: config/posters/Classic TV.png
     visible_shared: monthly(5)
@@ -353,13 +374,15 @@ collections:
 
   Comic Book:
     template: { name: Subgenre }
+    visible_library: weekly(thursday|sunday)
     summary: Shows based on comic books.
     file_poster: config/posters/Comic Book TV.png
     visible_shared: monthly(10)
     trakt_list: https://trakt.tv/users/k0meta/lists/shows-based-on-comics?sort=rank,asc
 
   Courtroom:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(monday|friday)
     summary: Showcasing brainy lawyers, gripping cases, and complex plotlines, these are the best legal dramas to watch
     file_poster: config/posters/Courtroom TV.png
     visible_shared: monthly(7)
@@ -369,6 +392,7 @@ collections:
 
   Dark Comedy:
     template: { name: Subgenre }
+    visible_library: weekly(tuesday|thursday)
     summary: Dark comedy is a style of comedy that makes light of subject matter that is generally considered taboo, particularly subjects that are normally considered serious or painful to discuss.
     file_poster: config/posters/Dark Comedy TV.png
     visible_shared: monthly(26)
@@ -378,6 +402,7 @@ collections:
 
   Drug:
     template: { name: Subgenre }
+    visible_library: weekly(wednesday|friday)
     file_poster: config/posters/Drug TV.png
     visible_shared: monthly(13)
     trakt_list:
@@ -386,7 +411,8 @@ collections:
       - https://trakt.tv/users/dr-rieux/lists/drugs-in-tv-shows?sort=added,asc
 
   Dystopian:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(thursday|saturday)
     summary: A dystopia, or cacotopia, is a speculated ideal society with minimal crime, violence and poverty that is undesirable or frightening.
     file_poster: config/posters/Dystopian TV.png
     visible_shared: monthly(1)
@@ -396,13 +422,15 @@ collections:
 
   Gangster:
     template: { name: Subgenre }
+    visible_library: weekly(friday|sunday)
     summary: Gangster show is a sub-genre of crime shows that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
     file_poster: config/posters/Gangster TV.png
     visible_shared: monthly(27)
     trakt_list: https://trakt.tv/users/majeed_pk/lists/best-mafia-gangsters-tv-shows?sort=rank,asc
 
   Hacking:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(monday|thursday)
     summary: Hacker, a computer expert with advanced technical knowledge. Hacker culture, activity within the computer programmer subculture.
     file_poster: config/posters/Hacking TV.png
     visible_shared: monthly(23)
@@ -412,7 +440,8 @@ collections:
       - https://trakt.tv/users/sanojjonas/lists/hacking-corruption-technology-enviroment?sort=added,asc
 
   LGBTQ+:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(tuesday|friday)
     summary: LGBTQ+ show is a genre of shows where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
     file_poster: config/posters/LGBTQ+ TV.png
     visible_shared: monthly(19)
@@ -423,6 +452,7 @@ collections:
 
   Monster:
     template: { name: Subgenre }
+    visible_library: weekly(wednesday|saturday)
     summary: Shows where the main protagonist is a monster of some form.
     file_poster: config/posters/Monster TV.png
     visible_shared: monthly(9)
@@ -432,6 +462,7 @@ collections:
 
   Music:
     template: { name: Subgenre Other }
+    visible_library: weekly(monday|sunday)
     visible_shared: monthly(24)
     summary: Music series is genre that revolves around music being an integral part of the characters lives.
     file_poster: config/posters/Music TV.png
@@ -445,6 +476,7 @@ collections:
 
   Nature Documentary:
     template: { name: Subgenre }
+    visible_library: weekly(tuesday|sunday)
     file_poster: config/posters/Nature Documentary TV.png
     visible_shared: monthly(14)
     summary: Nature documentaries showcase the beauty and complexity of the natural world through stunning visuals and expert narration, aiming to educate and raise awareness about wildlife, ecosystems, and environmental conservation.
@@ -454,6 +486,7 @@ collections:
 
   Outer Space:
     template: { name: Subgenre }
+    visible_library: weekly(wednesday|sunday)
     summary: Shows That Take Place in Outer Space
     file_poster: config/posters/Outer Space TV.png
     visible_shared: monthly(6)
@@ -463,7 +496,8 @@ collections:
       - https://trakt.tv/users/arclight/lists/space-fiction?sort=rank,asc
 
   Pandemic:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(thursday|sunday)
     summary: A Pandemic show resolves around widespread viruses, plagues, and diseases.
     file_poster: config/posters/Pandemic TV.png
     visible_shared: monthly(31)
@@ -472,7 +506,8 @@ collections:
       - https://trakt.tv/users/skavau/lists/pandemic-live-action-series?sort=popularity,asc
 
   Paranormal:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(monday|friday)
     summary: Shows containing something supernatural like ghosts or spirits.
     file_poster: config/posters/Paranormal TV.png
     visible_shared: monthly(28)
@@ -482,6 +517,7 @@ collections:
 
   Period Piece:
     template: { name: Subgenre }
+    visible_library: weekly(tuesday|thursday)
     summary: Shows in the period piece fiction genre are made up of stories that feature historical places, people, or events that are crucial to the story.
     file_poster: config/posters/Period Piece TV.png
     visible_shared: monthly(22)
@@ -493,6 +529,7 @@ collections:
 
   Police:
     template: { name: Subgenre }
+    visible_library: weekly(wednesday|friday)
     summary: Shows in the perspective of a policeman or a policeman being present in any capacity.
     file_poster: config/posters/Police TV.png
     visible_shared: monthly(17)
@@ -503,7 +540,8 @@ collections:
       - https://trakt.tv/users/wsquared_72/lists/tv-american-police-procedurals?sort=rank,asc
 
   Political:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(thursday|saturday)
     summary: Political refers to shows that do not hide their political stance. In this sense, they differ from other films not because they are political, but because of the way in which their politics is presented.
     file_poster: config/posters/Political TV.png
     visible_shared: monthly(16)
@@ -513,7 +551,8 @@ collections:
 
   Post Apocalyptic:
     template: { name: Subgenre }
-    summary: Apocalyptic and post-apocalyptic fiction are subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
+    visible_library: weekly(wednesday|friday|sunday)
+    summary: Apocalyptic and post-apocalyptic fiction are Subgenres of science fiction that are set in a time period where the earth as we know it is coming to an end.
     file_poster: config/posters/Post Apocalyptic TV.png
     visible_shared: monthly(3)
     trakt_list:
@@ -522,14 +561,16 @@ collections:
       - https://trakt.tv/users/kdlb/lists/post-apocalyptic-tv?sort=rank,asc
 
   Prison:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(monday|thursday)
     summary: Shows taking place inside a prison.
     file_poster: config/posters/Prison TV.png
     visible_shared: monthly(12)
     trakt_list: https://trakt.tv/users/aliasrogue/lists/crime-punishment?sort=rank,asc
 
   Robot:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(tuesday|friday)
     summary: Shows containing robots in many forms, often set in the future.
     file_poster: config/posters/Robot TV.png
     visible_shared: monthly(20)
@@ -539,6 +580,7 @@ collections:
 
   Romantic Comedy:
     template: { name: Subgenre Other }
+    visible_library: weekly(wednesday|saturday)
     visible_shared: weekly(tuesday)
     file_poster: config/posters/Romantic Comedy TV.png
     summary: Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy series revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending.
@@ -554,6 +596,7 @@ collections:
 
   Romantic Drama:
     template: { name: Subgenre Other }
+    visible_library: weekly(monday|sunday)
     file_poster: config/posters/Romantic Drama TV.png
     summary: Romantic Drama series is a genre that explores the complex side of love. The plot usually centers around an obstacle that is preventing love between two people. The obstacles in Romantic Drama series can range from a family's disapproval, to forbidden love, to one's own psychological restraints. Many Romantic Dramas end with the lovers separating because of the enormity of the obstacle, the realization of incompatibility, or simply because of fate.
     smart_filter:
@@ -568,6 +611,7 @@ collections:
 
   Sitcom:
     template: { name: Subgenre }
+    visible_library: weekly(thursday|sunday)
     summary: A Sitcom is a serialized comedic program where each episode revolves around a different situation. In each different situation, however, there is the same cast of characters who return from episode to episode.
     file_poster: config/posters/Sitcom TV.png
     trakt_list:
@@ -575,7 +619,8 @@ collections:
       - https://trakt.tv/users/jhall-316-hotmail-com/lists/sitcoms?sort=rank,asc
       - https://trakt.tv/users/caira34/lists/sitcoms?sort=title,asc
   Spy:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(wednesday|sunday)
     summary: The spy genre, also known sometimes as an espionage, deals with the subject of fictional espionage, either in a realistic way (such as the adaptations of John le Carré) or as a basis for fantasy.
     file_poster: config/posters/Spy TV.png
     visible_shared: monthly(4)
@@ -585,6 +630,7 @@ collections:
 
   Sword & Sorcery:
     template: { name: Subgenre }
+    visible_library: weekly(monday|sunday)
     summary: Sword and Sorcery shows is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
     file_poster: config/posters/Sword & Sorcery TV.png
     visible_shared: monthly(15)
@@ -592,6 +638,7 @@ collections:
 
   Time Travel:
     template: { name: Subgenre }
+    visible_library: weekly(monday|wednesday|friday)
     summary: A show  that contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer...
     file_poster: config/posters/Time Travel TV.png
     visible_shared: weekly(saturday)
@@ -600,7 +647,8 @@ collections:
       - https://trakt.tv/users/zambucca/lists/time-travel
 
   Vampire:
-    template: { name: Subgenre False }
+    template: { name: Subgenre }
+    visible_library: weekly(tuesday|thursday)
     summary: A vampire is a creature from folklore that subsists by feeding on the vital essence (generally in the form of blood) of the living.
     file_poster: config/posters/Vampire TV.png
     visible_shared: monthly(25)
@@ -611,6 +659,7 @@ collections:
 
   Video Game:
     template: { name: Subgenre }
+    visible_library: weekly(wednesday|friday)
     summary: Shows lightly or stritcly based of different types of video games.
     file_poster: config/posters/Video Game TV.png
     visible_shared: monthly(18)
@@ -618,6 +667,7 @@ collections:
 
   Zombie:
     template: { name: Subgenre }
+    visible_library: weekly(thursday|saturday)
     summary: A zombie is a mythological undead corporeal revenant created through the reanimation of a corpse.
     file_poster: config/posters/Zombie TV.png
     trakt_list:

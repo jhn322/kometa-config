@@ -7,16 +7,15 @@ templates:
     smart_label: random
     sync_mode: sync
     sort_title: ++++_<<collection_name>>
-    visible_library: true
 
   Anime Top:
     smart_label: random
     sync_mode: sync
-    visible_library: true
 
 collections:
   MAL - Most Favorited: # MAL Specific lists
     template: { name: Anime Top }
+    visible_library: weekly(monday|wednesday)
     mal_favorite: 30
     summary: Most favorited animes on MyAnimeList.
     sort_title: ++_MAL Most Favorited
@@ -25,6 +24,7 @@ collections:
 
   MAL - Season: # Tracking every anime season
     template: { name: Anime }
+    visible_library: weekly(tuesday|thursday)
     mal_season:
       season: current
       limit: 100
@@ -36,6 +36,7 @@ collections:
 
   MAL - Suggested:
     template: { name: Anime }
+    visible_library: weekly(wednesday|friday)
     mal_suggested: 30
     sort_title: ++_MAL Suggested
     summary: Animes suggested by MyAnimeList API.
@@ -43,30 +44,35 @@ collections:
 
   MAL - Top Upcoming:
     template: { name: Anime }
+    visible_library: weekly(thursday|saturday)
     mal_upcoming: 50
     summary: The most anticipated new anime series according to MyAnimeList.
     file_poster: config/posters/MAL Top Upcoming.png
 
   MAL - Top Airing:
     template: { name: Anime }
+    visible_library: weekly(friday|sunday)
     mal_airing: 45
     summary: The highest rated animes airing right now according to MyAnimeList.
     file_poster: config/posters/MAL Top Airing.png
 
   MAL - Top OVA:
     template: { name: Anime }
+    visible_library: weekly(monday|thursday)
     mal_ova: 30
     summary: The highest rated OVAs of anime series according to MyAnimeList. OVA (Original Video Animation) are considered filler episodes of a certain anime. But also, OVA can be a major episode breakthrough as it contains scenes that might be very useful in the story building and could further be taken as a flashback episode for making scenes dramatic.
     file_poster: config/posters/MAL Top OVA.png
 
   MAL - Top Specials:
     template: { name: Anime }
+    visible_library: weekly(tuesday|friday)
     mal_special: 100
     summary: The highest rated specials of anime series according to MyAnimeList.
     file_poster: config/posters/MAL Top Specials.png
 
   Popular: # Popular list from MyAnimeList, Anilist and AniDB
     template: { name: Anime Top }
+    visible_library: weekly(monday|saturday)
     mal_popular: 50
     anilist_popular: 50
     anidb_popular: 30
@@ -76,6 +82,7 @@ collections:
 
   Top Rated: # Top rated list from MyAnimeList and Anilist
     template: { name: Anime Top }
+    visible_library: weekly(tuesday|saturday)
     mal_tv: 350
     anilist_top_rated: 300
     summary: The highest rated animes ever on MyAnimeList and Anilist.
@@ -85,6 +92,7 @@ collections:
 
   Trending: # Trending list from Anilist
     template: { name: Anime Top }
+    visible_library: weekly(wednesday|saturday)
     anilist_trending: 30
     summary: Trending animes this week according to Anilist.
     sort_title: +_ZTrending

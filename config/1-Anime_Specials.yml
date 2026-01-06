@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 18.5                    #
+#                   SPECIALS 19.0                    #
 ######################################################
 
 templates:
@@ -11,7 +11,6 @@ templates:
     smart_label: random
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
 
   Special Other:
     smart_label: random
@@ -20,7 +19,6 @@ templates:
 
   Special Smart:
     sync_mode: sync
-    visible_library: true
 
   Special Smart Other:
     sync_mode: sync
@@ -31,11 +29,11 @@ templates:
     collection_order: custom
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
 
 collections:
   18+: # Sorts every anime with an adult rating
     template: { name: Special Smart }
+    visible_library: weekly(monday|wednesday)
     sort_title: zz___18+
     summary: Animes with this rating are generally not suitable for children or individuals under 17 (some sources may say 18). This content is only made for mature audiences because it contains mature themes, such as gore, sexual violence, strong language, nudity, substances, smoking, and sex.
     file_poster: config/posters/18+ Anime.png
@@ -77,6 +75,7 @@ collections:
 
   Award Winning: # MyAnimeList specific awards list
     template: { name: Special }
+    visible_library: weekly(tuesday|thursday)
     mal_search:
       genre: 46
       limit: 500
@@ -99,7 +98,7 @@ collections:
 
   Newly Released:
     template: { name: Special Smart Other }
-    visible_library: true
+    visible_library: weekly(friday|sunday)
     file_poster: config/posters/Newly Released.png
     summary: Animes recently released in the past 2 months.
     sonarr_add_missing: true
@@ -109,6 +108,7 @@ collections:
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }
+    visible_library: weekly(monday|saturday)
     file_poster: config/posters/Random.png
     summary: Random Animes.
     smart_filter:

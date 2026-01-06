@@ -1,31 +1,28 @@
 ######################################################
-#                   MOVIES 18.0                      #
+#                   MOVIES 19.0                      #
 ######################################################
 templates:
   Movie:
     smart_label: random
     sync_mode: sync
     sort_title: +++_<<collection_name>>
-    visible_library: true
 
   Movie Basic:
     sync_mode: sync
     sort_title: +++_<<collection_name>>
-    visible_library: true
 
   Movie Release:
     smart_label: release.desc
     sync_mode: sync
     sort_title: +++_<<collection_name>>
-    visible_library: true
 
   Movie Top:
     sync_mode: sync
-    visible_library: true
 
 collections:
   IMDb - Best Recent: # IMDb specific chart lists
     template: { name: Movie Top }
+    visible_library: weekly(monday|wednesday)
     sort_title: ++_IMDb Best Recent
     visible_shared:
       - monthly(19)
@@ -41,6 +38,7 @@ collections:
 
   IMDb - Top 250:
     template: { name: Movie Basic }
+    visible_library: weekly(tuesday|thursday)
     sort_title: ++_IMDb top 250
     smart_label: audience_rating.desc
     summary: 250 highest rated movies on IMDb.
@@ -52,12 +50,14 @@ collections:
 
   Letterboxd - Best Picture: # Letterboxd specific chart lists
     template: { name: Movie Release }
+    visible_library: weekly(wednesday|friday)
     summary: Best movie of every year according to Letterboxd.
     file_poster: config/posters/Letterboxd Best Picture.png
     letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
 
   Letterboxd - Million Watched:
     template: { name: Movie }
+    visible_library: weekly(thursday|saturday)
     summary: Movies with over a million views on Letterboxd.
     file_poster: config/posters/Letterboxd Million Watched.png
     letterboxd_list:
@@ -66,6 +66,7 @@ collections:
 
   Letterboxd - Most Fans:
     template: { name: Movie }
+    visible_library: weekly(friday|sunday)
     summary: Movies with the most "fans" on Letterboxd.
     visible_shared: monthly(15)
     file_poster: config/posters/Letterboxd Most Fans.png
@@ -73,6 +74,7 @@ collections:
 
   Letterboxd - Top 250:
     template: { name: Movie Basic }
+    visible_library: weekly(monday|thursday)
     collection_order: custom
     visible_shared: monthly(26)
     summary: 250 best movies according to Letterboxd.
@@ -95,6 +97,7 @@ collections:
 
   MAL - Top Rated:
     template: { name: Movie }
+    visible_library: weekly(tuesday|friday)
     mal_movie: 500
     visible_shared: monthly(18)
     summary: The highest rated anime movies ever according to MyAnimeList.
@@ -102,6 +105,7 @@ collections:
 
   Metacritic - Must-See:
     template: { name: Movie }
+    visible_library: weekly(monday|saturday)
     limit: 200
     visible_shared: monthly(31)
     summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
@@ -110,6 +114,7 @@ collections:
 
   Popular: # Popular list from IMDb, Trakt and TMDb
     template: { name: Movie }
+    visible_library: weekly(tuesday|saturday)
     tmdb_popular: 50
     trakt_chart:
       chart: popular
@@ -119,13 +124,13 @@ collections:
       - monthly(1)
       - monthly(7)
       - monthly(20)
-    visible_library: true
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
     trakt_list: https://trakt.tv/users/courthouz/lists/imdb-popular?sort=added,asc
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: Movie }
+    visible_library: weekly(wednesday|saturday)
     limit: 200
     visible_shared: monthly(14)
     summary: Certified fresh A special distinction awarded to the best reviewed movies.
@@ -142,6 +147,7 @@ collections:
 
   Top Rated: # Top rated list from Trakt and TMdb
     template: { name: Movie }
+    visible_library: weekly(monday|sunday)
     tmdb_top_rated: 350
     sort_title: +_Top Rated
     visible_shared:
@@ -164,6 +170,7 @@ collections:
 
   Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: Movie }
+    visible_library: weekly(tuesday|sunday)
     trakt_chart:
       chart: watched
       limit: 200
@@ -174,6 +181,7 @@ collections:
 
   Trakt - Most Watched (Monthly):
     template: { name: Movie }
+    visible_library: weekly(wednesday|sunday)
     trakt_chart:
       chart: watched
       limit: 100
@@ -184,6 +192,7 @@ collections:
 
   Trakt - Most Watched (Yearly):
     template: { name: Movie }
+    visible_library: weekly(thursday|sunday)
     trakt_chart:
       chart: watched
       limit: 100
@@ -194,6 +203,7 @@ collections:
 
   Trakt - Recommended:
     template: { name: Movie }
+    visible_library: weekly(friday|sunday)
     trakt_recommendations: 60
     sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.
@@ -202,6 +212,7 @@ collections:
 
   Trending: # Trending list from Trakt and TMDb
     template: { name: Movie Release }
+    visible_library: weekly(monday|friday)
     tmdb_trending_weekly: 30
     trakt_chart:
       chart: trending

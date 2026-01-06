@@ -1,5 +1,5 @@
 #####################################################
-#                   DECADES 9.5                     #
+#                   DECADES 10.0                    #
 #####################################################
 templates:
   Decade:
@@ -8,13 +8,6 @@ templates:
     sort_title: zzz_<<collection_name>>
     summary: Best movies of the decade with a minimum of 7.0 IMDb Rating.
     visible_library: false
-
-  Decade True:
-    smart_label: audience_rating.desc
-    sync_mode: sync
-    sort_title: zzz_<<collection_name>>
-    summary: Best movies of the decade with a minimum of 7.0 IMDb Rating.
-    visible_library: true
 
   Year:
     smart_label: audience_rating.desc
@@ -67,6 +60,7 @@ collections:
 
   Best of 1960s:
     template: { name: Decade }
+    visible_library: weekly(friday|sunday)
     plex_search:
       all:
         year.gt: 1959
@@ -78,6 +72,7 @@ collections:
 
   Best of 1970s:
     template: { name: Decade }
+    visible_library: weekly(monday|thursday)
     plex_search:
       all:
         year.gt: 1969
@@ -85,11 +80,11 @@ collections:
         audience_rating.gte: 7.0
     limit: 500
     visible_shared: range(07/01-07/15)
-    visible_library: false
     file_poster: config/posters/Best of 1970s.png
 
   Best of 1980s:
-    template: { name: Decade True }
+    template: { name: Decade }
+    visible_library: weekly(tuesday|friday)
     plex_search:
       all:
         year.gt: 1979
@@ -100,7 +95,8 @@ collections:
     file_poster: config/posters/Best of 1980s.png
 
   Best of 1990s:
-    template: { name: Decade True }
+    template: { name: Decade }
+    visible_library: weekly(wednesday|saturday)
     plex_search:
       all:
         year.gt: 1989
@@ -111,7 +107,8 @@ collections:
     file_poster: config/posters/Best of 1990s.png
 
   Best of 2000s:
-    template: { name: Decade True }
+    template: { name: Decade }
+    visible_library: weekly(tuesday|thursday)
     plex_search:
       all:
         year.gt: 1999
@@ -122,7 +119,8 @@ collections:
     file_poster: config/posters/Best of 2000s.png
 
   Best of 2010s:
-    template: { name: Decade True }
+    template: { name: Decade }
+    visible_library: weekly(wednesday|saturday)
     plex_search:
       all:
         year.gt: 2009
@@ -133,7 +131,8 @@ collections:
     file_poster: config/posters/Best of 2010s.png
 
   Best of 2020s:
-    template: { name: Decade True }
+    template: { name: Decade }
+    visible_library: weekly(monday|sunday)
     plex_search:
       all:
         year.gt: 2019

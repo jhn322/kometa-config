@@ -4,7 +4,7 @@ templates:
     sync_mode: sync
     sort_title: zz_<<collection_name>>
     summary: Best animes of the decade with a minimum of 7.9 MyAnimeList Rating.
-    visible_library: true
+    visible_library: false
 
   Year:
     collection_order: custom
@@ -15,12 +15,11 @@ templates:
 
 collections:
   ####################################################
-  #                  DECADES 4.5                     #
+  #                  DECADES 5.0                     #
   #  Rating greater than 7.8 from mal from a decade  #
   ####################################################
   Best of 1940-1970s:
     template: { name: Decade }
-    visible_library: false
     file_poster: config/posters/Best of 1940-1970s.png
     plex_search:
       all:
@@ -30,7 +29,7 @@ collections:
 
   Best of 1980s:
     template: { name: Decade }
-    visible_library: false
+    visible_library: weekly(tuesday|thursday)
     file_poster: config/posters/Best of 1980s.png
     plex_search:
       all:
@@ -40,6 +39,7 @@ collections:
 
   Best of 1990s:
     template: { name: Decade }
+    visible_library: weekly(wednesday|friday)
     file_poster: config/posters/Best of 1990s.png
     plex_search:
       all:
@@ -49,6 +49,7 @@ collections:
 
   Best of 2000s:
     template: { name: Decade }
+    visible_library: weekly(thursday|saturday)
     file_poster: config/posters/Best of 2000s.png
     plex_search:
       all:
@@ -58,6 +59,7 @@ collections:
 
   Best of 2010s:
     template: { name: Decade }
+    visible_library: weekly(friday|sunday)
     file_poster: config/posters/Best of 2010s.png
     plex_search:
       all:
@@ -67,6 +69,7 @@ collections:
 
   Best of 2020s:
     template: { name: Decade }
+    visible_library: weekly(monday|thursday)
     file_poster: config/posters/Best of 2020s.png
     plex_search:
       all:

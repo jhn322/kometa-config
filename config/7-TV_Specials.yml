@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 17.5                    #
+#                   SPECIALS 18.0                    #
 ######################################################
 
 templates:
@@ -11,20 +11,9 @@ templates:
     smart_label: random
     sync_mode: sync
     sort_title: zz__<<collection_name>>
-    visible_library: true
-
-  Special Other:
-    smart_label: random
-    sync_mode: sync
-    sort_title: zz__<<collection_name>>
     visible_library: false
 
   Special Smart:
-    sync_mode: sync
-    sort_title: zz__<<collection_name>>
-    visible_library: true
-
-  Special Smart Other:
     sync_mode: sync
     sort_title: zz__<<collection_name>>
     visible_library: false
@@ -32,6 +21,7 @@ templates:
 collections:
   18+: # TV shows with an adult rating
     template: { name: Special Smart }
+    visible_library: weekly(monday|thursday)
     visible_shared: monthly(9)
     summary: TV shows with this rating are generally not suitable for children or individuals under 17 (some sources may say 18). This content is only made for mature audiences because it contains mature themes, such as gore, sexual violence, strong language, nudity, substances, smoking, and sex.
     file_poster: config/posters/18+.png
@@ -44,7 +34,7 @@ collections:
         content_rating: TV-MA
 
   480P+: # 480p and 576p TV Shows
-    template: { name: Special Other }
+    template: { name: Special }
     summary: A collection of TV Shows in SD, 480p and 576p quality.
     sort_title: zz__1480P+
     file_poster: config/posters/480P+.png
@@ -56,7 +46,7 @@ collections:
           - 576p
 
   720P:
-    template: { name: Special Other }
+    template: { name: Special }
     summary: A collection of TV Shows in 720p quality.
     sort_title: zz__1720P
     file_poster: config/posters/720P.png
@@ -65,7 +55,7 @@ collections:
         resolution: 720p
 
   1080P:
-    template: { name: Special Other }
+    template: { name: Special }
     summary: A collection of TV Shows in 1080p quality.
     sort_title: zz__31080P
     file_poster: config/posters/1080P.png
@@ -76,6 +66,7 @@ collections:
   2160P:
     template: { name: Special }
     summary: A collection of TV Shows in 4K.
+    visible_library: weekly(tuesday|saturday)
     sort_title: zz__42160P
     file_poster: config/posters/2160P.png
     plex_search:
@@ -85,6 +76,7 @@ collections:
   DV/HDR: # 1080p or 4K movies with HDR and or Dolby Vision
     template: { name: Special }
     summary: A collection of TV Shows in HDR10+ and Dolby Vision.
+    visible_library: weekly(wednesday|friday)
     file_poster: config/posters/DV-HDR.png
     plex_search:
       all:
@@ -93,12 +85,13 @@ collections:
   Family Friendly: # Better suited movies for family watching
     template: { name: Special }
     summary: Family Friendly recognizes outstanding entertainment with an official seal for quality and impact. Age Approved Selections include age-appropriate media with the potential to spark family conversations.
+    visible_library: weekly(thursday|saturday)
     file_poster: config/posters/Family Friendly.png
     visible_shared: monthly(10)
     trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-shows
 
   Favored: # Fetched information from Tautulli
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     tautulli_popular:
       list_days: 62
       list_size: 20
@@ -112,7 +105,7 @@ collections:
     summary: The most favored TV shows on Plex by users the past 2 months.
 
   Longest: # Longest TV shows on plex
-    template: { name: Special Other }
+    template: { name: Special }
     summary: The lengthiest shows on Plex.
     file_poster: config/posters/Longest.png
     trakt_list:
@@ -122,6 +115,7 @@ collections:
   Newly Released: # Released within last 2 months
     template: { name: Special Smart }
     file_poster: config/posters/Newly Released.png
+    visible_library: weekly(monday|sunday)
     summary: Shows recently released in the past 2 months.
     visible_shared: monthly(27)
     sonarr_add_missing: true
@@ -134,6 +128,7 @@ collections:
   Random: # Random TV shows with a rating above 4 from IMDb
     template: { name: Special Smart }
     file_poster: config/posters/Random.png
+    visible_library: weekly(wednesday|friday)
     summary: Random TV Shows.
     visible_shared: monthly(5)
     smart_filter:
@@ -144,7 +139,7 @@ collections:
         audience_rating.gte: 4.0
 
   Watched: # Fetched information from Tautulli
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     tautulli_watched:
       list_days: 9999
       list_size: 9999
@@ -154,7 +149,7 @@ collections:
     smart_label: viewed.desc
 
   Worst: # Movies with a rating of less than 5.5 from IMDb
-    template: { name: Special Smart Other }
+    template: { name: Special Smart }
     summary: Worst shows on Plex rated 5.5 or lower.
     file_poster: config/posters/Worst.png
     smart_filter:

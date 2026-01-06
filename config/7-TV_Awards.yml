@@ -1,5 +1,5 @@
 #############################################################
-#                       AWARDS 10.0                         #
+#                       AWARDS 11.0                         #
 #############################################################
 
 templates:
@@ -60,6 +60,7 @@ collections:
     summary: "A collection of BAFTA Winners"
     visible_shared: monthly(10)
     file_poster: config/posters/BAFTA Winners.png
+    visible_library: weekly(tuesday|thursday)
     imdb_award:
       event_id: "ev0000123"
       event_year: "1949-current"
@@ -99,7 +100,7 @@ collections:
     template: { name: Awards }
     summary: "A collection of Emmy Award Winners"
     visible_shared: monthly(20)
-    visible_library: true
+    visible_library: weekly(monday|wednesday)
     file_poster: config/posters/Emmy Winners.png
     imdb_award:
       event_id: "ev0000223"
@@ -114,7 +115,7 @@ collections:
     template: { name: Awards }
     summary: "A collection of Emmy Award Nominees"
     visible_shared: monthly(25)
-    visible_library: true
+    visible_library: weekly(saturday)
     file_poster: config/posters/Emmy Nominees.png
     imdb_award:
       event_id: "ev0000223"
@@ -142,7 +143,7 @@ collections:
     template: { name: Awards }
     summary: "A collection of Golden Globes Winners"
     visible_shared: monthly(15)
-    visible_library: true
+    visible_library: weekly(friday|sunday)
     file_poster: config/posters/Golden Globe Winners.png
     imdb_award:
       event_id: "ev0000292"

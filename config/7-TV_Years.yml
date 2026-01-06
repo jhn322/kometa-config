@@ -1,5 +1,5 @@
 #####################################################
-#                  YEARS 10.0                       #
+#                  YEARS 11.0                       #
 #####################################################
 
 templates:
@@ -8,7 +8,6 @@ templates:
     sync_mode: sync
     sort_title: zzzz_<<collection_name>>
     summary: Best shows of the decade with a minimum of 7.8 IMDb Rating.
-    visible_library: true
 
   Year:
     smart_label: audience_rating.desc
@@ -22,6 +21,7 @@ collections:
   Best of 1940-1970s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1940-1970s.png
+    visible_library: weekly(monday|sunday)
     plex_search:
       all:
         year.gt: 1939
@@ -31,6 +31,7 @@ collections:
   Best of 1980s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1980s.png
+    visible_library: weekly(tuesday|saturday)
     visible_shared: monthly(1)
     plex_search:
       all:
@@ -41,6 +42,7 @@ collections:
   Best of 1990s:
     template: { name: Decade }
     file_poster: config/posters/Best of 1990s.png
+    visible_library: weekly(wednesday|friday)
     visible_shared: monthly(6)
     plex_search:
       all:
@@ -51,6 +53,7 @@ collections:
   Best of 2000s:
     template: { name: Decade }
     file_poster: config/posters/Best of 2000s.png
+    visible_library: weekly(monday|thursday)
     visible_shared: monthly(12)
     plex_search:
       all:
@@ -61,6 +64,7 @@ collections:
   Best of 2010s:
     template: { name: Decade }
     file_poster: config/posters/Best of 2010s.png
+    visible_library: weekly(saturday|sunday)
     visible_shared: monthly(18)
     plex_search:
       all:
@@ -71,6 +75,7 @@ collections:
   Best of 2020s:
     template: { name: Decade }
     file_poster: config/posters/Best of 2020s.png
+    visible_library: weekly(wednesday|friday)
     visible_shared: monthly(24)
     plex_search:
       all:

@@ -65,8 +65,8 @@ collections:
 
   New Years 🍾:
     template: { name: Holiday }
-    visible_home: range(12/30-01/05)
-    visible_shared: range(12/30-01/05)
+    visible_home: range(12/30-01/01)
+    visible_shared: range(12/30-01/01)
     summary: Happy New Year!
     file_poster: config/posters/New Year.png
     letterboxd_list:

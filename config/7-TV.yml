@@ -90,7 +90,7 @@ collections:
     template: { name: TV Release }
     tmdb_on_the_air: 80
     tmdb_airing_today: 40
-    visible_library: weekly(wedneday|friday)
+    visible_library: weekly(wednesday|friday)
     visible_shared: monthly(1)
     file_poster: config/posters/TMDb On the Air.png
     summary: Shows airing right now across streaming services.
@@ -135,7 +135,7 @@ collections:
       time_period: monthly
     file_poster: config/posters/Trakt Most Watched Monthly.png
     summary: Most watched shows across the internet this month.
-    visible_library: weekly(firday|sunday)
+    visible_library: weekly(friday|sunday)
     visible_shared: monthly(14)
 
   Trakt - Most Watched (Yearly):

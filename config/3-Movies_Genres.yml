@@ -639,7 +639,6 @@ collections:
     visible_shared: monthly(11)
     limit: 300
     letterboxd_list:
-      - https://letterboxd.com/dreamybunny/list/fairytale/
       - https://letterboxd.com/starlightdrinke/list/fairytale/
       - https://letterboxd.com/snownotsowhite/list/fairytale/
 

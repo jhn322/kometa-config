@@ -75,7 +75,6 @@ collections:
     visible_library: weekly(monday|saturday)
     mal_popular: 50
     anilist_popular: 50
-    anidb_popular: 30
     summary: Popular animes this week according to MyAnimeList, Anilist and AniDB.
     sort_title: +_XPopular
     file_poster: config/posters/Popular.png

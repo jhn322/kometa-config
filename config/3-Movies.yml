@@ -70,7 +70,7 @@ collections:
     summary: Movies with the most "fans" on Letterboxd.
     visible_shared: monthly(15)
     file_poster: config/posters/Letterboxd Most Fans.png
-    letterboxd_list: https://letterboxd.com/crew/list/most-fans-on-letterboxd/
+    letterboxd_list: https://letterboxd.com/jack/list/official-top-250-films-with-the-most-fans/
 
   Letterboxd - Top 250:
     template: { name: Movie Basic }

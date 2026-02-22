@@ -1158,7 +1158,6 @@ collections:
     file_poster: config/posters/Spy.png
     visible_shared: monthly(8)
     letterboxd_list:
-      - https://letterboxd.com/arcade_machine/list/spy/
       - https://letterboxd.com/yvetteyang/list/spy/
       - https://letterboxd.com/easterpink/list/spy/
 

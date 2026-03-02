@@ -85,15 +85,8 @@ collections:
     radarr_add_existing: true
     radarr_monitor_existing: true
     trakt_list:
-      - https://trakt.tv/users/guru27/lists/upcoming-movies-2050?sort=title,asc
-      - https://trakt.tv/users/acoucalancha/lists/upcoming-anticipated-movies?sort=rank,asc
-      - https://trakt.tv/users/morinphen/lists/upcoming-movies-all?sort=rank,asc
-      - https://trakt.tv/users/ninjaguy05/lists/upcoming-movies?sort=added,asc
       - https://trakt.tv/users/irishstevo/lists/upcoming-movies?sort=rank,asc
-      - https://trakt.tv/users/verycool/lists/upcoming-movies?sort=released,desc
-      - https://trakt.tv/users/zappi87/lists/upcoming-movies?sort=released,asc
       - https://trakt.tv/users/abbelea/lists/movies-the-upcoming?sort=released,asc
-      - https://trakt.tv/users/childofkorm/lists/upcoming-movies?sort=rank,asc
       - https://trakt.tv/users/dracid7/lists/upcoming-movies-digital-releases?sort=rank,asc
 
   No Swedish Subtitles:

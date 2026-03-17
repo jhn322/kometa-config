@@ -76,7 +76,7 @@ collections:
     template: { name: Awards }
     visible_library: weekly(thursday|saturday)
     summary: The Cannes Film Festival until 2003 called the International Film Festival (Festival international du film) and known in English as the Cannes Film Festival, is an annual film festival held in Cannes, France, which previews new films of all genres, including documentaries, from all around the world. Founded in 1946, the invitation-only festival is held annually at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.
-    visible_shared: monthly(17)
+    visible_shared: monthly(4)
     file_poster: config/posters/Cannes Palme d'or.png
     imdb_award:
       event_id: "ev0000147"
@@ -114,7 +114,6 @@ collections:
     visible_library: weekly(tuesday|thursday)
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_shared:
-      - monthly(23)
       - monthly(24)
     file_poster: config/posters/Golden Globe Best Picture.png
     imdb_award:
@@ -137,7 +136,6 @@ collections:
     summary: The Golden Globe Awards are accolades bestowed by the Hollywood Foreign Press Association starting in January 1944, recognizing excellence in both American and international film and television. Beginning in 2022, there are 105 members of the HFPA.
     visible_shared:
       - monthly(23)
-      - monthly(24)
     file_poster: config/posters/Golden Globe Nominees.png
     imdb_award:
       event_id: "ev0000292"
@@ -188,6 +186,7 @@ collections:
   Oscars - Nominees:
     template: { name: Awards }
     visible_library: weekly(tuesday|saturday)
+    visible_shared: monthly(29)
     file_poster: config/posters/Oscars Nominees.png
     summary: Oscar Category Winning Movies.
     imdb_award:

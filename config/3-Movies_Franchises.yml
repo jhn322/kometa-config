@@ -714,6 +714,14 @@ collections:
       all:
         title: cube
 
+  Darkman:
+    template: { name: Franchise }
+    summary: Darkman is a 1990 science fiction horror film directed by Sam Raimi. The movie series follows a scientist named Peyton Westlake who is transformed into a monstrous creature after being subjected to experimental treatments.
+    file_poster: config/posters/Darkman.png
+    plex_search:
+      all:
+        title: darkman
+
   The Dark Knight:
     template: { name: Franchise }
     summary: Warner Bros. hired Christopher Nolan and David S. Goyer to script The Dark Knight Trilogy. The duo aimed for a darker and more realistic tone, with humanity and realism being the basis of the film. Christian Bale starred as Batman.

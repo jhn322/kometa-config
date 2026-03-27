@@ -41,12 +41,6 @@ collections:
     summary: Studio collections up next.
     file_poster: config/posters/Network Collections.png
 
-  Rating Collections:
-    template: { name: Separator }
-    sort_title: zzzzzz_11
-    summary: Rating collections up next.
-    file_poster: config/posters/Rating Collections.png
-
   Special Collections:
     template: { name: Separator }
     sort_title: zz___000

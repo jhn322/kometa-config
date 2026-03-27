@@ -22,7 +22,7 @@ templates:
 # Fetched from TMDb using the studio id and/or name
 collections:
   ABC:
-    template: { name: network, network: "ABC, ABC Family" }
+    template: { name: network, network: "ABC" }
     file_poster: config/posters/ABC.png
     visible_shared: monthly(28)
 

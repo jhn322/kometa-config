@@ -28,7 +28,7 @@ collections:
     file_poster: config/posters/A-1 Pictures.png
 
   ABC:
-    template: { name: network, network: "ABC (JA), ABC Family, ABC Me, ABC TV" }
+    template: { name: network, network: "ABC (JA), ABC Me, ABC TV" }
     summary: The American Broadcasting Company (ABC) is an American commercial broadcast television network. It is the flagship property of the ABC Entertainment Group division of The Walt Disney Company. The network is headquartered in Burbank, California, on Riverside Drive, directly across the street from Walt Disney Studios and adjacent to the Roy E. Disney Animation Building. The network's secondary offices, and headquarters of its news division, are in New York City, at its broadcast center at 77 West 66th Street on the Upper West Side of Manhattan.
     file_poster: config/posters/ABC.png
 

@@ -53,7 +53,7 @@ collections:
     visible_library: weekly(wednesday|friday)
     summary: Best movie of every year according to Letterboxd.
     file_poster: config/posters/Letterboxd Best Picture.png
-    letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
+    letterboxd_list: https://letterboxd.com/retro_ruby/list/best-picture-of-letterboxd-1920-2025/
 
   Letterboxd - Million Watched:
     template: { name: Movie }

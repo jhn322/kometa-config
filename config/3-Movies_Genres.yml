@@ -434,7 +434,6 @@ collections:
     letterboxd_list:
       - https://letterboxd.com/fatima55/list/book-adaptions/
       - https://letterboxd.com/chackerton/list/book-adaptions/
-      - https://letterboxd.com/clara_atlanta/list/book-adaptions-all/
 
   Bug:
     template: { name: Subgenre False }

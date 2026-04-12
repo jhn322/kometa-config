@@ -25,7 +25,7 @@ libraries:
       - file: config/3-Movies_Awards.yml
       - file: config/3-Movies_Franchises.yml
       - file: config/3-Movies_Genres.yml
-      - file: config/3-Movies_Holidays
+      - file: config/3-Movies_Holidays.yml
       - file: config/3-Movies_People.yml
       - file: config/3-Movies_Separators.yml
       - file: config/3-Movies_Specials.yml

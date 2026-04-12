@@ -981,7 +981,7 @@ collections:
     template: { name: Franchise }
     file_poster: config/posters/Father Knows Best.png
     summary: Lee's early successes included Pushing Hands (1991), The Wedding Banquet (1993), and Eat Drink Man Woman (1994), which explored the relationships and conflicts between tradition and modernity, Eastern and Western; the three films are informally known as the Father Knows Best trilogy.
-    tmdb_collection: 947429
+    letterboxd_list: https://letterboxd.com/rollatini/list/ang-lees-father-knows-best-trilogy/
 
   The Fly:
     template: { name: Franchise }

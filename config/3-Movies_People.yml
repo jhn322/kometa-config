@@ -84,7 +84,6 @@ collections:
   Angelina Jolie:
     template: { name: Actor }
     file_poster: config/posters/Angelina Jolie.jpg
-    visible_shared: monthly(10)
     plex_search:
       all:
         actor: Angelina Jolie
@@ -188,6 +187,14 @@ collections:
     plex_search:
       all:
         actor: Charlie Chaplin
+
+  Choi Min-sik:
+    template: { name: Actor }
+    file_poster: config/posters/Choi Min-sik.png
+    visible_shared: monthly(31)
+    plex_search:
+      all:
+        actor: Choi Min-sik
 
   Christian Bale:
     template: { name: Actor }
@@ -339,7 +346,6 @@ collections:
   Emma Watson:
     template: { name: Actor }
     file_poster: config/posters/Emma Watson.png
-    visible_shared: monthly(8)
     plex_search:
       all:
         actor: Emma Watson
@@ -454,7 +460,6 @@ collections:
   Julia Roberts:
     template: { name: Actor }
     file_poster: config/posters/Julia Roberts.png
-    visible_shared: monthly(31)
     plex_search:
       all:
         actor: Julia Roberts
@@ -617,6 +622,14 @@ collections:
     plex_search:
       all:
         actor: Kurt Russell
+
+  Lee Byung-hun:
+    template: { name: Actor }
+    file_poster: config/posters/Lee Byung-hun.png
+    visible_shared: monthly(10)
+    plex_search:
+      all:
+        actor: Lee Byung-hun
 
   Leonardo DiCaprio:
     template: { name: Actor }
@@ -905,6 +918,7 @@ collections:
   Song Kang-ho:
     template: { name: Actor }
     file_poster: config/posters/Song Kang ho.png
+    visible_shared: monthly(8)
     plex_search:
       all:
         actor: Song Kang-ho

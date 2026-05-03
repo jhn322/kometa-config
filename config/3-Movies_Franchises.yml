@@ -2142,13 +2142,13 @@ collections:
       - https://letterboxd.com/mook/list/poohniverse-the-twisted-childhood-cinematic/
       - https://letterboxd.com/cathal164/list/poohniverse/
 
-  Piranha 3D:
+  Piranha:
     template: { name: Franchise }
     summary: Piranha is a horror comedy film series that consists of five films. The original film is a parody of the 1975 film Jaws.
-    file_poster: config/posters/Piranha 3D.png
-    plex_search:
-      all:
-        title: piranha
+    file_poster: config/posters/Piranha.png
+    tmdb_collection:
+      - 212279
+      - 104830
 
   The Punisher:
     template: { name: Franchise }

@@ -1,5 +1,5 @@
 ######################################################
-#                  FRANCHISES 8.0                    #
+#                  FRANCHISES 8.5                    #
 ######################################################
 
 templates:
@@ -73,6 +73,7 @@ collections:
     template: { name: Franchise }
     summary: Game of Thrones is an epic fantasy television series that aired on HBO. The show is based on the "A Song of Ice and Fire" novels by George R.R. Martin and is set in the fictional world of Westeros, where different noble families fight for control of the Iron Throne, which represents the ultimate power in the Seven Kingdoms.
     file_poster: config/posters/Game of Thrones.png
+    tmdb_show: 224372
     trakt_list:
       - https://trakt.tv/users/abhikbhatia/lists/world-of-ice-and-fire-collection?sort=rank,asc
       - https://trakt.tv/users/mptpro/lists/game-of-thrones?sort=rank,asc
@@ -108,10 +109,10 @@ collections:
         title:
           - wolverine
           - spider-man
-          - hulk
+          - incredible hulk
           - x-men
           - iron man
-          - thor
+          - thor & loki
           - fantastic four
           - marvel's
 
@@ -132,11 +133,12 @@ collections:
     template: { name: Franchise }
     summary: Money Heist, also known as La Casa de Papel, is a Spanish television crime drama series. The show follows a group of criminals, led by a mastermind known as "The Professor," who plan and execute the biggest heist in history robbing the Royal Mint of Spain.
     file_poster: config/posters/Money Heist.png
+    tmdb_show:
+      - 146176
+      - 308014
     plex_search:
-      any:
-        title:
-          - money heist
-          - berlin
+      all:
+        title: money heist
 
   NCIS:
     template: { name: Franchise }
@@ -175,6 +177,7 @@ collections:
         title: power
         genre: crime
         genre.not: animation
+        country: United States of America
 
   Scooby-Doo:
     template: { name: Franchise }
@@ -273,12 +276,10 @@ collections:
     template: { name: Franchise }
     summary: Yellowstone is an American neo Western drama television series created by Taylor Sheridan and John Linson that premiered on June 20, 2018, on Paramount Network.
     file_poster: config/posters/Yellowstone.png
-    plex_search:
-      any:
-        title:
-          - yellowstone
-          - 1923
-          - 1883
+    tmdb_show:
+      - 299167
+      - 275188
+    trakt_list: https://trakt.tv/users/kylereddoch/lists/yellowstone-universe
 
   Whoniverse:
     template: { name: Franchise }

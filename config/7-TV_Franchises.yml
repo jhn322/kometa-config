@@ -10,6 +10,14 @@ templates:
 
 # Creates collections for TV shows in the same series with 3 or more.
 collections:
+  Adventure Time:
+    template: { name: Franchise }
+    summary: The Adventure Time universe is a popular animated fantasy franchise of interconnected TV shows that began with Adventure Time (2010), and later expanded through limited series and spin-offs including Adventure Time Distant Lands and Adventure Time Fionna and Cake, known for its imaginative world-building and emotional storytelling.
+    file_poster: config/posters/Adventure Time.png
+    plex_search:
+      all:
+        title: adventure time
+
   Avatar Universe:
     template: { name: Franchise }
     summary: Avatar is an animated television series set in a world where certain people are born with the ability to manipulate one of the four classical elements water, earth, fire, and air. The series follows the story of Aang, the last surviving Airbender and the Avatar, a person capable of bending all four elements and tasked with maintaining balance in the world.

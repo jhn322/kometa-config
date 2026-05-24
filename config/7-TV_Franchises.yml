@@ -292,5 +292,5 @@ collections:
   Whoniverse:
     template: { name: Franchise }
     summary: The Whoniverse is the fictional universe in which the long-running British science fiction television series Doctor Who and its spin-offs take place.
-    file_poster: config/posters/Whoniverse.png
+    file_poster: config/posters/Whoniverse.jpg
     trakt_list: https://trakt.tv/users/ayushs92/lists/doctor-who?sort=popularity,asc

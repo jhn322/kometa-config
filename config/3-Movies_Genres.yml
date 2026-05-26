@@ -1173,7 +1173,7 @@ collections:
     file_poster: config/posters/Summer.png
     limit: 300
     letterboxd_list:
-      - https://letterboxd.com/teenageriots/list/summer/
+      - https://letterboxd.com/julesmae/list/summer-movies/
       - https://letterboxd.com/rutviin/list/summer/
 
   Sword & Sorcery:

@@ -1516,6 +1516,14 @@ collections:
       - https://trakt.tv/users/wolfd01/lists/agatha-christie-movies?sort=title,asc
       - https://trakt.tv/users/paulison1966/lists/agatha-christie?sort=released,desc
 
+  Astrid Lindgren:
+    template: { name: Author }
+    summary: Astrid Lindgren was a Swedish author known for her children's books, particularly the character Pippi Longstocking.
+    file_poster: config/posters/Astrid Lindgren.png
+    plex_search:
+      any:
+        writer: Astrid Lindgren
+
   Stephen King:
     template: { name: Author }
     visible_shared: range(12/24-12/27)

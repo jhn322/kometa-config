@@ -2239,7 +2239,10 @@ collections:
     template: { name: Franchise }
     summary: Searching from 2018 is a film series thriller directed by Aneesh Chaganty and starring John Cho, Debra Messing, and Michelle La. The movie is unique in that it takes place entirely on computer screens and smartphones, and follows the story of a father named David Kim (John Cho) who searches for his missing daughter, Margot (Michelle La), using her digital footprint.
     file_poster: config/posters/Searching.png
-    tmdb_collection: 1145924
+    tmdb_movie:
+      - 489999
+      - 768362
+      - 546121
 
   Sharknado:
     template: { name: Franchise }

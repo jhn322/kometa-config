@@ -1157,7 +1157,8 @@ collections:
     file_poster: config/posters/Spy.png
     visible_shared: monthly(8)
     letterboxd_list:
-      - https://letterboxd.com/yvetteyang/list/spy/
+      - https://letterboxd.com/tkrayberk/list/spy-movies/
+      - https://letterboxd.com/seanfennessey/list/spy-movies/
       - https://letterboxd.com/easterpink/list/spy/
 
   Stop Motion:

@@ -1,4 +1,4 @@
-# Change the library names below to your exact(!) plex library names.
+# Change the library names below to match your Plex library names.
 libraries:
   Anime:
     collection_files:

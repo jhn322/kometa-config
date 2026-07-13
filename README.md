@@ -2,6 +2,10 @@
 
 My Kometa config for automatically creating collections and overlays for Plex. These files were originally created using templates and has since then been rewritten/edited completely and updated regularly by me since 2021. As far as overlays go I have put an emphasis on providing useful info at a glance without going over the top, while having a very comprehensive yet not too overwhelming amount of collections.
 
+### ❤️ Sponsor
+
+If this config has been useful to you and you'd like to show your appreciation, considered [becoming a GitHub Sponsor](https://github.com/sponsors/jhn322). thanks :)
+
 ## ⚙️ Installation Guide (Docker Compose)
 
 > [!NOTE]
@@ -22,7 +26,7 @@ Before installation, you'll need API keys from these services for full functiona
 ### Option 1: Docker Compose (Recommended)
 
 1. Clone/download this repository.
-2. Add **your** local Plex server IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change each library title to the exact(!) name your Plex libraries are named in the config.yml.
+2. Add **your** local Plex server IP address and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/). Then open `config.yml` and rename **each library name under `libraries:`** to **exactly** match the corresponding library name in your Plex server (including capitalization and spaces).
 3. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki](https://metamanager.wiki/en/latest/kometa/install/local/).
 4. Open terminal and navigate to your path:
 
@@ -165,7 +169,3 @@ For more detailed information, visit the [official Kometa wiki](https://metamana
   <a href="https://theposterdb.com" title="ThePosterDB">
     <img src="https://theposterdb.com/assets/logos/icon/color.svg" width="60" height="60"></a>
 </p>
-
-
-
-

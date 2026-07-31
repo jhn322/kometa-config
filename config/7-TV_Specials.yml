@@ -121,9 +121,10 @@ collections:
     sonarr_add_missing: true
     sonarr_add_existing: true
     sonarr_monitor_existing: true
-    trakt_list:
-      - https://trakt.tv/users/jhn322/lists/upcoming-tv?sort=rank,asc
-      - https://trakt.tv/users/jhn322/lists/upcoming-documentary?sort=rank,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/garycrawfordgc/latest-tv-shows
+      sort_by: released.asc
+      limit: 60
 
   Random: # Random TV shows with a rating above 4 from IMDb
     template: { name: Special Smart }

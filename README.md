@@ -1,102 +1,32 @@
-# 🚀 Kometa Config (Formerly Plex Meta Manager)
+# PSD Templates for Kometa
 
-My Kometa config for automatically creating collections and overlays for Plex. These files were originally created using templates and has since then been rewritten/edited completely and updated regularly by me since 2021. As far as overlays go I have put an emphasis on providing useful info at a glance without going over the top, while having a very comprehensive yet not too overwhelming amount of collections.
+This branch contains the original **Photoshop (PSD) template files** used as the foundation for many of the graphics in my main [Kometa Config](../) repository.
 
-## ⚙️ Installation Guide (Docker Compose)
+All templates are fully editable `.psd` files, making it easy to customize the designs, text, colors, and layouts to suit your own specific Plex setup.
 
-> [!NOTE]
-> How to install Kometa using docker compose with a daily run schedule for collections, overlays and operations as a stack of three containers.
+## 📁 Templates
 
-### Prerequisites
+- **Actors**
+- **Audiobook Genres**
+- **Genres**
+- **IMDb**
+- **Letterboxd**
+- **MAL**
+- **Metacritic**
+- **Music Genres**
+- **Oscars**
+- **Random**
+- **Rotten Tomatoes**
+- **Separator**
+- **Streaming Services**
+- **Studios**
+- **TMDb**
+- **Trakt**
+- **TV Networks**
+- **Best Of**
+- **Decade**
 
-Before installation, you'll need API keys from these services for full functionality for the majority of lists and overlays:
-
-- [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
-- [TMDb](https://metamanager.wiki/en/latest/config/tmdb/)
-- [MdbList](https://metamanager.wiki/en/latest/config/mdblist/)
-- [OMDb](https://metamanager.wiki/en/latest/config/omdb/)
-- [AniDB](https://metamanager.wiki/en/latest/config/anidb/)
-- [MyAnimeList](https://metamanager.wiki/en/latest/config/myanimelist/)
-- [Tautulli](https://metamanager.wiki/en/latest/config/tautulli/)
-
-### Option 1: Docker Compose (Recommended)
-
-1. Clone/download this repository.
-2. Add **your** local Plex server IP-adress and [token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/) **and** change each library title to the exact(!) name your Plex libraries are named in the config.yml.
-3. [Install docker with compose](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-install-Docker-and-docker-compose-on-Ubuntu) or [Docker desktop](https://www.docker.com/products/docker-desktop/) for Windows/Mac (if you haven't already). Running locally with Python is also possible but not recommended in the long run, refer to the [wiki](https://metamanager.wiki/en/latest/kometa/install/local/).
-4. Open terminal and navigate to your path:
-
-```powershell
-Linux: "cd /path/to/Kometa-folder"
-
-Windows: "cd C:\path\to\Kometa-folder"
-
-Mac: "cd ~/path/to/Kometa-folder"
-```
-
-5. Now paste this in the terminal to create the containers:
-
-```powershell
-Linux: "sudo docker-compose up -d"
-
-Windows/Mac: "docker-compose up -d"
-```
-
-**Done!**
-
-> [!TIP]
-> External lists (like Trakt or Letterboxd) can sometimes lead to errors if the list owner deletes the list or changes its URL. To proactively find and identify these dead links in your Kometa YAML files, consider using my [Dead Link Checker](https://github.com/jhn322/dead-link-checker) script. It can scan your configuration and report any inaccessible list URLs from the provided .yml files, helping you maintain a clean and error-free Kometa setup.
-
-### Option 2: Combined Container
-
-> [!NOTE]
-> An alternative approach is to use a single container that runs all 3 different library operations continuously. To use this:
->
-> 1. Rename the original `docker-compose.yml` to `docker-compose-original.yml`
-> 2. Rename `docker-compose COMBINED.yml` to `docker-compose.yml`
-> 3. Run the combined container using the same method as in previous step.
-
-> [!WARNING]
-> While simpler and faster to finish its run, the combined approach is generally not recommended for Plex servers with larger libraries. I've found running all operations continuously, in order according to the config.yml can potentially cause Plex to become unresponsive and/or crash. The separated container approach is more stable and recommended, but takes longer to complete.
-
-### Option 3: Docker Run Commands
-
-If for some reason you don't want to use Docker compose, simply utilize the run commands to achieve the same result:
-
-```powershell
-Linux:
-sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -op --time 06:00
-sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -ov --time 06:30
-sudo docker run --restart=unless-stopped -d -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
-
-Windows:
-docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa -op --time 06:00
-docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa -ov --time 06:30
-docker run --restart=unless-stopped -d -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
-
-Mac:
-docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -op --time 06:00
-docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -ov --time 06:30
-docker run --restart=unless-stopped -d -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa -co --time 08:00
-```
-
-#### For Testing (One-time run):
-
-```powershell
-Linux: sudo docker run -it -v "/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
-
-Windows: docker run -it -v "C:\path\to\Kometa-folder/config:/config:rw" kometateam/kometa --run
-
-Mac: docker run -it -v "~/path/to/Kometa-folder/config:/config:rw" kometateam/kometa --run
-```
-
-## 🔄 Updating Kometa
-
-```powershell
-Stable: docker pull kometateam/kometa
-Develop: docker pull kometateam/kometa:develop
-Nightly: docker pull kometateam/kometa:nightly
-```
+> These templates are not required if you're happy using the already provided posters in the main Kometa config.
 
 ## 📋 Supported Libraries
 
@@ -165,7 +95,3 @@ For more detailed information, visit the [official Kometa wiki](https://metamana
   <a href="https://theposterdb.com" title="ThePosterDB">
     <img src="https://theposterdb.com/assets/logos/icon/color.svg" width="60" height="60"></a>
 </p>
-
-
-
-

@@ -73,7 +73,7 @@ collections:
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
     mdblist_list:
-      url: https://mdblist.com/lists/bobnimbo/trakt-tmdb-imdb-popular-shows
+      url: https://mdblist.com/lists/k0meta/trakt-popular
       limit: 100
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists

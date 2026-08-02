@@ -123,7 +123,7 @@ collections:
       - monthly(20)
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
-    mdblist_list: https://mdblist.com/lists/bobnimbo/trakt-tmdb-imdb-popular-movies
+    mdblist_list: https://mdblist.com/lists/k0meta/trakt-popular
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: Movie }

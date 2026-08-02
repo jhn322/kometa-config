@@ -118,10 +118,9 @@ collections:
 
   Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: TV }
-    trakt_chart:
-      chart: watched
+    mdblist_list:
+      url: https://mdblist.com/lists/wheelerx/trakt-most-watched-shows
       limit: 220
-      time_period: all
     file_poster: config/posters/Trakt Most Watched All-Time.png
     visible_library: weekly(monday|thursday)
     visible_shared:
@@ -131,10 +130,9 @@ collections:
 
   Trakt - Most Watched (Monthly):
     template: { name: TV }
-    trakt_chart:
-      chart: watched
+    mdblist_list:
+      url: https://mdblist.com/lists/meskarro/trakt-trending-tv-shows
       limit: 60
-      time_period: monthly
     file_poster: config/posters/Trakt Most Watched Monthly.png
     summary: Most watched shows across the internet this month.
     visible_library: weekly(friday|sunday)
@@ -142,10 +140,9 @@ collections:
 
   Trakt - Most Watched (Yearly):
     template: { name: TV }
-    trakt_chart:
-      chart: watched
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-most-watched-yearly
       limit: 60
-      time_period: yearly
     file_poster: config/posters/Trakt Most Watched Yearly.png
     summary: Most watched shows across the internet this year.
     visible_library: weekly(wednesday|saturday)
@@ -153,7 +150,9 @@ collections:
 
   Trakt - Recommended:
     template: { name: TV }
-    trakt_recommendations: 30
+    mdblist_list:
+      url: https://mdblist.com/lists/olson.ben2/trakt-recommended-tv
+      limit: 30
     sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     file_poster: config/posters/Trakt Recommended.png
@@ -165,8 +164,8 @@ collections:
   Trending: # Trending list from Trakt and TMDb
     template: { name: TV Release }
     tmdb_trending_weekly: 30
-    trakt_chart:
-      chart: trending
+    mdblist_list:
+      url: https://mdblist.com/lists/meskarro/trakt-trending-tv-shows
       limit: 30
     sort_title: +_ZTrending
     visible_library: weekly(monday|thursday)

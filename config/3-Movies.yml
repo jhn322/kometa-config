@@ -1,5 +1,5 @@
 ######################################################
-#                   MOVIES 19.0                      #
+#                   MOVIES 20.0                      #
 ######################################################
 templates:
   Movie:
@@ -46,7 +46,7 @@ collections:
       - monthly(10)
       - monthly(11)
     file_poster: config/posters/IMDb Top 250 Gold.png
-    trakt_list: https://trakt.tv/users/sacwooky/lists/imdb-top-250?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/aramil89/imdb-top-250
 
   Letterboxd - Best Picture: # Letterboxd specific chart lists
     template: { name: Movie Release }
@@ -116,9 +116,6 @@ collections:
     template: { name: Movie }
     visible_library: weekly(tuesday|saturday)
     tmdb_popular: 50
-    trakt_chart:
-      chart: popular
-      limit: 50
     sort_title: +_XPopular
     visible_shared:
       - monthly(1)
@@ -126,7 +123,7 @@ collections:
       - monthly(20)
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
-    trakt_list: https://trakt.tv/users/courthouz/lists/imdb-popular?sort=added,asc
+    mdblist_list: https://mdblist.com/lists/bobnimbo/trakt-tmdb-imdb-popular-movies
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: Movie }
@@ -158,7 +155,7 @@ collections:
       - monthly(27)
     file_poster: config/posters/Top Rated.png
     summary: Top Rated Movies on Trakt and TMDb.
-    trakt_list: https://trakt.tv/users/kingoftheseas643/lists/trakt-top-100-movies?sort=added,asc
+    mdblist_list: https://mdblist.com/lists/abdulwahabaa/trakt-top-rated-movies
 
   TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
     template: { name: Movie Basic }
@@ -166,15 +163,14 @@ collections:
     visible_library: false
     collection_order: custom
     file_poster: config/posters/TorrentFreak Most Pirated.png
-    trakt_list: https://trakt.tv/users/nicoontrakt/lists/mdblist-top-10-trakt-box-office-tf-most-pirated?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/top-ten-pirated-movies-of-the-week-torrent-freakcom
 
   Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: Movie }
     visible_library: weekly(tuesday|sunday)
-    trakt_chart:
-      chart: watched
+    mdblist_list:
+      url: https://mdblist.com/lists/cb2131/emby-trakt-most-watched-movies
       limit: 200
-      time_period: all
     file_poster: config/posters/Trakt Most Watched All-Time.png
     visible_shared: monthly(13)
     summary: Movies most watched online of all time.
@@ -182,10 +178,9 @@ collections:
   Trakt - Most Watched (Monthly):
     template: { name: Movie }
     visible_library: weekly(wednesday|sunday)
-    trakt_chart:
-      chart: watched
+    mdblist_list:
+      url: https://mdblist.com/lists/noveggies/trakt-most-watched-monthly
       limit: 100
-      time_period: monthly
     file_poster: config/posters/Trakt Most Watched Monthly.png
     summary: Most watched movies across the internet this month.
     visible_shared: monthly(10)
@@ -193,10 +188,9 @@ collections:
   Trakt - Most Watched (Yearly):
     template: { name: Movie }
     visible_library: weekly(thursday|sunday)
-    trakt_chart:
-      chart: watched
+    mdblist_list:
+      url: https://mdblist.com/lists/noveggies/trakt-most-watched-yearly
       limit: 100
-      time_period: yearly
     file_poster: config/posters/Trakt Most Watched Yearly.png
     summary: Most watched movies across the internet this year.
     visible_shared: monthly(12)
@@ -204,7 +198,9 @@ collections:
   Trakt - Recommended:
     template: { name: Movie }
     visible_library: weekly(friday|sunday)
-    trakt_recommendations: 60
+    mdblist_list:
+      url: https://mdblist.com/lists/zipy/trakt-recommended-monthly
+      limit: 60
     sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     visible_shared: monthly(19)
@@ -214,8 +210,8 @@ collections:
     template: { name: Movie Release }
     visible_library: weekly(monday|friday)
     tmdb_trending_weekly: 30
-    trakt_chart:
-      chart: trending
+    mdblist_list:
+      url: https://mdblist.com/lists/cb2131/emby-trakt-trending-movies
       limit: 30
     sort_title: +_ZTrending
     visible_shared:

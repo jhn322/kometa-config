@@ -105,7 +105,7 @@ collections:
     sonarr_add_existing: true
     sonarr_monitor_existing: true
     mdblist_list:
-      url: https://mdblist.com/lists/iamscallywag/latest-anime
+      url: https://mdblist.com/lists/jwag12787/upcoming-anime
       limit: 60
 
   Random: # Random animes with a rating above 4 from mal

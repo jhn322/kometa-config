@@ -16,7 +16,7 @@ templates:
     default:
       overlay: <<overlay_name>>
     collection_level: <<overlay_level>>
-    trakt_list: https://trakt.tv/users/dnkta/lists/highly-rated-shows-trakt?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/ayeshaamittal/trakt-top-shows
     overlay:
       name: <<overlay_name>>
 

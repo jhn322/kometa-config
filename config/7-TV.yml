@@ -1,5 +1,5 @@
 ######################################################
-#                    TV 19.0                        #
+#                    TV 20.0                        #
 ######################################################
 
 templates:
@@ -45,7 +45,7 @@ collections:
     visible_shared:
       - monthly(4)
       - monthly(9)
-    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-tv-shows?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/solo_streaming/imdb-top-250-shows
 
   Metacritic - Must-See: # Metacritic specific chart lists
     template: { name: TV }
@@ -55,9 +55,11 @@ collections:
       - monthly(31)
     summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
     file_poster: config/posters/Metacritic Must See.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/metacritic-must-see-shows
+    mdblist_list:
+      url: https://mdblist.com/lists/k0meta/metacriticmustseeshows
+      limit: 200
 
-  Popular: # Popular list from Trakt and TMDb
+  Popular: # Popular list from IMDB, Trakt and TMDb
     template: { name: TV }
     tmdb_popular: 150
     sort_title: +_XPopular
@@ -68,12 +70,11 @@ collections:
       - monthly(22)
       - monthly(7)
       - monthly(8)
-    trakt_chart:
-      chart: popular
-      limit: 40
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
-    trakt_list: https://trakt.tv/users/justin/lists/imdb-popular-tv-shows?sort=rank,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/bobnimbo/trakt-tmdb-imdb-popular-shows
+      limit: 100
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: TV }
@@ -84,7 +85,9 @@ collections:
       - monthly(6)
     summary: Certified fresh A special distinction awarded to the best reviewed TV Shows.
     file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/certified-fresh-shows
+    mdblist_list:
+      url: https://mdblist.com/lists/k0meta/certifiedfreshshows
+      limit: 200
 
   TMDb - On the Air: # TMDb specific chart lists
     template: { name: TV Release }
@@ -109,10 +112,9 @@ collections:
       - monthly(15)
     file_poster: config/posters/Top Rated.png
     summary: Top Rated Shows on Trakt and TMDb.
-    trakt_list:
-      - https://trakt.tv/users/diimaan/lists/top-rated-tv-shows?sort=rank,asc
-      - https://trakt.tv/users/paddy880/lists/top-rated-tv?sort=rank,asc
-      - https://trakt.tv/users/saltydude/lists/top-rated-tv-shows?sort=rank,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/trixxit/top-rated-shows
+      limit: 200
 
   Trakt - Most Watched (All-Time): # Trakt specific chart lists
     template: { name: TV }

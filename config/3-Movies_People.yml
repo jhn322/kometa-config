@@ -1504,7 +1504,7 @@ collections:
         writer: Yorgos Lanthimos
 
   ######################################################
-  #               Authors 0.5                          #
+  #               Authors 1.0                          #
   ######################################################
 
   # Collections for prominent authors
@@ -1512,9 +1512,9 @@ collections:
     template: { name: Author }
     summary: Dame Agatha Mary Clarissa Christie was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.
     file_poster: config/posters/Agatha Christie.png
-    trakt_list:
-      - https://trakt.tv/users/wolfd01/lists/agatha-christie-movies?sort=title,asc
-      - https://trakt.tv/users/paulison1966/lists/agatha-christie?sort=released,desc
+    letterboxd_list:
+      - https://letterboxd.com/existentialjeny/list/agatha-christie/
+      - https://letterboxd.com/meltedliquefied/list/agatha-christie/
 
   Astrid Lindgren:
     template: { name: Author }
@@ -1529,7 +1529,6 @@ collections:
     visible_shared: range(12/24-12/27)
     summary: Stephen Edwin King is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels.
     file_poster: config/posters/Stephen King.png
-    trakt_list:
-      - https://trakt.tv/users/sketche1/lists/stephen-king?sort=popularity,asc
-      - https://trakt.tv/users/hawque/lists/stephen-king?sort=released,asc
-      - https://trakt.tv/users/drakula1000/lists/stephen-king?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/barnloaf/list/stephen-king/
+      - https://letterboxd.com/waltz3/list/stephen-king/

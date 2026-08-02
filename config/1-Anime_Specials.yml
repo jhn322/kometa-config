@@ -106,7 +106,6 @@ collections:
     sonarr_monitor_existing: true
     mdblist_list:
       url: https://mdblist.com/lists/iamscallywag/latest-anime
-      sort_by: released.asc
       limit: 60
 
   Random: # Random animes with a rating above 4 from mal

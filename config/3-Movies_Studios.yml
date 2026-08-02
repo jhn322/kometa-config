@@ -301,9 +301,7 @@ collections:
 
   Walt Disney Pictures:
     template: { name: Studio }
-    trakt_list:
-      - https://trakt.tv/users/jiehad/lists/walt-disney-pictures?sort=released,asc
-      - https://trakt.tv/users/liudvikas/lists/walt-disney-live-action?sort=released,asc
+    mdblist_list: https://mdblist.com/lists/lukaskoll/walt-disney-pictures-no-animation
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
     file_poster: config/posters/Walt Disney Pictures.png
 
@@ -323,7 +321,7 @@ collections:
     file_poster: config/posters/WWE Studios.png
 
   ##########################################################
-  #                 STREAMING SERVICES 5.5                 #
+  #                 STREAMING SERVICES 6.0                 #
   ##########################################################
 
   # Original movies from the most popular streaming services
@@ -332,53 +330,52 @@ collections:
     summary: Apple TV Original movies.
     visible_shared: monthly(2)
     file_poster: config/posters/Apple TV.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/appletv-originals
+    mdblist_list: https://mdblist.com/lists/k0meta/appletv-originals
 
   Disney+:
     template: { name: Streaming }
     summary: Disney Original movies.
     visible_shared: monthly(8)
     file_poster: config/posters/Disney+.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/disney-originals?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/disney-originals
 
   HBO Max:
     template: { name: Streaming }
     summary: HBO Max original movies.
     visible_shared: monthly(12)
     file_poster: config/posters/HBO Max.png
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/max-originals?sort=rank,asc
-      - https://trakt.tv/users/k0meta/lists/hbo-max-originals?sort=rank,asc
-      - https://trakt.tv/users/weealdo/lists/hbo-max-original-movies-copy?sort=released,asc
+    mdblist_list:
+      - https://mdblist.com/lists/k0meta/hbomax-originals
+      - https://mdblist.com/lists/k0meta/max-originals
 
   HULU:
     template: { name: Streaming }
     summary: HULU Original movies.
     visible_shared: monthly(16)
     file_poster: config/posters/HULU.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/hulu-originals?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/hulu-originals
 
   Netflix:
     template: { name: Streaming }
     summary: Netflix Original movies.
     visible_shared: monthly(20)
     file_poster: config/posters/Netflix.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/netflix-originals?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/netflix-originals
 
   Paramount+:
     template: { name: Streaming }
     summary: Paramount Pictures Corporation is an American film and television production and distribution company and the main namesake subsidiary of Paramount Global. It is the fifth oldest film studio in the world, the second oldest film studio in the United States (behind Universal Pictures), and the sole member of the "Big Five" film studios still located in the city limits of Los Angeles.
     file_poster: config/posters/Paramount+.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/paramount-originals?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/paramount-originals
 
   Peacock:
     template: { name: Streaming }
     file_poster: config/posters/Peacock.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/peacock-originals?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/peacock-originals
 
   Prime Video:
     template: { name: Streaming }
     summary: Amazon Original movies.
     visible_shared: monthly(24)
     file_poster: config/posters/Prime Video.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/amazon-originals?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/k0meta/amazon-originals

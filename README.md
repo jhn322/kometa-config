@@ -13,15 +13,15 @@ If this config has been useful to you and you'd like to show your appreciation, 
 
 ### Prerequisites
 
-Before installation, you'll need API keys from these services for full functionality for the majority of lists and overlays:
+Before installation, you'll need API keys from these services for full functionality:
 
-- [Trakt](https://metamanager.wiki/en/latest/config/trakt/)
 - [TMDb](https://metamanager.wiki/en/latest/config/tmdb/)
 - [MdbList](https://metamanager.wiki/en/latest/config/mdblist/)
 - [OMDb](https://metamanager.wiki/en/latest/config/omdb/)
-- [AniDB](https://metamanager.wiki/en/latest/config/anidb/)
 - [MyAnimeList](https://metamanager.wiki/en/latest/config/myanimelist/)
 - [Tautulli](https://metamanager.wiki/en/latest/config/tautulli/)
+- ~~[Trakt](https://metamanager.wiki/en/latest/config/trakt/)~~ (deprecated)
+- ~~[AniDB](https://metamanager.wiki/en/latest/config/anidb/)~~ (deprecated)
 
 ### Option 1: Docker Compose (Recommended)
 

@@ -318,7 +318,7 @@ collections:
   #               SUBGENRES 12.0             #
   ############################################
 
-  # Creates more unique genre collections based on certain themes from Trakt lists
+  # Creates more unique genre collections based on certain themes from MDblist lists
   Alien:
     template: { name: Subgenre }
     visible_library: weekly(monday|saturday)

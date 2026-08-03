@@ -104,7 +104,9 @@ collections:
     sonarr_add_missing: true
     sonarr_add_existing: true
     sonarr_monitor_existing: true
-    trakt_list: https://trakt.tv/users/jhn322/lists/upcoming-anime?sort=rank,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/jwag12787/upcoming-anime
+      limit: 60
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }

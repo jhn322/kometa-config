@@ -1,5 +1,5 @@
 ######################################################
-#                   SPECIALS 19.0                    #
+#                   SPECIALS 20.0                    #
 ######################################################
 templates:
   Special:
@@ -22,9 +22,7 @@ collections:
       - monthly(4)
       - monthly(6)
     file_poster: config/posters/1001+ Movies You Must See Before You Die.png
-    trakt_list:
-      - https://trakt.tv/users/captainnapalm/lists/1001-greatest-movies-of-all-time?sort=rank,asc
-      - https://trakt.tv/users/athwilson/lists/1001-movies?sort=released,desc
+    mdblist_list: https://mdblist.com/lists/treb118/1001-movies-you-must-see-before-you-die
 
   2160P:
     template: { name: Special }
@@ -50,7 +48,9 @@ collections:
     summary: Family Friendly recognizes outstanding entertainment with an official seal for quality and impact. Age Approved Selections include age-appropriate media with the potential to spark family conversations.
     visible_shared: monthly(25)
     file_poster: config/posters/Family Friendly.png
-    trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-movies
+    mdblist_list:
+      - https://mdblist.com/lists/k0meta/cssfamiliesmovies
+      - https://mdblist.com/lists/k0meta/family-favorites
 
   Favored: # Fetched information from Tautulli
     template: { name: Special Smart }
@@ -84,10 +84,10 @@ collections:
     radarr_add_missing: true
     radarr_add_existing: true
     radarr_monitor_existing: true
-    trakt_list:
-      - https://trakt.tv/users/irishstevo/lists/upcoming-movies?sort=rank,asc
-      - https://trakt.tv/users/abbelea/lists/movies-the-upcoming?sort=released,asc
-      - https://trakt.tv/users/dracid7/lists/upcoming-movies-digital-releases?sort=rank,asc
+    mdblist_list:
+      - https://mdblist.com/lists/zachattack77/recently-released
+      - https://mdblist.com/lists/l33tlamer/recently-released-and-rotten-tomatoes-60
+      - https://mdblist.com/lists/mholmk/new-movies-last-100-days-in-theaters
 
   No Swedish Subtitles:
     sync_mode: sync

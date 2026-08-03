@@ -16,7 +16,7 @@ templates:
     default:
       overlay: <<overlay_name>>
     collection_level: <<overlay_level>>
-    trakt_list: https://trakt.tv/users/kingoftheseas643/lists/trakt-top-100-movies?sort=added,asc
+    mdblist_list: https://mdblist.com/lists/ribera96/trakt-top-250
     overlay:
       name: <<overlay_name>>
 

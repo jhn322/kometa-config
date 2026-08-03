@@ -1,5 +1,5 @@
 ######################################################
-#                  FRANCHISES 8.5                    #
+#                  FRANCHISES 10.0                   #
 ######################################################
 
 templates:
@@ -22,7 +22,6 @@ collections:
     template: { name: Franchise }
     summary: Avatar is an animated television series set in a world where certain people are born with the ability to manipulate one of the four classical elements water, earth, fire, and air. The series follows the story of Aang, the last surviving Airbender and the Avatar, a person capable of bending all four elements and tasked with maintaining balance in the world.
     file_poster: config/posters/Avatar Universe.png
-    trakt_list: https://trakt.tv/users/abhikbhatia/lists/avatar-studios?sort=released,desc
     plex_search:
       any:
         title:
@@ -49,9 +48,10 @@ collections:
     template: { name: Franchise }
     summary: DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner being published in 1937.
     file_poster: config/posters/DC Television.png
-    trakt_list:
-      - https://trakt.tv/users/caspian024/lists/dc-tv?sort=released,asc
-      - https://trakt.tv/users/asif79/lists/dc-tv?sort=rank,asc
+    mdblist_list:
+      - https://mdblist.com/lists/benbaharom/dc-comics-d34o9i6d0u
+      - https://mdblist.com/lists/benmortimer13/dc-shows
+      - https://mdblist.com/lists/jarvis-14749120/dc-animated-tv-shows
     plex_search:
       any:
         title:
@@ -82,15 +82,12 @@ collections:
     summary: Game of Thrones is an epic fantasy television series that aired on HBO. The show is based on the "A Song of Ice and Fire" novels by George R.R. Martin and is set in the fictional world of Westeros, where different noble families fight for control of the Iron Throne, which represents the ultimate power in the Seven Kingdoms.
     file_poster: config/posters/Game of Thrones.png
     tmdb_show: 224372
-    trakt_list:
-      - https://trakt.tv/users/abhikbhatia/lists/world-of-ice-and-fire-collection?sort=rank,asc
-      - https://trakt.tv/users/mptpro/lists/game-of-thrones?sort=rank,asc
     plex_search:
       any:
         title:
           - game of thrones
           - house of the dragon
-          - the hedge knight
+          - a knight of the seven kingdoms
 
   He-Man and She-Ra:
     template: { name: Franchise }
@@ -107,10 +104,10 @@ collections:
     template: { name: Franchise }
     summary: Marvel Comics is an American comic book publisher and primary imprint of Marvel Worldwide Inc. (formerly Marvel Publishing, Inc. and Marvel Comics Group), part of Marvel Entertainment. In 2009, The Walt Disney Company acquired the parent company.
     file_poster: config/posters/Marvel Television.png
-    trakt_list:
-      - https://trakt.tv/users/traction1/lists/marvel-tv?sort=released,asc
-      - https://trakt.tv/users/caspian024/lists/marvel-tv?sort=released,asc
-      - https://trakt.tv/users/asif79/lists/marvel-tv?sort=rank,asc
+    mdblist_list:
+      - https://mdblist.com/lists/stealthgyro/marvel-cinematic-universe-mcu
+      - https://mdblist.com/lists/linvo/marvel-new-series
+      - https://mdblist.com/lists/jarvis-14749120/marvel-animated-tv-shows
     plex_search:
       any:
         studio: Marvel
@@ -123,19 +120,6 @@ collections:
           - thor & loki
           - fantastic four
           - marvel's
-
-  Marvel Cinematic Universe:
-    template: { name: Franchise }
-    summary: A collection of all Marvel Cinmatic Universe TV shows.
-    file_poster: config/posters/Marvel Cinematic Universe.png
-    trakt_list: https://trakt.tv/users/neohexane/lists/mcu-tv?sort=released,asc
-    plex_search:
-      all:
-        studio: Marvel Studios
-        title.not:
-          - unlimited
-          - and the
-          - silver
 
   Money Heist:
     template: { name: Franchise }
@@ -225,7 +209,9 @@ collections:
     template: { name: Franchise }
     summary: Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
     file_poster: config/posters/Star Wars TV.png
-    trakt_list: https://trakt.tv/users/arachn0id/lists/star-wars-tv-series?sort=released,desc
+    mdblist_list:
+      - https://mdblist.com/lists/faler/star-wars-tv-show
+      - https://mdblist.com/lists/docdrich/star-wars-shows
     plex_search:
       any:
         title:
@@ -287,10 +273,26 @@ collections:
     tmdb_show:
       - 299167
       - 275188
-    trakt_list: https://trakt.tv/users/kylereddoch/lists/yellowstone-universe
+    plex_search:
+      any:
+        title:
+          - yellowstone
+          - marshals
+          - 1923
+          - 1883
 
   Whoniverse:
     template: { name: Franchise }
     summary: The Whoniverse is the fictional universe in which the long-running British science fiction television series Doctor Who and its spin-offs take place.
     file_poster: config/posters/Whoniverse.jpg
-    trakt_list: https://trakt.tv/users/ayushs92/lists/doctor-who?sort=popularity,asc
+    mdblist_list: https://mdblist.com/lists/magikmedia/doctor-who-collection
+    tmdb_show:
+      - 64073
+      - 25831
+    plex_search:
+      any:
+        title:
+          - doctor who
+          - war between the land and the sea
+          - sarah jane adventures
+          - torchwood

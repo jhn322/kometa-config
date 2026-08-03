@@ -88,7 +88,7 @@ collections:
     visible_library: weekly(thursday|saturday)
     file_poster: config/posters/Family Friendly.png
     visible_shared: monthly(10)
-    trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-shows
+    mdblist_list: https://mdblist.com/lists/k0meta/cssfamiliesshows
 
   Favored: # Fetched information from Tautulli
     template: { name: Special Smart }
@@ -108,9 +108,9 @@ collections:
     template: { name: Special }
     summary: The lengthiest shows on Plex.
     file_poster: config/posters/Longest.png
-    trakt_list:
-      - https://trakt.tv/users/andrewh4352/lists/top-shows-long-running?sort=rank,asc
-      - https://trakt.tv/users/copeland1994/lists/all-time-series-rankings-long-running-shows-only?sort=rank,asc
+    mdblist_list:
+      - https://mdblist.com/lists/r7limit/best-tv-mainstream-quality-long
+      - https://mdblist.com/lists/davidam2022/the-longest-tv-shows
 
   Newly Released: # Released within last 2 months
     template: { name: Special Smart }
@@ -121,9 +121,9 @@ collections:
     sonarr_add_missing: true
     sonarr_add_existing: true
     sonarr_monitor_existing: true
-    trakt_list:
-      - https://trakt.tv/users/jhn322/lists/upcoming-tv?sort=rank,asc
-      - https://trakt.tv/users/jhn322/lists/upcoming-documentary?sort=rank,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/garycrawfordgc/latest-tv-shows
+      limit: 60
 
   Random: # Random TV shows with a rating above 4 from IMDb
     template: { name: Special Smart }

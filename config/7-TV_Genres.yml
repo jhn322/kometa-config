@@ -196,7 +196,8 @@ collections:
     visible_shared: weekly(tuesday)
     summary: All Korean shows in one place.
     mdblist_list:
-      - https://mdblist.com/lists/clankjake/k-drama
+      - https://mdblist.com/lists/janar10/recent-popular-k-dramas
+      - https://mdblist.com/lists/swoop081/trending-k-drama
       - https://mdblist.com/lists/mikeandjo-us/top-rated-k-dramas-since-2021-i57xdgvtpz
 
   Miniseries:
@@ -524,14 +525,6 @@ collections:
     file_poster: config/posters/Post Apocalyptic TV.png
     visible_shared: monthly(3)
     mdblist_list: https://mdblist.com/lists/k0meta/post-apocalyptic-worlds
-
-  Prison:
-    template: { name: Subgenre }
-    visible_library: weekly(monday|thursday)
-    summary: Shows taking place inside a prison.
-    file_poster: config/posters/Prison TV.png
-    visible_shared: monthly(12)
-    trakt_list: https://trakt.tv/users/aliasrogue/lists/crime-punishment?sort=rank,asc
 
   Romantic Comedy:
     template: { name: Subgenre Other }

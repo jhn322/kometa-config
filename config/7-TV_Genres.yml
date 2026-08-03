@@ -380,7 +380,7 @@ collections:
     summary: Showcasing brainy lawyers, gripping cases, and complex plotlines, these are the best legal dramas to watch
     file_poster: config/posters/Courtroom TV.png
     visible_shared: monthly(7)
-    mdblist_list: https://mdblist.com/lists/ulawumi/lawyers
+    mdblist_list: https://mdblist.com/lists/doodooface/legal-or-medical
 
   Dark Comedy:
     template: { name: Subgenre }
@@ -438,7 +438,10 @@ collections:
     summary: Shows where the main protagonist is a monster of some form.
     file_poster: config/posters/Monster TV.png
     visible_shared: monthly(9)
-    mdblist_list: https://mdblist.com/lists/mulanzo1/giant-monsters-shows
+    mdblist_list:
+      - https://mdblist.com/lists/mulanzo1/giant-monsters-shows
+      - https://mdblist.com/lists/camcorrado/demons
+      - https://mdblist.com/lists/camcorrado/ghosts
 
   Music:
     template: { name: Subgenre Other }
@@ -595,7 +598,7 @@ collections:
     template: { name: Subgenre }
     visible_library: weekly(tuesday|friday)
     summary: True Crime shows focus on real-life criminal cases, often exploring the investigation and aftermath of these events.
-    file_poster: config/posters/True Crime.png
+    file_poster: config/posters/True Crime TV.png
     visible_shared: weekly(saturday)
     mdblist_list:
       - https://mdblist.com/lists/an-kah/best-true-crime-shows

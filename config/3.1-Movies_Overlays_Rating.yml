@@ -22,9 +22,9 @@ templates:
       font: fonts/Inter-Medium.ttf
       font_size: 60
       font_color: "#FFFFFF"
-      horizontal_offset: -306
+      horizontal_offset: -295
       horizontal_align: center
-      vertical_offset: 1422
+      vertical_offset: 1423
       vertical_align: top
 
 overlays:

@@ -133,15 +133,15 @@ Nightly: docker pull kometateam/kometa:nightly
 
 **Movies**
 
-![image search api](https://i.imgur.com/cTeNiMb.png)
+![image search api](https://i.imgur.com/V5UGyE5.png)
 
 **TV**
 
-![image search api](https://i.imgur.com/7cUfZ53.png)
+![image search api](https://i.imgur.com/qAkuL7e.png)
 
 **Remux**
 
-![image search api](https://i.imgur.com/lcFOxiG.png)
+![image search api](https://i.imgur.com/Ojwejbr.png)
 
 ## 📚 Documentation
 

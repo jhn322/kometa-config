@@ -175,8 +175,8 @@ What does the star icon next to the rating overlay on posters mean you might ask
 
 **Anime**
 
-![image search api](https://i.imgur.com/FmzDHkO.png)
+![image search api](https://i.imgur.com/kYIocyQ.png)
 
 **Movies**
 
-![image search api](https://i.imgur.com/xcq8HqX.png)
+![image search api](https://i.imgur.com/gxHQeiD.png)

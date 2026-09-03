@@ -1520,6 +1520,9 @@ collections:
     template: { name: Author }
     summary: Astrid Lindgren was a Swedish author known for her children's books, particularly the character Pippi Longstocking.
     file_poster: config/posters/Astrid Lindgren.png
+    letterboxd_list:
+      - https://letterboxd.com/aliceeriksson/list/astrid-lindgren/
+      - https://letterboxd.com/tyrion_baggins/list/astrid-lindgren-1/
     plex_search:
       any:
         writer: Astrid Lindgren

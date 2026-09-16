@@ -509,7 +509,7 @@ collections:
     visible_shared: monthly(17)
     mdblist_list:
       - https://mdblist.com/lists/tlipfert/police-corruption
-      - https://mdblist.com/lists/sf37/police-procedurals
+      - https://mdblist.com/lists/blackduke77/uk-crime-police-drama
 
   Political:
     template: { name: Subgenre }

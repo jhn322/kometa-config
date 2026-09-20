@@ -370,7 +370,9 @@ collections:
     summary: Movies that leave you visibly shaken. Masterclasses in building tension that make you feel truly anxious for whatever is happening on screen.
     file_poster: config/posters/Anxiety.png
     limit: 300
-    letterboxd_list: https://letterboxd.com/juliendonkeyboi/list/anxiety-inducing-cinema/
+    letterboxd_list:
+      - https://letterboxd.com/ecemkarafazli/list/anxiety/
+      - https://letterboxd.com/maricorrea/list/anxiety/
 
   Artificial Intelligence:
     template: { name: Subgenre }
@@ -469,7 +471,7 @@ collections:
     visible_library: weekly(thursday|saturday)
     summary: A con artist is someone who uses deception and manipulation to gain the trust of others and then exploit them for personal gain. Con artists often have a charming and charismatic personality, which allows them to convince their victims to trust them.
     file_poster: config/posters/Con-Artist.png
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     limit: 300
     letterboxd_list: https://letterboxd.com/shrill_falsetto/list/con-artistry-films-to-watch-or-rewatch/
 
@@ -1101,7 +1103,7 @@ collections:
     visible_library: weekly(tuesday|sunday)
     summary: Surrealism is an artistic and literary movement that emerged in the early 20th century, characterized by a focus on the subconscious mind and the exploration of the imagination. Surrealism sought to break free from traditional art and literary forms, emphasizing the irrational, the dreamlike, and the bizarre.
     file_poster: config/posters/Surrealism.png
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     letterboxd_list:
       - https://letterboxd.com/anniw/list/surrealism/
       - https://letterboxd.com/kassabov/list/surrealism/

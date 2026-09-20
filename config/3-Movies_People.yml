@@ -76,7 +76,7 @@ collections:
   Anya Taylor-Joy:
     template: { name: Actor }
     file_poster: config/posters/Anya Taylor-Joy.png
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     plex_search:
       all:
         actor: Anya Taylor-Joy
@@ -191,7 +191,7 @@ collections:
   Choi Min-sik:
     template: { name: Actor }
     file_poster: config/posters/Choi Min-sik.png
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     plex_search:
       all:
         actor: Choi Min-sik
@@ -451,7 +451,7 @@ collections:
 
   Jessica Chastain:
     template: { name: Actor }
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     file_poster: config/posters/Jessica Chastain.png
     plex_search:
       all:

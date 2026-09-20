@@ -107,7 +107,7 @@ collections:
     template: { name: Movie }
     visible_library: weekly(monday|saturday)
     limit: 200
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
     file_poster: config/posters/Metacritic Must See.png
     letterboxd_list: https://letterboxd.com/richatthepics/list/metacritic-must-see-movies-of-all-time-metascore/

@@ -52,7 +52,7 @@ collections:
     visible_library: weekly(wednesday|sunday)
     visible_shared:
       - monthly(14)
-      - monthly(31)
+      - monthly(28)
     summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
     file_poster: config/posters/Metacritic Must See.png
     mdblist_list:

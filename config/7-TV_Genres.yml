@@ -478,7 +478,7 @@ collections:
     visible_library: weekly(thursday|sunday)
     summary: A Pandemic show resolves around widespread viruses, plagues, and diseases.
     file_poster: config/posters/Pandemic TV.png
-    visible_shared: monthly(31)
+    visible_shared: monthly(last)
     mdblist_list: https://mdblist.com/lists/unklebubbie/pandemic
 
   Paranormal:

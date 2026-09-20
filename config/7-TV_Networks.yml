@@ -236,8 +236,8 @@ collections:
     template: { name: streaming, network: "Peacock" }
     file_poster: config/posters/Peacock.png
     visible_shared:
-      - monthly(31)
-      - monthly(30)
+      - monthly(29)
+      - monthly(28)
 
   Prime Video:
     template: { name: streaming, network: "Prime Video" }

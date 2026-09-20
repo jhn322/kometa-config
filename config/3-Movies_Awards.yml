@@ -27,7 +27,7 @@ collections:
     visible_library: weekly(monday|wednesday)
     summary: The British Academy Film Awards is an annual award show hosted by the British Academy of Film and Television Arts (BAFTA) to honour the best British and international contributions to film. The ceremonies were initially held at the flagship Odeon cinema in Leicester Square in London, before being held at the Royal Opera House.
     file_poster: config/posters/BAFTA Best Film.png
-    visible_shared: monthly(27)
+    visible_shared: monthly(24)
     imdb_award:
       event_id: "ev0000123"
       event_year: "1949-current"
@@ -186,7 +186,7 @@ collections:
   Oscars - Nominees:
     template: { name: Awards }
     visible_library: weekly(tuesday|saturday)
-    visible_shared: monthly(29)
+    visible_shared: monthly(26)
     file_poster: config/posters/Oscars Nominees.png
     summary: Oscar Category Winning Movies.
     imdb_award:
@@ -202,8 +202,8 @@ collections:
     template: { name: Awards }
     visible_library: weekly(monday|sunday)
     visible_shared:
-      - monthly(30)
-      - monthly(31)
+      - monthly(27)
+      - monthly(28)
     file_poster: config/posters/Oscars Winners.png
     summary: Oscar Category Winning Movies.
     imdb_award:

@@ -1,0 +1,22 @@
+services:
+  kometa-run:
+    image: lscr.io/linuxserver/kometa:develop
+    container_name: kometa-run
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+      - KOMETA_DELETE_LABELS=False
+      - KOMETA_CONFIG=/config/config.yml #optional
+      - KOMETA_RUN=True #optional
+      - KOMETA_TEST=False #optional
+      - KOMETA_NO_MISSING=False #optional
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
+
+#cd /home/jhn/Docker/containers/Kometa
+#sudo docker-compose up -d
+
+#docker pull kometateam/kometa
+#sudo docker-compose up -d

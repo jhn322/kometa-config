@@ -1,4 +1,3 @@
-version: "2.1"
 services:
   plex-meta-manager:
     image: lscr.io/linuxserver/kometa

@@ -1,4 +1,3 @@
-version: "2.1"
 services:
   kometa-operations:
     image: lscr.io/linuxserver/kometa

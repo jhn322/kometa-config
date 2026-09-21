@@ -1,5 +1,95 @@
-# Adds the no swedish subtitles overlay to all qualified movies
+# Adds the no [language] subtitles overlay to all qualified movies
 templates:
+  # No Danish Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-Danish-Subtitles.png
+
+  # No Dutch Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-Dutch-Subtitles.png
+
+  # No English Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-English-Subtitles.png
+
+  # No French Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-French-Subtitles.png
+
+  # No German Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-German-Subtitles.png
+
+  # No Italian Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-Italian-Subtitles.png
+
+  # No Norwegian Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-Norwegian-Subtitles.png
+
+  # No Portuguese Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-Portuguese-Subtitles.png
+
+  # No Spanish Subtitles:
+  #   optional:
+  #     - overlay_level
+  #   default:
+  #     overlay: <<overlay_name>>
+  #   collection_level: <<overlay_level>>
+  #   overlay:
+  #     name: <<overlay_name>>
+  #     file_poster: config/overlays/No-Spanish-Subtitles.png
+
   No Swedish Subtitles:
     optional:
       - overlay_level
@@ -11,6 +101,69 @@ templates:
       file_poster: config/overlays/No-Swedish-Subtitles.png
 
 overlays:
+  # No-Danish-Subtitles:
+  #   template:
+  #     - name: No Danish Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: da
+
+  # No-Dutch-Subtitles:
+  #   template:
+  #     - name: No Dutch Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: nl
+
+  # No-English-Subtitles:
+  #   template:
+  #     - name: No English Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: en
+
+  # No-French-Subtitles:
+  #   template:
+  #     - name: No French Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: fr
+
+  # No-German-Subtitles:
+  #   template:
+  #     - name: No German Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: de
+
+  # No-Italian-Subtitles:
+  #   template:
+  #     - name: No Italian Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: it
+
+  # No-Norwegian-Subtitles:
+  #   template:
+  #     - name: No Norwegian Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: no
+
+  # No-Portuguese-Subtitles:
+  #   template:
+  #     - name: No Portuguese Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: pt
+
+  # No-Spanish-Subtitles:
+  #   template:
+  #     - name: No Spanish Subtitles
+  #   plex_search:
+  #     all:
+  #       subtitle_language.not: es
+
   No-Swedish-Subtitles:
     template:
       - name: No Swedish Subtitles

@@ -89,16 +89,6 @@ collections:
       - https://mdblist.com/lists/l33tlamer/recently-released-and-rotten-tomatoes-60
       - https://mdblist.com/lists/mholmk/new-movies-last-100-days-in-theaters
 
-  No Swedish Subtitles:
-    sync_mode: sync
-    sort_title: zzzzzzzzzzz_No Swedish Subtitles
-    file_poster: config/posters/No Swedish Subtitles.png
-    summary: Movies yet to recieve swedish subtitles.
-    smart_filter:
-      sort_by: added.desc
-      all:
-        subtitle_language.not: sv
-
   Random: # Random movies with a rating above 4 from IMDb
     template: { name: Special Smart }
     visible_library: weekly(thursday|saturday)
@@ -144,3 +134,108 @@ collections:
       validate: false
       all:
         audience_rating.lte: 4.0
+
+  ##########################################################
+  #                 NO SUBTITLE LANGUAGES 2.0              #
+  ##########################################################
+  # Choose one language below and do the same within 3.1-Movies_Overlays_Subtitle.yml. Then enable the overlay file in config.yml.
+
+  # No Danish Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No Danish Subtitles
+  #   file_poster: config/posters/No Danish Subtitles.png
+  #   summary: Movies yet to recieve danish subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: da
+
+  # No Dutch Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No Dutch Subtitles
+  #   file_poster: config/posters/No Dutch Subtitles.png
+  #   summary: Movies yet to recieve dutch subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: nl
+
+  # No English Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No English Subtitles
+  #   file_poster: config/posters/No English Subtitles.png
+  #   summary: Movies yet to recieve english subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: en
+
+  # No French Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No French Subtitles
+  #   file_poster: config/posters/No French Subtitles.png
+  #   summary: Movies yet to recieve french subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: fr
+
+  # No German Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No German Subtitles
+  #   file_poster: config/posters/No German Subtitles.png
+  #   summary: Movies yet to recieve german subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: de
+
+  # No Italian Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No Italian Subtitles
+  #   file_poster: config/posters/No Italian Subtitles.png
+  #   summary: Movies yet to recieve italian subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: it
+
+  # No Norwegian Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No Norwegian Subtitles
+  #   file_poster: config/posters/No Norwegian Subtitles.png
+  #   summary: Movies yet to recieve norwegian subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: no
+
+  # No Portuguese Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No Portuguese Subtitles
+  #   file_poster: config/posters/No Portuguese Subtitles.png
+  #   summary: Movies yet to recieve portuguese subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: pt
+
+  # No Spanish Subtitles:
+  #   sync_mode: sync
+  #   sort_title: zzzzzzzzzzz_No Spanish Subtitles
+  #   file_poster: config/posters/No Spanish Subtitles.png
+  #   summary: Movies yet to recieve spanish subtitles.
+  #   smart_filter:
+  #     sort_by: added.desc
+  #     all:
+  #       subtitle_language.not: es
+
+  No Swedish Subtitles:
+    sync_mode: sync
+    sort_title: zzzzzzzzzzz_No Swedish Subtitles
+    file_poster: config/posters/No Swedish Subtitles.png
+    summary: Movies yet to recieve swedish subtitles.
+    smart_filter:
+      sort_by: added.desc
+      all:
+        subtitle_language.not: sv

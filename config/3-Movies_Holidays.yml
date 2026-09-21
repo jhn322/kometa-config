@@ -18,7 +18,7 @@ collections:
     summary: Ho ho ho.
     file_poster: config/posters/Christmas.png
     letterboxd_list:
-      - https://letterboxd.com/patrickb15/list/christmas/
+      - https://letterboxd.com/randy_little/list/christmas-movies/
       - https://letterboxd.com/ryukiation/list/christmas/
 
   Easter 🐣:
@@ -28,7 +28,6 @@ collections:
     summary: The Easter bunny is here!
     file_poster: config/posters/Easter.png
     letterboxd_list:
-      - https://letterboxd.com/patrickb15/list/easter/
       - https://letterboxd.com/shyann_thomas/list/easter/
       - https://letterboxd.com/gabyanahisoto/list/easter/
 
@@ -39,7 +38,7 @@ collections:
     summary: Every Fathers Special day.
     file_poster: config/posters/Fathers Day.png
     letterboxd_list:
-      - https://letterboxd.com/patrickb15/list/fathers-day/
+      - https://letterboxd.com/bentondodd/list/fathers-day/
       - https://letterboxd.com/joshhiso/list/fathers-day/
 
   Halloween 👻:
@@ -51,7 +50,6 @@ collections:
     letterboxd_list:
       - https://letterboxd.com/summerof83/list/halloween/
       - https://letterboxd.com/jennomaes/list/halloween/
-      - https://letterboxd.com/patrickb15/list/halloween/
 
   Mothers Day 👩‍👧:
     template: { name: Holiday }
@@ -60,7 +58,7 @@ collections:
     summary: Every Mothers special day.
     file_poster: config/posters/Mothers Day.png
     letterboxd_list:
-      - https://letterboxd.com/patrickb15/list/mothers-day/
+      - https://letterboxd.com/seppi0630/list/mothers-day/
       - https://letterboxd.com/gainsbourg/list/mothers-day/
 
   New Years 🍾:

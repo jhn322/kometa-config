@@ -72,9 +72,7 @@ collections:
       - monthly(8)
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
-    mdblist_list:
-      url: https://mdblist.com/lists/k0meta/trakt-popular
-      limit: 100
+    mdblist_list: https://mdblist.com/lists/k0meta/trakt-popular
 
   RT - Certified Fresh: # Rotten Tomatoes specific chart lists
     template: { name: TV }
@@ -164,9 +162,7 @@ collections:
   Trending: # Trending list from Trakt and TMDb
     template: { name: TV Release }
     tmdb_trending_weekly: 30
-    mdblist_list:
-      url: https://mdblist.com/lists/meskarro/trakt-trending-tv-shows
-      limit: 30
+    mdblist_list: https://mdblist.com/lists/meskarro/trakt-trending-tv-shows
     sort_title: +_ZTrending
     visible_library: weekly(monday|thursday)
     visible_shared:

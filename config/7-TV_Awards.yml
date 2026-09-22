@@ -4,15 +4,11 @@
 
 templates:
   Awards:
-    optional:
-      - trakt_list
     sort_title: "zzz_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc
     visible_library: false
     delete_not_scheduled: false
-    trakt_list:
-      - <<trakt_list>>
 
   Letterboxd:
     optional:
@@ -30,8 +26,6 @@ templates:
       limit: 9999
 
   Custom:
-    optional:
-      - trakt_list
     sort_title: "zzz_<<collection_name>>"
     sync_mode: sync
     smart_label: release.desc

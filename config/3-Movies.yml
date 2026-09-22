@@ -210,9 +210,7 @@ collections:
     template: { name: Movie Release }
     visible_library: weekly(monday|friday)
     tmdb_trending_weekly: 30
-    mdblist_list:
-      url: https://mdblist.com/lists/cb2131/emby-trakt-trending-movies
-      limit: 30
+    mdblist_list: https://mdblist.com/lists/cb2131/emby-trakt-trending-movies
     sort_title: +_ZTrending
     visible_shared:
       - monthly(29)

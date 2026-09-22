@@ -4,15 +4,11 @@
 
 templates:
   Awards:
-    optional:
-      - trakt_list
     sort_title: zz_<<collection_name>>
     sync_mode: sync
     smart_label: release.desc
     delete_not_scheduled: false
     visible_library: false
-    trakt_list:
-      - <<trakt_list>>
 
   Award:
     smart_label: release.desc

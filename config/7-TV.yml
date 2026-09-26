@@ -149,7 +149,7 @@ collections:
   Trakt - Recommended:
     template: { name: TV }
     mdblist_list:
-      url: https://mdblist.com/lists/olson.ben2/trakt-recommended-tv
+      url: https://mdblist.com/lists/billryan/trakt-recommended-tv
       limit: 30
     sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.

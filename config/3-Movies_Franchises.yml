@@ -702,6 +702,14 @@ collections:
     file_poster: config/posters/The Delta Force.jpg
     tmdb_collection: 126166
 
+  Detective Conan:
+    template: { name: Franchise }
+    summary: The Detective Conan movie series consists of multiple films based on the manga series of the same name by Gosho Aoyama. The movies follow the adventures of Conan Edogawa, a high school student who is shrunk to the size of a child and can solve complex mysteries.
+    file_poster: config/posters/Detective Conan.png
+    plex_search:
+      all:
+        title: Detective conan
+
   Deuce Bigalow:
     template: { name: Franchise }
     summary: The Deuce Bigalow movie series consists of two comedy films starring Rob Schneider as the titular character, Deuce Bigalow. The movies follow the misadventures of Deuce, an unlikely male gigolo who gets into hilarious and awkward situations.

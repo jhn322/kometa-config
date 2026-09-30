@@ -707,8 +707,10 @@ collections:
     summary: The Detective Conan movie series consists of multiple films based on the manga series of the same name by Gosho Aoyama. The movies follow the adventures of Conan Edogawa, a high school student who is shrunk to the size of a child and can solve complex mysteries.
     file_poster: config/posters/Detective Conan.png
     plex_search:
-      all:
-        title: Detective conan
+      any:
+        title:
+          - Detective conan
+          - Case closed
 
   Deuce Bigalow:
     template: { name: Franchise }

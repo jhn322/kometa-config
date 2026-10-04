@@ -10,16 +10,6 @@ templates:
     overlay:
       name: <<overlay_name>>
 
-  Trakt Top:
-    optional:
-      - overlay_level
-    default:
-      overlay: <<overlay_name>>
-    collection_level: <<overlay_level>>
-    mdblist_list: https://mdblist.com/lists/ayeshaamittal/trakt-top-shows
-    overlay:
-      name: <<overlay_name>>
-
   TMDB Top:
     optional:
       - overlay_level
@@ -30,21 +20,31 @@ templates:
     overlay:
       name: <<overlay_name>>
 
+  Trakt Top:
+    optional:
+      - overlay_level
+    default:
+      overlay: <<overlay_name>>
+    collection_level: <<overlay_level>>
+    mdblist_list: https://mdblist.com/lists/ayeshaamittal/trakt-top-shows
+    overlay:
+      name: <<overlay_name>>
+
 # Sorted by priority from most to least important
 overlays:
   IMDB-Top:
     template:
       - name: IMDB Top
     suppress_overlays:
+      - TMDB-Top
       - Trakt-Top
-      - TMDB-Top
-
-  Trakt-Top:
-    template:
-      - name: Trakt Top
-    suppress_overlays:
-      - TMDB-Top
 
   TMDB-Top:
     template:
       - name: TMDB Top
+    suppress_overlays:
+      - Trakt-Top
+
+  Trakt-Top:
+    template:
+      - name: Trakt Top

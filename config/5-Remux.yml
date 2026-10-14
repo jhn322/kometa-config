@@ -1,13 +1,228 @@
 ######################################################
-#                   UNWATCHED 3.0                    #
+#                    REMUX 4.0                       #
 ######################################################
 templates:
+  Movie:
+    smart_label: random
+    sync_mode: sync
+    sort_title: +++_<<collection_name>>
+
+  Movie Basic:
+    sync_mode: sync
+    sort_title: +++_<<collection_name>>
+
+  Movie Release:
+    smart_label: release.desc
+    sync_mode: sync
+    sort_title: +++_<<collection_name>>
+
+  Movie Top:
+    sync_mode: sync
+
   Standard:
     sort_title: +_<<collection_name>>
     visible_library: true
 
 # Every unwatched remux movie
 collections:
+  # IMDb - Best Recent: # IMDb specific chart lists
+  #   template: { name: Movie Top }
+  #   visible_library: weekly(monday|wednesday)
+  #   sort_title: ++_IMDb Best Recent
+  #   visible_shared:
+  #     - monthly(19)
+  #     - monthly(20)
+  #   summary: Movies rated 6.8 or higher on IMDb, released in the past 3 months.
+  #   file_poster: config/posters/IMDb Best Recent.png
+  #   smart_filter:
+  #     sort_by: audience_rating.desc
+  #     validate: false
+  #     all:
+  #       audience_rating.gte: 7.0
+  #       release: 90
+
+  IMDb - Top 250:
+    template: { name: Movie Basic }
+    visible_library: weekly(tuesday|thursday)
+    sort_title: ++_IMDb top 250
+    smart_label: audience_rating.desc
+    summary: 250 highest rated movies on IMDb.
+    visible_shared:
+      - monthly(10)
+      - monthly(11)
+    file_poster: config/posters/IMDb Top 250 Gold.png
+    mdblist_list: https://mdblist.com/lists/aramil89/imdb-top-250
+
+  # Letterboxd - Best Picture: # Letterboxd specific chart lists
+  #   template: { name: Movie Release }
+  #   visible_library: weekly(wednesday|friday)
+  #   summary: Best movie of every year according to Letterboxd.
+  #   file_poster: config/posters/Letterboxd Best Picture.png
+  #   letterboxd_list: https://letterboxd.com/retro_ruby/list/best-picture-of-letterboxd-1920-2025/
+
+  # Letterboxd - Million Watched:
+  #   template: { name: Movie }
+  #   visible_library: weekly(thursday|saturday)
+  #   summary: Movies with over a million views on Letterboxd.
+  #   file_poster: config/posters/Letterboxd Million Watched.png
+  #   letterboxd_list:
+  #     - https://letterboxd.com/clipping3/list/letterboxd-two-million-watched-club-9/
+  #     - https://letterboxd.com/alexanderh/list/letterboxd-one-million-watched-club/
+
+  # Letterboxd - Most Fans:
+  #   template: { name: Movie }
+  #   visible_library: weekly(friday|sunday)
+  #   summary: Movies with the most "fans" on Letterboxd.
+  #   visible_shared: monthly(15)
+  #   file_poster: config/posters/Letterboxd Most Fans.png
+  #   letterboxd_list: https://letterboxd.com/official/list/most-fans-on-letterboxd/
+
+  Letterboxd - Top 250:
+    template: { name: Movie Basic }
+    visible_library: weekly(monday|thursday)
+    collection_order: custom
+    visible_shared: monthly(26)
+    summary: 250 best movies according to Letterboxd.
+    file_poster: config/posters/Letterboxd Top 250 Gold.png
+    letterboxd_list: https://letterboxd.com/barneyk/list/letterboxd-top-250/
+
+  # MAL - Most Favorited: # MyAnimeList specific chart lists
+  #   template: { name: Movie }
+  #   mal_favorite: 500
+  #   visible_library: false
+  #   summary: Most favorited animes on MyAnimeList.
+  #   file_poster: config/posters/MAL Most Favorited.png
+
+  # MAL - Popular:
+  #   template: { name: Movie }
+  #   mal_popular: 500
+  #   visible_library: false
+  #   summary: Anime movies popular this season according to MyAnimeList and Anilist.
+  #   file_poster: config/posters/MAL Popular.png
+
+  # MAL - Top Rated:
+  #   template: { name: Movie }
+  #   visible_library: weekly(tuesday|friday)
+  #   mal_movie: 500
+  #   visible_shared: monthly(18)
+  #   summary: The highest rated anime movies ever according to MyAnimeList.
+  #   file_poster: config/posters/MAL Top Rated Gold.png
+
+  # Metacritic - Must-See:
+  #   template: { name: Movie }
+  #   visible_library: weekly(monday|saturday)
+  #   limit: 200
+  #   visible_shared: monthly(last)
+  #   summary: Metacritic labels a show as "Must-See" when it achieves a Metascore of 81 or higher and has been reviewed by a minimum of 15 professional critics.
+  #   file_poster: config/posters/Metacritic Must See.png
+  #   letterboxd_list: https://letterboxd.com/richatthepics/list/metacritic-must-see-movies-of-all-time-metascore/
+
+  # Popular: # Popular list from IMDb, Trakt and TMDb
+  #   template: { name: Movie }
+  #   visible_library: weekly(tuesday|saturday)
+  #   tmdb_popular: 50
+  #   sort_title: +_XPopular
+  #   visible_shared:
+  #     - monthly(1)
+  #     - monthly(7)
+  #     - monthly(20)
+  #   file_poster: config/posters/Popular.png
+  #   summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
+  #   mdblist_list: https://mdblist.com/lists/k0meta/trakt-popular
+
+  # RT - Certified Fresh: # Rotten Tomatoes specific chart lists
+  #   template: { name: Movie }
+  #   visible_library: weekly(wednesday|saturday)
+  #   limit: 200
+  #   visible_shared: monthly(14)
+  #   summary: Certified fresh A special distinction awarded to the best reviewed movies.
+  #   file_poster: config/posters/Rotten Tomatoes Certified Fresh.png
+  #   letterboxd_list: https://letterboxd.com/astroturd/list/certified-fresh-tomatoes/
+
+  # TMDb - Now Playing: # TMDb specific chart lists
+  #   template: { name: Movie Release }
+  #   tmdb_now_playing: 50
+  #   file_poster: config/posters/TMDb Now Playing.png
+  #   visible_library: false
+  #   visible_shared: monthly(3)
+  #   summary: Recentley released movies on TMDb.
+
+  Top Rated: # Top rated list from Trakt and TMdb
+    template: { name: Movie }
+    visible_library: weekly(monday|sunday)
+    tmdb_top_rated: 350
+    sort_title: +_Top Rated
+    visible_shared:
+      - monthly(2)
+      - monthly(14)
+      - monthly(15)
+      - monthly(16)
+      - monthly(27)
+    file_poster: config/posters/Top Rated.png
+    summary: Top Rated Movies on Trakt and TMDb.
+    mdblist_list: https://mdblist.com/lists/abdulwahabaa/trakt-top-rated-movies
+
+  # TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
+  #   template: { name: Movie Basic }
+  #   summary: Most pirated movies of the week according TorrentFreak.
+  #   visible_library: false
+  #   collection_order: custom
+  #   file_poster: config/posters/TorrentFreak Most Pirated.png
+  #   mdblist_list: https://mdblist.com/lists/k0meta/top-ten-pirated-movies-of-the-week-torrent-freakcom
+
+  # Trakt - Most Watched (All-Time): # Trakt specific chart lists
+  #   template: { name: Movie }
+  #   visible_library: weekly(tuesday|sunday)
+  #   mdblist_list:
+  #     url: https://mdblist.com/lists/cb2131/emby-trakt-most-watched-movies
+  #     limit: 200
+  #   file_poster: config/posters/Trakt Most Watched All-Time.png
+  #   visible_shared: monthly(13)
+  #   summary: Movies most watched online of all time.
+
+  # Trakt - Most Watched (Monthly):
+  #   template: { name: Movie }
+  #   visible_library: weekly(wednesday|sunday)
+  #   mdblist_list:
+  #     url: https://mdblist.com/lists/noveggies/trakt-most-watched-monthly
+  #     limit: 100
+  #   file_poster: config/posters/Trakt Most Watched Monthly.png
+  #   summary: Most watched movies across the internet this month.
+  #   visible_shared: monthly(10)
+
+  # Trakt - Most Watched (Yearly):
+  #   template: { name: Movie }
+  #   visible_library: weekly(thursday|sunday)
+  #   mdblist_list:
+  #     url: https://mdblist.com/lists/noveggies/trakt-most-watched-yearly
+  #     limit: 100
+  #   file_poster: config/posters/Trakt Most Watched Yearly.png
+  #   summary: Most watched movies across the internet this year.
+  #   visible_shared: monthly(12)
+
+  # Trakt - Recommended:
+  #   template: { name: Movie }
+  #   visible_library: weekly(friday|sunday)
+  #   mdblist_list:
+  #     url: https://mdblist.com/lists/zipy/trakt-recommended-monthly
+  #     limit: 60
+  #   sort_title: ++_Trakt - Recommended
+  #   summary: Shows recommended by trakt API.
+  #   visible_shared: monthly(19)
+  #   file_poster: config/posters/Trakt Recommended.png
+
+  # Trending: # Trending list from Trakt and TMDb
+  #   template: { name: Movie Release }
+  #   visible_library: weekly(monday|friday)
+  #   tmdb_trending_weekly: 30
+  #   mdblist_list: https://mdblist.com/lists/cb2131/emby-trakt-trending-movies
+  #   sort_title: +_ZTrending
+  #   visible_shared:
+  #     - monthly(29)
+  #     - monthly(30)
+  #   file_poster: config/posters/Trending.png
+  #   summary: Shows trending on Trakt and TMDb this week.
+
   Unwatched:
     template: { name: Standard }
     summary: Unwatched Remux movies I am planning to watch.

@@ -49,7 +49,7 @@ collections:
 
   Metacritic - Must-See: # Metacritic specific chart lists
     template: { name: TV }
-    visible_library: weekly(wednesday|sunday)
+    visible_library: weekly(thursday|sunday)
     visible_shared:
       - monthly(14)
       - monthly(28)
@@ -65,11 +65,12 @@ collections:
     sort_title: +_XPopular
     visible_library: weekly(thursday|saturday)
     visible_shared:
-      - monthly(10)
-      - monthly(12)
-      - monthly(22)
       - monthly(7)
       - monthly(8)
+      - monthly(10)
+      - monthly(19)
+      - monthly(20)
+      - monthly(27)
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
     mdblist_list: https://mdblist.com/lists/k0meta/trakt-popular
@@ -102,12 +103,12 @@ collections:
     sort_title: +_Top Rated
     visible_library: weekly(tuesday|sunday)
     visible_shared:
-      - monthly(17)
-      - monthly(18)
       - monthly(2)
       - monthly(11)
       - monthly(16)
-      - monthly(15)
+      - monthly(17)
+      - monthly(18)
+      - monthly(24)
     file_poster: config/posters/Top Rated.png
     summary: Top Rated Shows on Trakt and TMDb.
     mdblist_list:
@@ -164,9 +165,13 @@ collections:
     tmdb_trending_weekly: 30
     mdblist_list: https://mdblist.com/lists/meskarro/trakt-trending-tv-shows
     sort_title: +_ZTrending
-    visible_library: weekly(monday|thursday)
+    visible_library: weekly(monday|wednesday)
     visible_shared:
+      - monthly(3)
+      - monthly(5)
+      - monthly(12)
+      - monthly(15)
+      - monthly(21)
       - monthly(26)
-      - monthly(24)
     file_poster: config/posters/Trending.png
     summary: Shows trending on Trakt and TMDb this week.

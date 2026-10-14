@@ -119,8 +119,11 @@ collections:
     sort_title: +_XPopular
     visible_shared:
       - monthly(1)
+      - monthly(5)
       - monthly(7)
-      - monthly(20)
+      - monthly(15)
+      - monthly(21)
+      - monthly(24)
     file_poster: config/posters/Popular.png
     summary: Popular shows on IMDb, Trakt and TMDb over the past few months.
     mdblist_list: https://mdblist.com/lists/k0meta/trakt-popular
@@ -144,15 +147,16 @@ collections:
 
   Top Rated: # Top rated list from Trakt and TMdb
     template: { name: Movie }
-    visible_library: weekly(monday|sunday)
+    visible_library: weekly(wednesday|sunday)
     tmdb_top_rated: 350
     sort_title: +_Top Rated
     visible_shared:
       - monthly(2)
-      - monthly(14)
-      - monthly(15)
-      - monthly(16)
-      - monthly(27)
+      - monthly(6)
+      - monthly(8)
+      - monthly(17)
+      - monthly(22)
+      - monthly(25)
     file_poster: config/posters/Top Rated.png
     summary: Top Rated Movies on Trakt and TMDb.
     mdblist_list: https://mdblist.com/lists/abdulwahabaa/trakt-top-rated-movies
@@ -213,7 +217,11 @@ collections:
     mdblist_list: https://mdblist.com/lists/cb2131/emby-trakt-trending-movies
     sort_title: +_ZTrending
     visible_shared:
-      - monthly(29)
-      - monthly(30)
+      - monthly(4)
+      - monthly(9)
+      - monthly(16)
+      - monthly(20)
+      - monthly(23)
+      - monthly(27)
     file_poster: config/posters/Trending.png
     summary: Shows trending on Trakt and TMDb this week.

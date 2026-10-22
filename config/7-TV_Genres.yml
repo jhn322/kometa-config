@@ -602,7 +602,7 @@ collections:
     visible_shared: weekly(saturday)
     mdblist_list:
       - https://mdblist.com/lists/an-kah/best-true-crime-shows
-      - https://mdblist.com/lists/rphv4eva/true-crime-documentaries
+      - https://mdblist.com/lists/rizreflects/true-crime-documentaries
 
   Vampire:
     template: { name: Subgenre }

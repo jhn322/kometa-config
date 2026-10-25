@@ -16,14 +16,10 @@ templates:
     sync_mode: sync
     sort_title: +++_<<collection_name>>
 
-  Movie Top:
-    sync_mode: sync
-
 collections:
   IMDb - Best Recent: # IMDb specific chart lists
-    template: { name: Movie Top }
+    template: { name: Movie Basic }
     visible_library: weekly(monday|wednesday)
-    sort_title: ++_IMDb Best Recent
     visible_shared:
       - monthly(19)
       - monthly(20)
@@ -39,7 +35,6 @@ collections:
   IMDb - Top 250:
     template: { name: Movie Basic }
     visible_library: weekly(tuesday|thursday)
-    sort_title: ++_IMDb top 250
     smart_label: audience_rating.desc
     summary: 250 highest rated movies on IMDb.
     visible_shared:
@@ -198,7 +193,6 @@ collections:
     mdblist_list:
       url: https://mdblist.com/lists/zipy/trakt-recommended-monthly
       limit: 60
-    sort_title: ++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     visible_shared: monthly(19)
     file_poster: config/posters/Trakt Recommended.png

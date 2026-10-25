@@ -24,7 +24,7 @@ collections:
     template: { name: TV Top }
     summary: TV shows rated 7.5 or higher on IMDb, released in the past 3 months.
     visible_library: weekly(monday|friday)
-    sort_title: ++_IMDb Best Recent
+    sort_title: +++_IMDb Best Recent
     visible_shared:
       - monthly(11)
       - monthly(12)
@@ -40,7 +40,7 @@ collections:
     template: { name: TV Top }
     smart_label: audience_rating.desc
     visible_library: weekly(tuesday|friday)
-    sort_title: ++_IMDB top 250
+    sort_title: +++_IMDB top 250
     file_poster: config/posters/IMDb Top 250 Gold.png
     visible_shared:
       - monthly(4)
@@ -152,7 +152,7 @@ collections:
     mdblist_list:
       url: https://mdblist.com/lists/billryan/trakt-recommended-tv
       limit: 30
-    sort_title: ++_Trakt - Recommended
+    sort_title: +++_Trakt - Recommended
     summary: Shows recommended by trakt API.
     file_poster: config/posters/Trakt Recommended.png
     visible_library: weekly(tuesday|saturday)

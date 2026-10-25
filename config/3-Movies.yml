@@ -81,13 +81,6 @@ collections:
     file_poster: config/posters/Letterboxd Top 250 Gold.png
     letterboxd_list: https://letterboxd.com/barneyk/list/letterboxd-top-250/
 
-  MAL - Most Favorited: # MyAnimeList specific chart lists
-    template: { name: Movie }
-    mal_favorite: 500
-    visible_library: false
-    summary: Most favorited animes on MyAnimeList.
-    file_poster: config/posters/MAL Most Favorited.png
-
   MAL - Popular:
     template: { name: Movie }
     mal_popular: 500

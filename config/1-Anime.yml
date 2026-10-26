@@ -18,7 +18,6 @@ collections:
     visible_library: weekly(monday|wednesday)
     mal_favorite: 30
     summary: Most favorited animes on MyAnimeList.
-    sort_title: ++_MAL Most Favorited
     smart_label: random
     file_poster: config/posters/MAL Most Favorited.png
 
@@ -31,7 +30,7 @@ collections:
       sort_by: members
       starting_only: false
     summary: Animes streaming in the current season according to MyAnimeList.
-    file_poster: config/posters/Season.png
+    file_poster: config/posters/MAL Season.png
 
   MAL - Suggested:
     template: { name: Anime }

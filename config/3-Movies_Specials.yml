@@ -76,19 +76,6 @@ collections:
       all:
         duration.gt: 149
 
-  Recently Released: # Released within the month
-    template: { name: Special Smart }
-    visible_library: weekly(monday|saturday)
-    file_poster: config/posters/Recently Released.png
-    summary: Movies recently released in the past month.
-    radarr_add_missing: true
-    radarr_add_existing: true
-    radarr_monitor_existing: true
-    mdblist_list:
-      - https://mdblist.com/lists/zachattack77/recently-released
-      - https://mdblist.com/lists/l33tlamer/recently-released-and-rotten-tomatoes-60
-      - https://mdblist.com/lists/mholmk/new-movies-last-100-days-in-theaters
-
   Random: # Random movies with a rating above 4 from IMDb
     template: { name: Special Smart }
     visible_library: weekly(thursday|saturday)
@@ -101,6 +88,19 @@ collections:
       limit: 300
       all:
         audience_rating.gte: 4.0
+
+  Recently Released: # Released within the month
+    template: { name: Special Smart }
+    visible_library: weekly(monday|saturday)
+    file_poster: config/posters/Recently Released.png
+    summary: Movies recently released in the past month.
+    radarr_add_missing: true
+    radarr_add_existing: true
+    radarr_monitor_existing: true
+    mdblist_list:
+      - https://mdblist.com/lists/zachattack77/recently-released
+      - https://mdblist.com/lists/l33tlamer/recently-released-and-rotten-tomatoes-60
+      - https://mdblist.com/lists/mholmk/new-movies-last-100-days-in-theaters
 
   Shortest: # Shortest movies on plex
     template: { name: Special Smart }

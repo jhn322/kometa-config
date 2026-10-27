@@ -82,7 +82,7 @@ collections:
     summary: Titles which have won prestigious or professional awards in Japan. Examples include the Tokyo Anime Award or Japan Media Arts Festival awards.
     file_poster: config/posters/Award Winning.png
 
-  Favored: # Fetched information from Tautulli
+  Favorite: # Fetched information from Tautulli
     template: { name: Special Smart Other }
     tautulli_popular:
       list_days: 62
@@ -93,20 +93,8 @@ collections:
       list_size: 20
       list_minimum: 1
     smart_label: viewed.desc
-    file_poster: config/posters/Favored.png
-    summary: The most favored Animes on Plex by users the past 2 months.
-
-  Newly Released:
-    template: { name: Special Smart Other }
-    visible_library: weekly(friday|sunday)
-    file_poster: config/posters/Newly Released.png
-    summary: Animes recently released in the past 2 months.
-    sonarr_add_missing: true
-    sonarr_add_existing: true
-    sonarr_monitor_existing: true
-    mdblist_list:
-      url: https://mdblist.com/lists/jwag12787/upcoming-anime
-      limit: 60
+    file_poster: config/posters/Favorite.png
+    summary: The most favorite Animes on Plex by users the past 2 months.
 
   Random: # Random animes with a rating above 4 from mal
     template: { name: Special Smart Other }
@@ -119,6 +107,18 @@ collections:
       validate: false
       all:
         audience_rating.gte: 4.0
+
+  Recently Released:
+    template: { name: Special Smart Other }
+    visible_library: weekly(friday|sunday)
+    file_poster: config/posters/Recently Released.png
+    summary: Animes recently released in the past 2 months.
+    sonarr_add_missing: true
+    sonarr_add_existing: true
+    sonarr_monitor_existing: true
+    mdblist_list:
+      url: https://mdblist.com/lists/jwag12787/upcoming-anime
+      limit: 60
 
   Watched: # Fetched information from Tautulli
     template: { name: Special }

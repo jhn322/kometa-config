@@ -90,7 +90,7 @@ collections:
     visible_shared: monthly(10)
     mdblist_list: https://mdblist.com/lists/k0meta/cssfamiliesshows
 
-  Favored: # Fetched information from Tautulli
+  Favorite: # Fetched information from Tautulli
     template: { name: Special Smart }
     tautulli_popular:
       list_days: 62
@@ -101,8 +101,8 @@ collections:
       list_size: 20
       list_minimum: 1
     smart_label: viewed.desc
-    file_poster: config/posters/Favored.png
-    summary: The most favored TV shows on Plex by users the past 2 months.
+    file_poster: config/posters/Favorite.png
+    summary: The most favorite TV shows on Plex by users the past 2 months.
 
   Longest: # Longest TV shows on plex
     template: { name: Special }
@@ -112,9 +112,9 @@ collections:
       - https://mdblist.com/lists/r7limit/best-tv-mainstream-quality-long
       - https://mdblist.com/lists/davidam2022/the-longest-tv-shows
 
-  Newly Released: # Released within last 2 months
+  Recently Released: # Released within last 2 months
     template: { name: Special Smart }
-    file_poster: config/posters/Newly Released.png
+    file_poster: config/posters/Recently Released.png
     visible_library: weekly(monday|sunday)
     summary: Shows recently released in the past 2 months.
     visible_shared: monthly(27)

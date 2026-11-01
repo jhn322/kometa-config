@@ -964,8 +964,10 @@ collections:
     summary: Friday the 13th is an American horror franchise that comprises twelve slasher films. The franchise mainly focuses on the fictional character Jason Voorhees, who drowned as a boy at Camp Crystal Lake due to the negligence of the camp staff. Decades later, the lake is rumored to be cursed and is the setting for a series of mass murders.
     file_poster: config/posters/Friday the 13th.png
     plex_search:
-      all:
-        title: friday the 13th
+      any:
+        title:
+          - friday the 13th
+          - freddy vs jason
 
   Fright Night:
     template: { name: Franchise }
@@ -1815,6 +1817,9 @@ collections:
     summary: A Nightmare on Elm Street is an American horror franchise that consists of nine slasher films. The series revolves around the fictional character Freddy Krueger, a former child killer who after being burned alive by the vengeful parents of his victims, returns from the grave to terrorize and kill the teenage residents of Springwood, Ohio in their dreams.
     file_poster: config/posters/A Nightmare on Elm Street.png
     tmdb_collection: 8581
+    plex_search:
+      all:
+        title: freddy vs jason
 
   Oceans:
     template: { name: Franchise }

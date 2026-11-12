@@ -16,7 +16,7 @@ templates:
     default:
       overlay: <<overlay_name>>
     collection_level: <<overlay_level>>
-    letterboxd_list: https://letterboxd.com/pixars/list/letterboxd-top-250/
+    letterboxd_list: https://letterboxd.com/barneyk/list/letterboxd-top-250/
     overlay:
       name: <<overlay_name>>
 

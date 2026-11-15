@@ -401,7 +401,7 @@ collections:
     file_poster: config/posters/Alternate History.png
     letterboxd_list:
       - https://letterboxd.com/lethe/list/alternate-history-without-time-travel-or/
-      - https://letterboxd.com/natmavila/list/alternate-history/
+      - https://letterboxd.com/soupyytwist/list/alternate-history-1/
 
   Bad Sequel:
     template: { name: Subgenre False }

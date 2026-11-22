@@ -140,7 +140,7 @@ collections:
   Trakt - Most Watched (Yearly):
     template: { name: TV }
     mdblist_list:
-      url: https://mdblist.com/lists/quickflix/tv-shows-most-watched-yearly
+      url: https://mdblist.com/lists/nadnerb98/most-watched-yearly-tv
       limit: 60
     file_poster: config/posters/Trakt Most Watched Yearly.png
     summary: Most watched shows across the internet this year.

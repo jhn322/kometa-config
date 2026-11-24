@@ -1177,7 +1177,7 @@ collections:
     limit: 300
     letterboxd_list:
       - https://letterboxd.com/julesmae/list/summer-movies/
-      - https://letterboxd.com/rutviin/list/summer/
+      - https://letterboxd.com/lukebabs/list/summer-movies/
 
   Sword & Sorcery:
     template: { name: Subgenre }
